@@ -34,7 +34,7 @@
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
                         <li class="nav-menu__item has-submenu position-relative activePage">
                             <a href="javascript:void(0)"
-                                class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Home</a>
+                                class="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Home</a>
                             <!-- <ul
                                 class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
                                 <li class="nav-menu__item activePage">
