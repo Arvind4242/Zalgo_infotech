@@ -27,7 +27,7 @@
                         <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
                         </span>
-                        <span class="text-heading fw-medium tw-text-base">Elevate your brand sasstech</span>
+                        <span class="text-heading fw-medium tw-text-base">Elevate your brand Zalgo Infotech</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
                         <span>
@@ -1007,7 +1007,7 @@
                             <div class="max-w-672-px">
                                 <h3 class="fw-light tw-leading-104 cursor-big tw-mb-9 d-flex gap-2">
                                     <span class="splitTextStyleOne d-inline-block fw-medium">
-                                        <span class="fw-semibold">SassTech</span>
+                                        <span class="fw-semibold">Zalgo Infotech</span>
                                         makes you a better elevating
                                         your team's wellness optimizing
                                         Business
@@ -1292,7 +1292,7 @@
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “SassTech hires great people
+                                        “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
                                         our compan stronger, and we
@@ -1347,7 +1347,7 @@
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “SassTech hires great people
+                                        “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
                                         our compan stronger, and we
@@ -1400,7 +1400,7 @@
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “SassTech hires great people
+                                        “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
                                         our compan stronger, and we
