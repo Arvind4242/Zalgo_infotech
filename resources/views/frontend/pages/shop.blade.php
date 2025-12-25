@@ -2312,7 +2312,7 @@
                 <!-- Task Management Section End -->
 
                 <!-- footer area -->
-                @include('frontend.includes.footers.footerThree')
+                @include('frontend.includes.footers.footerOne')
                 <!-- footer area end -->
             </div>
         </div>

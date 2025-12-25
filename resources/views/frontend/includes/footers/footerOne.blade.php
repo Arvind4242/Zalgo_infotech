@@ -34,7 +34,7 @@
                 </div>
                 <div class="tw-pt-8 d-flex align-items-center tw-gap-8 flex-wrap">
                     <ul class="d-flex align-items-center tw-gap-8 flex-wrap">
-                        <li class="d-flex align-items-center tw-gap-3" data-aos="fade-up"
+                        <!-- <li class="d-flex align-items-center tw-gap-3" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <span
                                 class="tw-w-5 tw-h-5 bg-main-600 text-white d-flex justify-content-center align-items-center tw-text-xs rounded-circle">
@@ -43,8 +43,8 @@
                             <p class="text-white fw-medium">
                                 Various analysis options.
                             </p>
-                        </li>
-                        <li class="d-flex align-items-center tw-gap-3" data-aos="fade-up"
+                        </li> -->
+                        <!-- <li class="d-flex align-items-center tw-gap-3" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <span
                                 class="tw-w-5 tw-h-5 bg-main-600 text-white d-flex justify-content-center align-items-center tw-text-xs rounded-circle">
@@ -54,7 +54,7 @@
                                 Page Load (time, size, number of
                                 requests).
                             </p>
-                        </li>
+                        </li> -->
                     </ul>
                     <div class="d-flex align-items-center justify-content-center tw-gap-405">
                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -87,7 +87,7 @@
                 <div class="col-lg-5 col-sm-6 col-xs-6" data-aos="fade-up" data-aos-duration="600">
                     <div class="">
                         <a href="{{route('home')}}" class="link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10">
-                            <img src="{{asset('assets/images/logo/logo-white.png')}}" alt="img" />
+                            <img src="{{asset('assets/images/logo/zalgo_logo.png')}}" alt="img" />
                         </a>
                         <form action="#" class="d-flex flex-md-row flex-column tw-gap-5 form-submit">
                             <div class="position-relative flex-grow-1">
@@ -203,8 +203,8 @@
                             </span>
                             <div class="">
                                 <p class="text-neutral-400 d-block mb-1">
-                                    55 Main Street, 2nd block
-                                    Malborne, Australia
+                                   1/65, vinay nagar sec 3, 100 feet road, 
+                                   s. p. ashram, gwalior, madhya pradesh, india - 474012
                                 </p>
                             </div>
                         </div>
@@ -213,15 +213,14 @@
                             Contact
                         </h5>
                         <a href="mailto:support@gmail.com"
-                            class="text-neutral-400 hover--translate-y-1 active--translate-y-scale-9">support@gmail.com</a>
+                            class="text-neutral-400 hover--translate-y-1 active--translate-y-scale-9">zalgoinfotec@gmail.com</a>
                         <div class="d-flex align-items-center tw-gap-5 tw-mt-2">
                             <span class="d-flex tw-text-3xl text-main-600">
                                 <img src="{{asset('assets/images/icons/phone.svg')}}" alt="img" />
                             </span>
                             <div class="">
                                 <a href="tel:+880(123)45688"
-                                    class="d-block mb-1 tw-text-2xl text-white hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9">+880
-                                    (123) 456 88</a>
+                                    class="d-block mb-1 tw-text-2xl text-white hover-text-main-600 hover--translate-y-1 active--translate-y-scale-9">+91 9244213326</a>
                             </div>
                         </div>
                     </div>
