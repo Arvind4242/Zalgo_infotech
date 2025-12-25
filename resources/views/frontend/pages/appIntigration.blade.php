@@ -300,7 +300,7 @@
                     <div class="max-w-780-px text-center mx-auto tw-mb-13">
                         <h3 class="splitTextStyleOne text-heading text-capitalize text-capitalize">
                             Driven your business today next level by
-                            sasstech
+                            Zalgo Infotech
                         </h3>
                         <div class="d-flex align-items-center tw-gap-4 justify-content-center tw-mt-10">
                             <a href="{{route('register')}}"
@@ -641,7 +641,7 @@
         <!-- Task Management Section End -->
 
         <!-- footer area -->
-        @include('frontend.includes.footers.footerThree')
+        @include('frontend.includes.footers.footerOne')
         <!-- footer area end -->
     </div>
 </div>

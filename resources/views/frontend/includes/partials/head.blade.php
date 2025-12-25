@@ -5,7 +5,7 @@
 <meta name="robots" content="INDEX,FOLLOW">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Title -->
-<title> SassTech - Saas Software and IT Solution Multipurpose HTML Template | @yield('title')</title>
+<title> Zalgo Infotech - IT Solution</title>
 <!-- Favicon -->
 <link rel="shortcut icon" href="{{asset('assets/images/logo/favicon.png')}}">
 <!-- Bootstrap -->

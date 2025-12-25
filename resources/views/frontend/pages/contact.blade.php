@@ -55,8 +55,8 @@
                                             <p
                                                 class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
                                             >
-                                                Bowery St, New York, 37 USA NY
-                                                10013,USA
+                                                1/65, vinay nagar sec 3, 100 feet road, 
+                                   s. p. ashram, gwalior, madhya pradesh, india - 474012
                                             </p>
                                         </div>
                                     </div>
@@ -81,12 +81,12 @@
                                             <a
                                                 href="tel:+125556865234374221"
                                                 class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
-                                                >+1255 - 568 - 6523 4374-221</a
+                                                >+91 9244213326</a
                                             >
                                             <a
                                                 href="tel:+12555686523"
                                                 class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne tw-mt-1"
-                                                >+1255 - 568 - 6523</a
+                                                >0751-4521125</a
                                             >
                                         </div>
                                     </div>
@@ -111,12 +111,12 @@
                                             <a
                                                 href="mailto:email@example.com"
                                                 class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
-                                                >email@example.com</a
+                                                >zalgoinfotec@gmail.com</a
                                             >
                                             <a
                                                 href="mailto:info@yourdomain.com"
                                                 class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
-                                                >info@yourdomain.com</a
+                                                >info@zalgoinfotech.com</a
                                             >
                                         </div>
                                     </div>
@@ -166,8 +166,8 @@
                                                     Location
                                                 </h6>
                                                 <p class="text-neutral-600">
-                                                    55 Main street, 2nd block,
-                                                    Melbourne, Australia
+                                                   1/65, vinay nagar sec 3, 100 feet road, 
+                                   s. p. ashram, gwalior, madhya pradesh, india - 474012
                                                 </p>
                                             </div>
                                         </div>
@@ -184,12 +184,12 @@
                                                 <a
                                                     href="tel:+1(368)5678954"
                                                     class="text-neutral-600 hover-text-main-600"
-                                                    >+1 (368) 567 89 54</a
+                                                    >+91 9244213326, </a
                                                 >
                                                 <a
                                                     href="tel:+236(456)89622"
                                                     class="text-neutral-600 hover-text-main-600 tw-mt-1"
-                                                    >+236 (456) 896 22</a
+                                                    >0751-4521125</a
                                                 >
                                             </div>
                                         </div>
@@ -205,17 +205,17 @@
                                             </span>
                                             <div class="">
                                                 <h6 class="tw-mb-4">
-                                                    Location
+                                                    Mail
                                                 </h6>
                                                 <a
                                                     href="mailto:wiatechinfo@gmail.com"
                                                     class="text-neutral-600 hover-text-main-600"
-                                                    >wiatechinfo@gmail.com</a
+                                                    >zalgoinfotec@gmail.com</a
                                                 >
                                                 <a
                                                     href="mailto:www.wiatech.com"
                                                     class="text-neutral-600 hover-text-main-600"
-                                                    >www.wiatech.com</a
+                                                    >www.zalgoinfotech.com</a
                                                 >
                                             </div>
                                         </div>
@@ -236,7 +236,7 @@
                                                 >
                                                     <li>
                                                         <a
-                                                            href="https://www.facebook.com"
+                                                            href="https://www.facebook.com/profile.php?id=61579841284566#"
                                                             class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
                                                         >
                                                             <i
@@ -256,7 +256,7 @@
                                                     </li>
                                                     <li>
                                                         <a
-                                                            href="https://www.instagram.com"
+                                                            href="https://www.instagram.com/zalgoinfotech/"
                                                             class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
                                                         >
                                                             <i
@@ -529,7 +529,7 @@
                 <!-- Task Management Section End -->
 
                 <!-- footer area -->
-                @include('frontend.includes.footers.footerThree')
+                @include('frontend.includes.footers.footerOne')
                 <!-- footer area end -->
             </div>
         </div>

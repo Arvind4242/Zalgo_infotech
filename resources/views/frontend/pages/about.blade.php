@@ -17,7 +17,7 @@
                                     <div class="text-center">
                                         <img src="{{asset('assets/images/logo/favicon-two.png')}}" alt="Favicon" />
                                         <h1 class="tw-mt-405">
-                                            SassTech is here to help you
+                                            Zalgo Infotech is here to help you
                                             launch your project!
                                         </h1>
                                         <div
@@ -511,7 +511,7 @@
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “SassTech hires great people
+                                        “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
                                         our compan stronger, and we
@@ -566,7 +566,7 @@
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “SassTech hires great people
+                                        “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
                                         our compan stronger, and we
@@ -619,7 +619,7 @@
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “SassTech hires great people
+                                        “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
                                         our compan stronger, and we
@@ -1075,7 +1075,7 @@
         <!-- Task Management Section End -->
 
         <!-- footer area -->
-        @include('frontend.includes.footers.footerThree')
+        @include('frontend.includes.footers.footerOne')
         <!-- footer area end -->
     </div>
 </div

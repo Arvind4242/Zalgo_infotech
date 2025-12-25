@@ -23,7 +23,7 @@
                 <!-- Logo Start -->
                 <div class="logo">
                     <a href="{{route('home')}}" class="link hover--translate-y-1 active--translate-y-scale-9">
-                        <img src="{{asset('assets/images/logo/logo.png')}}" alt="Logo" class="max-w-200-px">
+                        <img src="{{asset('assets/images/logo/zalgo_logo.png')}}" alt="Logo" class="max-w-200-px">
                     </a>
                 </div>
                 <!-- Logo End  -->
@@ -32,7 +32,7 @@
                 <div class="header-menu d-lg-block d-none">
                     <!-- Nav menu Start -->
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
-                        <li class="nav-menu__item has-submenu position-relative activePage">
+                        <li class="nav-menu__item position-relative activePage">
                             <a href="javascript:void(0)"
                                 class="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Home</a>
                             <!-- <ul
@@ -69,7 +69,7 @@
                                 </li>
                             </ul> -->
                         </li>
-                        <li class="nav-menu__item has-submenu position-relative">
+                        <li class="nav-menu__item position-relative">
                             <a href="{{route('about')}}"
                                 class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> About Us</a>
                             <ul
