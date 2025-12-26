@@ -302,9 +302,11 @@
                                         published. Required fields are marked *
                                     </p>
                                     <form
-                                        action="#"
+                                        action="{{ route('contact.send') }}"
                                         class="tw-mt-70-px d-flex flex-column tw-gap-12 form-submit"
+                                        method="POST"
                                     >
+                                    @csrf
                                         <div class="position-relative">
                                             <input
                                                 type="text"
