@@ -134,13 +134,13 @@
     --heading-six: clamp(1rem, 0.769rem + 0.6813vw, 1.25rem);
   /* Font Size End */
   /* template main color */
-    --main-h: 221;
-    --main-s: 84%;
-    --main-l: 46%;
+    --main-h: 184;
+    --main-s: 100%;
+    --main-l: 23%;
     --main: var(--main-h) var(--main-s) var(--main-l);
-    --main-two-h: 249;
-    --main-two-s: 63%;
-    --main-two-l: 15%;
+    --main-two-h: 0;
+    --main-two-s: 3%;
+    --main-two-l: 12%;
     --main-two: var(--main-two-h) var(--main-two-s) var(--main-two-l);
     --yellow-h: 40;
     --yellow-s: 100%;
@@ -1584,7 +1584,7 @@ input:focus, input:focus-visible {
 }
 
 .bg-green {
-    background-color: #00b67a;
+    background-color: #006d75;
 }
 
 .bg-pink {
@@ -2259,7 +2259,7 @@ input:focus, input:focus-visible {
 }
 
 .text-green {
-    color: #00b67a;
+    color: #006d75;
 }
 
 .text-pink {
@@ -7258,7 +7258,7 @@ svg.radial-progress text {
 }
 
 .home-two .btn-main {
-    background: linear-gradient(270deg, #2B85D6 0.5%, #254BE5 49%, #195AFB 98.5%) !important;
+    background: linear-gradient(270deg, #006d75 0.5%, #28a6af 49%, #056f76 98.5%) !important;
 }
 
 /* Banner Two Start */

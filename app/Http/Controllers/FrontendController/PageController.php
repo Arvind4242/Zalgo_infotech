@@ -98,6 +98,13 @@ class PageController extends Controller
         return view('frontend.pages.serviceDetails', compact('bodyClass'));
     }
 
+     public function webDesigns()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.webdesign', compact('bodyClass'));
+    }
+
+
     // Blog
     public function blog()
     {

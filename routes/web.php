@@ -41,6 +41,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('faq', 'faq')->name('faq');
     Route::get('project-details', 'projectDetails')->name('project.details');
     Route::get('service-details', 'serviceDetails')->name('service.details');
+    Route::get('webdesign', 'webDesigns')->name('web.design');
 
     // Blog
     Route::get('blog', 'blog')->name('blog');
