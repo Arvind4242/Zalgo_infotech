@@ -59,12 +59,12 @@
                                 <span class="d-inline-block">Transform
                                 </span>
                                 <span class="d-inline-block fw-semibold">
-                                    Your
+                                     Your
                                 </span>
                                 <span class="d-inline-block fw-semibold">Business</span>
-                                <span class="d-inline-block fw-semibold">Through</span>
-                                <span class="d-inline-block fw-semibold">Strategic</span>
-                                <span class="d-inline-block">IT Solutions</span>
+                                <span class="d-inline-block fw-semibold"> Through</span>
+                                <span class="d-inline-block fw-semibold"> Strategic</span>
+                                <span class="d-inline-block"> IT Solutions</span>
                             </h1>
                             <p class="text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8 splitTextStyleOne">
                                 In today's competitive business, the
@@ -615,7 +615,7 @@
                         <span class="d-inline-block">We Makes Globally
                         </span>
                         <span class="d-inline-block fw-semibold">
-                            Growth & Increase
+                             Growth & Increase
                         </span>
                         <span class="d-inline-block">Revenue</span>
                     </h3>

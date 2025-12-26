@@ -56,7 +56,7 @@
                             </p>
                         </li> -->
                     </ul>
-                    <div class="d-flex align-items-center justify-content-center tw-gap-405">
+                    <!-- <div class="d-flex align-items-center justify-content-center tw-gap-405">
                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                             data-aos-duration="800">
                             <a href="https://play.google.com/store/apps"
@@ -71,7 +71,7 @@
                                 <img src="{{asset('assets/images/icons/store2.png')}}" alt="img" />
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="flex-shrink-0 gradient-overlay d-md-block d-none">
@@ -87,7 +87,7 @@
                 <div class="col-lg-5 col-sm-6 col-xs-6" data-aos="fade-up" data-aos-duration="600">
                     <div class="">
                         <a href="{{route('home')}}" class="link hover--translate-y-1 active--translate-y-scale-9 tw-mb-10">
-                            <img src="{{asset('assets/images/logo/zalgo_logo.png')}}" alt="img" />
+                            <img src="{{asset('assets/images/logo/zalgo-white.png')}}" alt="img" />
                         </a>
                         <form action="#" class="d-flex flex-md-row flex-column tw-gap-5 form-submit">
                             <div class="position-relative flex-grow-1">
@@ -198,13 +198,13 @@
                             Locations
                         </h5>
                         <div class="d-flex align-items-center tw-gap-5">
-                            <span class="d-flex tw-text-3xl text-main-600">
+                            <span class="d-flex tw-text-3xl text-main-600 w-25">
                                 <img src="{{asset('assets/images/icons/map.svg')}}" alt="img" />
                             </span>
                             <div class="">
                                 <p class="text-neutral-400 d-block mb-1">
-                                   1/65, vinay nagar sec 3, 100 feet road, 
-                                   s. p. ashram, gwalior, madhya pradesh, india - 474012
+                                   1/65, Vinay Nagar Sec 3, 100 Feet Road, 
+                                   S. P. Ashram, Gwalior, M.P. india - 474012
                                 </p>
                             </div>
                         </div>
