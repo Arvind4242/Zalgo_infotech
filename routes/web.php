@@ -3,12 +3,22 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontendController\HomeController;
 use App\Http\Controllers\FrontendController\PageController;
+use App\Http\Controllers\Auth\AuthController;
+
+use App\Http\Controllers\ContactController;
+
+Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 
 /**
  *    Frontend
  */
 
 // All Index Pages Routing
+
+Route::get('/register', [PageController::class, 'register'])->name('register');
+
+Route::post('/register', [AuthController::class, 'register'])->name('register.store');
+
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'indexOne')->name('home');
     Route::get('index-two', 'indexTwo')->name('indexTwo');
@@ -21,7 +31,7 @@ Route::controller(HomeController::class)->group(function () {
 Route::controller(PageController::class)->group(function () {
     // Authentication
     Route::get('login', 'login')->name('login');
-    Route::get('register', 'register')->name('register');
+    // Route::get('register', 'register')->name('register');
     
     // Shop
     Route::get('shop', 'shop')->name('shop');

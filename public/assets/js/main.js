@@ -787,15 +787,15 @@ var planExecuteSlider = new Swiper('.testimonials-three-slider', {
   // ========================= Delete Item Js End ===================
 
   // ========================= Form Submit Js Start ===================
-  $(document).on('submit', '.form-submit', function (e) {
-    e.preventDefault();
+  // $(document).on('submit', '.form-submit', function (e) {
+  //   e.preventDefault();
   
-    $('input').val('');
+  //   $('input').val('');
     
-    $('textarea').val('');
+  //   $('textarea').val('');
   
-    toastMessage("success", "Success", "Form submitted successfully!", 'ph-fill ph-check-circle');
-  });
+  //   toastMessage("success", "Success", "Form submitted successfully!", 'ph-fill ph-check-circle');
+  // });
   // ========================= Form Submit Js End ===================
   
   // ================== Password Show Hide Js Start ==========
