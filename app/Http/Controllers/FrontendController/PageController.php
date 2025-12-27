@@ -104,6 +104,8 @@ class PageController extends Controller
         return view('frontend.pages.webdesign', compact('bodyClass'));
     }
 
+    
+
 
     // Blog
     public function blog()
