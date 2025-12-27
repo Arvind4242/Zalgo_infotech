@@ -8,302 +8,51 @@
     
         <div id="smooth-content">
             <!-- Banner Two Start -->
-            <section class="banner-two position-relative z-1 gradient-bg-two">
-                <img src="{{asset('assets/images/shapes/cloud-shape.png')}}" alt="Cloud Shape"
-                    class="position-absolute bottom-0 tw-start-0 w-100 z-n1" />
+            <section class="tw-pt-224-px section-bg-two pb-120">
+                <div class="container max-w-1290-px">
+                    <div class="position-relative distraction__inner">
+                        <div
+                            class="max-w-602-px w-100 text-center mx-auto position-absolute z-1 tw-start-50 translate-middle-x top-0 mt-5 pt-lg-5 pt-4">
+                            <h3 class="splitTextStyleOne text-heading h1 text-capitalize text-capitalize">
+                                App Integration
+                            </h3>
+                            <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
+                                Create tasks with various custom statuses to
+                                focus more on your keep track of the
+                                progress of each why
+                            </p>
+                        </div>
 
-                <div class="banner-two__inner position-relative">
-                    <div class="container">
-                        <div class="row gy-4">
-                            <div class="col-lg-6">
-                                <div class="banner-two-content">
-                                    <div class="bg-white-06 tw-py-3 tw-px-305 tw-rounded text-white fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                        Up to <span class="text-yellow">70%</span> off managed
-                                        cloud hosting
-                                    </div>
-                                    <h1 class="splitTextStyleOne text-white text-capitalize tw-leading-none">
-                                        Organized cloud &
-                                        <span class="text-yellow font-dm-serif fst-italic fw-normal">web hosting</span>
-                                        for your business
-                                    </h1>
-                                    <p class="splitTextStyleOne text-neutral-300 tw-mt-8 max-w-388-px fw-medium">
-                                        Touch the success! Domain and Secure Web Hosting from
-                                        <span class="text-yellow">$4.99</span> per month
-                                    </p>
-
-                                    <div class="d-flex align-items-center tw-gap-7 tw-mt-11 flex-wrap" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        <a href="{{route('register')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Clients Area</span>
-                                        </a>
-                                        <p class="text-neutral-300 max-w-388-px fw-medium" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                            Starting at only
-                                            <span class="text-yellow">$3.27/mo*</span>
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="">
+                            <img src="{{asset('assets/images/shapes/net-shape.png')}}" alt="Net Shape" data-aos="zoom-in"
+                                data-aos-duration="1500" />
+                        </div>
+                        <div class="">
+                            <div class="distraction-icon one position-absolute z-1 animation-scalation">
+                                <img src="{{asset('assets/images/thumbs/distraction-icon1.png')}}" alt="Icon Image" />
                             </div>
-                            <div class="col-lg-6">
-                                <div class="banner-two-thumb">
-                                    <img src="{{asset('assets/images/thumbs/banner-two-img.png')}}" alt="Image" data-aos="zoom-in"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="1000" />
-                                </div>
+                            <div class="distraction-icon two position-absolute z-1 animation-upDown">
+                                <img src="{{asset('assets/images/thumbs/distraction-icon2.png')}}" alt="Icon Image" />
+                            </div>
+                            <div class="distraction-icon three position-absolute z-1 animation-upDown animation-delay-1">
+                                <img src="{{asset('assets/images/thumbs/distraction-icon3.png')}}" alt="Icon Image" />
+                            </div>
+                            <div class="distraction-icon four position-absolute z-1 animation-upDown animation-delay-2">
+                                <img src="{{asset('assets/images/thumbs/distraction-icon4.png')}}" alt="Icon Image" />
+                            </div>
+                            <div class="distraction-icon five position-absolute z-1 animation-scalation animation-delay-1">
+                                <img src="{{asset('assets/images/thumbs/distraction-icon5.png')}}" alt="Icon Image" />
+                            </div>
+                            <div class="distraction-icon six position-absolute z-1 animation-scalation animation-delay-2">
+                                <img src="{{asset('assets/images/thumbs/distraction-icon6.png')}}" alt="Icon Image" />
+                            </div>
+                            <div class="distraction-icon seven position-absolute z-1">
+                                <img src="{{asset('assets/images/thumbs/distraction-icon7.png')}}" alt="Icon Image" class="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Banner Two End -->
-
-            <!-- Search Domain Start -->
-            <section class="search-domain position-relative z-1 tw--mt-170-px" data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                <img src="{{asset('assets/images/shapes/hand-thumb.png')}}" alt="Hand thumb"
-                    class="hand-thumb left-right-animation position-absolute tw-start-0 top-0 tw-mt-15" />
-
-                <div class="container">
-                    <div class="bg-white common-shadow-six tw-pt-10 tw-pb-16 tw-px-88-px">
-                        <h3 class="text-center tw-mb-4 text-capitalize splitTextStyleOne">
-                            Search and buy a
-                            <span class="text-yellow font-dm-serif fst-italic fw-normal">domain</span>
-                            in minutes
-                        </h3>
-                        <div class="text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="800">
-                            <ul class="animate-background-wrapper z-1 position-relative nav nav-pills active-text-white d-inline-flex border border-neutral-200 rounded-pill tw-mb-6"
-                                id="pills-tab" role="tablist">
-                                <li class="background"></li>
-
-                                <li class="nav-item flex-grow-1" role="presentation">
-                                    <button
-                                        class="nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1 active"
-                                        id="pills-FindNewDomain-tab" data-bs-toggle="pill"
-                                        data-bs-target="#pills-FindNewDomain" type="button" role="tab"
-                                        aria-controls="pills-FindNewDomain" aria-selected="true">
-                                        Find New Domain
-                                    </button>
-                                </li>
-                                <li class="nav-item flex-grow-1" role="presentation">
-                                    <button
-                                        class="nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1"
-                                        id="pills-GeneratedomainusingAI-tab" data-bs-toggle="pill"
-                                        data-bs-target="#pills-GeneratedomainusingAI" type="button" role="tab"
-                                        aria-controls="pills-GeneratedomainusingAI" aria-selected="false">
-                                        Generate domain using AI
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-FindNewDomain" role="tabpanel"
-                                aria-labelledby="pills-FindNewDomain-tab" tabindex="0">
-                                <div class="select-domain-wrapper">
-                                    <form action="#" class="d-flex tw-gap-6 flex-column flex-sm-row"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="position-relative flex-grow-1">
-                                            <input type="text"
-                                                class="tw-py-405 tw-px-705 tw-pe-100-px bg-neutral-100 tw-rounded-xl border-transparent placeholder-neutral-600 placeholder-18-px w-100"
-                                                placeholder="Enter your desire domain name" />
-                                            <select
-                                                class="select-domain form-control form-select w-auto border-0 tw-py-1 tw-pe-305 shadow-none form-select-arrow-end position-absolute tw-end-0 top-50 translate-middle-y bg-transparent tw-me-705 fw-semibold">
-                                                <option value=".com">.com</option>
-                                                <option value=".cloud">.cloud</option>
-                                                <option value=".shop">.shop</option>
-                                                <option value=".online">.online</option>
-                                                <option value=".info">.info</option>
-                                            </select>
-                                        </div>
-                                        <button type="button"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Search</span>
-                                        </button>
-                                    </form>
-                                    <div class="overflow-x-max-lg-auto scroll-sm scroll-sm-horizontal pb-sm-0"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="tw-mt-6 d-grid grid-col-5 min-w-max tw-pb-1">
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start"
-                                                data-domain=".com">
-                                                <img src="{{asset('assets/images/thumbs/domain-img1.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".cloud">
-                                                <img src="{{asset('assets/images/thumbs/domain-img2.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$14.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".shop">
-                                                <img src="{{asset('assets/images/thumbs/domain-img3.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".online">
-                                                <img src="{{asset('assets/images/thumbs/domain-img4.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".info">
-                                                <img src="{{asset('assets/images/thumbs/domain-img5.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div class="text-center text-heading fw-medium tw-mt-8" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        Already bought a domain?
-                                        <a href="javascript:void(0)"
-                                            class="fw-bold text-decoration-underline text-heading hover-text-main-600">Transfer
-                                            it?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-GeneratedomainusingAI" role="tabpanel"
-                                aria-labelledby="pills-GeneratedomainusingAI-tab" tabindex="0">
-                                <div class="select-domain-wrapper">
-                                    <form action="#" class="d-flex tw-gap-6 flex-column flex-sm-row"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="position-relative flex-grow-1">
-                                            <input type="text"
-                                                class="tw-py-405 tw-px-705 tw-pe-100-px bg-neutral-100 tw-rounded-xl border-transparent placeholder-neutral-600 placeholder-18-px w-100"
-                                                placeholder="Enter your desire domain name" required />
-                                            <select
-                                                class="select-domain form-control form-select w-auto border-0 tw-py-1 tw-pe-305 shadow-none form-select-arrow-end position-absolute tw-end-0 top-50 translate-middle-y bg-transparent tw-me-705 fw-semibold">
-                                                <option value=".com">.com</option>
-                                                <option value=".cloud">.cloud</option>
-                                                <option value=".shop">.shop</option>
-                                                <option value=".online">.online</option>
-                                                <option value=".info">.info</option>
-                                            </select>
-                                        </div>
-                                        <button type="submit"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Search</span>
-                                        </button>
-                                    </form>
-                                    <div class="overflow-x-max-lg-auto scroll-sm scroll-sm-horizontal pb-sm-0"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="tw-mt-6 d-grid grid-col-5 min-w-max tw-pb-1">
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start"
-                                                data-domain=".com">
-                                                <img src="{{asset('assets/images/thumbs/domain-img1.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".cloud">
-                                                <img src="{{asset('assets/images/thumbs/domain-img2.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$14.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".shop">
-                                                <img src="{{asset('assets/images/thumbs/domain-img3.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".online">
-                                                <img src="{{asset('assets/images/thumbs/domain-img4.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".info">
-                                                <img src="{{asset('assets/images/thumbs/domain-img5.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div class="text-center text-heading fw-medium tw-mt-8" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        Already bought a domain?
-                                        <a href="javascript:void(0)"
-                                            class="fw-bold text-decoration-underline text-heading hover-text-main-600">Transfer
-                                            it?</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="text-center tw-mt-11 text-heading fw-medium d-flex align-items-center tw-gap-4 justify-content-center flex-wrap"
-                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                        <span class="">Our Customers say <span class="fw-bold tw-ms-2">Great</span>
-                        </span>
-                        <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="img" class="" />
-                        <span class="">4.1 out of 5 based on 16,158 reviews</span>
-                        <div class="d-flex align-items-center tw-gap-05">
-                            <img src="{{asset('assets/images/icons/trustpilot-star.svg')}}" alt="img" />
-                            <span class="fw-bold">Trustpilot</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Search Domain End -->
 
             <!-- About Two Section start -->
             <section class="about-two py-120 position-relative z-1 overflow-hidden">
