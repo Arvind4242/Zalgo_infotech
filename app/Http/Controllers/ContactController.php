@@ -9,7 +9,7 @@ use App\Mail\ContactFormMail;
 
 class ContactController extends Controller
 {
-   public function send(Request $request)
+public function send(Request $request)
 {
     $formData = $request->validate([
         'name'    => 'required|string',
@@ -18,11 +18,23 @@ class ContactController extends Controller
         'message' => 'required|string',
     ]);
 
-    \Log::info('Mail sending triggered from form');
+    // Save to DB
+    $mail = ContactMail::create([
+        'name' => $formData['name'],
+        'email' => $formData['email'],
+        'phone' => $formData['phone'],
+        'message' => $formData['message'],
+        'sent_at' => now(),
+    ]);
 
+    // Send Mail
     Mail::to('arvindsinghsikarwar52@gmail.com')->send(new ContactFormMail($formData));
 
-    return response()->json(['status' => 'ok', 'message' => 'Mail sent successfully']);
+    return response()->json([
+        'status' => 'ok',
+        'db_id' => $mail->id,
+        'message' => 'Mail sent and saved to database',
+    ]);
 }
 
 }
