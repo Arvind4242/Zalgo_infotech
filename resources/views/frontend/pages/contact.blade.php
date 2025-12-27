@@ -26,12 +26,13 @@
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </section>
                 <!-- Breadcrumb End Here -->
 
                 <!-- Contact box section Start -->
-                <section class="bg-neutral-light-half style-two">
+                <!-- <section class="bg-neutral-light-half style-two">
                     <div class="container">
                         <div class="bg-white tw-py-9 tw-px-8">
                             <div class="row gy-4">
@@ -124,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> -->
                 <!-- Contact box section End -->
 
                 <!-- Contact Page section start= -->

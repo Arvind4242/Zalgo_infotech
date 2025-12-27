@@ -105,6 +105,19 @@ class PageController extends Controller
     }
 
 
+     public function industry()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.industry', compact('bodyClass'));
+    }
+
+    //Hire
+     public function hire()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hire', compact('bodyClass'));
+    }
+
     // Blog
     public function blog()
     {
