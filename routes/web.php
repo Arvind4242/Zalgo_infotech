@@ -54,6 +54,8 @@ Route::controller(PageController::class)->group(function () {
     Route::get('webdesign', 'webDesigns')->name('web.design');
     Route::get('industry', 'industry')->name('industry');
     Route::get('hire', 'hire')->name('hire');
+    Route::get('hirephpdeveloper', 'hirePHPdeveloper')->name('hire.php');
+    Route::get('wordpressdevelopment', 'wordpressDevelopment')->name('wordpress.development');
 
     // Blog
     Route::get('blog', 'blog')->name('blog');

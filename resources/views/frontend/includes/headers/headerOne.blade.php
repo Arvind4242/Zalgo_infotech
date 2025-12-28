@@ -39,7 +39,7 @@
                             <a href="{{route('about')}}" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> About Us</a>
                         </li>
                         <li class="nav-menu__item activePage">
-                            <a href="javascript:void(0)" class="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Industry</a>
+                            <a href="{{route('industry')}}" class="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Industry</a>
                         </li>
                         <li class="nav-menu__item has-submenu">
                             <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Our Services</a>
@@ -50,7 +50,7 @@
                                                 <a href="#">Web &amp; CMS Development</a>
                                             </div>
                                             <ul class="new-header-mega-list-wrap">
-                                                <li><a href="#">WordPress Web Development</a> </li>
+                                                <li><a href="{{route('wordpress.development')}}">WordPress Web Development</a> </li>
                                                 <li><a href="#">PHP Web Development</a></li>
                                                 <li><a href="#">Laravel Web Development</a> </li>
                                                 <li><a href="#">Web API Development</a> </li>
@@ -144,7 +144,7 @@
                                                     <a href="#">Hire Web Developers</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">Hire PHP Developers</a>
+                                                    <a href="{{route('hire.php')}}">Hire PHP Developers</a>
                                                 </li>
                                                 <li>
                                                     <a href="#">Hire WordPress Developers</a> </li>
