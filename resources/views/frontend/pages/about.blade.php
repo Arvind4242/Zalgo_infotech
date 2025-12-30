@@ -281,7 +281,7 @@
                     <h3 class="splitTextStyleOne text-heading text-capitalize text-capitalize">
                         Meet our experts
                     </h3>
-                    <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-500-px fw-medium">
+                    <p class="splitTextStyleOne text-neutral-500 tw-mt-8 mx-auto max-w-500-px fw-medium">
                         Create tasks with various custom statuses to
                         focus more on your keep track of the progress of
                         each why
@@ -564,8 +564,7 @@
                                     <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
                                 </span>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
-                                    <p
-                                        class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
+                                    <p class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
                                         “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
@@ -733,7 +732,7 @@
                     </div>
                     <h2 class="splitTextStyleOne text-heading text-capitalize text-capitalize">
                         flexible pricing
-                        <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">plan</span>
+                        <span style="width:130px;" class="font-dm-serif fst-italic fw-normal text-gradient-teal">plan</span>
                         that include business
                     </h2>
                 </div>

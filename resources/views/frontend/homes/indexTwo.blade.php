@@ -63,7 +63,7 @@
             <!-- Banner Two End -->
 
             <!-- Search Domain Start -->
-            <!-- <section class="search-domain position-relative z-1 tw--mt-170-px" data-aos="fade-up"
+            <section class="search-domain position-relative z-1 tw--mt-170-px" data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                 <img src="{{asset('assets/images/shapes/hand-thumb.png')}}" alt="Hand thumb"
                     class="hand-thumb left-right-animation position-absolute tw-start-0 top-0 tw-mt-15" />
@@ -302,7 +302,7 @@
                         </div>
                     </div>
                 </div>
-            </section> -->
+            </section>
             <!-- Search Domain End -->
 
             <!-- About Two Section start -->

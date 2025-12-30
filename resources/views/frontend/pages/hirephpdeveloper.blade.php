@@ -9,231 +9,833 @@
    HERO / BANNER SECTION
 ========================================= -->
 <div id="smooth-content">
-    <section class="hero-section banner tw-py-80-px overflow-hidden section-bg-three position-relative">
-    <img src="images/shapes/square-shape.png" class="shape-1 position-absolute top-0 tw-end-0 tw-me-12-percent" alt="shape">
 
-    <div class="container max-w-1400-px">
-        <div class="row align-items-center gy-4">
-
-            <!-- Left Content -->
-            <div class="col-lg-6">
-                <div class="hero-content">
-                    <h1 class="title splitTextStyleOne fw-light tw-leading-104">
-                        <span>Hire</span>
-                        <span class="fw-semibold">Apple Vision Pro</span>
-                        <span>Developers</span>
-                    </h1>
-
-                    <p class="hero-desc text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8">
-                        Build immersive VisionOS apps with expert developers
-                        experienced in spatial computing.
-                    </p>
-
-                    <div class="hero-buttons tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
-                        <a href="#" class="btn btn-main rounded-pill tw-px-56-px tw-py-5 fw-semibold">
-                            Get Started
-                        </a>
-
-                        <div class="client-stats d-flex align-items-center tw-gap-4">
-                            <div class="client-imgs d-flex">
-                                <img src="images/client1.png" class="client-img" alt="">
-                                <img src="images/client2.png" class="client-img tw--ms-10-px" alt="">
-                                <img src="images/client3.png" class="client-img tw--ms-10-px" alt="">
+                <!-- Breadcrumb Start Here -->
+                <section class="breadcrumb section-bg-two mb-0">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="text-center">
+                                    <span class="tw-mb-4">
+                                        <img
+                                            src="{{asset('assets/images/logo/favicon-two.png')}}"
+                                            alt="Favicon Two"
+                                        />
+                                    </span>
+                                    <h1
+                                        class="mb-0 splitTextStyleOne text-capitalize"
+                                    >
+                                        Hire PHP Developer
+                                    </h1>
+                                </div>
                             </div>
-                            <span class="h5 fw-bold tw-text-sm">5000+ Reviews</span>
                         </div>
                     </div>
-                </div>
-            </div>
+                </section>
+                <!-- Breadcrumb End Here -->
 
-            <!-- Right Image -->
-            <div class="col-lg-6">
-                <div class="hero-image-wrapper tw-ps-98-px position-relative">
 
-                    <img src="images/vision-pro-banner.png" class="hero-main-img" alt="Vision Pro Developer">
+                <!-- Download App section start -->
+                <section class="download-app py-120">
+                    <div class="container">
+                        <div class="row gy-4 align-items-center">
+                            <div class="col-md-6">
+                                <div class="">
+                                    <img src="{{asset('assets/images/thumbs/download-app-thumb.png')}}" alt="Thumbnail">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="">
+                                    <div class="max-w-780-px text-start mx-auto">
+                                        <div class="bg-main-600 tw-py-2 tw-px-7 rounded-pill text-white fw-bold text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-6 min-w-max common-shadow-twentyNine"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                            what we offering
+                                        </div>
+                                        <h2 class="splitTextStyleOne text-heading text-capitalize tw-leading-none">Why should
+                                            you choose Sassly mobile app.</h2>
+                                        <p
+                                            class="text-neutral-600 tw-text-lg tw-mt-605 splitTextStyleOne max-w-5 fw-medium tw-leading-145 max-w-570-px">
+                                            Sassly-CRM in the past allowing you to focus more on your business simply enjoy your
+                                            newfound legal time to reflect leaving pen</p>
+                                    </div>
 
-                    <!-- Ratings Card -->
-                    <div class="ratings-card bg-white shadow-lg position-absolute top-0 tw-end-0">
-                        <span class="rating-badge bg-green text-white fw-bold">4.9 ★</span>
-                        <img src="images/ratings.svg" class="w-100" alt="">
+
+                                    <div class="d-flex flex-column tw-gap-5 tw-mt-12">
+                                        <div class="d-flex align-items-center tw-gap-205" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                                            <span
+                                                class="tw-w-8 tw-h-8 bg-neutral-200 rounded-circle d-flex justify-content-center align-items-center tw-text-lg text-heading">
+                                                <i class="ph-bold ph-check"></i>
+                                            </span>
+                                            <span class="text-heading tw-text-lg fw-semibold">Registration and
+                                                onboarding</span>
+                                        </div>
+                                        <div class="d-flex align-items-center tw-gap-205" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom" data-aos-duration="900">
+                                            <span
+                                                class="tw-w-8 tw-h-8 bg-neutral-200 rounded-circle d-flex justify-content-center align-items-center tw-text-lg text-heading">
+                                                <i class="ph-bold ph-check"></i>
+                                            </span>
+                                            <span class="text-heading tw-text-lg fw-semibold">Transaction management</span>
+                                        </div>
+                                        <div class="d-flex align-items-center tw-gap-205" data-aos="fade-up"
+                                            data-aos-anchor-placement="top-bottom" data-aos-duration="1100">
+                                            <span
+                                                class="tw-w-8 tw-h-8 bg-neutral-200 rounded-circle d-flex justify-content-center align-items-center tw-text-lg text-heading">
+                                                <i class="ph-bold ph-check"></i>
+                                            </span>
+                                            <span class="text-heading tw-text-lg fw-semibold"> Standard banking layout</span>
+                                        </div>
+                                    </div>
+                                    <div class="tw-mt-13" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="1200">
+                                        <a href="{{route('register')}}"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-505 fw-semibold common-shadow-inset-one"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <span class="button__label">Download app now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </section>
+                <!-- Download App section end -->
 
-                    <!-- Years Experience -->
-                    <div class="experience-badge bg-main-600 text-white tw-rounded-xl position-absolute">
-                        <h2 class="counter">8+</h2>
-                        <span>Years Experience</span>
-                    </div>
 
-                    <!-- Revenue Widget -->
-                    <div class="revenue-box bg-white-7 border bg-blur-20 tw-rounded-2xl d-flex align-items-center position-absolute">
-                        <div class="revenue-info">
-                            <span class="tw-text-sm text-neutral-500">Revenue</span>
-                            <h5 class="counter">$4820.00</h5>
 
-                            <!-- Tabs -->
-                            <ul class="nav nav-pills mt-2">
-                                <li><button class="nav-link active">Daily</button></li>
-                                <li><button class="nav-link">Weekly</button></li>
-                                <li><button class="nav-link">Monthly</button></li>
-                            </ul>
+                <!-- FAQ section start -->
+                <section class="faq py-120 position-relative z-1 overflow-hidden">
+                    <img src="{{asset('assets/images/shapes/faq-bg.png')}}" alt=""
+                        class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
+
+                    <div class="container">
+                        <div class="tw-mb-8">
+                            <span
+                                class="tw-py-1 tw-px-705 bg-white text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">tech
+                                solution</span>
+                            <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
+                                <div class="max-w-672-px">
+                                    <h3 class="splitTextStyleOne fw-light tw-leading-104">
+                                        <span class="d-inline-block ">Our Flexible <br>
+                                        </span>
+                                    </h3>
+                                    <h3 class="splitTextStyleOne fw-light tw-leading-104">
+                                        <span class="d-inline-block fw-semibold">Hiring Models
+                                        </span>
+                                    </h3>
+                                </div>
+                            </div>
                         </div>
 
-                        <img src="images/revenue-chart.png" alt="chart">
+                        <div class="row gy-4">
+                            <div class="col-lg-5">
+                                <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15">
+                                    In today's competitive business, the demand
+                                    for efficient and cost-effective IT
+                                    solutions has never been more critical.
+                                </p>
+                                <div class="accordion common-accordion accordion-border-left" id="accordionExample">
+                                    <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                        <h5 class="accordion-header">
+                                            <button
+                                                class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo"
+                                                data-img="{{asset('assets/images/thumbs/faq-thumb2.png')}}">
+                                            Fixed-price Project
+                                            </button>
+                                        </h5>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0">
+                                                <p class="text-neutral-500">
+                                                    We customize our technology
+                                                    to fit your specific need
+                                                    ensuring the best possible
+                                                    outcomes.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                        <h5 class="accordion-header">
+                                            <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne"
+                                                data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                                Hourly Biling
+                                            </button>
+                                        </h5>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0">
+                                                <p class="text-neutral-500">
+                                                    We customize our technology
+                                                    to fit your specific need
+                                                    ensuring the best possible
+                                                    outcomes.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                        <h5 class="accordion-header">
+                                            <button
+                                                class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree"
+                                                data-img="{{asset('assets/images/thumbs/faq-thumb3.png')}}">
+                                                Dedicated PHP Development Team
+                                            </button>
+                                        </h5>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0">
+                                                <p class="text-neutral-500">
+                                                    We customize our technology
+                                                    to fit your specific need
+                                                    ensuring the best possible
+                                                    outcomes.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="position-relative tw-pb-8 tw-ps-12 h-100">
+                                    <div class="bg-white tw-p-205 tw-rounded-3xl h-100 tw-min-h-400-px">
+                                        <img src="{{asset('assets/images/thumbs/faq-thumb1.png')}}" id="faqImage" alt="Image"
+                                            class="w-100 h-100 object-fit-cover tw-rounded-2xl tw-duration-300" />
+                                    </div>
+                                    <img src="{{asset('assets/images/thumbs/faq-img-1.png')}}" alt=""
+                                        class="position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px" />
+                                    <img src="{{asset('assets/images/thumbs/faq-img-2.png')}}" alt=""
+                                        class="position-absolute bottom-0 tw-end-0 tw--me-32-px" />
+                                    <img src="{{asset('assets/images/thumbs/faq-img-3.png')}}" alt=""
+                                        class="position-absolute bottom-0 tw-start-0 tw--ms-24-px" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </section>
+                <!-- FAQ section end -->
 
-        </div>
-    </div>
-</section>
 
-<!-- =========================================
-   IS YOUR BUSINESS READY?
-========================================= -->
-<section class="business-ready py-100">
-    <div class="container">
-        <div class="row align-items-center gy-4">
+                <!-- Pricing Plan three start -->
+                <section class="pricing-plan-three py-120">
+                    <div class="container">
+                        <div class="max-w-602-px text-center mx-auto tw-mb-13">
+                            <div class="bg-white tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max border border-spring-green"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                <div class="text-gradient-teal">
+                                    Up to
+                                    <span class="text-yellow text-stroke-yellow">70%</span>
+                                    off managed cloud hosting
+                                </div>
+                            </div>
+                            <h2 class="splitTextStyleOne text-heading text-capitalize text-capitalize">
+                                Our Expert 
+                                <span style="width:130px" class="font-dm-serif fst-italic fw-normal text-gradient-teal">PHP</span>
+                               Developer Profiles
+                            </h2>
+                        </div>
 
-            <div class="col-lg-6">
-                <img src="images/ready-img.png" class="w-100 rounded-4" alt="">
-            </div>
+                        <div class="row gy-4">
+                            <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="600">
+                                <div class="position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600">
+                                    <div class="">
+                                        <div class="tw-ps-205">
+                                            <h5 class="tw-mb-1">Entry-level Developer</h5>
+                                            <p class="text-neutral-500">
+                                                Customized anything in anytime
+                                            </p>
+                                            <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
+                                            <div class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-10">
+                                                <h2 class="mb-0">
+                                                    $1.99<span class="tw-text-xl fw-medium">/Yearly</span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <a href="{{route('login')}}"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                                <span class="button__label">Start Free Trial</span>
+                                            </div>
+                                        </a>
+                                        <span class="text-heading tw-mt-3 text-center d-block fw-medium">Renews at
+                                            $9.88/month</span>
 
-            <div class="col-lg-6">
-                <h2 class="section-title">Is Your Business Ready for Apple Vision Pro?</h2>
+                                        <div class="tw-ps-205">
+                                            <div class="d-flex flex-column tw-gap-5 tw-mt-10">
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Real-time tracking and
+                                                        notifications</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Real-time
+                                                        analytics</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="640">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Drag and drop
+                                                        templates</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="660">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Project
+                                                        Management</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="680">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">24/7 email and chat
+                                                        support</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="800">
+                                <div class="position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600">
+                                    <div class="">
+                                        <div class="tw-ps-205">
+                                            <h5 class="tw-mb-1">
+                                                Mid-level Developer
+                                            </h5>
+                                            <p class="text-neutral-500">
+                                                Customized anything in anytime
+                                            </p>
+                                            <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
+                                            <div class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-10">
+                                                <h2 class="mb-0">
+                                                    $9.99<span class="tw-text-xl fw-medium">/Yearly</span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <a href="{{route('login')}}"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                                <span class="button__label">Start Free Trial</span>
+                                            </div>
+                                        </a>
+                                        <span class="text-heading tw-mt-3 text-center d-block fw-medium">Renews at
+                                            $9.88/month</span>
 
-                <div class="faq-list">
-                    <div class="faq-item">Immersive app prototyping</div>
-                    <div class="faq-item">Hands-free user experience</div>
-                    <div class="faq-item">3D content collaboration</div>
-                    <div class="faq-item">AI-powered interaction</div>
-                </div>
-            </div>
+                                        <div class="tw-ps-205">
+                                            <div class="d-flex flex-column tw-gap-5 tw-mt-10">
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Real-time tracking and
+                                                        notifications</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Real-time
+                                                        analytics</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="640">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Drag and drop
+                                                        templates</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="660">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Project
+                                                        Management</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="680">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">24/7 email and chat
+                                                        support</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="900">
+                                <div class="position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600">
+                                    <div class="">
+                                        <div class="tw-ps-205">
+                                            <h5 class="tw-mb-1">Senior-level Developer</h5>
+                                            <p class="text-neutral-500">
+                                                Customized anything in anytime
+                                            </p>
+                                            <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
+                                            <div class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-10">
+                                                <h2 class="mb-0">
+                                                    $19.99<span class="tw-text-xl fw-medium">/Yearly</span>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <a href="{{route('login')}}"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                                <span class="button__label">Start Free Trial</span>
+                                            </div>
+                                        </a>
+                                        <span class="text-heading tw-mt-3 text-center d-block fw-medium">Renews at
+                                            $9.88/month</span>
 
-        </div>
-    </div>
-</section>
+                                        <div class="tw-ps-205">
+                                            <div class="d-flex flex-column tw-gap-5 tw-mt-10">
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Real-time tracking and
+                                                        notifications</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Real-time
+                                                        analytics</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="640">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Drag and drop
+                                                        templates</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="660">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">Project
+                                                        Management</span>
+                                                </div>
+                                                <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
+                                                    data-aos-anchor-placement="top-bottom" data-aos-duration="680">
+                                                    <span
+                                                        class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                                        <i class="text-gradient-teal ph-bold ph-check"></i>
+                                                    </span>
+                                                    <span class="text-heading fw-semibold tw-text-base">24/7 email and chat
+                                                        support</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Pricing Plan three End -->
 
-<!-- =========================================
-   TECH EXPERTISE
-========================================= -->
-<section class="tech-expertise py-100 bg-light">
-    <div class="container">
+                
+                <!-- About Features section Start -->
+                <section class="about-features">
+                    <div class="container">
+                        <div class="text-center mx-auto tw-pb-15 max-w-910-px">
+                            <div class="bg-white tw-py-2 tw-px-7 rounded-pill text-main-600 fw-bold text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max common-shadow-twentyNine"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600"> what we
+                                offering
+                            </div>
+                            <h2 class="splitTextStyleOne text-heading text-capitalize tw-leading-none">Simplifying your
+                                investment journey</h2>
+                            <p class="splitTextStyleOne text-neutral-500 max-w-602-px mx-auto fw-medium tw-mt-5">Discover how
+                                Upshift not only simplifies your investment process but also empowers you to make smarter,
+                                data-driven decisions.</p>
+                        </div>
 
-        <h2 class="section-title text-center mb-5">Our Tech Expertise</h2>
+                        <div class="row gy-4">
+                            <div class="col-xl-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="600">
+                                <div
+                                    class="tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100">
+                                    <span
+                                        class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
+                                        <img src="{{asset('assets/images/icons/about-features-two-icon1.svg')}}" alt="Icon"
+                                            class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat">
+                                    </span>
+                                    <h4 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
+                                        Query Review</h4>
+                                    <p
+                                        class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                        Web hosting provides everything idea online. From where your</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="800">
+                                <div
+                                    class="tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100">
+                                    <span
+                                        class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
+                                        <img src="{{asset('assets/images/icons/about-features-two-icon2.svg')}}" alt="Icon"
+                                            class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat">
+                                    </span>
+                                    <h4 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
+                                        Initial Interview</h4>
+                                    <p
+                                        class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                        Web hosting provides everything idea online. From where your</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="1000">
+                                <div
+                                    class="tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100">
+                                    <span
+                                        class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
+                                        <img src="{{asset('assets/images/icons/about-features-two-icon3.svg')}}" alt="Icon"
+                                            class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat">
+                                    </span>
+                                    <h4 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
+                                        Technical Assessment</h4>
+                                    <p class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                        Web hosting provides everything idea online. From where your</p>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="1200">
+                                <div
+                                    class="tw-rounded-2xl bg-neutral-50 bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-100 group animation-item group-item tw-transition tw-duration-200 h-100">
+                                    <span
+                                        class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
+                                        <img src="{{asset('assets/images/icons/about-features-two-icon4.svg')}}" alt="Icon"
+                                            class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat">
+                                    </span>
+                                    <h4 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
+                                        Final Interview & Offer</h4>
+                                    <p
+                                        class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                        Web hosting provides everything idea online. From where your</p>
+                                </div>
+                            </div>
+                        </div>
 
-        <div class="row justify-content-center gy-4">
+                    </div>
+                </section>
+                <!-- About Features section End -->
 
-            <div class="col-lg-6">
-                <ul class="expertise-list">
-                    <li>VisionOS App Development</li>
-                    <li>Spatial UI/UX Design</li>
-                    <li>RealityKit / ARKit Development</li>
-                    <li>3D Product Visualization</li>
-                    <li>Gesture & Eye-tracking Apps</li>
-                </ul>
+                
+                <!-- Faq Two Section Start -->
+                <section class="faq-two py-120">
+                    <div class="container">
+                        <div class="row gy-4">
+                            <div class="col-lg-4">
+                                <div class="">
+                                    <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                        <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
+                                        Up to
+                                        <span class="text-yellow">70%</span> off
+                                        managed cloud hosting
+                                    </div>
+                                    <h3 class="splitTextStyleOne text-heading text-capitalize">
+                                        Frequently ask
+                                        <span class="font-dm-serif fst-italic fw-normal">Questions</span>
+                                    </h3>
+                                    <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-350-px fw-medium">
+                                        Create tasks with various custom
+                                        statuses to focus more on your keep
+                                        track of the progress of each why in
+                                    </p>
 
-                <a href="#" class="btn btn-main rounded-pill mt-4">Hire Now</a>
-            </div>
+                                    <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="900">
+                                        <a href="{{route('register')}}"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn-main-two hover-style-two"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <span class="button__label">get started trial</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="ps-xl-5">
+                                    <div class="accordion common-accordion style-two arrow-bg-orange" id="accordionExample2">
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                            <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne_2"
+                                                    aria-expanded="false" aria-controls="collapseOne_2">
+                                                    What is Sassly?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseOne_2" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                    <p class="text-neutral-500">
+                                                        GoDaddy offers more than just a platform...
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-            <div class="col-lg-6">
-                <img src="images/expertise.png" class="w-100 rounded-4" alt="">
-            </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                            <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo_2"
+                                                    aria-expanded="true" aria-controls="collapseTwo_2">
+                                                    Why should I choose Sassly?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseTwo_2" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                    <p class="text-neutral-500">
+                                                        GoDaddy offers more than just a platform...
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-        </div>
-    </div>
-</section>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                            <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_2"
+                                                    aria-expanded="false" aria-controls="collapseThree_2">
+                                                    Can I upgrade to a different plan at a later time?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseThree_2" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                    <p class="text-neutral-500">
+                                                        GoDaddy offers more than just a platform...
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-<!-- =========================================
-   PRICING / HIRE SECTION
-========================================= -->
-<section class="hire-section py-100">
-    <div class="container text-center">
-        <h2 class="section-title">Hire Vision OS Developer as per Your Need</h2>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                            <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour_2"
+                                                    aria-expanded="false" aria-controls="collapseFour_2">
+                                                    What’s the cost of additional users?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFour_2" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                    <p class="text-neutral-500">
+                                                        GoDaddy offers more than just a platform...
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-        <div class="pricing-box d-flex justify-content-center gap-4 mt-5">
-            <div class="price-card">$25/hr</div>
-            <div class="price-card">$3500/month</div>
-        </div>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                            <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive_2"
+                                                    aria-expanded="false" aria-controls="collapseFive_2">
+                                                    What’s the commitment?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseFive_2" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                    <p class="text-neutral-500">
+                                                        GoDaddy offers more than just a platform...
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
 
-        <a href="#" class="btn btn-main rounded-pill mt-4">Get a Quote</a>
-    </div>
-</section>
+                                        <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                            <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                                <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                    type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
+                                                    aria-expanded="false" aria-controls="collapseSix_2">
+                                                    What languages does Sassly AI support?
+                                                </button>
+                                            </h5>
+                                            <div id="collapseSix_2" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample2">
+                                                <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                    <p class="text-neutral-500">
+                                                        GoDaddy offers more than just a platform...
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-<!-- =========================================
-   FORM – RISK FREE TRIAL
-========================================= -->
-<section class="trial-form-section py-100 bg-dark text-white">
-    <div class="container text-center">
-        <h2 class="mb-4">Onboard a Developer with 15 Days Risk-Free Trial</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Faq Two Section End -->
+                 
 
-        <form class="trial-form max-w-600 mx-auto">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email ID">
-            <input type="text" placeholder="Project Type">
-            <button class="btn btn-main rounded-pill mt-3">Start Trial</button>
-        </form>
-    </div>
-</section>
+                <!-- Task Management Section Start -->
+                <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+                    <div class="container">
+                        <div class="text-end tw--mb-40-px position-relative z-2">
+                            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />
+                        </div>
 
-<!-- =========================================
-   SUCCESS STORIES
-========================================= -->
-<section class="success-stories py-100">
-    <div class="container">
+                        <div class="bg-green-deep tw-rounded-3xl bg-green-deep tw-pt-100-px position-relative z-1">
+                            <img src="{{asset('assets/images/shapes/hill-shape.png')}}" alt="Hill Shape"
+                                class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1" />
+                            <img src="{{asset('assets/images/thumbs/task-management-img.png')}}" alt="Image"
+                                class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none" />
 
-        <h2 class="section-title text-center">Our Success Stories</h2>
+                            <div class="tw-mb-8 text-center max-w-570-px mx-auto">
+                                <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                    <div class="">
+                                        Up to
+                                        <span class="text-yellow text-stroke-yellow">70%</span>
+                                        off managed cloud hosting
+                                    </div>
+                                </div>
+                                <h3 class="splitTextStyleOne text-white">
+                                    Ready to revolutionize our service?
+                                </h3>
 
-        <div class="row align-items-center gy-4 mt-5">
-            <div class="col-lg-6">
-                <div class="story-box p-4">
-                    <h4>Project: VisionOS Prototype</h4>
-                    <p>We built a complete immersive onboarding experience...</p>
-                </div>
-            </div>
+                                <div class="d-none">
+                                    <a href="javascript:void(0)"
+                                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7"
+                                        data-block="button">
+                                        <span class="button__flair"></span>
+                                        <div class="d-flex align-items-center tw-gap-2 z-1">
+                                            <span class="button__label">Download for free</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="d-block">
+                                    <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
+                                        <a href="javascript:void(0)"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                                <span class="button__label">Get Started Trial</span>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0)"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                                <span class="button__label">Get Started Trial</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tw-pt-8 text-center">
+                                <div
+                                    class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Project
+                                        management</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Technology</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-yellow rounded-pill">Project
+                                        management</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Technology</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Project
+                                        management</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Project
+                                        management</span>
+                                    <span
+                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-pink rounded-pill">Technology</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Task Management Section End -->
 
-            <div class="col-lg-6">
-                <img src="images/success.png" class="w-100 rounded-4" alt="">
-            </div>
-        </div>
 
-    </div>
-</section>
 
-<!-- =========================================
-   INDUSTRIES
-========================================= -->
-<section class="industries py-100 bg-light">
-    <div class="container text-center">
-        <h2 class="section-title">Industries We Specialize In</h2>
 
-        <div class="industry-list d-flex justify-content-center gap-4 mt-4 flex-wrap">
-            <div class="industry-item">Healthcare</div>
-            <div class="industry-item">Real Estate</div>
-            <div class="industry-item">E-Commerce</div>
-            <div class="industry-item">Education</div>
-            <div class="industry-item">Gaming</div>
-        </div>
-    </div>
-</section>
 
-<!-- =========================================
-   FAQ
-========================================= -->
-<section class="faq-section py-100">
-    <div class="container">
-        <h2 class="section-title text-center">Frequently Asked Questions</h2>
-
-        <div class="faq-wrapper mt-5">
-            <div class="faq-item">How long does development take?</div>
-            <div class="faq-item">What skills do VisionOS developers need?</div>
-            <div class="faq-item">Do you offer dedicated teams?</div>
-            <div class="faq-item">Can I replace a developer anytime?</div>
-        </div>
-    </div>
-</section>
-
-        <!-- footer area -->
-        @include('frontend.includes.footers.footerOne')
-        <!-- footer area end -->
-    </div>
+<!-- footer area -->
+@include('frontend.includes.footers.footerOne')
+<!-- footer area end -->
+</div>
 @endsection

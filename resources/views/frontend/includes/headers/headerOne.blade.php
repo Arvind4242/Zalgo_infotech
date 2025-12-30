@@ -107,24 +107,25 @@
                                     <div class="new-header-menu-get-touch-wrap">
                                         <div class="new-header-menu-get-touch-mail"><img src="{{asset('assets/images/Group-1-1.svg')}}" alt="gmail-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner"> 
-                                                    <a class="body-semibold" href="mailto:biz@worldwebtechnology.com">biz@worldwebtechnology.com</a>
-                                                    <a class="body-semibold" href="mailto:career@worldwebtechnology.com">career@worldwebtechnology.com</a></div>
+                                                <a class="body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <a class="body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                            </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
                                             <img src="{{asset('assets/images/phone.svg')}}" alt="phone-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="tel:+917940086872">
-                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 (79) 4008 6872
+                                                <a class="body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
-                                                <a class="body-semibold" href="tel:+16465832776">
-                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +1 646 583 2776
+                                                <a class="body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
-                                            <img src="https://www.worldwebtechnology.com/wp-content/uploads/2025/06/On-hover-Menubar.svg" alt="skype-icon" loading="lazy">
+                                            <img src="{{asset('assets/images/On-hover-Menubar.svg')}}" alt="skype-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="msteams:/l/chat/0/0?users=info@worldwebtechnology.com">worldwebtechnology</a> 
+                                                <a class="body-semibold" href="#">zalgoinfotech</a> 
                                             </div>
                                         </div>
                                     </div>
@@ -164,24 +165,25 @@
                                     <div class="new-header-menu-get-touch-wrap">
                                         <div class="new-header-menu-get-touch-mail"><img src="{{asset('assets/images/Group-1-1.svg')}}" alt="gmail-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner"> 
-                                                    <a class="body-semibold" href="mailto:biz@worldwebtechnology.com">biz@worldwebtechnology.com</a>
-                                                    <a class="body-semibold" href="mailto:career@worldwebtechnology.com">career@worldwebtechnology.com</a></div>
+                                                <a class="body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <a class="body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                            </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
                                             <img src="{{asset('assets/images/phone.svg')}}" alt="phone-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="tel:+917940086872">
-                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 (79) 4008 6872
+                                                <a class="body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
-                                                <a class="body-semibold" href="tel:+16465832776">
-                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +1 646 583 2776
+                                                <a class="body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
-                                            <img src="https://www.worldwebtechnology.com/wp-content/uploads/2025/06/On-hover-Menubar.svg" alt="skype-icon" loading="lazy">
+                                            <img src="{{asset('assets/images/On-hover-Menubar.svg')}}" alt="skype-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="msteams:/l/chat/0/0?users=info@worldwebtechnology.com">worldwebtechnology</a> 
+                                                <a class="body-semibold" href="#">zalgoinfotech</a> 
                                             </div>
                                         </div>
                                     </div>
@@ -189,13 +191,10 @@
                             </div>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="javascript:void(0)"
+                            <a href="{{route('blog')}}"
                                 class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Blog</a>
                         </li>
-                        <li class="nav-menu__item">
-                            <a href="{{route('contact')}}"
-                                class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100">Contact</a>
-                        </li>
+                       
                     </ul>
                     <!-- Nav menu End  -->
 

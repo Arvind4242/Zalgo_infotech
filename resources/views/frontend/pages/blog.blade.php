@@ -21,7 +21,7 @@
                                     <h1
                                         class="mb-0 splitTextStyleOne text-capitalize"
                                     >
-                                        Blog Page
+                                        Blog
                                     </h1>
                                 </div>
                             </div>

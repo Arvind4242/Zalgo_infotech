@@ -319,7 +319,7 @@
                                 <img src="{{asset('assets/images/shapes/finger-shape.png')}}" alt="Shape"
                                     class="flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1" />
 
-                                <div class="d-flex tw-gap-6 tw-max-h-588-px">
+                                <div class="d-flex tw-gap-6 tw-max-h-666-px">
                                     <!-- First Slider start -->
                                     <div class="swiper overflow-hidden about-two-thumbs-slider-one w-50">
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">

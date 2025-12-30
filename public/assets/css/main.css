@@ -158,7 +158,7 @@
     --white: 0 0% 100%;
     --black: 249 63% 15%;
     --body: 0 0% 43%;
-    --orange: 18 100% 55%;
+    --orange: 184 100% 23%;
     --heading-color: var(--black);
     --blue-color: #1351D8;
     --translate-x-50: translateX(-50%);
@@ -8296,4 +8296,7 @@ li.new-header-menu-list-item .header-content-btn:hover {
 .header-mega-icon-wrap {
     width: 30px;
     margin-top: 5px;
+}
+.tw-max-h-666-px{
+    max-height: 666px;
 }
