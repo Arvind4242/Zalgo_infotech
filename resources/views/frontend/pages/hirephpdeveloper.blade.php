@@ -505,7 +505,7 @@
 
                 <!-- Roadmap section start -->
         <section class="py-120">
-            <div class="container-fluid p-0">
+            <div class="container p-0">
                 <!-- what we do Start -->
                 <div class="bg-crm overflow-hidden position-relative" id="roadmap-section">
                     <div class="tw-ps-74-px tw-pe-6">

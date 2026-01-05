@@ -17,7 +17,7 @@
     <!-- Top Header End -->
 
     <!-- Header Start Here -->
-    <header class=" header position-absolute top-0 transition-all w-100 z-1">
+    <header class="bg-white header position-absolute top-0 transition-all w-100 z-1">
         <div class="container container-two">
             <nav class="d-flex align-items-center justify-content-between position-relative">
                 <!-- Logo Start -->
