@@ -755,9 +755,7 @@
                 <!-- Faq Section End -->
 
                 <!-- Task Management Section Start -->
-                <section
-                    class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half"
-                >
+                <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
                     <div class="container">
                         <div
                             class="text-end tw--mb-40-px position-relative z-2"

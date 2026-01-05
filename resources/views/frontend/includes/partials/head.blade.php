@@ -2,7 +2,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="IT Solution, Sass and Multipurpose HTML Template">
 <meta name="keywords" content="IT Solution, Sass and Multipurpose HTML Template">
-<meta name="robots" content="INDEX,FOLLOW">
+<meta name="robots" content="noindex, nofollow">
+<meta name="googlebot" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Title -->
 <title> Zalgo Infotech - IT Solution</title>

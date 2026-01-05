@@ -7,306 +7,59 @@
     <!-- header area end -->
     
         <div id="smooth-content">
-            <!-- Banner Two Start -->
-            <section class="banner-two position-relative z-1 gradient-bg-two">
-                <img src="{{asset('assets/images/shapes/cloud-shape.png')}}" alt="Cloud Shape"
-                    class="position-absolute bottom-0 tw-start-0 w-100 z-n1" />
-
+             <!-- Banner Four Start -->
+            <section style="background-image:url({{asset('assets/images/bg/mash-gradient-bg1.png')}});" class="banner-two position-relative z-1 pb-0">
                 <div class="banner-two__inner position-relative">
                     <div class="container">
-                        <div class="row gy-4">
-                            <div class="col-lg-6">
-                                <div class="banner-two-content">
-                                    <div class="bg-white-06 tw-py-3 tw-px-305 tw-rounded text-white fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                        Up to <span class="text-yellow">70%</span> off managed
-                                        cloud hosting
-                                    </div>
-                                    <h1 class="splitTextStyleOne text-white text-capitalize tw-leading-none">
-                                        Organized cloud &
-                                        <span class="text-yellow font-dm-serif fst-italic fw-normal">web hosting</span>
-                                        for your business
+                        <div class="text-center">
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">With the world's favorite
+                                CRM</span>
+                            <div class="">
+                                <div class="position-relative d-inline-block">
+                                    <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
+                                        The next gen of CRM.
                                     </h1>
-                                    <p class="splitTextStyleOne text-neutral-300 tw-mt-8 max-w-388-px fw-medium">
-                                        Touch the success! Domain and Secure Web Hosting from
-                                        <span class="text-yellow">$4.99</span> per month
-                                    </p>
-
-                                    <div class="d-flex align-items-center tw-gap-7 tw-mt-11 flex-wrap" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        <a href="{{route('register')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Clients Area</span>
-                                        </a>
-                                        <p class="text-neutral-300 max-w-388-px fw-medium" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                            Starting at only
-                                            <span class="text-yellow">$3.27/mo*</span>
-                                        </p>
+                                    <div class="text-end svg-line d-sm-block d-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="489" height="18"
+                                            viewBox="0 0 489 18" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M207.684 1.72387C184.71 2.31462 162.007 3.04101 139.867 3.83514C108.526 4.95854 77.1964 6.12068 46.056 7.96073C36.2537 8.5418 26.2994 8.90979 16.5584 9.63613C10.4436 10.0913 2.33552 10.7401 1.27144 10.8757C0.714878 10.9531 0.472071 11.0695 0.393613 11.1082C-0.158042 11.3794 -0.0573853 11.6407 0.253993 11.8441C0.379035 11.9313 0.695229 12.1444 1.57297 12.1735C60.274 14.1588 120.299 10.285 179.071 9.87824C280.993 9.18096 386.003 11.9507 487.115 17.9938C487.998 18.0423 488.856 17.8001 488.979 17.4418C489.126 17.0931 488.489 16.7542 487.606 16.7057C386.322 10.6529 281.14 7.87347 179.022 8.58044C124.249 8.95813 68.3944 12.3575 13.5451 11.1953C14.8053 11.0985 16.0411 11.0016 17.1689 10.9144C26.8707 10.1881 36.7833 9.8298 46.5464 9.24873C77.6205 7.40868 108.886 6.24654 140.186 5.13282C179.022 3.73826 219.55 2.53737 260.397 1.97567C275.01 2.06283 289.574 2.15003 304.137 2.25656C335.643 2.48899 367.296 3.16691 398.728 4.07725C408.192 4.3581 417.656 4.64861 427.12 4.9004C430.258 4.98757 438.349 5.23932 439.477 5.21995C440.875 5.20058 441.144 4.73577 441.169 4.65829C441.242 4.48397 441.193 4.24185 440.507 4.03847C440.433 4.00942 439.992 3.91251 439.011 3.85441C381.86 0.426099 320.834 -0.145196 260.446 0.677985C196.749 0.319659 132.806 0.164636 69.2697 0C68.3601 0 67.6172 0.290577 67.6098 0.648903C67.6049 1.00723 68.338 1.29782 69.2476 1.3075C115.253 1.42371 161.492 1.53986 207.684 1.72387Z"
+                                                fill="#FF7E3E" />
+                                        </svg>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="banner-two-thumb">
-                                    <img src="{{asset('assets/images/thumbs/banner-two-img.png')}}" alt="Image" data-aos="zoom-in"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="1000" />
-                                </div>
+                            <p
+                                class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
+                                Sassly-CRM in the past allowing you to focus
+                                more on your business or simply enjoy your
+                                newfound legal time to reflect leaving
+                                pen-and-paper.
+                            </p>
+
+                            <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                <a href="javascript:void(0)"
+                                    class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
+                                    data-block="button">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Schedule a Demo</span>
+                                </a>
+                                <a href="javascript:void(0)"
+                                    class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
+                                    data-block="button">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Contact Sales</span>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Banner Two End -->
-
-            <!-- Search Domain Start -->
-            <section class="search-domain position-relative z-1 tw--mt-170-px" data-aos="fade-up"
-                data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                <img src="{{asset('assets/images/shapes/hand-thumb.png')}}" alt="Hand thumb"
-                    class="hand-thumb left-right-animation position-absolute tw-start-0 top-0 tw-mt-15" />
-
-                <div class="container">
-                    <div class="bg-white common-shadow-six tw-pt-10 tw-pb-16 tw-px-88-px">
-                        <h3 class="text-center tw-mb-4 text-capitalize splitTextStyleOne">
-                            Search and buy a
-                            <span class="text-yellow font-dm-serif fst-italic fw-normal">domain</span>
-                            in minutes
-                        </h3>
-                        <div class="text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="800">
-                            <ul class="animate-background-wrapper z-1 position-relative nav nav-pills active-text-white d-inline-flex border border-neutral-200 rounded-pill tw-mb-6"
-                                id="pills-tab" role="tablist">
-                                <li class="background"></li>
-
-                                <li class="nav-item flex-grow-1" role="presentation">
-                                    <button
-                                        class="nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1 active"
-                                        id="pills-FindNewDomain-tab" data-bs-toggle="pill"
-                                        data-bs-target="#pills-FindNewDomain" type="button" role="tab"
-                                        aria-controls="pills-FindNewDomain" aria-selected="true">
-                                        Find New Domain
-                                    </button>
-                                </li>
-                                <li class="nav-item flex-grow-1" role="presentation">
-                                    <button
-                                        class="nav-link w-100 active-scale-094 rounded-pill tw-px-6 tw-py-305 bg-transparent fw-semibold text-heading hover-text-main-600 h-100 line-clamp-1"
-                                        id="pills-GeneratedomainusingAI-tab" data-bs-toggle="pill"
-                                        data-bs-target="#pills-GeneratedomainusingAI" type="button" role="tab"
-                                        aria-controls="pills-GeneratedomainusingAI" aria-selected="false">
-                                        Generate domain using AI
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-FindNewDomain" role="tabpanel"
-                                aria-labelledby="pills-FindNewDomain-tab" tabindex="0">
-                                <div class="select-domain-wrapper">
-                                    <form action="#" class="d-flex tw-gap-6 flex-column flex-sm-row"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="position-relative flex-grow-1">
-                                            <input type="text"
-                                                class="tw-py-405 tw-px-705 tw-pe-100-px bg-neutral-100 tw-rounded-xl border-transparent placeholder-neutral-600 placeholder-18-px w-100"
-                                                placeholder="Enter your desire domain name" />
-                                            <select
-                                                class="select-domain form-control form-select w-auto border-0 tw-py-1 tw-pe-305 shadow-none form-select-arrow-end position-absolute tw-end-0 top-50 translate-middle-y bg-transparent tw-me-705 fw-semibold">
-                                                <option value=".com">.com</option>
-                                                <option value=".cloud">.cloud</option>
-                                                <option value=".shop">.shop</option>
-                                                <option value=".online">.online</option>
-                                                <option value=".info">.info</option>
-                                            </select>
-                                        </div>
-                                        <button type="button"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Search</span>
-                                        </button>
-                                    </form>
-                                    <div class="overflow-x-max-lg-auto scroll-sm scroll-sm-horizontal pb-sm-0"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="tw-mt-6 d-grid grid-col-5 min-w-max tw-pb-1">
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start"
-                                                data-domain=".com">
-                                                <img src="{{asset('assets/images/thumbs/domain-img1.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".cloud">
-                                                <img src="{{asset('assets/images/thumbs/domain-img2.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$14.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".shop">
-                                                <img src="{{asset('assets/images/thumbs/domain-img3.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".online">
-                                                <img src="{{asset('assets/images/thumbs/domain-img4.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".info">
-                                                <img src="{{asset('assets/images/thumbs/domain-img5.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div class="text-center text-heading fw-medium tw-mt-8" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        Already bought a domain?
-                                        <a href="javascript:void(0)"
-                                            class="fw-bold text-decoration-underline text-heading hover-text-main-600">Transfer
-                                            it?</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="pills-GeneratedomainusingAI" role="tabpanel"
-                                aria-labelledby="pills-GeneratedomainusingAI-tab" tabindex="0">
-                                <div class="select-domain-wrapper">
-                                    <form action="#" class="d-flex tw-gap-6 flex-column flex-sm-row"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="position-relative flex-grow-1">
-                                            <input type="text"
-                                                class="tw-py-405 tw-px-705 tw-pe-100-px bg-neutral-100 tw-rounded-xl border-transparent placeholder-neutral-600 placeholder-18-px w-100"
-                                                placeholder="Enter your desire domain name" required />
-                                            <select
-                                                class="select-domain form-control form-select w-auto border-0 tw-py-1 tw-pe-305 shadow-none form-select-arrow-end position-absolute tw-end-0 top-50 translate-middle-y bg-transparent tw-me-705 fw-semibold">
-                                                <option value=".com">.com</option>
-                                                <option value=".cloud">.cloud</option>
-                                                <option value=".shop">.shop</option>
-                                                <option value=".online">.online</option>
-                                                <option value=".info">.info</option>
-                                            </select>
-                                        </div>
-                                        <button type="submit"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Search</span>
-                                        </button>
-                                    </form>
-                                    <div class="overflow-x-max-lg-auto scroll-sm scroll-sm-horizontal pb-sm-0"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div class="tw-mt-6 d-grid grid-col-5 min-w-max tw-pb-1">
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end border-start"
-                                                data-domain=".com">
-                                                <img src="{{asset('assets/images/thumbs/domain-img1.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".cloud">
-                                                <img src="{{asset('assets/images/thumbs/domain-img2.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$14.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".shop">
-                                                <img src="{{asset('assets/images/thumbs/domain-img3.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".online">
-                                                <img src="{{asset('assets/images/thumbs/domain-img4.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                            <button type="button"
-                                                class="domain-item-button text-center tw-py-205 tw-px-5 border-bottom hover-common-shadow-four animation-item border-top border-neutral-200 border-end"
-                                                data-domain=".info">
-                                                <img src="{{asset('assets/images/thumbs/domain-img5.png')}}" alt="Domain Logo"
-                                                    class="animate__wobble" />
-                                                <span class="d-block text-neutral-600 tw-mt-105 tw-mb-1">Starting
-                                                    price</span>
-                                                <span
-                                                    class="d-block text-neutral-700 tw-mt-1 tw-text-sm fw-semibold">$13.34/Yearly</span>
-                                            </button>
-                                        </div>
-                                    </div>
-
-                                    <div class="text-center text-heading fw-medium tw-mt-8" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        Already bought a domain?
-                                        <a href="javascript:void(0)"
-                                            class="fw-bold text-decoration-underline text-heading hover-text-main-600">Transfer
-                                            it?</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="text-center tw-mt-11 text-heading fw-medium d-flex align-items-center tw-gap-4 justify-content-center flex-wrap"
-                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                        <span class="">Our Customers say <span class="fw-bold tw-ms-2">Great</span>
-                        </span>
-                        <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="img" class="" />
-                        <span class="">4.1 out of 5 based on 16,158 reviews</span>
-                        <div class="d-flex align-items-center tw-gap-05">
-                            <img src="{{asset('assets/images/icons/trustpilot-star.svg')}}" alt="img" />
-                            <span class="fw-bold">Trustpilot</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Search Domain End -->
-
+            <!-- Banner Four End -->
+            
             <!-- About Two Section start -->
-            <section class="about-two py-120 position-relative z-1 overflow-hidden">
+            <section class="about-two pt-120 position-relative z-1 overflow-hidden">
                 <img src="{{asset('assets/images/shapes/squre-box-shape.png')}}" alt="Square shape"
                     class="position-absolute top-50 tw-start-0 tw-ms-128-px animate__wobble__two z-n1 d-lg-block d-none" />
 
@@ -319,7 +72,7 @@
                                 <img src="{{asset('assets/images/shapes/finger-shape.png')}}" alt="Shape"
                                     class="flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1" />
 
-                                <div class="d-flex tw-gap-6 tw-max-h-588-px">
+                                <div class="d-flex tw-gap-6 tw-max-h-666-px">
                                     <!-- First Slider start -->
                                     <div class="swiper overflow-hidden about-two-thumbs-slider-one w-50">
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
@@ -540,1323 +293,418 @@
             </section>
             <!-- About Two Section end -->
 
-            <!-- Hosting plan section start -->
-            <section class="hosting-plan tw-pt-224-px pb-120 position-relative z-1 overflow-hidden">
-                <img src="{{asset('assets/images/shapes/wave-shape.png')}}" alt="Shape"
-                    class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1" />
-                <img src="{{asset('assets/images/shapes/dots-circle-round.png')}}" alt="Shape"
-                    class="position-absolute bottom-0 tw-start-0 tw-ms-80-px scale-animation d-lg-block d-none" />
-
-                <div class="container">
-                    <div class="d-flex align-items-center justify-content-between tw-gap-6 tw-mb-12">
-                        <div class="max-w-724-px">
-                            <div class="bg-neutral-200 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                Up to <span class="text-yellow">70%</span> off managed cloud
-                                hosting
-                            </div>
-                            <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                Pick your perfect
-                                <span class="font-dm-serif fst-italic fw-normal">
-                                    web hosting
-                                </span>
-                                plan. We got'em all.
-                            </h2>
-                        </div>
-                        <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="800">
-                            <a href="{{route('register')}}"
-                                class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium"
-                                data-block="button">
-                                <span class="button__flair"></span>
-                                <span class="button__label">Clients Area</span>
-                            </a>
-                        </div>
+            <!-- seamless integration section Start -->
+            <section class="seamless-integration py-120">
+                <div class="container max-w-1400-px">
+                    <div class="max-w-672-px text-center mx-auto tw-mb-12">
+                        <h3 class="splitTextStyleOne text-heading text-capitalize">
+                            Seamless Integration for enhancing experience
+                        </h3>
+                        <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
+                            Create tasks with various custom statuses
+                            tofocus more on your keep track of the progress
+                            of each why in
+                        </p>
                     </div>
 
-                    <div class="position-relative">
-                        <div class="bg-white common-shadow-seven tw-rounded-2xl overflow-hidden">
-                            <div class="hosting-plan-slider swiper">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide h-100" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                        <div
-                                            class="group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300">
-                                            <div class="">
-                                                <span class="">
-                                                    <img src="{{asset('assets/images/icons/hosting-plan-icon1.png')}}" alt="Icon"
-                                                        class="animate__swing" />
-                                                </span>
-                                                <div class="tw-mt-10">
-                                                    <span class="tw-mb-3 d-block text-heading">
-                                                        <span class="tw-duration-200 group-hover-text-white">Starts at
-                                                        </span>
-                                                        <span
-                                                            class="text-purple tw-duration-200 group-hover-text-yellow fw-bold">$3.75/mo*</span>
-                                                    </span>
-                                                    <h5 class="tw-mb-3 tw-duration-200 group-hover-text-white">
-                                                        Web hosting
-                                                    </h5>
-                                                    <p
-                                                        class="text-neutral-500 tw-text-base line-clamp-2 tw-duration-200 group-hover-text-white">
-                                                        Easy, affordable, and includes a free domain for a
-                                                        year. Score!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-705">
-                                                <a href="javascript:void(0)"
-                                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn"
-                                                    data-block="button">
-                                                    <span class="button__flair"></span>
-                                                    <span class="button__label">Learn more</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide h-100" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="700">
-                                        <div
-                                            class="group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300">
-                                            <div class="">
-                                                <span class="">
-                                                    <img src="{{asset('assets/images/icons/hosting-plan-icon2.png')}}" alt="Icon"
-                                                        class="animate__swing" />
-                                                </span>
-                                                <div class="tw-mt-10">
-                                                    <span class="tw-mb-3 d-block text-heading">
-                                                        <span class="tw-duration-200 group-hover-text-white">Starts at
-                                                        </span>
-                                                        <span
-                                                            class="text-purple tw-duration-200 group-hover-text-yellow fw-bold">$3.75/mo*</span>
-                                                    </span>
-                                                    <h5 class="tw-mb-3 tw-duration-200 group-hover-text-white">
-                                                        WordPress hosting
-                                                    </h5>
-                                                    <p
-                                                        class="text-neutral-500 tw-text-base line-clamp-2 tw-duration-200 group-hover-text-white">
-                                                        Easy, affordable, and includes a free domain for a
-                                                        year. Score!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-705">
-                                                <a href="javascript:void(0)"
-                                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn"
-                                                    data-block="button">
-                                                    <span class="button__flair"></span>
-                                                    <span class="button__label">Learn more</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide h-100" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        <div
-                                            class="group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300">
-                                            <div class="">
-                                                <span class="">
-                                                    <img src="{{asset('assets/images/icons/hosting-plan-icon3.png')}}" alt="Icon"
-                                                        class="animate__swing" />
-                                                </span>
-                                                <div class="tw-mt-10">
-                                                    <span class="tw-mb-3 d-block text-heading">
-                                                        <span class="tw-duration-200 group-hover-text-white">Starts at
-                                                        </span>
-                                                        <span
-                                                            class="text-purple tw-duration-200 group-hover-text-yellow fw-bold">$3.75/mo*</span>
-                                                    </span>
-                                                    <h5 class="tw-mb-3 tw-duration-200 group-hover-text-white">
-                                                        VPS hosting
-                                                    </h5>
-                                                    <p
-                                                        class="text-neutral-500 tw-text-base line-clamp-2 tw-duration-200 group-hover-text-white">
-                                                        Easy, affordable, and includes a free domain for a
-                                                        year. Score!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-705">
-                                                <a href="javascript:void(0)"
-                                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn"
-                                                    data-block="button">
-                                                    <span class="button__flair"></span>
-                                                    <span class="button__label">Learn more</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide h-100" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="900">
-                                        <div
-                                            class="group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300">
-                                            <div class="">
-                                                <span class="">
-                                                    <img src="{{asset('assets/images/icons/hosting-plan-icon4.png')}}" alt="Icon"
-                                                        class="animate__swing" />
-                                                </span>
-                                                <div class="tw-mt-10">
-                                                    <span class="tw-mb-3 d-block text-heading">
-                                                        <span class="tw-duration-200 group-hover-text-white">Starts at
-                                                        </span>
-                                                        <span
-                                                            class="text-purple tw-duration-200 group-hover-text-yellow fw-bold">$3.75/mo*</span>
-                                                    </span>
-                                                    <h5 class="tw-mb-3 tw-duration-200 group-hover-text-white">
-                                                        Dedicated hosting
-                                                    </h5>
-                                                    <p
-                                                        class="text-neutral-500 tw-text-base line-clamp-2 tw-duration-200 group-hover-text-white">
-                                                        Easy, affordable, and includes a free domain for a
-                                                        year. Score!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-705">
-                                                <a href="javascript:void(0)"
-                                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn"
-                                                    data-block="button">
-                                                    <span class="button__flair"></span>
-                                                    <span class="button__label">Learn more</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide h-100" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-                                        <div
-                                            class="group hosting-plan-item tw-ps-48-px tw-pe-4 tw-pt-90-px tw-pb-9 hover-bg-main-600 h-100 d-flex flex-column justify-content-between animation-item tw-duration-300">
-                                            <div class="">
-                                                <span class="">
-                                                    <img src="{{asset('assets/images/icons/hosting-plan-icon2.png')}}" alt="Icon"
-                                                        class="animate__swing" />
-                                                </span>
-                                                <div class="tw-mt-10">
-                                                    <span class="tw-mb-3 d-block text-heading">
-                                                        <span class="tw-duration-200 group-hover-text-white">Starts at
-                                                        </span>
-                                                        <span
-                                                            class="text-purple tw-duration-200 group-hover-text-yellow fw-bold">$3.75/mo*</span>
-                                                    </span>
-                                                    <h5 class="tw-mb-3 tw-duration-200 group-hover-text-white">
-                                                        WordPress hosting
-                                                    </h5>
-                                                    <p
-                                                        class="text-neutral-500 tw-text-base line-clamp-2 tw-duration-200 group-hover-text-white">
-                                                        Easy, affordable, and includes a free domain for a
-                                                        year. Score!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="tw-mt-705">
-                                                <a href="javascript:void(0)"
-                                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white tw-duration-400 group-hover-text-main-two-600 hosting-plan-btn"
-                                                    data-block="button">
-                                                    <span class="button__flair"></span>
-                                                    <span class="button__label">Learn more</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
+                    <div class="border border-neutral-200 tw-rounded-xl common-shadow-sixteen">
+                        <div class="row col-border-wrapper">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon1.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Hubspot Contacts Sync
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-
-                        <div
-                            class="swiper-hosting-button-next tw-w-14 tw-h-14 border border-neutral-200 rounded-circle text-main-600 tw-text-lg d-flex justify-content-center align-items-center hover-bg-main-600 hover-border-main-600 hover-text-white tw-transition tw-duration-200 position-absolute top-50 translate-middle-y tw-z-99 tw-start-100 tw-ms-705">
-                            <i class="ph-bold ph-arrow-right"></i>
-                        </div>
-                        <div
-                            class="swiper-hosting-button-prev tw-w-14 tw-h-14 border border-neutral-200 rounded-circle text-main-600 tw-text-lg d-flex justify-content-center align-items-center hover-bg-main-600 hover-border-main-600 hover-text-white tw-transition tw-duration-200 position-absolute top-50 translate-middle-y tw-z-99 tw-end-100 tw-me-705">
-                            <i class="ph-bold ph-arrow-left"></i>
-                        </div>
-
-                        <div
-                            class="swiper-hosting-pagination d-lg-none d-flex align-items-center justify-content-center tw-mt-605">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon2.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Spotify Online Platform
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon3.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Dropbox Streaming
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon4.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Google Photos Social Medea
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon5.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Zapier Social Media
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon6.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Slack Contacts Sync
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon7.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Shopify Contacts Sync
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                                <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
+                                    <span class="tw-mb-8">
+                                        <img src="{{asset('assets/images/icons/seamless-icon8.png')}}" alt="Icon" />
+                                    </span>
+                                    <h6 class="tw-mb-10 max-w-172-px mx-auto">
+                                        Github integration
+                                    </h6>
+                                    <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
+                                        Build online communities with
+                                        effective audience communication
+                                        with various track
+                                    </p>
+                                    <a href="{{route('intigration.details')}}"
+                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
+                                        See integration
+                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Hosting plan section End -->
+            <!-- seamless integration section End -->
 
-            <!-- degree view Section Start -->
-            <section class="degree-view tw-pt-9">
-                <div class="container">
-                    <div class="max-w-672-px text-center mx-auto tw-mb-12">
-                        <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                            Up to <span class="text-yellow">70%</span> off managed cloud
-                            hosting
-                        </div>
-                        <h2 class="splitTextStyleOne text-heading text-capitalize">
-                            Get a 360-degree <br />
-                            view of your
-                            <span class="font-dm-serif fst-italic fw-normal">cloud</span>
-                            spend
-                        </h2>
-                    </div>
+                    <!-- Roadmap section start -->
+        <section class="py-120 section-bg-one">
+            <div class="container max-w-1440-px">
+                <!-- what we do Start -->
+                <div class="bg-main-two-600 tw-rounded-3xl overflow-hidden position-relative" id="roadmap-section">
+                    <div class="tw-ps-74-px tw-pe-6">
+                        <div class="d-flex flex-xl-nowrap flex-wrap tw-gap-126-px">
+                            <div class="max-w-432-px w-100 flex-shrink-0">
+                                <div class="pt-120 tw-pb-9 position-relative">
+                                    <img src="{{asset('assets/images/shapes/curve-arrow-white.png')}}" alt="Arrow"
+                                        class="position-absolute top-0 tw-end-0 animate__wobble__two" />
 
-                    <div class="row gy-4">
-                        <div class="col-xl-8">
-                            <div class="d-flex common-shadow-eight tw-rounded-3xl bg-white border border-neutral-100 flex-md-row flex-column"
-                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                <div class="tw-rounded-3xl overflow-hidden flex-shrink-0">
-                                    <img src="{{asset('assets/images/thumbs/degree-view-img1.png')}}" alt="Thumb"
-                                        class="w-100 h-100 object-fit-cover" />
-                                </div>
-                                <div class="tw-py-13 tw-pe-8 flex-grow-1 tw-ps-11">
                                     <span
-                                        class="tw-px-6 tw-py-1 bg-purple text-white rounded-pill fw-medium tw-mb-5">Hosting
-                                        at should be</span>
-                                    <h4 class="tw-mb-5">
-                                        Web Hosting that's fast and reliable.
-                                    </h4>
-                                    <p class="text-neutral-500">
-                                        Web hosting provides everything you need to get your idea
-                                        online. From where your website lives in the digital
-                                        world, to where your files and data are securely stored
-                                        find and manage it all in one place.
+                                        class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
+                                        we do</span>
+                                    <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
+                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
+                                    </h3>
+                                    <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
+                                        In today's competitive business,
+                                        the demand for efficient and
+                                        cost-effective IT solutions has
+                                        never been more critical.
                                     </p>
-                                </div>
-                            </div>
-                            <div class="d-flex common-shadow-eight tw-rounded-3xl bg-white border border-neutral-100 flex-md-row flex-column tw-mt-8"
-                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
-                                <div class="tw-rounded-3xl overflow-hidden flex-shrink-0">
-                                    <img src="{{asset('assets/images/thumbs/degree-view-img2.png')}}" alt="Thumb"
-                                        class="w-100 h-100 object-fit-cover" />
-                                </div>
-                                <div class="tw-py-13 tw-pe-8 flex-grow-1 tw-ps-11">
-                                    <h4 class="tw-mb-5">
-                                        <span class="text-purple">SSL</span> certificates help
-                                        secure User's important data.
-                                    </h4>
-                                    <div class="d-flex align-items-center tw-gap-405 tw-mt-8">
-                                        <span
-                                            class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                            <i class="ph-bold ph-magnifying-glass"></i>
-                                        </span>
-                                        <a href="{{route('pricing')}}"
-                                            class="fw-bold tw-text-lg text-heading hover-underline max-w-278-px">Helps your
-                                            website search ranking with https</a>
-                                    </div>
-                                    <div class="tw-mt-8">
-                                        <a href="{{route('pricing')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white group-hover-text-main-two-600 hosting-plan-btn"
-                                            data-block="button">
+                                    <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
+                                        <a href="{{route('register')}}"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800" data-block="button">
                                             <span class="button__flair"></span>
                                             <span class="button__label">Get Started</span>
+                                        </a>
+                                        <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="800">
+                                            <div class="d-flex align-items-center tw-gap-4">
+                                                <div class="d-flex align-items-center">
+                                                    <div
+                                                        class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative z-2">
+                                                        <img src="{{asset('assets/images/thumbs/client-img1.png')}}" alt="Client Image"
+                                                            class="w-100 h-100 object-fit-cover" />
+                                                    </div>
+                                                    <div
+                                                        class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px z-1">
+                                                        <img src="{{asset('assets/images/thumbs/client-img2.png')}}" alt="Client Image"
+                                                            class="w-100 h-100 object-fit-cover" />
+                                                    </div>
+                                                    <div
+                                                        class="tw-w-9 tw-h-9 rounded-circle overflow-hidden tw-duration-300 hover-scale-14 tw-hover-z-9 position-relative tw--ms-10-px">
+                                                        <img src="{{asset('assets/images/thumbs/client-img3.png')}}" alt="Client Image"
+                                                            class="w-100 h-100 object-fit-cover" />
+                                                    </div>
+                                                </div>
+                                                <span class="h5 counter text-white">2.3M+</span>
+                                            </div>
+                                            <p
+                                                class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
+                                                5000+ Client reviews
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex-grow-1">
+                                <div class="d-flex tw-gap-3 flex-wrap">
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-main-600 tw-mt-705">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">01</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon1.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            Brainstorming
+                                        </h6>
+                                    </div>
+
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-dark-deep tw--mt-8-px">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">02</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon2.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            UX <br />
+                                            Research
+                                        </h6>
+                                    </div>
+
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-sky-deep tw-mt-505">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">03</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon3.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            Product Designing
+                                        </h6>
+                                    </div>
+
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-dark-deep tw--mt-28-px">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">04</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon4.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            Front-End Development
+                                        </h6>
+                                    </div>
+
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-dark-deep tw-mt-8">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">05</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon5.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            Usability <br />
+                                            Testing
+                                        </h6>
+                                    </div>
+
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-pink tw--mt-8-px">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">06</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon6.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            Back-End Development
+                                        </h6>
+                                    </div>
+
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-main-600 tw-mt-4">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">07</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon7.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            SEO Optimization
+                                        </h6>
+                                    </div>
+
+                                    <div
+                                        class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-sky-deep tw--mt-28-px">
+                                        <span
+                                            class="tw-h-6 tw-w-6 bg-sky rounded-circle text-white fw-medium tw-text-xs d-flex justify-content-center align-items-center position-absolute top-0 tw-start-0 tw-mt-6 tw-ms-2">08</span>
+                                        <img src="{{asset('assets/images/icons/roadmap-icon8.svg')}}" alt="Icon"
+                                            class="animate__swing" />
+                                        <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
+                                            Digital Marketing
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tw-pb-9">
+                        <img src="{{asset('assets/images/shapes/curve-line.png')}}" alt="" class="w-100" />
+                    </div>
+                </div>
+                <!-- what we do end -->
+
+            </div>
+        </section>
+        <!-- Roadmap section End -->
+
+            <!-- Integrated apps start -->
+            <section class="pt-120 pb-120 overflow-hidden position-relative">
+                <img src="{{asset('assets/images/bg/mash-gradient-bg6.png')}}" alt="Gradient BG"
+                    class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
+
+                <div class="container max-w-1290-px">
+                    <div class="row gy-5 align-items-center flex-wrap-reverse">
+                        <div class="col-xl-6" data-aos="zoom-in" data-aos-anchor-placement="top-bottom"
+                            data-aos-duration="2000">
+                            <div class="position-relative tw-p-12 text-center">
+                                <img src="{{asset('assets/images/shapes/rounded-circle.png')}}" alt="Bg Round" />
+
+                                <img src="{{asset('assets/images/shapes/round-icons-big.png')}}" alt="Icons"
+                                    class="position-absolute top-50 start-50 animation-rotate-right" />
+                                <img src="{{asset('assets/images/shapes/round-icons-small.png')}}" alt="Icons"
+                                    class="position-absolute top-50 start-50 animation-rotate-left" />
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <h3 class="">
+                                        <span class="counter">2</span>k+
+                                    </h3>
+                                    <span class="text-heading">Integration</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="">
+                                <div class="text-start mx-auto tw-mb-12">
+                                    <div class="tw-mb-10">
+                                        <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
+                                            with the world's favorite CRM
+                                        </h4>
+                                        <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
+                                            Simple set up,easy to stay
+                                            organized
+                                        </h2>
+                                        <p
+                                            class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
+                                            Sassly-CRM in the past allowing
+                                            you to focus more on your
+                                            business simply enjoy your
+                                            newfound legal time to reflect
+                                            leaving pen
+                                        </p>
+                                    </div>
+                                    <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="900">
+                                        <a href="{{route('pricing')}}"
+                                            class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
+                                            data-block="button">
+                                            <span class="button__flair"></span>
+                                            <span class="button__label">See all Integrations</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="800">
-                            <div
-                                class="d-flex common-shadow-eight tw-rounded-3xl bg-white border border-neutral-100 flex-column h-100">
-                                <div class="tw-rounded-3xl overflow-hidden flex-shrink-0">
-                                    <img src="{{asset('assets/images/thumbs/degree-view-img3.png')}}" alt="Thumb"
-                                        class="w-100 h-100 object-fit-cover" />
-                                </div>
-                                <div class="tw-py-13 tw-pe-8 flex-grow-1 tw-ps-12">
-                                    <h4 class="tw-mb-5">Give your website a good name</h4>
-                                    <p class="text-neutral-500">
-                                        Web hosting provides everything you need to idea online.
-                                        From where your website lives in the world, to where your
-                                        files and data are securely find and manage it all in one
-                                        place.
-                                    </p>
-                                    <a href="{{route('pricing')}}"
-                                        class="fw-bold tw-text-lg text-heading text-decoration-underline tw-mt-11 hover-text-main-600">Pick
-                                        your Domain Today</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
-            <!-- degree view Section End -->
-
-            <!-- Search Domain Two Start -->
-            <section class="search-domain-two pt-120 tw-pb-10 position-relative z-1">
-                <div class="max-w-1524-px mx-auto tw-pt-5">
-                    <img src="{{asset('assets/images/shapes/border-square.png')}}" alt="Borders"
-                        class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
-
-                    <div class="container">
-                        <div class="row gy-5">
-                            <div class="col-sm-6">
-                                <div class="max-w-444-px mx-auto text-center">
-                                    <div class="common-shadow-eight tw-py-7 tw-px-705 tw-rounded-xl overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/search-domain-img2.png')}}" alt="Thumb"
-                                            class="w-100 h-100 object-fit-cover" />
-                                    </div>
-                                    <div class="tw-mt-605">
-                                        <h5 class="tw-mb-6 line-clamp-2">
-                                            Launching a website is easier with AI
-                                        </h5>
-                                        <a href="{{route('register')}}"
-                                            class="fw-bold tw-text-lg text-decoration-underline text-main-600 hover-text-yellow">Build
-                                            your website today</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="max-w-444-px mx-auto text-center">
-                                    <div class="common-shadow-eight tw-py-7 tw-px-705 tw-rounded-xl overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/search-domain-img1.png')}}" alt="Thumb"
-                                            class="w-100 h-100 object-fit-cover" />
-                                    </div>
-                                    <div class="tw-mt-605">
-                                        <h5 class="tw-mb-6 line-clamp-2">
-                                            Transfer your Domain Today
-                                        </h5>
-                                        <a href="{{route('register')}}"
-                                            class="fw-bold tw-text-lg text-decoration-underline text-main-600 hover-text-yellow">Transfer
-                                            domain</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="container">
-                        <div class="pt-120">
-                            <div class="row gy-4 select-domain-wrapper">
-                                <div class="col-md-5">
-                                    <div class="d-flex tw-gap-305 flex-wrap">
-                                        <button type="button"
-                                            class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
-                                            data-domain=".xyz">
-                                            <img src="{{asset('assets/images/thumbs/search-domain-two-img1.png')}}" alt="Logo"
-                                                class="animate__wobble" />
-                                            <span
-                                                class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
-                                        </button>
-                                        <button type="button"
-                                            class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
-                                            data-domain=".shop">
-                                            <img src="{{asset('assets/images/thumbs/search-domain-two-img2.png')}}" alt="Logo"
-                                                class="animate__wobble" />
-                                            <span
-                                                class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
-                                        </button>
-                                        <button type="button"
-                                            class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
-                                            data-domain=".icu">
-                                            <img src="{{asset('assets/images/thumbs/search-domain-two-img3.png')}}" alt="Logo"
-                                                class="animate__wobble" />
-                                            <span
-                                                class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
-                                        </button>
-                                        <button type="button"
-                                            class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
-                                            data-domain=".site">
-                                            <img src="{{asset('assets/images/thumbs/search-domain-two-img4.png')}}" alt="Logo"
-                                                class="animate__wobble" />
-                                            <span
-                                                class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
-                                        </button>
-                                        <button type="button"
-                                            class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
-                                            data-domain=".in">
-                                            <img src="{{asset('assets/images/thumbs/search-domain-two-img5.png')}}" alt="Logo"
-                                                class="animate__wobble" />
-                                            <span
-                                                class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
-                                        </button>
-                                        <button type="button"
-                                            class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
-                                            data-domain=".gives">
-                                            <img src="{{asset('assets/images/thumbs/search-domain-two-img6.png')}}" alt="Logo"
-                                                class="animate__wobble" />
-                                            <span
-                                                class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-7">
-                                    <div class="ps-lg-5">
-                                        <div class="">
-                                            <span
-                                                class="tw-px-6 tw-py-1 bg-purple text-white rounded-pill fw-medium tw-mb-5">Find
-                                                a new domain</span>
-                                            <h4 class="tw-mb-705">
-                                                Web Hosting that's fast and reliable.
-                                            </h4>
-                                            <p class="text-neutral-500">
-                                                In today's competitive business, the demand for
-                                                efficient In today's competitive cost-effective IT
-                                                solutions has never been more critic. business
-                                            </p>
-                                        </div>
-                                        <form action="#" class="d-flex tw-gap-6 flex-column flex-xl-row tw-mt-8">
-                                            <div class="position-relative flex-grow-1">
-                                                <input type="text"
-                                                    class="tw-py-405 tw-px-705 tw-pe-100-px bg-neutral-100 tw-rounded-xl border-transparent placeholder-neutral-600 placeholder-18-px w-100"
-                                                    placeholder="Enter your desire domain name" required />
-                                                <select
-                                                    class="select-domain form-control form-select w-auto border-0 tw-py-1 tw-pe-305 shadow-none form-select-arrow-end position-absolute tw-end-0 top-50 translate-middle-y bg-transparent tw-me-705 fw-semibold">
-                                                    <option value=".xyz">.xyz</option>
-                                                    <option value=".shop">.shop</option>
-                                                    <option value=".icu">.icu</option>
-                                                    <option value=".site">.site</option>
-                                                    <option value=".in">.in</option>
-                                                    <option value=".gives">.gives</option>
-                                                </select>
-                                            </div>
-                                            <button type="submit"
-                                                class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-py-505 fw-semibold"
-                                                data-block="button">
-                                                <span class="button__flair"></span>
-                                                <span class="button__label">Search</span>
-                                            </button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Search Domain Two End -->
-
-            <!-- Pricing plan section start -->
-            <section class="pricing-plan py-120">
-                <div class="container">
-                    <div class="max-w-672-px text-center mx-auto tw-mb-12">
-                        <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                            Up to <span class="text-yellow">70%</span> off managed cloud
-                            hosting
-                        </div>
-                        <h2 class="splitTextStyleOne text-heading text-capitalize">
-                            Pick your perfect
-                            <span class="font-dm-serif fst-italic fw-normal">plan</span>
-                        </h2>
-                        <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                            In today's competitive business, the demand for efficient In
-                            today's competitive cost-effective IT solutions has never been
-                            more critic. business
-                        </p>
-
-                        <div class="text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="800">
-                            <ul class="animate-background-wrapper z-1 position-relative nav nav-pills active-text-white d-inline-flex bg-white common-shadow-four tw-p-1 rounded-pill mb-0 tw-mt-7"
-                                id="pills-tabTwo" role="tablist">
-                                <li class="background style-two"></li>
-
-                                <li class="nav-item flex-grow-1" role="presentation">
-                                    <button
-                                        class="nav-link w-100 active-scale-094 rounded-pill tw-px-705 tw-py-205 bg-transparent fw-semibold text-neutral-600 hover-text-main-600 h-100 line-clamp-1 active"
-                                        id="pills-Monthly-tab" data-bs-toggle="pill" data-bs-target="#pills-Monthly"
-                                        type="button" role="tab" aria-controls="pills-Monthly"
-                                        aria-selected="true">
-                                        Monthly
-                                    </button>
-                                </li>
-                                <li class="nav-item flex-grow-1" role="presentation">
-                                    <button
-                                        class="nav-link w-100 active-scale-094 rounded-pill tw-px-705 tw-py-205 bg-transparent fw-semibold text-neutral-600 hover-text-main-600 h-100 line-clamp-1"
-                                        id="pills-Annually-tab" data-bs-toggle="pill" data-bs-target="#pills-Annually"
-                                        type="button" role="tab" aria-controls="pills-Annually"
-                                        aria-selected="false">
-                                        Annually
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="tab-content" id="pills-tabTwoContent">
-                        <div class="tab-pane fade show active" id="pills-Monthly" role="tabpanel"
-                            aria-labelledby="pills-Monthly-tab" tabindex="0">
-                            <div class="row gy-4">
-                                <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                    data-aos-duration="600">
-                                    <div
-                                        class="pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600">
-                                        <img src="{{asset('assets/images/shapes/arrow-curve-main.png')}}" alt="Arrow"
-                                            class="position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05" />
-
-                                        <div class="">
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="fw-bold text-heading tw-mb-105">
-                                                    <span class="text-main-600">85%</span> OFF
-                                                </span>
-                                                <h5 class="tw-mb-8">Basic plan</h5>
-                                                <div
-                                                    class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-5">
-                                                    <h2 class="mb-0">
-                                                        $<span class="current-price">1.99</span><span
-                                                            class="tw-text-xl pricing-duration">/Monthly</span>
-                                                    </h2>
-                                                    <div class="form-check form-switch mb-0">
-                                                        <input class="form-check-input pricing-item-toggle"
-                                                            type="checkbox" role="switch" />
-                                                    </div>
-                                                </div>
-                                                <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
-                                            </div>
-
-                                            <a href="{{route('pricing')}}"
-                                                class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
-                                                See Plan & Pricing
-                                            </a>
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="text-heading tw-mt-3">Renews at
-                                                    <span class="text-main-600">$9.88</span>
-                                                    /month</span>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-
-                                                <ul class="feature-list d-flex flex-column tw-gap-6">
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon4.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unmetered bandwidth
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon5.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free SSL certificate
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon6.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free domain included
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon7.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unlimited free SSL
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="tw-mt-12 d-flex justify-content-center">
-                                            <button type="button"
-                                                class="see-all-btn d-flex align-items-center justify-content-center tw-gap-305 text-main-600 fw-bold hover-underline d-lg-flex align-items-center tw-gap-305">
-                                                See all features
-                                                <i class="ph-bold ph-caret-down"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                    data-aos-duration="700">
-                                    <div
-                                        class="pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600">
-                                        <img src="{{asset('assets/images/shapes/arrow-curve-main.png')}}" alt="Arrow"
-                                            class="position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705" />
-
-                                        <div class="">
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="fw-bold text-heading tw-mb-105">
-                                                    <span class="text-main-600">85%</span> OFF
-                                                </span>
-                                                <h5 class="tw-mb-8">Premium plan</h5>
-                                                <div
-                                                    class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-5">
-                                                    <h2 class="mb-0">
-                                                        $<span class="current-price">10.99</span><span
-                                                            class="tw-text-xl pricing-duration">/Monthly</span>
-                                                    </h2>
-                                                    <div class="form-check form-switch mb-0">
-                                                        <input class="form-check-input pricing-item-toggle"
-                                                            type="checkbox" role="switch" />
-                                                    </div>
-                                                </div>
-                                                <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
-                                            </div>
-
-                                            <a href="{{route('pricing')}}"
-                                                class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
-                                                See Plan & Pricing
-                                            </a>
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="text-heading tw-mt-3">Renews at
-                                                    <span class="text-main-600">$9.88</span>
-                                                    /month</span>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-
-                                                <ul class="feature-list d-flex flex-column tw-gap-6">
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon4.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unmetered bandwidth
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon5.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free SSL certificate
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon6.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free domain included
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon7.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unlimited free SSL
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="tw-mt-12 d-flex justify-content-center">
-                                            <button type="button"
-                                                class="see-all-btn d-flex align-items-center justify-content-center tw-gap-305 text-main-600 fw-bold hover-underline d-lg-flex align-items-center tw-gap-305">
-                                                See all features
-                                                <i class="ph-bold ph-caret-down"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6" data-aos="fade-up"
-                                    data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                    <div
-                                        class="pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600">
-                                        <img src="{{asset('assets/images/shapes/arrow-curve-main.png')}}" alt="Arrow"
-                                            class="position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05" />
-
-                                        <div class="">
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="fw-bold text-heading tw-mb-105">
-                                                    <span class="text-main-600">85%</span> OFF
-                                                </span>
-                                                <h5 class="tw-mb-8">Pro plan</h5>
-                                                <div
-                                                    class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-5">
-                                                    <h2 class="mb-0">
-                                                        $<span class="current-price">20.99</span><span
-                                                            class="tw-text-xl pricing-duration">/Monthly</span>
-                                                    </h2>
-                                                    <div class="form-check form-switch mb-0">
-                                                        <input class="form-check-input pricing-item-toggle"
-                                                            type="checkbox" role="switch" />
-                                                    </div>
-                                                </div>
-                                                <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
-                                            </div>
-
-                                            <a href="{{route('pricing')}}"
-                                                class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
-                                                See Plan & Pricing
-                                            </a>
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="text-heading tw-mt-3">Renews at
-                                                    <span class="text-main-600">$9.88</span>
-                                                    /month</span>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-
-                                                <ul class="feature-list d-flex flex-column tw-gap-6">
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon4.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unmetered bandwidth
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon5.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free SSL certificate
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon6.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free domain included
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon7.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unlimited free SSL
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="tw-mt-12 d-flex justify-content-center">
-                                            <button type="button"
-                                                class="see-all-btn d-flex align-items-center justify-content-center tw-gap-305 text-main-600 fw-bold hover-underline d-lg-flex align-items-center tw-gap-305">
-                                                See all features
-                                                <i class="ph-bold ph-caret-down"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-Annually" role="tabpanel"
-                            aria-labelledby="pills-Annually-tab" tabindex="0">
-                            <div class="row gy-4">
-                                <div class="col-xl-4 col-sm-6" data-aos="fade-up"
-                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                    <div
-                                        class="pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600">
-                                        <img src="{{asset('assets/images/shapes/arrow-curve-main.png')}}" alt="Arrow"
-                                            class="position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05" />
-
-                                        <div class="">
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="fw-bold text-heading tw-mb-105">
-                                                    <span class="text-main-600">85%</span> OFF
-                                                </span>
-                                                <h5 class="tw-mb-8">Basic plan</h5>
-                                                <div
-                                                    class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-5">
-                                                    <h2 class="mb-0">
-                                                        $<span class="current-price">19.90</span><span
-                                                            class="tw-text-xl pricing-duration">/Yearly</span>
-                                                    </h2>
-                                                    <div class="form-check form-switch mb-0">
-                                                        <input class="form-check-input pricing-item-toggle"
-                                                            type="checkbox" role="switch" />
-                                                    </div>
-                                                </div>
-                                                <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
-                                            </div>
-
-                                            <a href="{{route('pricing')}}"
-                                                class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
-                                                See Plan & Pricing
-                                            </a>
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="text-heading tw-mt-3">Renews at
-                                                    <span class="text-main-600">$9.88</span>
-                                                    /month</span>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-
-                                                <ul class="feature-list d-flex flex-column tw-gap-6">
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon4.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unmetered bandwidth
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon5.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free SSL certificate
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon6.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free domain included
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon7.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unlimited free SSL
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="tw-mt-12 d-flex justify-content-center">
-                                            <button type="button"
-                                                class="see-all-btn d-flex align-items-center justify-content-center tw-gap-305 text-main-600 fw-bold hover-underline d-lg-flex align-items-center tw-gap-305">
-                                                See all features
-                                                <i class="ph-bold ph-caret-down"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6" data-aos="fade-up"
-                                    data-aos-anchor-placement="top-bottom" data-aos-duration="700">
-                                    <div
-                                        class="pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600">
-                                        <img src="{{asset('assets/images/shapes/arrow-curve-main.png')}}" alt="Arrow"
-                                            class="position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705" />
-
-                                        <div class="">
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="fw-bold text-heading tw-mb-105">
-                                                    <span class="text-main-600">85%</span> OFF
-                                                </span>
-                                                <h5 class="tw-mb-8">Premium plan</h5>
-                                                <div
-                                                    class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-5">
-                                                    <h2 class="mb-0">
-                                                        $<span class="current-price">109.90</span><span
-                                                            class="tw-text-xl pricing-duration">/Yearly</span>
-                                                    </h2>
-                                                    <div class="form-check form-switch mb-0">
-                                                        <input class="form-check-input pricing-item-toggle"
-                                                            type="checkbox" role="switch" />
-                                                    </div>
-                                                </div>
-                                                <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
-                                            </div>
-
-                                            <a href="{{route('pricing')}}"
-                                                class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
-                                                See Plan & Pricing
-                                            </a>
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="text-heading tw-mt-3">Renews at
-                                                    <span class="text-main-600">$9.88</span>
-                                                    /month</span>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-
-                                                <ul class="feature-list d-flex flex-column tw-gap-6">
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon4.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unmetered bandwidth
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon5.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free SSL certificate
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon6.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free domain included
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon7.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unlimited free SSL
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="tw-mt-12 d-flex justify-content-center">
-                                            <button type="button"
-                                                class="see-all-btn d-flex align-items-center justify-content-center tw-gap-305 text-main-600 fw-bold hover-underline d-lg-flex align-items-center tw-gap-305">
-                                                See all features
-                                                <i class="ph-bold ph-caret-down"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6" data-aos="fade-up"
-                                    data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                    <div
-                                        class="pricing-item position-relative border border-neutral-300 tw-p-7 tw-rounded-2xl bg-white bg-white tw-duration-300 hover-border-main-600">
-                                        <img src="{{asset('assets/images/shapes/arrow-curve-main.png')}}" alt="Arrow"
-                                            class="position-absolute tw-end-0 top-0 tw-mt-15 tw-me-16 tw-pe-705 opacity-05" />
-
-                                        <div class="">
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="fw-bold text-heading tw-mb-105">
-                                                    <span class="text-main-600">85%</span> OFF
-                                                </span>
-                                                <h5 class="tw-mb-8">Pro plan</h5>
-                                                <div
-                                                    class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-5">
-                                                    <h2 class="mb-0">
-                                                        $<span class="current-price">209.90</span><span
-                                                            class="tw-text-xl pricing-duration">/Yearly</span>
-                                                    </h2>
-                                                    <div class="form-check form-switch mb-0">
-                                                        <input class="form-check-input pricing-item-toggle"
-                                                            type="checkbox" role="switch" />
-                                                    </div>
-                                                </div>
-                                                <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
-                                            </div>
-
-                                            <a href="{{route('pricing')}}"
-                                                class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
-                                                See Plan & Pricing
-                                            </a>
-                                            <div class="tw-ps-205 tw-pt-205">
-                                                <span class="text-heading tw-mt-3">Renews at
-                                                    <span class="text-main-600">$9.88</span>
-                                                    /month</span>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-
-                                                <ul class="feature-list d-flex flex-column tw-gap-6">
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon4.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unmetered bandwidth
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon5.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free SSL certificate
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon6.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free domain included
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon7.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Unlimited free SSL
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon1.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Single website </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon2.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">One-click WordPress installs
-                                                        </span>
-                                                    </li>
-                                                    <li class="d-flex align-items-center tw-gap-305 fw-medium">
-                                                        <span class="">
-                                                            <img src="{{asset('assets/images/icons/pricing-icon3.svg')}}"
-                                                                alt="img" />
-                                                        </span>
-                                                        <span class="text-heading">Free WordPress website transfer
-                                                        </span>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="tw-mt-12 d-flex justify-content-center">
-                                            <button type="button"
-                                                class="see-all-btn d-flex align-items-center justify-content-center tw-gap-305 text-main-600 fw-bold hover-underline d-lg-flex align-items-center tw-gap-305">
-                                                See all features
-                                                <i class="ph-bold ph-caret-down"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Pricing plan section End -->
-
-            <!-- Services section start -->
+            <!-- Integrated apps End -->
+            
+                        <!-- Services section start -->
             <section class="services py-120 position-relative z-1 gradient-bg-two">
                 <img src="{{asset('assets/images/shapes/rope-shape.png')}}" alt="Rope"
                     class="position-absolute tw-start-0 tw-ms-80-px tw-mt-16 top-0 z-n1" />
@@ -2060,380 +908,6 @@
             </section>
             <!-- Services section End -->
 
-            <div class="overflow-hidden gradient-bg-four">
-                <!-- Brand Marketing Section Start -->
-                <section class="brand-marketing py-120">
-                    <div class="container">
-                        <div class="row gy-5">
-                            <div class="col-md-6">
-                                <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
-                                    <div class="tw-rounded-28-px overflow-hidden h-100">
-                                        <img src="{{asset('assets/images/thumbs/brand-marketing-img.png')}}" alt="Image"
-                                            class="w-100 h-100 object-fit-cover" />
-                                    </div>
-
-                                    <img src="{{asset('assets/images/shapes/finger-shape.png')}}" alt="Shape"
-                                        class="flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1" />
-                                    <span
-                                        class="tw-w-705 tw-h-705 bg-yellow rounded-circle position-absolute tw-end-100 top-0 tw-mt-105-px opacity-50"></span>
-                                    <div
-                                        class="bg-white tw-rounded-lg tw-p-5 max-w-218-px position-absolute tw-start-0 bottom-0 w-100 tw--mt-8-px tw--me-8-px common-shadow-two z-1">
-                                        <div
-                                            class="d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill position-absolute top-0 tw-end-0 tw--mt-12-px tw--me-12-px">
-                                            <span class="text-white fw-bold tw-text-sm">4.9</span>
-                                            <span class="text-white d-flex">
-                                                <img src="{{asset('assets/images/icons/star.svg')}}" alt="img" />
-                                            </span>
-                                        </div>
-                                        <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="img" class="" />
-                                        <div
-                                            class="tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px">
-                                            <span class="tw-text-lg text-heading fw-semibold">Trust pilot</span>
-                                            <img src="{{asset('assets/images/icons/verified-icon.svg')}}" alt="img" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="">
-                                    <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                        Up to <span class="text-yellow">70%</span> off managed
-                                        cloud hosting
-                                    </div>
-                                    <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                        Grow your brand with sass
-                                        <span class="font-dm-serif fst-italic fw-normal">Websites +</span>
-                                        Marketing.
-                                    </h2>
-                                    <p
-                                        class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                        In today's competitive business, the demand for efficient
-                                        In today's competitive cost-effective IT solutions has
-                                        never been more critic. business
-                                    </p>
-
-                                    <div class="tw-mt-11 d-flex flex-column tw-gap-8">
-                                        <div class="d-flex align-items-start tw-gap-5" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                            <span
-                                                class="tw-h-505 tw-w-505 bg-main-600 text-white tw-text-sm d-flex justify-content-center align-items-center rounded-circle tw-mt-105 flex-shrink-0">
-                                                <i class="ph ph-check"></i>
-                                            </span>
-                                            <p class="tw-text-lg fw-medium text-heading max-w-444-px flex-grow-1">
-                                                Secure your files with regular automatic backups and
-                                                two-factor authentication
-                                            </p>
-                                        </div>
-                                        <div class="d-flex align-items-start tw-gap-5" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
-                                            <span
-                                                class="tw-h-505 tw-w-505 bg-main-600 text-white tw-text-sm d-flex justify-content-center align-items-center rounded-circle tw-mt-105 flex-shrink-0">
-                                                <i class="ph ph-check"></i>
-                                            </span>
-                                            <p class="tw-text-lg fw-medium text-heading max-w-444-px flex-grow-1">
-                                                Encrypt your website traffic with unlimited SSL
-                                                security certificates
-                                            </p>
-                                        </div>
-                                        <div class="d-flex align-items-start tw-gap-5" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                            <span
-                                                class="tw-h-505 tw-w-505 bg-main-600 text-white tw-text-sm d-flex justify-content-center align-items-center rounded-circle tw-mt-105 flex-shrink-0">
-                                                <i class="ph ph-check"></i>
-                                            </span>
-                                            <p class="tw-text-lg fw-medium text-heading max-w-444-px flex-grow-1">
-                                                Enjoy full protection from DDoS attacks with
-                                                Cloudflare protected nameservers
-                                            </p>
-                                        </div>
-                                    </div>
-
-                                    <div class="tw-mt-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="900">
-                                        <a href="{{route('register')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Get Started</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Brand Marketing Section End -->
-
-                <!-- Website Owner section start -->
-                <section class="website-owner pb-120 position-relative z-1">
-                    <img src="{{asset('assets/images/shapes/moon-shape.png')}}" alt="Moon Shape"
-                        class="position-absolute top-50 tw-start-50 translate-middle z-n1" />
-
-                    <div class="container">
-                        <div class="d-flex align-items-center justify-content-between tw-gap-6 tw-mb-12">
-                            <div class="max-w-672-px">
-                                <div class="bg-neutral-200 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                    <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">70%</span> off managed cloud
-                                    hosting
-                                </div>
-                                <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                    Trusted by 3+ million website owners
-                                    <span class="font-dm-serif fst-italic fw-normal">
-                                        worldwide
-                                    </span>
-                                </h2>
-                            </div>
-                            <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                data-aos-duration="800">
-                                <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-490-px fw-medium">
-                                    In today's competitive business, the demand for efficient In
-                                    today's competitive cost-effective IT solutions has never
-                                    been more critic.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="row gy-4">
-                            <div class="col-lg-4">
-                                <div class="row gy-4">
-                                    <div class="col-lg-12 col-md-6" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                        <div
-                                            class="common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item">
-                                            <span class="tw-mb-5">
-                                                <img src="{{asset('assets/images/thumbs/website-owner-img1.png')}}" alt="Logo"
-                                                    class="animate__flipInY" />
-                                            </span>
-                                            <div class="">
-                                                <p class="text-neutral-500 tw-text-xl">
-                                                    We get absolutely raving reviews from our sales and
-                                                    customer support teams using close. Even our co-
-                                                    sales founders are very happy. We get absolutely
-                                                    raving reviews from our Even our co- founders are
-                                                    very happy for services
-                                                </p>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="">
-                                                        <h6 class="tw-text-lg tw-mb-205">Rudra Ghosh</h6>
-                                                        <span class="text-neutral-500">
-                                                            Founder & CEO
-                                                            <span class="text-main-600">Dulalix</span>
-                                                        </span>
-                                                    </div>
-                                                    <div
-                                                        class="d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill">
-                                                        <span class="text-white fw-bold tw-text-sm">4.9</span>
-                                                        <span class="text-white d-flex">
-                                                            <img src="{{asset('assets/images/icons/star.svg')}}" alt="img" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-6" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                        <div
-                                            class="common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item">
-                                            <span class="tw-mb-5">
-                                                <img src="{{asset('assets/images/thumbs/website-owner-img2.png')}}" alt="Logo"
-                                                    class="animate__flipInY" />
-                                            </span>
-                                            <div class="">
-                                                <p class="text-neutral-500 tw-text-xl">
-                                                    We get absolutely raving reviews from our sales and
-                                                    customer support teams using close. Even our co
-                                                </p>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="">
-                                                        <h6 class="tw-text-lg tw-mb-205">Rudra Ghosh</h6>
-                                                        <span class="text-neutral-500">
-                                                            Founder & CEO
-                                                            <span class="text-main-600">Dulalix</span>
-                                                        </span>
-                                                    </div>
-                                                    <div
-                                                        class="d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill">
-                                                        <span class="text-white fw-bold tw-text-sm">4.9</span>
-                                                        <span class="text-white d-flex">
-                                                            <img src="{{asset('assets/images/icons/star.svg')}}" alt="img" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="row gy-4">
-                                    <div class="col-lg-12 col-md-6" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="700">
-                                        <div
-                                            class="common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item">
-                                            <span class="tw-mb-5">
-                                                <img src="{{asset('assets/images/thumbs/website-owner-img3.png')}}" alt="Logo"
-                                                    class="animate__flipInY" />
-                                            </span>
-                                            <div class="">
-                                                <p class="text-neutral-500 tw-text-xl">
-                                                    We get absolutely raving reviews from our sales and
-                                                    customer support teams using close. Even our
-                                                    co-founders are very happy.
-                                                </p>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="">
-                                                        <h6 class="tw-text-lg tw-mb-205">Rudra Ghosh</h6>
-                                                        <span class="text-neutral-500">
-                                                            Founder & CEO
-                                                            <span class="text-main-600">Dulalix</span>
-                                                        </span>
-                                                    </div>
-                                                    <div
-                                                        class="d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill">
-                                                        <span class="text-white fw-bold tw-text-sm">4.9</span>
-                                                        <span class="text-white d-flex">
-                                                            <img src="{{asset('assets/images/icons/star.svg')}}" alt="img" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-6" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="700">
-                                        <div
-                                            class="common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item">
-                                            <span class="tw-mb-5">
-                                                <img src="{{asset('assets/images/thumbs/website-owner-img4.png')}}" alt="Logo"
-                                                    class="animate__flipInY" />
-                                            </span>
-                                            <div class="">
-                                                <p class="text-neutral-500 tw-text-xl">
-                                                    We get absolutely raving reviews from our sales and
-                                                    customer support teams using close. Even our co-
-                                                    sales founders are very happy. We get absolutely
-                                                    raving reviews from our
-                                                </p>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="">
-                                                        <h6 class="tw-text-lg tw-mb-205">Rudra Ghosh</h6>
-                                                        <span class="text-neutral-500">
-                                                            Founder & CEO
-                                                            <span class="text-main-600">Dulalix</span>
-                                                        </span>
-                                                    </div>
-                                                    <div
-                                                        class="d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill">
-                                                        <span class="text-white fw-bold tw-text-sm">4.9</span>
-                                                        <span class="text-white d-flex">
-                                                            <img src="{{asset('assets/images/icons/star.svg')}}" alt="img" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="row gy-4">
-                                    <div class="col-lg-12 col-md-6" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        <div
-                                            class="common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item">
-                                            <span class="tw-mb-5">
-                                                <img src="{{asset('assets/images/thumbs/website-owner-img5.png')}}" alt="Logo"
-                                                    class="animate__flipInY" />
-                                            </span>
-                                            <div class="">
-                                                <p class="text-neutral-500 tw-text-xl">
-                                                    We get absolutely raving reviews from our sales and
-                                                    customer support teams using close. Even our co-
-                                                    sales founders are very happy. We get absolutely
-                                                    raving reviews from our Even our co- founders are
-                                                    very happy for services
-                                                </p>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="">
-                                                        <h6 class="tw-text-lg tw-mb-205">Rudra Ghosh</h6>
-                                                        <span class="text-neutral-500">
-                                                            Founder & CEO
-                                                            <span class="text-main-600">Dulalix</span>
-                                                        </span>
-                                                    </div>
-                                                    <div
-                                                        class="d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill">
-                                                        <span class="text-white fw-bold tw-text-sm">4.9</span>
-                                                        <span class="text-white d-flex">
-                                                            <img src="{{asset('assets/images/icons/star.svg')}}" alt="img" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-6" data-aos="fade-up"
-                                        data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        <div
-                                            class="common-shadow-ten tw-rounded-2xl tw-p-10 tw-pe-9 bg-white h-100 animation-item">
-                                            <span class="tw-mb-5">
-                                                <img src="{{asset('assets/images/thumbs/website-owner-img6.png')}}" alt="Logo"
-                                                    class="animate__flipInY" />
-                                            </span>
-                                            <div class="">
-                                                <p class="text-neutral-500 tw-text-xl">
-                                                    We get absolutely raving reviews from our sales and
-                                                    customer support teams using close. Even our compa
-                                                </p>
-                                                <span class="d-block tw-h-px bg-neutral-100 tw-my-6"></span>
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div class="">
-                                                        <h6 class="tw-text-lg tw-mb-205">Rudra Ghosh</h6>
-                                                        <span class="text-neutral-500">
-                                                            Founder & CEO
-                                                            <span class="text-main-600">Dulalix</span>
-                                                        </span>
-                                                    </div>
-                                                    <div
-                                                        class="d-inline-flex align-items-center tw-gap-1 bg-main-600 tw-py-05 tw-px-3 rounded-pill">
-                                                        <span class="text-white fw-bold tw-text-sm">4.9</span>
-                                                        <span class="text-white d-flex">
-                                                            <img src="{{asset('assets/images/icons/star.svg')}}" alt="img" />
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tw-mt-13 text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                            data-aos-duration="900">
-                            <a href="javascript:void(0)"
-                                class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
-                                data-block="button">
-                                <span class="button__flair"></span>
-                                <span class="button__label">Read More Story</span>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                <!-- Website Owner section End -->
-            </div>
-
             <!-- Faq Two Section Start -->
             <section class="faq-two py-120">
                 <div class="container">
@@ -2632,6 +1106,157 @@
                 </div>
             </section>
             <!-- Faq Two Section End -->
+
+             <!-- Task Management Section Start -->
+            <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+                <div class="container">
+                    <div
+                        class="text-end tw--mb-40-px position-relative z-2"
+                    >
+                        <img
+                            src="{{asset('assets/images/thumbs/laptop-man.png')}}"
+                            alt="Image"
+                            class="tw-me-84-px"
+                        />
+                    </div>
+
+                    <div
+                        class="bg-green-deep tw-rounded-3xl bg-green-deep tw-pt-100-px position-relative z-1"
+                    >
+                        <img
+                            src="{{asset('assets/images/shapes/hill-shape.png')}}"
+                            alt="Hill Shape"
+                            class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1"
+                        />
+                        <img
+                            src="{{asset('assets/images/thumbs/task-management-img.png')}}"
+                            alt="Image"
+                            class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none"
+                        />
+
+                        <div
+                            class="tw-mb-8 text-center max-w-570-px mx-auto"
+                        >
+                            <div
+                                class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                                data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="600"
+                            >
+                                <div class="">
+                                    Up to
+                                    <span
+                                        class="text-yellow text-stroke-yellow"
+                                        >70%</span
+                                    >
+                                    off managed cloud hosting
+                                </div>
+                            </div>
+                            <h3 class="splitTextStyleOne text-white">
+                                Ready to revolutionize our service?
+                            </h3>
+
+                            <div class="d-none">
+                                <a
+                                    href="javascript:void(0)"
+                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7"
+                                    data-block="button"
+                                >
+                                    <span class="button__flair"></span>
+                                    <div
+                                        class="d-flex align-items-center tw-gap-2 z-1"
+                                    >
+                                        <span class="button__label"
+                                            >Download for free</span
+                                        >
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-block">
+                                <div
+                                    class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap"
+                                >
+                                    <a
+                                        href="javascript:void(0)"
+                                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                        data-block="button"
+                                    >
+                                        <span class="button__flair"></span>
+                                        <div
+                                            class="d-flex align-items-center tw-gap-2 z-1"
+                                        >
+                                            <span class="button__label"
+                                                >Get Started Trial</span
+                                            >
+                                        </div>
+                                    </a>
+                                    <a
+                                        href="javascript:void(0)"
+                                        class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                                        data-block="button"
+                                    >
+                                        <span class="button__flair"></span>
+                                        <div
+                                            class="d-flex align-items-center tw-gap-2 z-1"
+                                        >
+                                            <span class="button__label"
+                                                >Get Started Trial</span
+                                            >
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tw-pt-8 text-center">
+                            <div
+                                class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6"
+                            >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
+                                    >Project management</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
+                                    >Technology</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
+                                    >Technology</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
+                                    >Project management</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
+                                    >Technology</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
+                                    >Technology</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
+                                    >Project management</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
+                                    >Technology</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
+                                    >Project management</span
+                                >
+                                <span
+                                    class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"
+                                    >Technology</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Task Management Section End -->
 
             <!-- footer area -->
                 @include('frontend.includes.footers.footerOne')

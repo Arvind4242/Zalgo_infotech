@@ -2,12 +2,12 @@
 @section('title', 'Contact Us')
 @section('content')
     <!-- header area -->
-    @include('frontend.includes.headers.headerOne')
+    @include('frontend.includes.headers.headercontact')
     <!-- header area end -->
 
     <div id="smooth-content">
                 <!-- Breadcrumb Start Here -->
-                <section class="breadcrumb section-bg-two mb-0">
+                <!-- <section class="breadcrumb section-bg-two mb-0">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
@@ -28,7 +28,7 @@
                         </div>
                         
                     </div>
-                </section>
+                </section> -->
                 <!-- Breadcrumb End Here -->
 
                 <!-- Contact box section Start -->
@@ -129,7 +129,7 @@
                 <!-- Contact box section End -->
 
                 <!-- Contact Page section start= -->
-                <section class="py-120">
+                <section class="py-120 mt-4">
                     <div class="container">
                         <div class="row gy-5">
                             <div class="col-lg-6">
@@ -379,18 +379,10 @@
                 <!-- Contact Page section End= -->
 
                 <!-- Task Management Section Start -->
-                <section
-                    class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half"
-                >
-                    <div class="container">
-                        <div
-                            class="text-end tw--mb-40-px position-relative z-2"
-                        >
-                            <img
-                                src="{{asset('assets/images/thumbs/laptop-man.png')}}"
-                                alt="Image"
-                                class="tw-me-84-px"
-                            />
+                <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+                    <div class="container"> 
+                        <div class="text-end tw--mb-40-px position-relative z-2">
+                            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px"/>
                         </div>
 
                         <div

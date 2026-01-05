@@ -5,7 +5,7 @@
 <div id="smooth-wrapper">
 
     <!-- Top Header Start -->
-    <div class="bg-main-600 tw-py-205 d-sm-block d-none">
+    <!-- <div class="bg-main-600 tw-py-205 d-sm-block d-none">
         <div class="container">
             <div class="d-flex justify-content-center">
                 <p class="text-white bg-white-13 d-inline-block tw-py-1 tw-px-5 rounded-pill fw-normal">
@@ -13,11 +13,11 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Top Header End -->
 
     <!-- Header Start Here -->
-    <header class="header bg-white transition-all">
+    <header class="bg-white header position-absolute top-0 transition-all w-100 z-1">
         <div class="container container-two">
             <nav class="d-flex align-items-center justify-content-between position-relative">
                 <!-- Logo Start -->
@@ -32,9 +32,6 @@
                 <div class="header-menu d-lg-block d-none">
                     <!-- Nav menu Start -->
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
-                        <li class="nav-menu__item activePage">
-                            <a href="javascript:void(0)" class="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Home</a>
-                        </li>
                         <li class="nav-menu__item">
                             <a href="{{route('about')}}" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> About Us</a>
                         </li>
@@ -50,11 +47,11 @@
                                                 <a href="#">Web &amp; CMS Development</a>
                                             </div>
                                             <ul class="new-header-mega-list-wrap">
-                                                <li><a href="{{route('wordpress.development')}}">WordPress Web Development</a> </li>
-                                                <li><a href="#">PHP Web Development</a></li>
-                                                <li><a href="#">Laravel Web Development</a> </li>
-                                                <li><a href="#">Web API Development</a> </li>
-                                                <li><a href="#">Drupal Development</a> </li>
+                                                <li class="wordpress"><a href="{{route('wordpress.development')}}">WordPress Web Development</a> </li>
+                                                <li class="php"><a href="#">PHP Web Development</a></li>
+                                                <li class="laravel"><a href="#">Laravel Web Development</a> </li>
+                                                <li class="api"><a href="#">Web API Development</a> </li>
+                                                <li class="drupal"><a href="#">Drupal Development</a> </li>
                                             </ul>
                                         </div>
                                         <div class="new-header-mega-menu-about-company menu-list-item-inner">
@@ -62,9 +59,9 @@
                                                 <a href="#">E-Commerce Development</a>
                                             </div>
                                             <ul class="new-header-mega-list-wrap">
-                                                <li><a href="#">Marketplace Development</a></li>
-                                                <li><a href="#">WooCommerce Development</a></li>
-                                                <li><a href="#">Shopify Web Development</a></li>
+                                                <li class="marketplace"><a href="#">Marketplace Development</a></li>
+                                                <li class="woocommerce"><a href="#">WooCommerce Development</a></li>
+                                                <li class="shopify"><a href="#">Shopify Web Development</a></li>
                                             </ul>
                                         </div>
                                         <div class="new-header-mega-menu-about-company menu-list-item-inner">
@@ -89,42 +86,43 @@
                                                 <a href="#">Digital Marketing</a>
                                             </div>
                                             <ul class="new-header-mega-list-wrap">
-                                                <li><a href="#">SEO Services</a></li>
-                                                <li><a href="#">Internet Marketing</a></li>
-                                                <li><a href="#">PPC Services</a></li>
+                                                <li class="seo"><a href="#">SEO Services</a></li>
+                                                <li class="internet-marketing"><a href="#">Internet Marketing</a></li>
+                                                <li class="ppc"><a href="#">PPC Services</a></li>
                                             </ul>
                                         </div>
                                         <div class="new-header-mega-menu-about-company menu-list-item-inner">
                                             <div class="new-header-mega-heading h3"><a href="#">Open Source Development</a></div>
                                             <ul class="new-header-mega-list-wrap">
-                                                <li><a href="#">AngularJS Development Services</a></li>
-                                                <li><a href="#">Node.js Development</a></li>
+                                                <li class="angular"><a href="#">AngularJS Development Services</a></li>
+                                                <li class="node"><a href="#">Node.js Development</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 <div class="new-header-menu-get-touch-inner">
-                                    <div class="h3 new-header-mega-heading">GET IN TOUCH</div>
+                                    <div class="text-white h3 new-header-mega-heading">GET IN TOUCH</div>
                                     <div class="new-header-menu-get-touch-wrap">
                                         <div class="new-header-menu-get-touch-mail"><img src="{{asset('assets/images/Group-1-1.svg')}}" alt="gmail-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner"> 
-                                                    <a class="body-semibold" href="mailto:biz@worldwebtechnology.com">biz@worldwebtechnology.com</a>
-                                                    <a class="body-semibold" href="mailto:career@worldwebtechnology.com">career@worldwebtechnology.com</a></div>
+                                                <a class="text-white body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <a class="text-white body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                            </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
                                             <img src="{{asset('assets/images/phone.svg')}}" alt="phone-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="tel:+917940086872">
-                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 (79) 4008 6872
+                                                <a class="text-white body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
-                                                <a class="body-semibold" href="tel:+16465832776">
-                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +1 646 583 2776
+                                                <a class="text-white body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
-                                            <img src="https://www.worldwebtechnology.com/wp-content/uploads/2025/06/On-hover-Menubar.svg" alt="skype-icon" loading="lazy">
+                                            <img src="{{asset('assets/images/On-hover-Menubar.svg')}}" alt="skype-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="msteams:/l/chat/0/0?users=info@worldwebtechnology.com">worldwebtechnology</a> 
+                                                <a class="text-white body-semibold" href="#">zalgoinfotech</a> 
                                             </div>
                                         </div>
                                     </div>
@@ -164,24 +162,25 @@
                                     <div class="new-header-menu-get-touch-wrap">
                                         <div class="new-header-menu-get-touch-mail"><img src="{{asset('assets/images/Group-1-1.svg')}}" alt="gmail-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner"> 
-                                                    <a class="body-semibold" href="mailto:biz@worldwebtechnology.com">biz@worldwebtechnology.com</a>
-                                                    <a class="body-semibold" href="mailto:career@worldwebtechnology.com">career@worldwebtechnology.com</a></div>
+                                                <a class=" body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <a class=" body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                            </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
                                             <img src="{{asset('assets/images/phone.svg')}}" alt="phone-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="tel:+917940086872">
-                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 (79) 4008 6872
+                                                <a class=" body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
-                                                <a class="body-semibold" href="tel:+16465832776">
-                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +1 646 583 2776
+                                                <a class=" body-semibold" href="tel:+919244213326">
+                                                    <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
-                                            <img src="https://www.worldwebtechnology.com/wp-content/uploads/2025/06/On-hover-Menubar.svg" alt="skype-icon" loading="lazy">
+                                            <img src="{{asset('assets/images/On-hover-Menubar.svg')}}" alt="skype-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class="body-semibold" href="msteams:/l/chat/0/0?users=info@worldwebtechnology.com">worldwebtechnology</a> 
+                                                <a class=" body-semibold" href="#">zalgoinfotech</a> 
                                             </div>
                                         </div>
                                     </div>
@@ -189,13 +188,10 @@
                             </div>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="javascript:void(0)"
+                            <a href="{{route('blog')}}"
                                 class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Blog</a>
                         </li>
-                        <li class="nav-menu__item">
-                            <a href="{{route('contact')}}"
-                                class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100">Contact</a>
-                        </li>
+                       
                     </ul>
                     <!-- Nav menu End  -->
 
