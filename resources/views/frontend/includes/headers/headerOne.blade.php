@@ -5,7 +5,7 @@
 <div id="smooth-wrapper">
 
     <!-- Top Header Start -->
-    <!-- <div class="bg-main-600 tw-py-205 d-sm-block d-none">
+    <div class="bg-main-600 tw-py-205 d-sm-block d-none">
         <div class="container">
             <div class="d-flex justify-content-center">
                 <p class="text-white bg-white-13 d-inline-block tw-py-1 tw-px-5 rounded-pill fw-normal">
@@ -13,11 +13,11 @@
                 </p>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Top Header End -->
 
     <!-- Header Start Here -->
-    <header class="bg-white header position-absolute top-0 transition-all w-100 z-1">
+    <header class="header bg-white transition-all fixed-header">
         <div class="container container-two">
             <nav class="d-flex align-items-center justify-content-between position-relative">
                 <!-- Logo Start -->
@@ -32,8 +32,35 @@
                 <div class="header-menu d-lg-block d-none">
                     <!-- Nav menu Start -->
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
-                        <li class="nav-menu__item">
+                        <li class="nav-menu__item has-submenu position-relative">
                             <a href="{{route('about')}}" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> About Us</a>
+                            <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
+                                <li class="nav-menu__item">
+                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        IT Solution
+                                    </a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        Web Hosting
+                                    </a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        Task Management
+                                    </a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        CRM Software
+                                    </a>
+                                </li>
+                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
+                                        App Landing
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-menu__item activePage">
                             <a href="{{route('industry')}}" class="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Industry</a>
@@ -158,21 +185,21 @@
                                         </div>
                                     </div>
                                 <div class="new-header-menu-get-touch-inner">
-                                    <div class="h3 new-header-mega-heading">GET IN TOUCH</div>
+                                    <div class="text-white h3 new-header-mega-heading">GET IN TOUCH</div>
                                     <div class="new-header-menu-get-touch-wrap">
                                         <div class="new-header-menu-get-touch-mail"><img src="{{asset('assets/images/Group-1-1.svg')}}" alt="gmail-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner"> 
-                                                <a class=" body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
-                                                <a class=" body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <a class="text-white body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <a class="text-white body-semibold" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
                                             </div>
                                         </div>
                                         <div class="new-header-menu-get-touch-mail">
                                             <img src="{{asset('assets/images/phone.svg')}}" alt="phone-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class=" body-semibold" href="tel:+919244213326">
+                                                <a class="text-white body-semibold" href="tel:+919244213326">
                                                     <img src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
-                                                <a class=" body-semibold" href="tel:+919244213326">
+                                                <a class="text-white body-semibold" href="tel:+919244213326">
                                                     <img src="{{asset('assets/images/Group-4.webp')}}" alt="usa-flag" class="site-country-flag" loading="lazy"> +91 9244213326
                                                 </a>
                                             </div>
@@ -180,7 +207,7 @@
                                         <div class="new-header-menu-get-touch-mail">
                                             <img src="{{asset('assets/images/On-hover-Menubar.svg')}}" alt="skype-icon" loading="lazy">
                                             <div class="new-header-menu-get-touch-mail-inner">
-                                                <a class=" body-semibold" href="#">zalgoinfotech</a> 
+                                                <a class="text-white body-semibold" href="#">zalgoinfotech</a> 
                                             </div>
                                         </div>
                                     </div>
