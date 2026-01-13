@@ -8039,7 +8039,6 @@ svg.radial-progress text {
     position: absolute;
     left: 0;
     width: 100%;
-    background: #fff;
     border-radius: 30px;
     top: 74px;
     display: none;
@@ -8069,8 +8068,20 @@ svg.radial-progress text {
     background-repeat: no-repeat;
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: 0;
     background-position: right top;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    right: 0;
+}
+.new-header-mega-menu-wrap-inner.menu-list-item-main {
+    background-image: url(../images/logo-bg.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position-x: 94%;
+    background-color: #fff;
+    background-position-y: center;
 }
 .menu-list-item-inner .new-header-mega-list-wrap li.wordpress:hover:after {
     background-image: url(../images/thumbs/wordpress.jpg);
@@ -8125,6 +8136,7 @@ svg.radial-progress text {
 .new-header-mega-menu-wrap-inner {
     padding: 50px 50px 50px;
     border-bottom: 1px solid #DADADA;
+    background-color: #fff;
 }
 
 .new-header-menu-list-item:hover .new-menu-list-item-link .new-header-menu-list-arrow svg {
@@ -8330,4 +8342,83 @@ li.new-header-menu-list-item .header-content-btn:hover {
 
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill{
     color: #000 !iportant;
+}
+
+
+
+/* Footer CSS */
+
+.site-footer {
+  background: #0f172a;
+  color: #cbd5e1;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 40px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.footer-col h4 {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-col p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.address p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+  color: #38bdf8;
+}
+
+.business-card {
+    display: flex;
+    gap: 12px;
+    background: #020617;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    width: calc(33.33% - 10.6666666667px);
+}
+
+.business-card img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.business-card a {
+  text-decoration: none;
 }

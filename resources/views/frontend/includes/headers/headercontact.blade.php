@@ -5,7 +5,7 @@
 <div id="smooth-wrapper">
 
     <!-- Top Header Start -->
-    <!-- <div class="bg-main-600 tw-py-205 d-sm-block d-none">
+    <div class="bg-main-600 tw-py-205 d-sm-block d-none">
         <div class="container">
             <div class="d-flex justify-content-center">
                 <p class="text-white bg-white-13 d-inline-block tw-py-1 tw-px-5 rounded-pill fw-normal">
@@ -13,11 +13,11 @@
                 </p>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- Top Header End -->
 
     <!-- Header Start Here -->
-    <header class="p-4 header position-absolute top-0 transition-all w-100 z-1">
+    <header class="p-4 header bg-white transition-all fixed-header">
         <div class="container container-two">
             <nav class="d-flex align-items-center justify-content-between position-relative">
                 <!-- Logo Start -->
