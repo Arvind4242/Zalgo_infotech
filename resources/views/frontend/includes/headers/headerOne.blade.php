@@ -7,7 +7,7 @@
     
 
     <!-- Header Start Here -->
-    <header class="header bg-white transition-all fixed-header">
+    <header class="header bg-white transition-all">
 
         <!-- Top Header Start -->
         <div class="bg-main-600 header-top-bar tw-py-205 d-sm-block d-none">

@@ -126,7 +126,7 @@
     --heading-font: "Satoshi", sans-serif;
     --body-font: "Satoshi", sans-serif;
   /* Font Size Variable Start */
-    --heading-one: clamp(2.125rem, -0.0733rem + 5.5vw, 4.4375rem);
+    --heading-one: clamp(2rem, -0.0733rem + 5.5vw, 4rem);
     --heading-two: clamp(1.875rem, 0.7133rem + 2.8846vw, 3.75rem);
     --heading-three: clamp(1.75rem, 0.3353rem + 2.1661vw, 3rem);
     --heading-four: clamp(1.5rem, 0.5569rem + 1.444vw, 1.875rem);
@@ -1242,7 +1242,7 @@ a {
 }
 
 a:hover {
-    color: #1d72f2;
+    color: #006d75;
 }
 
 img {
@@ -8431,4 +8431,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 
 .business-card a {
   text-decoration: none;
+}
+.split-line span {
+    margin-right: 5px;
 }

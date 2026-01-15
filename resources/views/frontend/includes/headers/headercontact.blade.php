@@ -17,7 +17,7 @@
     <!-- Top Header End -->
 
     <!-- Header Start Here -->
-    <header class="p-4 header bg-white transition-all fixed-header">
+    <header class="p-4 header bg-white transition-all">
         <div class="container container-two">
             <nav class="d-flex align-items-center justify-content-between position-relative">
                 <!-- Logo Start -->
