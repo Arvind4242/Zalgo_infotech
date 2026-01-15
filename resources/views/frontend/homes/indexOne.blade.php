@@ -15,31 +15,37 @@
                         <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
                         </span>
-                        <span class="text-heading fw-medium tw-text-base">Perfect solution for success</span>
+                        <span class="text-heading fw-medium tw-text-base">End-to-End IT Services</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
                         <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
                         </span>
-                        <span class="text-heading fw-medium tw-text-base">Excellence in tailored IT Srvices</span>
+                        <span class="text-heading fw-medium tw-text-base">Built for Performance & Growth</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
                         <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
                         </span>
-                        <span class="text-heading fw-medium tw-text-base">Elevate your brand Zalgo Infotech</span>
+                        <span class="text-heading fw-medium tw-text-base">Secure & Reliable Technology</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
                         <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
                         </span>
-                        <span class="text-heading fw-medium tw-text-base">Achieve business golas solution</span>
+                        <span class="text-heading fw-medium tw-text-base">Solutions That Scale</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
                         <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
                         </span>
-                        <span class="text-heading fw-medium tw-text-base">Innnovation in every presence</span>
+                        <span class="text-heading fw-medium tw-text-base">Your Trusted IT Partner</span>
+                    </div>
+                    <div class="d-flex align-items-center tw-gap-4">
+                        <span>
+                            <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
+                        </span>
+                        <span class="text-heading fw-medium tw-text-base">Long-Term Technical Support</span>
                     </div>
                 </div>
             </div>
@@ -106,6 +112,33 @@
                                     <p class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter">
                                         5000+ Client reviews
                                     </p>
+                                </div>
+                                <div class="d-flex align-items-cente flex-wrap row-gap-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                    <div class="d-flex align-items-center tw-gap-305 w-50 " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        </span>
+                                        <span class="text-heading fw-semibold tw-text-base">Paid ChatGPT Integration</span>
+                                    </div>
+                                    <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        </span>
+                                        <span class="text-heading fw-semibold tw-text-base">Geo-Location</span>
+                                    </div>
+                                    <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        </span>
+                                        <span class="text-heading fw-semibold tw-text-base">Multilingual</span>
+                                    </div>
+                                    <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        </span>
+                                        <span class="text-heading fw-semibold tw-text-base">Chat History</span>
+                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -224,49 +257,49 @@
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img1.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/wordpress.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img2.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/woocommerce-logo.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img3.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/laravel.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img4.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/stripe.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img5.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/google-cloud.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img6.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/php.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img7.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/razorpay.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/brand-img3.png')}}" alt="Logo" class="" />
+                            <img src="{{asset('assets/images/thumbs/mysql.svg')}}" alt="Logo" class="w-75" />
                         </div>
                     </div>
                 </div>

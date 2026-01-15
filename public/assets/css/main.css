@@ -3119,6 +3119,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
 }
 
 .line-clamp-2 {
@@ -3127,6 +3128,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
 }
 
 .line-clamp-3 {
@@ -3135,6 +3137,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
 }
 
 .line-clamp-4 {
@@ -3143,6 +3146,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 4;
+    line-clamp: 4;
 }
 
 /* Line Clamp End */
@@ -8341,9 +8345,15 @@ li.new-header-menu-list-item .header-content-btn:hover {
 }
 
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill{
-    color: #000 !iportant;
+    color: #000 !important;
 }
 
+
+/* Header CSS */
+
+.fixed-header .header-top-bar{
+    display: none !important;
+}
 
 
 /* Footer CSS */
@@ -8370,17 +8380,17 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 
 .footer-col h4 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 .footer-col p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
 .address p {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
 }
 
@@ -8396,7 +8406,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .footer-col ul li a {
   color: #cbd5e1;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .footer-col ul li a:hover {
