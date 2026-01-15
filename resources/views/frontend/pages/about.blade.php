@@ -17,24 +17,22 @@
                                     <div class="text-center">
                                         <img src="{{asset('assets/images/logo/favicon-two.png')}}" alt="Favicon" />
                                         <h1 class="tw-mt-405">
-                                            Zalgo Infotech is here to help you
-                                            launch your project!
+                                            Powering businesses with reliable and scalable IT solutions.
                                         </h1>
+                                        <p>Zalgo Infotech partners with global brands to create secure, high-impact digital products.</p>
                                         <div
                                             class="d-flex align-items-center tw-gap-4 justify-content-center tw-mt-12 flex-wrap">
                                             <a href="{{route('register')}}"
                                                 class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn btn-main hover-style-one"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
-                                                <span class="button__label">get started
-                                                    trial</span>
+                                                <span class="button__label">Let’s Talk</span>
                                             </a>
                                             <a href="{{route('register')}}"
                                                 class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn-main-two hover-style-two"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
-                                                <span class="button__label">get started
-                                                    trial</span>
+                                                <span class="button__label">View Services</span>
                                             </a>
                                         </div>
                                     </div>
@@ -118,10 +116,9 @@
                         <img src="{{asset('assets/images/icons/sparkle.png')}}" alt="Icon" />
                     </div>
                     <h3 class="splitTextStyleOne text-capitaliz fw-semibold">
-                        We,ve listed some fascinating
+                        Our Growth, Measured Through Web-Driven Results                        
                         <span class="fw-normal">insights from our</span>
-                        data analytics
-                    </h3>
+                        Powered by technology, performance, and trust                    </h3>
                 </div>
 
                 <div class="row gy-4">
@@ -132,7 +129,7 @@
                             <h3 class="h1">
                                 <span class="counter">20</span><span class="h2">M</span>
                             </h3>
-                            <span class="h6 text-uppercase tw-text-base tw-mt-5">worldwide clients</span>
+                            <span class="h6 text-uppercase tw-text-base tw-mt-5">User Interactions Managed</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -142,7 +139,7 @@
                             <h3 class="h1">
                                 <span class="counter">95</span><span class="h2">%</span>
                             </h3>
-                            <span class="h6 text-uppercase tw-text-base tw-mt-5">worldwide clients</span>
+                            <span class="h6 text-uppercase tw-text-base tw-mt-5">Client Retention Rate</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -152,7 +149,7 @@
                             <h3 class="h1">
                                 <span class="counter">3</span><span class="h2">x</span>
                             </h3>
-                            <span class="h6 text-uppercase tw-text-base tw-mt-5">worldwide clients</span>
+                            <span class="h6 text-uppercase tw-text-base tw-mt-5">Business Growth Enabled</span>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -162,7 +159,7 @@
                             <h3 class="h1">
                                 <span class="counter">99</span><span class="h2">k+</span>
                             </h3>
-                            <span class="h6 text-uppercase tw-text-base tw-mt-5">worldwide clients</span>
+                            <span class="h6 text-uppercase tw-text-base tw-mt-5">Hours of Technical Experience</span>
                         </div>
                     </div>
                 </div>
@@ -176,18 +173,14 @@
                 <div class="d-flex align-items-center justify-content-between flex-wrap tw-gap-6 tw-mb-12">
                     <div class="max-w-532-px">
                         <h3 class="splitTextStyleOne text-capitalize">
-                            It actually work for cloud system based your
-                            app
+                            Reliable web solutions backed by experience, process, and performance
                         </h3>
                     </div>
                     <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                         data-aos-duration="800">
-                        <p
-                            class="splitTextStyleOne text-neutral-500 max-w-490-px fw-medium tw-ps-5 border-start border-app-landing border-2">
-                            Create tasks with various custom statuses to
-                            focus more on your keep track of the
-                            progress of each why in the simply enjoy
-                            process for your business.
+                        <p class="splitTextStyleOne text-neutral-500 max-w-490-px fw-medium tw-ps-5 border-start border-app-landing border-2">
+                            We help businesses build scalable, secure, and high-performance web solutions.
+                            Our approach combines technical expertise, transparent communication, and long-term client support.
                         </p>
                     </div>
                 </div>
@@ -203,12 +196,10 @@
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
-                                Comprehensive Education
+                                Proven Web Expertise
                             </h5>
-                            <p
-                                class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
-                                Web hosting provides everything idea
-                                online. From where your
+                            <p class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                Custom websites and web applications built for performance, security, and scalability.
                             </p>
                         </div>
                     </div>
@@ -222,12 +213,10 @@
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
-                                User-friendly Interface
+                               User-Focused Design
                             </h5>
-                            <p
-                                class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
-                                Web hosting provides everything idea
-                                online. From where your
+                            <p class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                Clean, responsive, and intuitive interfaces that improve engagement and conversions.
                             </p>
                         </div>
                     </div>
@@ -241,12 +230,10 @@
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
-                                Bookkeeping & Cash Flow
+                                Business-Driven Solutions
                             </h5>
-                            <p
-                                class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
-                                Web hosting provides everything idea
-                                online. From where your
+                            <p class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                We develop technology aligned with your business goals, not just code.
                             </p>
                         </div>
                     </div>
@@ -260,12 +247,10 @@
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
-                                Customized reminder alerts
+                                Transparent Process & Support
                             </h5>
-                            <p
-                                class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
-                                Web hosting provides everything idea
-                                online. From where your
+                            <p class="splitTextStyleOne group-hover-text-white fw-medium text-neutral-500 tw-transition tw-duration-200">
+                                Clear timelines, regular updates, and reliable post-delivery support.
                             </p>
                         </div>
                     </div>

@@ -344,7 +344,7 @@
                                             <div class="">
                                                 <h6 class="">99.8%</h6>
                                                 <p class="fw-medium tw-text-sm text-neutral-500">
-                                                    Client satisfaction based on delivery & support experience
+                                                    Client satisfaction
                                                 </p>
                                             </div>
                                         </div>
@@ -1033,52 +1033,19 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div
-                                            class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
-                                            <h6 class="tw-mb-2">
-                                               Transparent Communication
-                                            </h6>
-                                            <p class="text-neutral-500">
-                                                Clear timelines, regular updates, and honest communication—so you’re always informed and in control.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div
-                                            class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
-                                            <h6 class="tw-mb-2">
-                                               Scalable & Future-Ready
-                                            </h6>
-                                            <p class="text-neutral-500">
-                                                Our solutions are built to grow with your business, ensuring long-term performance, flexibility, and adaptability.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="600">
-                                        <div
-                                            class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
-                                            <h6 class="tw-mb-2">
-                                               Dedicated Support
-                                            </h6>
-                                            <p class="text-neutral-500">
-                                                From planning to post-launch support, our team stays committed to your success at every stage.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    
+                                    
+                                    
+                                    <div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div class="d-flex align-items-center tw-gap-505 tw-mt-8" data-aos="fade-up"
-                                data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                <h3 class="h1 text-main-600 d-inline-flex align-items-center tw-gap-4">
-                                    1.3M+
-                                </h3>
-                                <p class="text-main-two-600 fw-medium max-w-228-px">
-                                    Average revenue growth delivered to our successful clients through technology-driven solutions.
-                                </p>
+                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                    <h3 class="h1 text-main-600 d-inline-flex align-items-center tw-gap-4">
+                                        1.3M+
+                                    </h3>
+                                    <p class="text-main-two-600 fw-medium max-w-228-px">
+                                        Average revenue growth delivered to our successful clients through technology-driven solutions.
+                                    </p>
                             </div>
                                     </div>
                                 </div>
