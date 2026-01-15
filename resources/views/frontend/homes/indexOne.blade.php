@@ -12,40 +12,40 @@
             <div class="container">
                 <div class="top-features-slider overflow-hidden left-right-gradient position-relative">
                     <div class="d-flex align-items-center tw-gap-4">
-                        <span>
+                        <!-- <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span>
-                        <span class="text-heading fw-medium tw-text-base">End-to-End IT Services</span>
+                        </span> -->
+                        <span class="text-heading fw-medium tw-text-base">⚙️End-to-End IT Services</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
-                        <span>
+                        <!-- <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span>
-                        <span class="text-heading fw-medium tw-text-base">Built for Performance & Growth</span>
+                        </span> -->
+                        <span class="text-heading fw-medium tw-text-base">🚀 Built for Performance & Growth</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
-                        <span>
+                        <!-- <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span>
-                        <span class="text-heading fw-medium tw-text-base">Secure & Reliable Technology</span>
+                        </span> -->
+                        <span class="text-heading fw-medium tw-text-base">🔐 Secure & Reliable Technology</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
-                        <span>
+                        <!-- <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span>
-                        <span class="text-heading fw-medium tw-text-base">Solutions That Scale</span>
+                        </span> -->
+                        <span class="text-heading fw-medium tw-text-base">🎯 Solutions That Scale</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
-                        <span>
+                        <!-- <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span>
-                        <span class="text-heading fw-medium tw-text-base">Your Trusted IT Partner</span>
+                        </span> -->
+                        <span class="text-heading fw-medium tw-text-base">🤝 Your Trusted IT Partner</span>
                     </div>
                     <div class="d-flex align-items-center tw-gap-4">
-                        <span>
+                        <!-- <span>
                             <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span>
-                        <span class="text-heading fw-medium tw-text-base">Long-Term Technical Support</span>
+                        </span> -->
+                        <span class="text-heading fw-medium tw-text-base">🛠️ Long-Term Technical Support</span>
                     </div>
                 </div>
             </div>
@@ -68,15 +68,12 @@
                                      Your
                                 </span>
                                 <span class="d-inline-block fw-semibold">Business</span>
-                                <span class="d-inline-block fw-semibold"> Through</span>
+                                <span class="d-inline-block fw-semibold"> with AI-Powered </span>
                                 <span class="d-inline-block fw-semibold"> Strategic</span>
                                 <span class="d-inline-block"> IT Solutions</span>
                             </h1>
                             <p class="text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8 splitTextStyleOne">
-                                In today's competitive business, the
-                                demand for efficient and cost-effective
-                                IT solutions has never been more
-                                critical.
+                                We build intelligent AI chatbots and scalable IT solutions that automate customer support, enable multilingual conversations, and drive global growth.
                             </p>
                             <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                 <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
@@ -257,49 +254,49 @@
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/wordpress.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/wordpress.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/woocommerce-logo.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/woocommerce-logo.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/laravel.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/laravel.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/stripe.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/stripe.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/google-cloud.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/google-cloud.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/php.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/php.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/razorpay.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/razorpay.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/mysql.svg')}}" alt="Logo" class="w-75" />
+                            <img src="{{asset('assets/images/thumbs/mysql.svg')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                 </div>
@@ -326,9 +323,7 @@
                                                 88%
                                             </h3>
                                             <p class="text-white tw-text-sm">
-                                                Average revenue growth
-                                                for per successful
-                                                clients
+                                                Average client retention across long-term projects
                                             </p>
                                         </div>
                                     </div>
@@ -349,7 +344,7 @@
                                             <div class="">
                                                 <h6 class="">99.8%</h6>
                                                 <p class="fw-medium tw-text-sm text-neutral-500">
-                                                    Client Satisfaction
+                                                    Client satisfaction
                                                 </p>
                                             </div>
                                         </div>
@@ -371,9 +366,7 @@
                                                 </svg>
                                             </div>
                                             <p class="text-white tw-text-sm tw-mt-5">
-                                                Avarage revenew growth
-                                                for per succesful
-                                                clients
+                                                Projects resulting in measurable performance improvement
                                             </p>
                                         </div>
                                     </div>
@@ -397,18 +390,19 @@
                         <div class="col-lg-6">
                             <div class="common-shadow-three tw-rounded-40-px bg-white tw-ps-56-px tw-pe-6 tw-py-84-px">
                                 <div class="tw-mb-14">
-                                    <span
-                                        class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">About
-                                        Us</span>
+                                    <span class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
+                                        About Zalgo Infotech
+                                    </span>
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104">
-                                        <span class="d-inline-block fw-semibold">Comprehensive</span>
-                                        <span class="d-inline-block">IT</span>
-                                        <span class="d-inline-block fw-semibold">Solution</span>
+                                        <span class="d-inline-block fw-semibold">Driving </span>
+                                        <span class="d-inline-block fw-semibold">Business  </span>
+                                        <span class="d-inline-block">Growth </span>
+                                        <span class="d-inline-block fw-semibold">Through </span>
                                         <span class="d-inline-block">
-                                            Growth
+                                            Reliable 
                                         </span>
                                         <span class="d-inline-block fw-semibold">
-                                            & Efficiency</span>
+                                            IT Solutions</span>
                                     </h3>
                                 </div>
                                 <div class="d-flex flex-column tw-gap-10">
@@ -423,11 +417,7 @@
                                                 Innovation at our core
                                             </h6>
                                             <p class="text-neutral-500 max-w-400-px">
-                                                In today's competitive
-                                                business, the demand for
-                                                efficient cost-effective
-                                                IT solutions has never
-                                                been more critic.
+                                               We don’t just build websites — we craft scalable, future-ready IT solutions tailored to your business goals and industry needs.
                                             </p>
                                         </div>
                                     </div>
@@ -442,11 +432,7 @@
                                                 Simplifying complexity
                                             </h6>
                                             <p class="text-neutral-500 max-w-400-px">
-                                                In today's competitive
-                                                business, the demand for
-                                                efficient cost-effective
-                                                IT solutions has never
-                                                been more critic.
+                                               From development to deployment and maintenance, we manage the technical complexity so you can focus on running and growing your business.
                                             </p>
                                         </div>
                                     </div>
@@ -461,12 +447,7 @@
                                                 Empowering growth.
                                             </h6>
                                             <p class="text-neutral-500 max-w-400-px">
-                                                In today's competitive
-                                                business, the demand for
-                                                efficient cost-effective
-                                                IT solutions has never
-                                                been more critic.
-                                            </p>
+                                               Our solutions are designed to improve performance, enhance security, and support steady business growth without unnecessary overheads.
                                         </div>
                                     </div>
                                 </div>
@@ -494,13 +475,10 @@
                                         class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
                                         we do</span>
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
+                                        <span class="d-inline-block fw-semibold">Our Proven Working Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
-                                        In today's competitive business,
-                                        the demand for efficient and
-                                        cost-effective IT solutions has
-                                        never been more critical.
+                                       A structured, transparent process that helps us deliver reliable, scalable, and performance-driven IT solutions for growing businesses.
                                     </p>
                                     <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                         <a href="{{route('register')}}"
@@ -645,22 +623,21 @@
                 <!-- Global Increase Start -->
                 <div class="pt-120">
                     <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-14 text-center">
-                        <span class="d-inline-block">We Makes Globally
+                        <span class="d-inline-block">Delivering
                         </span>
                         <span class="d-inline-block fw-semibold">
-                             Growth & Increase
+                             Scalable IT Solutions 
                         </span>
-                        <span class="d-inline-block">Revenue</span>
+                        <span class="d-inline-block">That Drive Growth</span>
                     </h3>
                     <div class="d-flex flex-wrap justify-content-center">
                         <div class="tw-min-h-184-px bg-main-600 tw-py-4 tw-px-4 rounded-pill text-center max-w-388-px w-100"
                             data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <h3 class="h1 counter text-white tw-mb-4 fw-medium">
-                                $29k
+                               10+ Years
                             </h3>
                             <p class="text-white max-w-228-px mx-auto">
-                                Average revenue growth for per
-                                successful clients
+                                Industry experience delivering IT solutions
                             </p>
                         </div>
 
@@ -668,23 +645,22 @@
                             data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <h3 class="h1 counter text-white tw-mb-4 fw-medium d-inline-flex align-items-center tw-gap-4">
                                 <img src="{{asset('assets/images/icons/arrow-up-green.svg')}}" alt="" />
-                                88%
+                                90%+
                             </h3>
                             <p class="text-white max-w-194-px">
-                                Average revenue growth for per
-                                successful clients
+                                Client retention across long-term engagements
                             </p>
                         </div>
 
                         <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-388-px w-100 d-flex align-items-center tw-gap-505 justify-content-center"
                             data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
-                                3x
+                                3×
                             </h3>
                             <div class="d-flex align-items-center tw-gap-2">
-                                <span class="text-main-two-600 tw-text-2xl fw-semibold">//</span>
-                                <p class="text-main-two-600 max-w-194-px">
-                                    Faster time to launch
+                                <!-- <span class="text-main-two-600 tw-text-2xl fw-semibold">//</span> -->
+                                <p class="text-main-two-600 max-w-194-px">  
+                                    Project delivery with optimized workflows
                                 </p>
                             </div>
                         </div>
@@ -695,8 +671,7 @@
                                 50%
                             </h3>
                             <p class="text-main-two-600 max-w-194-px">
-                                Effective in financial growth than
-                                before growth
+                                Improvement in operational efficiency
                             </p>
                         </div>
 
@@ -706,7 +681,7 @@
                                 95%
                             </h3>
                             <p class="text-white max-w-228-px mx-auto">
-                                Average positive review
+                                Client satisfaction & positive feedback
                             </p>
                         </div>
 
@@ -717,8 +692,7 @@
                             </h3>
                             <div class="d-flex align-items-center tw-gap-2">
                                 <p class="text-main-two-600 max-w-194-px">
-                                    Average revenue growth for per
-                                    successful clients
+                                    Clients across multiple industries worldwide
                                 </p>
                             </div>
                         </div>
@@ -856,31 +830,31 @@
 
             <div class="container">
                 <div class="tw-mb-8">
-                    <span
-                        class="tw-py-1 tw-px-705 bg-white text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">tech
-                        solution</span>
+                    <span class="tw-py-1 tw-px-705 bg-white text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
+                        Enterprise IT Services
+                    </span>
                     <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
                         <div class="max-w-672-px">
                             <h3 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block fw-semibold">The Complete
+                                <span class="d-inline-block">Technology 
                                 </span>
-                                <span class="d-inline-block">Platform
+                                <span class="d-inline-block fw-semibold">Solutions Built 
                                 </span>
-                                <span class="d-inline-block fw-semibold">To
+                                <span class="d-inline-block">To
                                 </span>
                                 <span class="d-inline-block fw-semibold">
                                     Power
                                 </span>
-                                <span class="d-inline-block fw-semibold">Your
+                                <span class="d-inline-block fw-semibold">Modern 
                                 </span>
-                                <span class="d-inline-block fw-semibold">Operations</span>
+                                <span class="d-inline-block fw-semibold">Businesses</span>
                             </h3>
                         </div>
                         <a href="{{route('register')}}"
                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
                             data-block="button">
                             <span class="button__flair"></span>
-                            <span class="button__label">Sign up Now</span>
+                            <span class="button__label">Get a Free Consultation</span>
                         </a>
                     </div>
                 </div>
@@ -888,9 +862,7 @@
                 <div class="row gy-4">
                     <div class="col-lg-5">
                         <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15">
-                            In today's competitive business, the demand
-                            for efficient and cost-effective IT
-                            solutions has never been more critical.
+                            In today’s competitive business environment, organizations need reliable, scalable, and secure IT solutions to streamline operations and drive sustainable growth.
                         </p>
                         <div class="accordion common-accordion accordion-border-left" id="accordionExample">
                             <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
@@ -908,10 +880,7 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
-                                            We customize our technology
-                                            to fit your specific need
-                                            ensuring the best possible
-                                            outcomes.
+                                            Custom-built IT solutions designed to match your business goals, workflows, and growth roadmap.
                                         </p>
                                     </div>
                                 </div>
@@ -930,10 +899,7 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
-                                            We customize our technology
-                                            to fit your specific need
-                                            ensuring the best possible
-                                            outcomes.
+                                            We leverage modern frameworks and proven technologies to deliver secure, scalable, and high-performance solutions aligned with your business goals.
                                         </p>
                                     </div>
                                 </div>
@@ -953,10 +919,7 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
-                                            We customize our technology
-                                            to fit your specific need
-                                            ensuring the best possible
-                                            outcomes.
+                                           We analyze your business requirements, workflows, and technical challenges to design solutions that deliver measurable results.
                                         </p>
                                     </div>
                                 </div>
@@ -976,10 +939,7 @@
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
-                                            We customize our technology
-                                            to fit your specific need
-                                            ensuring the best possible
-                                            outcomes.
+                                            From smooth deployment to continuous monitoring and support, we ensure your systems remain reliable, optimized, and future-ready.
                                         </p>
                                     </div>
                                 </div>
@@ -1034,26 +994,17 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="ps-lg-5">
-                            <span
-                                class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">Why
-                                Choose Us</span>
+                            <span class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
+                                Why Choose Us</span>
                             <div class="max-w-672-px">
                                 <h3 class="fw-light tw-leading-104 cursor-big tw-mb-9 d-flex gap-2">
                                     <span class="splitTextStyleOne d-inline-block fw-medium">
                                         <span class="fw-semibold">Zalgo Infotech</span>
-                                        makes you a better elevating
-                                        your team's wellness optimizing
-                                        Business
-                                        <span class="fw-semibold">
-                                            Growth.</span>
+                                        helps businesses scale smarter with reliable IT solutions.
                                     </span>
                                 </h3>
                                 <p class="splitTextStyleOne text-neutral-600 max-w-500-px">
-                                    In today's competitive business, the
-                                    demand for efficient and
-                                    cost-effective IT solutions has
-                                    never been more critical.
-                                </p>
+                                    In today’s competitive business landscape, we deliver cost-effective, scalable, and results-driven technology solutions that fuel long-term growth.
                             </div>
 
                             <div class="tw-mt-10">
@@ -1063,14 +1014,10 @@
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
                                             <h6 class="tw-mb-2">
-                                                Expertise &
-                                                Specialization
+                                                Expertise & Specialization
                                             </h6>
                                             <p class="text-neutral-500">
-                                                In today's competitive
-                                                business demand
-                                                cost-effective IT
-                                                solutions has never
+                                                Our team brings deep expertise across modern web technologies, delivering high-quality, secure, and performance-driven solutions.
                                             </p>
                                         </div>
                                     </div>
@@ -1079,29 +1026,31 @@
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
                                             <h6 class="tw-mb-2">
-                                                Expertise &
-                                                Specialization
+                                               Tailored Solutions
                                             </h6>
                                             <p class="text-neutral-500">
-                                                In today's competitive
-                                                business demand
-                                                cost-effective IT
-                                                solutions has never
+                                                We craft customized IT solutions aligned with your business goals, workflows, and scalability needs—never one-size-fits-all.
                                             </p>
                                         </div>
                                     </div>
+                                    
+                                    
+                                    
+                                    <div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="600">
+                                        <div class="d-flex align-items-center tw-gap-505 tw-mt-8" data-aos="fade-up"
+                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                    <h3 class="h1 text-main-600 d-inline-flex align-items-center tw-gap-4">
+                                        1.3M+
+                                    </h3>
+                                    <p class="text-main-two-600 fw-medium max-w-228-px">
+                                        Average revenue growth delivered to our successful clients through technology-driven solutions.
+                                    </p>
+                            </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center tw-gap-505 tw-mt-8" data-aos="fade-up"
-                                data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                <h3 class="h1 text-main-600 d-inline-flex align-items-center tw-gap-4">
-                                    1.3m
-                                </h3>
-                                <p class="text-main-two-600 fw-medium max-w-228-px">
-                                    Average revenue growth for per
-                                    successful clients
-                                </p>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -1570,26 +1519,24 @@
                         <div class="col-md-6">
                             <div class="ps-lg-4 max-w-532-px">
                                 <span
-                                    class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">Have
-                                    A Projects?</span>
+                                    class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">Have a Project?</span>
                                 <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-5 d-flex gap-2">
                                     <span class="d-inline-block fw-semibold">
-                                        <span class="fw-normal">Have</span>
-                                        A Project? Speak With Our
+                                        <span class="fw-normal">Let’s </span>
+                                        Turn Your Idea Into a Scalable 
                                         <span class="fw-normal">
-                                            expert.</span>
+                                            Digital Solution</span>
                                     </span>
                                 </h3>
                                 <p class="text-neutral-600 tw-text-lg splitTextStyleOne">
-                                    Leave your contacts and get a free
-                                    consultation from
+                                    Talk to our experts and get clear guidance, realistic timelines, and a solution tailored to your business goals.
                                 </p>
                                 <a href="{{route('register')}}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Get Started Today</span>
+                                    <span class="button__label">Speak With Our Experts</span>
                                 </a>
                             </div>
                         </div>

@@ -14,8 +14,7 @@
                             88%
                         </h3>
                         <p class="text-neutral-300 max-w-194-px">
-                            Average revenue growth for per
-                            successful clients
+                            Client Retention & Growth Long-term partnerships that deliver results.
                         </p>
                     </div>
                     <div class="max-w-514-px w-100 d-flex align-items-center tw-gap-505" data-aos="fade-up"
@@ -26,8 +25,8 @@
                         </h3>
                         <div class="d-flex align-items-center tw-gap-2">
                             <p class="text-neutral-300 max-w-194-px">
-                                Average revenue growth for per
-                                successful clients
+                                Business Value Created
+                                Across web, eCommerce, and digital platforms.
                             </p>
                         </div>
                     </div>
