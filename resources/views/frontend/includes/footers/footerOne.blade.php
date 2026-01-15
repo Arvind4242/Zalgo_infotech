@@ -203,10 +203,10 @@
             <div class="container container-two">
                 <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                     <p class="text--white text-line-1 fw-normal">
-                        &copy; 2025
-                        <a href="https://themeforest.net/user/wowtheme7"
-                            class="fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9">WowTheme7</a>
-                        - IT Services. All rights reserved.
+                        &copy; 2026
+                        <a href="/"
+                            class="fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9">Zalgo Infotech</a>
+                        . All rights reserved.
                     </p>
                     <ul class="d-flex align-items-center tw-gap-6">
                         <li>
@@ -215,7 +215,7 @@
                                 <span class="text-main-600 d-flex">
                                     <i class="ph-fill ph-facebook-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Facebook</span>
+                                <!-- <span class="tw-text-base">Facebook</span> -->
                             </a>
                         </li>
                         <li>
@@ -224,7 +224,7 @@
                                 <span class="text-main-600 d-flex">
                                     <i class="ph-fill ph-twitter-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Twitter</span>
+                                <!-- <span class="tw-text-base">Twitter</span> -->
                             </a>
                         </li>
                         <li>
@@ -233,7 +233,7 @@
                                 <span class="text-main-600 d-flex">
                                     <i class="ph-fill ph-instagram-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Instagram</span>
+                                <!-- <span class="tw-text-base">Instagram</span> -->
                             </a>
                         </li>
                         <li>
@@ -242,7 +242,7 @@
                                 <span class="text-main-600 d-flex">
                                     <i class="ph-fill ph-pinterest-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Pinterest</span>
+                                <!-- <span class="tw-text-base">Pinterest</span> -->
                             </a>
                         </li>
                     </ul>
