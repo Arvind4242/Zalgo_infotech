@@ -8437,3 +8437,6 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .address .mail {
     margin-left: 30px;
 }
+.why-choose-us > div {
+    width: calc(25% - 12px) !important;
+}

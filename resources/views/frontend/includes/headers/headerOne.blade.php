@@ -35,35 +35,9 @@
                 <div class="header-menu d-lg-block d-none">
                     <!-- Nav menu Start -->
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
-                        <li class="nav-menu__item has-submenu position-relative">
+                        <li class="nav-menu__item  position-relative">
                             <a href="{{route('about')}}" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> About Us</a>
-                            <ul class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
-                                <li class="nav-menu__item">
-                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        IT Solution
-                                    </a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Web Hosting
-                                    </a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        Task Management
-                                    </a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        CRM Software
-                                    </a>
-                                </li>
-                                <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                                    <a href="#" class="nav-submenu__link hover-bg-neutral-200 text-heading fw-semibold w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                                        App Landing
-                                    </a>
-                                </li>
-                            </ul>
+
                         </li>
                         <li class="nav-menu__item activePage">
                             <a href="{{route('industry')}}" class="nav-menu__link  tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Industry</a>
