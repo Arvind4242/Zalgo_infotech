@@ -8417,14 +8417,13 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     display: flex;
     gap: 12px;
     background: #020617;
-    padding: 12px;
+    padding: 19px;
     border-radius: 8px;
     margin-bottom: 12px;
     width: calc(33.33% - 10.6666666667px);
 }
 
 .business-card img {
-  width: 42px;
   height: 42px;
   object-fit: contain;
 }
@@ -8434,4 +8433,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 }
 .split-line span {
     margin-right: 5px;
+}
+.address .mail {
+    margin-left: 30px;
 }
