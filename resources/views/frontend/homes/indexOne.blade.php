@@ -1082,7 +1082,7 @@
                             <div class="position-relative">
                                 <a href="{{route('project.details')}}"
                                     class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
-                                    <img src="{{asset('assets/images/thumbs/show-case-img1.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/Awakeningthegeniuswithin.jpg')}}" alt="Image"
                                         class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                 </a>
                                 <a href="{{route('project.details')}}"
@@ -1107,7 +1107,32 @@
                             <div class="position-relative">
                                 <a href="{{route('project.details')}}"
                                     class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
-                                    <img src="{{asset('assets/images/thumbs/show-case-img2.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/Finance-Manager-Training.jpg')}}" alt="Image"
+                                        class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
+                                </a>
+                                <a href="{{route('project.details')}}"
+                                    class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1">
+                                    <i class="ph-bold ph-arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <div class="tw-mt-8">
+                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <h5 class="text-white tw-mt-1">
+                                    <a href="{{route('project.details')}}"
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Mobile
+                                        Application
+                                        Development</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="600">
+                        <div class="group-item">
+                            <div class="position-relative">
+                                <a href="{{route('project.details')}}"
+                                    class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
+                                    <img src="{{asset('assets/images/thumbs/Bioage.jpg')}}" alt="Image"
                                         class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                 </a>
                                 <a href="{{route('project.details')}}"
@@ -1131,7 +1156,7 @@
                             <div class="position-relative">
                                 <a href="{{route('project.details')}}"
                                     class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
-                                    <img src="{{asset('assets/images/thumbs/show-case-img3.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/Dobramoc.jpg')}}" alt="Image"
                                         class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                 </a>
                                 <a href="{{route('project.details')}}"
@@ -1156,7 +1181,7 @@
                             <div class="position-relative">
                                 <a href="{{route('project.details')}}"
                                     class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
-                                    <img src="{{asset('assets/images/thumbs/show-case-img4.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/Experthe.jpg')}}" alt="Image"
                                         class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                 </a>
                                 <a href="{{route('project.details')}}"
@@ -1180,7 +1205,31 @@
                             <div class="position-relative">
                                 <a href="{{route('project.details')}}"
                                     class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
-                                    <img src="{{asset('assets/images/thumbs/show-case-img3.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/Lifetreeanatomical.jpg')}}" alt="Image"
+                                        class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
+                                </a>
+                                <a href="{{route('project.details')}}"
+                                    class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1">
+                                    <i class="ph-bold ph-arrow-up-right"></i>
+                                </a>
+                            </div>
+                            <div class="tw-mt-8">
+                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <h5 class="text-white tw-mt-1">
+                                    <a href="{{route('project.details')}}"
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Cloud
+                                        Computing System</a>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                        data-aos-duration="600">
+                        <div class="group-item">
+                            <div class="position-relative">
+                                <a href="{{route('project.details')}}"
+                                    class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
+                                    <img src="{{asset('assets/images/thumbs/towelsoutlet.jpg')}}" alt="Image"
                                         class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                 </a>
                                 <a href="{{route('project.details')}}"
@@ -1195,30 +1244,6 @@
                                         class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Mobile
                                         Application
                                         Development</a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-duration="600">
-                        <div class="group-item">
-                            <div class="position-relative">
-                                <a href="{{route('project.details')}}"
-                                    class="w-100 h-100 tw-max-h-410-px overflow-hidden tw-rounded-28-px">
-                                    <img src="{{asset('assets/images/thumbs/show-case-img2.png')}}" alt="Image"
-                                        class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
-                                </a>
-                                <a href="{{route('project.details')}}"
-                                    class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9 position-absolute top-0 tw-end-0 tw-me-8 tw-mt-8 hidden opacity-0 group-hover-item-opacity-1 group-hover-item-visible tw-scale-04 group-hover-item-scale-1">
-                                    <i class="ph-bold ph-arrow-up-right"></i>
-                                </a>
-                            </div>
-                            <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
-                                <h5 class="text-white tw-mt-1">
-                                    <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Cloud
-                                        Computing System</a>
                                 </h5>
                             </div>
                         </div>
