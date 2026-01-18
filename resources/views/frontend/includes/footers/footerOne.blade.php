@@ -215,14 +215,14 @@
                     <p class="text--white text-line-1 fw-normal">
                         &copy; 2026
                         <a href="/"
-                            class="fw-medium text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Zalgo Infotech</a>
+                            class="fw-medium text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Zalgo Infotech Pvt. Ltd.</a>
                         . All rights reserved.
                     </p>
                     <ul class="d-flex align-items-center tw-gap-6">
                         <li>
                             <a href="https://www.facebook.com"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-facebook-logo"></i>
                                 </span>
                                 <!-- <span class="tw-text-base">Facebook</span> -->
@@ -231,7 +231,7 @@
                         <li>
                             <a href="https://www.twitter.com"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-twitter-logo"></i>
                                 </span>
                                 <!-- <span class="tw-text-base">Twitter</span> -->
@@ -240,7 +240,7 @@
                         <li>
                             <a href="https://www.linkedin.com"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-instagram-logo"></i>
                                 </span>
                                 <!-- <span class="tw-text-base">Instagram</span> -->
@@ -248,7 +248,7 @@
                         </li>
                         <li>
                             <a href="https://www.pinterest.com" class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-pinterest-logo"></i>
                                 </span>
                                 <!-- <span class="tw-text-base">Pinterest</span> -->
