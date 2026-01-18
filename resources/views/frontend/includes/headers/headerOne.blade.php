@@ -50,7 +50,7 @@
                                         <div class="mega-col">
 
                                             <a class="mega-item">
-                                                <span class="icon">🏠</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Web Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -58,7 +58,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">🏠</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>CMS Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -66,7 +66,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">🅦</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/react.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>ReactJS Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -74,7 +74,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">🛒</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/shopify.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Shopify Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -85,7 +85,7 @@
                                         <div class="mega-col">
 
                                             <a class="mega-item">
-                                                <span class="icon">W</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/nodejs.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>NodeJS Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -93,7 +93,7 @@
                                             </a>
                                             
                                             <a class="mega-item">
-                                                <span class="icon">W</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>E-commerce Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -101,7 +101,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">W</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/python.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Paython Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -109,7 +109,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">📰</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>AI Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -119,7 +119,7 @@
                                         <!-- Column 3 -->
                                         <div class="mega-col">
                                             <a class="mega-item">
-                                                <span class="icon">💼</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/laravel.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Laravel Development</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -127,7 +127,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">💼</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Maintenance Services</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -135,7 +135,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">⏳</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/seo.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>SEO Services</strong>
                                                     <p>Lorem ipsum dolor</p>
@@ -143,7 +143,7 @@
                                             </a>
 
                                             <a class="mega-item">
-                                                <span class="icon">🎤</span>
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/dm.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Digital Marketing</strong>
                                                     <p>Lorem ipsum dolor</p>
