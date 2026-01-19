@@ -126,7 +126,7 @@
     --heading-font: "Satoshi", sans-serif;
     --body-font: "Satoshi", sans-serif;
   /* Font Size Variable Start */
-    --heading-one: clamp(2.125rem, -0.0733rem + 5.5vw, 4.4375rem);
+    --heading-one: clamp(2rem, -0.0733rem + 5.5vw, 4rem);
     --heading-two: clamp(1.875rem, 0.7133rem + 2.8846vw, 3.75rem);
     --heading-three: clamp(1.75rem, 0.3353rem + 2.1661vw, 3rem);
     --heading-four: clamp(1.5rem, 0.5569rem + 1.444vw, 1.875rem);
@@ -1242,7 +1242,7 @@ a {
 }
 
 a:hover {
-    color: #1d72f2;
+    color: #006d75;
 }
 
 img {
@@ -3119,6 +3119,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 1;
+    line-clamp: 1;
 }
 
 .line-clamp-2 {
@@ -3127,6 +3128,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 2;
+    line-clamp: 2;
 }
 
 .line-clamp-3 {
@@ -3135,6 +3137,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
 }
 
 .line-clamp-4 {
@@ -3143,6 +3146,7 @@ input:focus, input:focus-visible {
     overflow: hidden;
     text-overflow: ellipsis;
     -webkit-line-clamp: 4;
+    line-clamp: 4;
 }
 
 /* Line Clamp End */
@@ -8034,13 +8038,17 @@ svg.radial-progress text {
     position: absolute;
     z-index: 99;
     left: 0;
+    background: #fff;
+    padding: 30px;
+    display: none;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
 .new-header-mega-menu-inner {
     position: absolute;
     left: 0;
     width: 100%;
     border-radius: 30px;
-    top: 74px;
+    top: 96px;
     display: none;
     transition: 1s ease-in-out;
     z-index: 2;
@@ -8241,9 +8249,9 @@ li.has-submenu:hover .new-header-mega-menu-inner {
     display: flex;
 }
 
-.new-header-mega-menu-inner {
+/* .new-header-mega-menu-inner {
     padding: 0;
-}
+} */
 
 nav.new-header-menu-nav {
     padding-top: 24px;
@@ -8341,9 +8349,15 @@ li.new-header-menu-list-item .header-content-btn:hover {
 }
 
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill{
-    color: #000 !iportant;
+    color: #000 !important;
 }
 
+
+/* Header CSS */
+
+.fixed-header .header-top-bar{
+    display: none !important;
+}
 
 
 /* Footer CSS */
@@ -8370,17 +8384,17 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 
 .footer-col h4 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 15px;
 }
 
 .footer-col p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
 }
 
 .address p {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
 }
 
@@ -8396,7 +8410,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .footer-col ul li a {
   color: #cbd5e1;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .footer-col ul li a:hover {
@@ -8406,19 +8420,99 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .business-card {
     display: flex;
     gap: 12px;
-    background: #020617;
-    padding: 12px;
+    background: #161616;
+    padding: 19px;
     border-radius: 8px;
     margin-bottom: 12px;
     width: calc(33.33% - 10.6666666667px);
 }
 
 .business-card img {
-  width: 42px;
   height: 42px;
   object-fit: contain;
 }
 
 .business-card a {
   text-decoration: none;
+}
+.split-line span {
+    margin-right: 5px;
+}
+.address .mail {
+    margin-left: 30px;
+}
+.why-choose-us > div {
+    width: calc(25% - 12px) !important;
+}
+
+
+.mega-inner {
+    display: flex;
+    gap: 40px;
+}
+
+.mega-col {
+    flex: 1;
+}
+
+.mega-col h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.mega-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+    cursor: pointer;
+    color: #201e1e;
+}
+
+.mega-item p {
+    font-size: 13px;
+    color: #666;
+}
+
+.icon {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    background: #006d752b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.mega-card {
+    width: 300px;
+    background: #006d752b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.mega-card h4 {
+    margin-bottom: 15px;
+}
+
+.mega-card ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.mega-card ul li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
 }

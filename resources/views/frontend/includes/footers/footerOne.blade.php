@@ -14,8 +14,7 @@
                             88%
                         </h3>
                         <p class="text-neutral-300 max-w-194-px">
-                            Average revenue growth for per
-                            successful clients
+                            Client Retention & Growth Long-term partnerships that deliver results.
                         </p>
                     </div>
                     <div class="max-w-514-px w-100 d-flex align-items-center tw-gap-505" data-aos="fade-up"
@@ -26,8 +25,8 @@
                         </h3>
                         <div class="d-flex align-items-center tw-gap-2">
                             <p class="text-neutral-300 max-w-194-px">
-                                Average revenue growth for per
-                                successful clients
+                                Business Value Created
+                                Across web, eCommerce, and digital platforms.
                             </p>
                         </div>
                     </div>
@@ -92,10 +91,20 @@
         AI & digital services globally.
       </p>
 
-      <div class="address">
-        <p><strong>🇺🇸 USA</strong><br>+1 917 791 6831</p>
-        <p><strong>🇨🇦 Canada</strong><br>+1 437 887 2290</p>
-        <p><strong>🇮🇳 India</strong><br>+91 99244 312536</p>
+      <div class="address mb-4 mt-4">
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</strong></p>
+        <p><img class="me-1" width="24" src="{{asset('assets/images/phone.svg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+1 917 791 6831</a></p>
+        <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
+      </div>
+      <div class="address mb-4">
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> India Office</strong></p>
+        <p><img class="me-1" width="24" src="{{asset('assets/images/phone.svg')}}" alt="india-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+1 437 887 2290</a></p>
+        <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
+      </div>
+      <div class="address mb-4">
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canda.png')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canda Office</strong></p>
+        <p><img width="24" src="{{asset('assets/images/phone.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+91 99244 312536</a></p>
+        <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
       </div>
     </div>
 
@@ -130,11 +139,12 @@
             <div class="footer-col col-lg-3">
             <h4>Quick Links</h4>
             <ul>
-                <li><a href="#">Hire WordPress Developer</a></li>
-                <li><a href="#">Hire WooCommerce Developer</a></li>
-                <li><a href="#">Hire Laravel Developer</a></li>
-                <li><a href="#">Hire PHP Developer</a></li>
-                <li><a href="#">Hire Full-Stack Developer</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Engagement Models</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Life @Zalgo Infotech</a></li>
+                <li><a href="#">Culture & Values</a></li>
             </ul>
             </div>
 
@@ -159,34 +169,34 @@
 
         <div class="business-card flex-column">
             <div class="business-logo">
-                <img src="edutech.png" alt="">
+                <img src="{{asset('assets/images/logo/zalgo-white.png')}}" alt="">
             </div>
             
             <div class="business-info d-flex flex-column text--white">  
-            <span>EdTech Platform</span>
-            <a href="https://zalgoedutech.com" target="_blank">www.zalgoedutech.com</a>
+            <span>Educational Technology Solutions</span>
+            <a class="text-white" href="https://zalgoedutech.com" target="_blank">www.zalgoedutech.com</a>
             </div>
         </div>
 
         <div class="business-card flex-column">
             <div class="business-logo">
-                <img src="edutech.png" alt="">
+                <img src="{{asset('assets/images/logo/zalgo-white.png')}}" alt="">
             </div>
             
             <div class="business-info d-flex flex-column text--white">  
-            <span>EdTech Platform</span>
-            <a href="https://zalgoedutech.com" target="_blank">www.zalgoedutech.com</a>
+            <span>Advanced IT & E-commerce Product</span>
+            <a class="text-white" href="https://zalgostore.com" target="_blank">www.zalgostore.com</a>
             </div>
         </div>
         
         <div class="business-card flex-column">
             <div class="business-logo">
-                <img src="edutech.png" alt="">
+                <img src="{{asset('assets/images/logo/zalgo-white.png')}}" alt="">
             </div>
             
             <div class="business-info d-flex flex-column text--white">  
-            <span>EdTech Platform</span>
-            <a href="https://zalgoedutech.com" target="_blank">www.zalgoedutech.com</a>
+            <span>IT Services for Indian Businesses</span>
+            <a class="text-white" href="https://zalgoinfotech.in" target="_blank">www.zalgoinfotech.in</a>
             </div>
         </div>
 
@@ -203,46 +213,45 @@
             <div class="container container-two">
                 <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                     <p class="text--white text-line-1 fw-normal">
-                        &copy; 2025
-                        <a href="https://themeforest.net/user/wowtheme7"
-                            class="fw-medium hover-underline hover--translate-y-1 active--translate-y-scale-9">WowTheme7</a>
-                        - IT Services. All rights reserved.
+                        &copy; 2026
+                        <a href="/"
+                            class="fw-medium text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Zalgo Infotech Pvt. Ltd.</a>
+                        . All rights reserved.
                     </p>
                     <ul class="d-flex align-items-center tw-gap-6">
                         <li>
                             <a href="https://www.facebook.com"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-facebook-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Facebook</span>
+                                <!-- <span class="tw-text-base">Facebook</span> -->
                             </a>
                         </li>
                         <li>
                             <a href="https://www.twitter.com"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-twitter-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Twitter</span>
+                                <!-- <span class="tw-text-base">Twitter</span> -->
                             </a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-instagram-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Instagram</span>
+                                <!-- <span class="tw-text-base">Instagram</span> -->
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.pinterest.com"
-                                class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="text-main-600 d-flex">
+                            <a href="https://www.pinterest.com" class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
+                                <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-pinterest-logo"></i>
                                 </span>
-                                <span class="tw-text-base">Pinterest</span>
+                                <!-- <span class="tw-text-base">Pinterest</span> -->
                             </a>
                         </li>
                     </ul>

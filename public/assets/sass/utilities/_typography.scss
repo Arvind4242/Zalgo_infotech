@@ -22,7 +22,7 @@ body {
 p {
   font-weight: 400;
   margin: 0;
-  line-height: 2;
+  line-height: 1.4;
 }
 
 span {
@@ -81,10 +81,10 @@ a {
   display: inline-block;
   transition: 0.2s linear;
   text-decoration: none;
-  color: #0661e9;
+  color: #006d75;
 }
 a:hover {
-  color: #1d72f2;
+  color: #006d75;
 }
 img {
   max-width: 100%;

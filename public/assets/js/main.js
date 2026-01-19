@@ -903,7 +903,7 @@ var planExecuteSlider = new Swiper('.testimonials-three-slider', {
 
     // ========================= Header Sticky Js Start ==============
     $(window).on('scroll', function() {
-      if ($(window).scrollTop() >= 100) {
+      if ($(window).scrollTop() >= 500) {
         $('.header').addClass('fixed-header');
       }
       else {
