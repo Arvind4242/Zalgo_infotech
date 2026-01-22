@@ -126,10 +126,16 @@ class PageController extends Controller
         return view('frontend.pages.hirephpdeveloper', compact('bodyClass'));
     }
 
-      public function wordpressDevelopment()
+    public function wordpressDevelopment()
     {
         $bodyClass = 'home-one';
         return view('frontend.pages.wordpressdevelopment', compact('bodyClass'));
+    }
+
+    public function BioAge()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.bioage', compact('bodyClass'));
     }
 
     // Blog
