@@ -19,8 +19,7 @@
                     </div>
                     <div class="max-w-514-px w-100 d-flex align-items-center tw-gap-505" data-aos="fade-up"
                         data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                        <h3
-                            class="h1 text-white tw-mb-0 fw-medium d-inline-flex align-items-center tw-gap-4 flex-shrink-0">
+                        <h3 class="h1 text-white tw-mb-0 fw-medium d-inline-flex align-items-center tw-gap-4 flex-shrink-0">
                             1.3m
                         </h3>
                         <div class="d-flex align-items-center tw-gap-2">
@@ -58,8 +57,7 @@
                     <!-- <div class="d-flex align-items-center justify-content-center tw-gap-405">
                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                             data-aos-duration="800">
-                            <a href="https://play.google.com/store/apps"
-                                class="hover--translate-y-1 active--translate-y-scale-9">
+                            <a href="https://play.google.com/store/apps" class="hover--translate-y-1 active--translate-y-scale-9">
                                 <img src="{{asset('assets/images/icons/store1.png')}}" alt="img" />
                             </a>
                         </div>
@@ -214,9 +212,8 @@
                 <div class="d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                     <p class="text--white text-line-1 fw-normal">
                         &copy; 2026
-                        <a href="/"
-                            class="fw-medium text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Zalgo Infotech Pvt. Ltd.</a>
-                        . All rights reserved.
+                        <a href="/" class="fw-medium text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Zalgo Infotech Pvt. Ltd.</a>
+                            All rights reserved.
                     </p>
                     <ul class="d-flex align-items-center tw-gap-6">
                         <li>

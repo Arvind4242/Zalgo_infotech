@@ -8351,7 +8351,90 @@ li.new-header-menu-list-item .header-content-btn:hover {
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill{
     color: #000 !important;
 }
+.mega-left {
+  width: 70%;
+}
 
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
+.app-box {
+  background: #f8f8f8;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.app-box:hover {
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.app-box img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.app-box span {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* LINKS */
+.mega-links {
+  display: flex;
+  margin-top: 30px;
+  gap: 60px;
+}
+
+.mega-links ul {
+  list-style: none;
+}
+
+.mega-links li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+/* RIGHT CARD */
+.mega-right {
+  width: 30%;
+  padding-left: 30px;
+  border-left: 1px solid #eee;
+}
+
+.mega-right img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.mega-right h3 {
+  margin-bottom: 10px;
+}
+
+.mega-right p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.btn {
+  display: inline-block;
+  background: #e600a9;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+}
 
 /* Header CSS */
 
