@@ -42,22 +42,22 @@
                             <div class="">
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown one">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img1.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a06.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 two">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img2.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a07.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown three">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img3.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a01.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 four">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img4.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a02.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
@@ -67,7 +67,7 @@
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 six">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img6.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a03.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
@@ -77,12 +77,12 @@
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 eight">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img8.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a04.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown nine">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img9.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a05.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
