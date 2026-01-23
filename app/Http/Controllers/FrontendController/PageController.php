@@ -103,6 +103,66 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.webdesign', compact('bodyClass'));
     }
+    public function webDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.web-development', compact('bodyClass'));
+    }
+     public function ReactJSDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.reactjsdevelopment', compact('bodyClass'));
+    }
+    public function cmsDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.cmsdevelopment', compact('bodyClass'));
+    }
+    public function shopifyDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.shopify', compact('bodyClass'));
+    }
+    public function NodejsDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.nodejs', compact('bodyClass'));
+    }
+    public function ecommerceDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.ecommerce', compact('bodyClass'));
+    }
+     public function pythonDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.python', compact('bodyClass'));
+    }
+    public function aiDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.aidevelopement', compact('bodyClass'));
+    }
+    public function laravelDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.laravel', compact('bodyClass'));
+    }
+    public function maintenanceServices()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.maintenanceservices', compact('bodyClass'));
+    }
+    public function seoServices()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.seoservices', compact('bodyClass'));
+    }
+    public function digitalMarketing()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.digitalservices', compact('bodyClass'));
+    }
 
     
 
@@ -124,12 +184,6 @@ class PageController extends Controller
     {
         $bodyClass = 'home-one';
         return view('frontend.pages.hirephpdeveloper', compact('bodyClass'));
-    }
-
-    public function wordpressDevelopment()
-    {
-        $bodyClass = 'home-one';
-        return view('frontend.pages.wordpressdevelopment', compact('bodyClass'));
     }
 
     public function BioAge()

@@ -55,7 +55,19 @@ Route::controller(PageController::class)->group(function () {
     Route::get('industry', 'industry')->name('industry');
     Route::get('hire', 'hire')->name('hire');
     Route::get('hirephpdeveloper', 'hirePHPdeveloper')->name('hire.php');
-    Route::get('wordpressdevelopment', 'wordpressDevelopment')->name('wordpress.development');
+    Route::get('web-development', 'webDevelopment')->name('web.development');
+    Route::get('cmsdevelopment', 'cmsDevelopment')->name('cms.development');
+    Route::get('reactjsdevelopment', 'ReactJSDevelopment')->name('react.development');
+    Route::get('shopify', 'shopifyDevelopment')->name('shopify.development');
+    Route::get('nodejs', 'NodejsDevelopment')->name('nodejs.development');
+    Route::get('ecommerce', 'ecommerceDevelopment')->name('ecommerce.development');
+    Route::get('python', 'pythonDevelopment')->name('python.development');
+    Route::get('aidevelopement', 'aiDevelopment')->name('ai.development');
+    Route::get('laravel', 'laravelDevelopment')->name('laravel.development');
+    Route::get('maintenanceservices', 'maintenanceServices')->name('maintenanceservices.development');
+    Route::get('seoservices', 'seoServices')->name('seoservices.development');
+    Route::get('digitalservices', 'digitalMarketing')->name('digitalservices.development');
+
     Route::get('bioage', 'BioAge')->name('bioage');
 
     // Blog

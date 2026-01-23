@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Python Development')
+@section('title', 'CMS Development')
 @section('content')
 
     <!-- header area -->
