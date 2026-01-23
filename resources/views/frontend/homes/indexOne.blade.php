@@ -112,26 +112,26 @@
                                 </div>
                                 <div class="d-flex align-items-cente flex-wrap row-gap-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                                     <div class="d-flex align-items-center tw-gap-305 w-50 " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
-                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        <span class="tw-w-7 tw-h-7 btn-main rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text--white ph-bold ph-check"></i>
                                         </span>
                                         <span class="text-heading fw-semibold tw-text-base">Paid ChatGPT Integration</span>
                                     </div>
                                     <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
-                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        <span class="tw-w-7 tw-h-7 btn-main rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text--white ph-bold ph-check"></i>
                                         </span>
                                         <span class="text-heading fw-semibold tw-text-base">Geo-Location</span>
                                     </div>
                                     <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
-                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        <span class="tw-w-7 tw-h-7 btn-main rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text--white ph-bold ph-check"></i>
                                         </span>
                                         <span class="text-heading fw-semibold tw-text-base">Multilingual</span>
                                     </div>
                                     <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
-                                        <span class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                            <i class="text-gradient-teal ph-bold ph-check"></i>
+                                        <span class="tw-w-7 tw-h-7 btn-main rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
+                                            <i class="text--white ph-bold ph-check"></i>
                                         </span>
                                         <span class="text-heading fw-semibold tw-text-base">Chat History</span>
                                     </div>

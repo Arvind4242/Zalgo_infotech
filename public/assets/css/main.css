@@ -393,7 +393,6 @@
     position: relative;
     overflow: hidden;
     border-radius: 6px;
-    z-index: 1;
     transition: 0.2s linear;
 }
 
@@ -8590,7 +8589,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     cursor: pointer;
 }
 
-.btn {
+.has-submenu .btn {
     display: block;
     text-align: center;
     color: #fff;
@@ -8598,4 +8597,15 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     border-radius: 6px;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* Case Study CSS */
+
+.case-study-banner {
+    background: linear-gradient(135deg, #eaffd9 0%, #bfe8b8 45%, #8fcf8a 100%);
+}
+.case-study-banner .case-study-content h1{
+    perspective: 100px;
+    font-size: 56px;
+    line-height: 62px;
 }
