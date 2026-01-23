@@ -693,7 +693,7 @@
             </section>
             <!-- Integrated apps End -->
             
-                        <!-- Services section start -->
+            <!-- Services section start -->
             <section class="services py-120 position-relative z-1 gradient-bg-two">
                 <img src="{{asset('assets/images/shapes/rope-shape.png')}}" alt="Rope"
                     class="position-absolute tw-start-0 tw-ms-80-px tw-mt-16 top-0 z-n1" />
@@ -1232,7 +1232,7 @@
             </section>
             <!-- Faq Two Section End -->
 
-             <!-- Task Management Section Start -->
+            <!-- Task Management Section Start -->
             <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
                 <div class="container">
                     <div
