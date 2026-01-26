@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Web Designs')
+@section('title', 'WordPress Development')
 @section('content')
 
     <!-- header area -->

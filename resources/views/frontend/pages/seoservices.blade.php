@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Python Development')
+@section('title', 'SEO Services')
 @section('content')
 
     <!-- header area -->

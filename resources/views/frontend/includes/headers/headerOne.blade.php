@@ -186,28 +186,28 @@
                                     <div class="align-items-center mega-inner">
                                         <!-- Column 1 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
+                                            <a href="{{route('web.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/domain.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Web Development</strong>
                                                     <p>Custom Websites</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('cms.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>CMS Development</strong>
                                                     <p>Easy Management</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('react.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/react.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>ReactJS Development</strong>
                                                     <p>Modern Frontend</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('shopify.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/shopify.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Shopify Development</strong>
@@ -217,28 +217,28 @@
                                         </div>
                                         <!-- Column 2 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
+                                            <a href="{{route('nodejs.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/nodejs.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>NodeJS Development</strong>
                                                     <p>Scalable Backend</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('ecommerce.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/ecommerce.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>E-commerce Development</strong>
                                                     <p>Online Stores</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('python.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/python.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>python Development</strong>
                                                     <p>Backend Solutions</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('ai.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/ai-processor.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>AI Development</strong>
@@ -248,28 +248,28 @@
                                         </div>
                                         <!-- Column 3 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
+                                            <a href="{{route('laravel.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/laravel.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Laravel Development</strong>
                                                     <p>Secure Applications</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('maintenanceservices.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/maintenance.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Maintenance Services</strong>
                                                     <p>Ongoing Support</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('seoservices.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/seo.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>SEO Services</strong>
                                                     <p>Search Growth</p>
                                                 </div>
                                             </a>
-                                            <a class="mega-item">
+                                            <a href="{{route('digitalservices.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/dm.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Digital Marketing</strong>
@@ -312,7 +312,7 @@
                                                     <a class="text-green" href="#">zalgoinfotech</a>
                                                 </div>
                                             </div>
-                                            <a href="#" class="btn btn-main">Contact Us</a>
+                                            <a href="{{route('web.development')}}" class="btn btn-main">Contact Us</a>
                                         </div>
 
                                     </div>

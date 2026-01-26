@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Web Designs')
+@section('title', 'E-commerce Development')
 @section('content')
 
     <!-- header area -->
@@ -12,12 +12,11 @@
                 <div class="banner-two__inner position-relative">
                     <div class="container">
                         <div class="text-center">
-                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">With the world's favorite
-                                CRM</span>
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable Node.js Development </span>
                             <div class="">
                                 <div class="position-relative d-inline-block">
                                     <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
-                                        The next gen of CRM.
+                                        for High-Performance Applications
                                     </h1>
                                     <div class="text-end svg-line d-sm-block d-none">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="489" height="18"
@@ -31,10 +30,7 @@
                             </div>
                             <p
                                 class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
-                                Sassly-CRM in the past allowing you to focus
-                                more on your business or simply enjoy your
-                                newfound legal time to reflect leaving
-                                pen-and-paper.
+                               We build fast, secure, and scalable Node.js solutions<br> for startups and enterprises worldwide.
                             </p>
 
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
@@ -43,13 +39,13 @@
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Schedule a Demo</span>
+                                    <span class="button__label">Get a Free Consultation</span>
                                 </a>
                                 <a href="javascript:void(0)"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Contact Sales</span>
+                                    <span class="button__label">Request a Quote</span>
                                 </a>
                             </div>
                         </div>
@@ -205,18 +201,16 @@
                                 <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">70%</span> off managed cloud
-                                    hosting
+                                    Up to <span class="text-yellow">90%</span> Faster & Scalable Backend Solutions
                                 </div>
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                    Sasstech makes you a better
-                                    <span class="font-dm-serif fst-italic fw-normal">elevating</span>
-                                    your team's
+                                   Our Node.js Solutions  
+                                    <span class="font-dm-serif fst-italic fw-normal">Power High-Performance</span>
+                                    Digital Products
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                    In today's competitive business, the demand for efficient In
-                                    today's competitive cost-effective IT solutions has never
-                                    been more critic. business
+                                  We build fast, scalable, and secure Node.js applications designed to handle real-time data, 
+                                  high traffic, and complex business logic—helping your product perform flawlessly as you grow.
                                 </p>
 
                                 <div class="tw-mt-8">
@@ -230,7 +224,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Domain</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Event-driven architecture</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -240,8 +234,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Web Hosting ₹
-                                                    79.00/mo</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Scalable microservices</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -251,8 +244,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">SSL
-                                                    Certificates</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Secure APIs</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -262,8 +254,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Professional
-                                                    Email</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Clean & maintainable code</a>
                                             </div>
                                         </div>
                                         <div
@@ -282,7 +273,7 @@
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium"
                                         data-block="button">
                                         <span class="button__flair"></span>
-                                        <span class="button__label">See Plan & Pricing</span>
+                                        <span class="button__label">Talk to Our Experts</span>
                                     </a>
                                 </div>
                             </div>
@@ -298,69 +289,68 @@
                 <div class="container max-w-1400-px">
                     <div class="max-w-672-px text-center mx-auto tw-mb-12">
                         <h3 class="splitTextStyleOne text-heading text-capitalize">
-                            Seamless Integration for enhancing experience
+                           Seamless Integrations That Enhance Digital Experiences
                         </h3>
                         <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
-                            Create tasks with various custom statuses
-                            tofocus more on your keep track of the progress
-                            of each why in
+                            We connect your systems, tools, and platforms into a unified ecosystem—ensuring smooth data flow, better performance, and scalable growth.
                         </p>
                     </div>
 
                     <div class="border border-neutral-200 tw-rounded-xl common-shadow-sixteen">
                         <div class="row col-border-wrapper">
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon1.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Hubspot Contacts Sync
+                                        Custom Development
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build online communities with
-                                        effective audience communication
-                                        with various track
+                                        We design and develop custom web and 
+                                        software solutions tailored to your 
+                                        business requirements, ensuring flexibility, 
+                                        performance, and long-term scalability.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
+                                       Explore Custom Solutions
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon2.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Spotify Online Platform
+                                        API development
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build online communities with
-                                        effective audience communication
-                                        with various track
+                                        Build secure, high-performance APIs 
+                                        that enable seamless communication between 
+                                        applications, platforms, and services.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
+                                        View API Services
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon3.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Dropbox Streaming
+                                        Third-party integrations
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build online communities with
-                                        effective audience communication
-                                        with various track
+                                        We integrate CRMs, payment gateways, 
+                                        analytics, and cloud services to 
+                                        streamline operations and improve efficiency.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -369,27 +359,27 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon4.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Google Photos Social Medea
+                                         Maintenance & support
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build online communities with
-                                        effective audience communication
-                                        with various track
+                                        Ongoing monitoring, updates, and 
+                                        technical support to keep your 
+                                        systems secure, fast, and running smoothly.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
+                                        Get Support
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
                             </div>
-                            <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon5.png')}}" alt="Icon" />
@@ -409,7 +399,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon6.png')}}" alt="Icon" />
@@ -429,7 +419,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon7.png')}}" alt="Icon" />
@@ -449,7 +439,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon8.png')}}" alt="Icon" />
@@ -704,7 +694,7 @@
             </section>
             <!-- Integrated apps End -->
             
-                        <!-- Services section start -->
+            <!-- Services section start -->
             <section class="services py-120 position-relative z-1 gradient-bg-two">
                 <img src="{{asset('assets/images/shapes/rope-shape.png')}}" alt="Rope"
                     class="position-absolute tw-start-0 tw-ms-80-px tw-mt-16 top-0 z-n1" />
@@ -732,8 +722,8 @@
                     </div>
 
                     <div class="service-slider swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide tw-pb-105" data-aos="fade-up"
+                        <div class="d-flex flex-wrap gap-3 swiper-wrapper1 why-choose-us">
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                 <div
                                     class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -766,7 +756,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide tw-pb-105" data-aos="fade-up"
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                                 <div
                                     class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -799,7 +789,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide tw-pb-105" data-aos="fade-up"
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                 <div
                                     class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -832,7 +822,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide tw-pb-105" data-aos="fade-up"
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="900">
                                 <div
                                     class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -865,7 +855,106 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide tw-pb-105" data-aos="fade-up"
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                                <div
+                                    class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
+                                    <div
+                                        class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
+                                        <span class="tw-mb-13 group-hover-item-text-invert">
+                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                                class="animate__heartBeat" />
+                                        </span>
+                                        <div class="">
+                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <span
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
+                                                    Invoicing</span>
+                                            </div>
+                                            <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
+                                                Live and kicking. 24/7.
+                                            </h5>
+                                            <p
+                                                class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
+                                                Web hosting provides everything you idea online. From
+                                                where your website
+                                            </p>
+                                            <a href="javascript:void(0)"
+                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
+                                                Learn More
+                                                <i class="ph ph-arrow-right tw-text-sm"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                                <div
+                                    class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
+                                    <div
+                                        class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
+                                        <span class="tw-mb-13 group-hover-item-text-invert">
+                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                                class="animate__heartBeat" />
+                                        </span>
+                                        <div class="">
+                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <span
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
+                                                    Invoicing</span>
+                                            </div>
+                                            <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
+                                                Live and kicking. 24/7.
+                                            </h5>
+                                            <p
+                                                class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
+                                                Web hosting provides everything you idea online. From
+                                                where your website
+                                            </p>
+                                            <a href="javascript:void(0)"
+                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
+                                                Learn More
+                                                <i class="ph ph-arrow-right tw-text-sm"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
+                                data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                                <div
+                                    class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
+                                    <div
+                                        class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
+                                        <span class="tw-mb-13 group-hover-item-text-invert">
+                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                                class="animate__heartBeat" />
+                                        </span>
+                                        <div class="">
+                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <span
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
+                                                    Invoicing</span>
+                                            </div>
+                                            <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
+                                                Live and kicking. 24/7.
+                                            </h5>
+                                            <p
+                                                class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
+                                                Web hosting provides everything you idea online. From
+                                                where your website
+                                            </p>
+                                            <a href="javascript:void(0)"
+                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
+                                                Learn More
+                                                <i class="ph ph-arrow-right tw-text-sm"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                                 <div
                                     class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -901,9 +990,9 @@
                         </div>
                     </div>
 
-                    <div
+                    <!-- <div
                         class="service-slider-pagination pagination-style-two d-lg-non d-flex align-items-center justify-content-center tw-mt-605">
-                    </div>
+                    </div> -->
                 </div>
             </section>
             <!-- Services section End -->
@@ -1107,7 +1196,7 @@
             </section>
             <!-- Faq Two Section End -->
 
-             <!-- Task Management Section Start -->
+            <!-- Task Management Section Start -->
             <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
                 <div class="container">
                     <div
