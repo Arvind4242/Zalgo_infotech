@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'E-commerce Development')
+@section('title', 'WordPress Development')
 @section('content')
 
     <!-- header area -->
@@ -23,7 +23,7 @@
                                             viewBox="0 0 489 18" fill="none">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
                                                 d="M207.684 1.72387C184.71 2.31462 162.007 3.04101 139.867 3.83514C108.526 4.95854 77.1964 6.12068 46.056 7.96073C36.2537 8.5418 26.2994 8.90979 16.5584 9.63613C10.4436 10.0913 2.33552 10.7401 1.27144 10.8757C0.714878 10.9531 0.472071 11.0695 0.393613 11.1082C-0.158042 11.3794 -0.0573853 11.6407 0.253993 11.8441C0.379035 11.9313 0.695229 12.1444 1.57297 12.1735C60.274 14.1588 120.299 10.285 179.071 9.87824C280.993 9.18096 386.003 11.9507 487.115 17.9938C487.998 18.0423 488.856 17.8001 488.979 17.4418C489.126 17.0931 488.489 16.7542 487.606 16.7057C386.322 10.6529 281.14 7.87347 179.022 8.58044C124.249 8.95813 68.3944 12.3575 13.5451 11.1953C14.8053 11.0985 16.0411 11.0016 17.1689 10.9144C26.8707 10.1881 36.7833 9.8298 46.5464 9.24873C77.6205 7.40868 108.886 6.24654 140.186 5.13282C179.022 3.73826 219.55 2.53737 260.397 1.97567C275.01 2.06283 289.574 2.15003 304.137 2.25656C335.643 2.48899 367.296 3.16691 398.728 4.07725C408.192 4.3581 417.656 4.64861 427.12 4.9004C430.258 4.98757 438.349 5.23932 439.477 5.21995C440.875 5.20058 441.144 4.73577 441.169 4.65829C441.242 4.48397 441.193 4.24185 440.507 4.03847C440.433 4.00942 439.992 3.91251 439.011 3.85441C381.86 0.426099 320.834 -0.145196 260.446 0.677985C196.749 0.319659 132.806 0.164636 69.2697 0C68.3601 0 67.6172 0.290577 67.6098 0.648903C67.6049 1.00723 68.338 1.29782 69.2476 1.3075C115.253 1.42371 161.492 1.53986 207.684 1.72387Z"
-                                                fill="#FF7E3E" />
+                                                fill="#006d75" />
                                         </svg>
                                     </div>
                                 </div>
@@ -301,7 +301,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/seamless-icon1.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                         Custom Development
@@ -322,7 +322,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/seamless-icon2.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                         API development
@@ -342,7 +342,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/seamless-icon3.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                         Third-party integrations
@@ -362,7 +362,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/seamless-icon4.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                          Maintenance & support
@@ -465,7 +465,7 @@
             </section>
             <!-- seamless integration section End -->
 
-                    <!-- Roadmap section start -->
+            <!-- Roadmap section start -->
         <section class="py-120 section-bg-one">
             <div class="container max-w-1440-px">
                 <!-- what we do Start -->
@@ -645,15 +645,15 @@
                             <div class="position-relative tw-p-12 text-center">
                                 <img src="{{asset('assets/images/shapes/rounded-circle.png')}}" alt="Bg Round" />
 
-                                <img src="{{asset('assets/images/shapes/round-icons-big.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/icons-7.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-right" />
-                                <img src="{{asset('assets/images/shapes/round-icons-small.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/icons-3.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">
-                                        <span class="counter">2</span>k+
+                                        <span class="counter">99.9</span>%
                                     </h3>
-                                    <span class="text-heading">Integration</span>
+                                    <span class="text-heading">Performance <br>Optimized APIs</span>
                                 </div>
                             </div>
                         </div>
@@ -662,19 +662,18 @@
                                 <div class="text-start mx-auto tw-mb-12">
                                     <div class="tw-mb-10">
                                         <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
-                                            with the world's favorite CRM
+                                            With High-Performance Node.js Development
                                         </h4>
                                         <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
-                                            Simple set up,easy to stay
-                                            organized
+                                            Fast, Scalable & Secure
+                                            Node.js Backend Solutions
                                         </h2>
                                         <p
                                             class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                            Sassly-CRM in the past allowing
-                                            you to focus more on your
-                                            business simply enjoy your
-                                            newfound legal time to reflect
-                                            leaving pen
+                                            We build high-performance Node.js applications 
+                                            that are fast, scalable, and future-ready.
+                                            Our expert developers create real-time, API-driven, and 
+                                            microservice-based solutions designed to handle high traffic with ease.
                                         </p>
                                     </div>
                                     <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -683,7 +682,7 @@
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
                                             data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">See all Integrations</span>
+                                            <span class="button__label">Talk to Node.js Experts</span>
                                         </a>
                                     </div>
                                 </div>
@@ -706,18 +705,15 @@
                         <div class="bg-white-06 tw-py-3 tw-px-305 rounded-pill text-white fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max aos-init aos-animate"
                             data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                            Up to <span class="text-yellow">70%</span> off managed cloud
-                            hosting
+                            Why Zalgo Infotech
                         </div>
                         <h2 class="splitTextStyleOne text-white">
-                            Speed.
+                            Powering Modern Applications
                             <span class="font-dm-serif fst-italic fw-normal">
-                                Reliability</span>. Efficiency.
+                                With Node.js</span>. Expertise
                         </h2>
                         <p class="text-neutral-300 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                            In today's competitive business, the demand for efficient In
-                            today's competitive cost-effective IT solutions has never been
-                            more critic. business
+                            Our Node.js solutions are designed for speed, scalability, and security—ensuring seamless performance for startups and enterprises alike.
                         </p>
                     </div>
 
@@ -730,28 +726,19 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon1.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/Why-Choose-Us-for-Nodejs-Development.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
-                                            <div class="group-hover-item-d-none tw-mb-4">
-                                                <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
-                                            </div>
+                                            
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Local data centers. Around the world.
+                                                High-Performance Development
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
-                                            </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                                We build fast and efficient Node.js applications 
+                                                optimized for speed, scalability, and real-time performance.                                            </p>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -763,7 +750,7 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon2.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/Experienced-Nodejs-Team.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
@@ -773,12 +760,12 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Full speed ahead. Whatever the traffic.
+                                               Experienced Node.js Team
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
+                                                Our developers have strong expertise in Node.js, 
+                                                Express, APIs, and modern backend frameworks.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -796,7 +783,7 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/Scalable-Architecture.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
@@ -806,12 +793,12 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Live and kicking. 24/7.
+                                                Scalable Architecture
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
+                                                We design future-ready applications that 
+                                                scale easily as your business and user base grow.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -829,7 +816,7 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon4.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/Secure-Backend-Solutions.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
@@ -839,12 +826,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Website migration. Made simple.
+                                                Secure Backend Solutions
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
+                                                Security is built into every layer with best practices for authentication, data protection, and APIs.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -862,7 +848,7 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/API-Integration-Expertise.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
@@ -872,12 +858,12 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Live and kicking. 24/7.
+                                                API & Integration Expertise
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
+                                               From REST APIs to third-party integrations, 
+                                               we ensure smooth and reliable system communication.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -895,7 +881,7 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/Agile-Transparent-Process.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
@@ -905,12 +891,12 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Live and kicking. 24/7.
+                                                Agile & Transparent Process
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
+                                                We follow agile methodology with clear communication, 
+                                                regular updates, and on-time delivery.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -928,7 +914,7 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/Cost-Effective-for-USA-Market.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
@@ -938,12 +924,12 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Live and kicking. 24/7.
+                                                Cost-Effective for USA Market
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
+                                                Get enterprise-level Node.js development at 
+                                                competitive pricing without compromising quality.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -961,7 +947,7 @@
                                     <div
                                         class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                         <span class="tw-mb-13 group-hover-item-text-invert">
-                                            <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                            <img src="{{asset('assets/images/icons/Ongoing-Support-Maintenance.png')}}" alt="Icon"
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
@@ -971,12 +957,12 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Live and kicking. 24/7.
+                                                Ongoing Support & Maintenance
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Web hosting provides everything you idea online. From
-                                                where your website
+                                                We provide continuous support, updates, 
+                                                and performance monitoring after deployment.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -1003,19 +989,14 @@
                     <div class="row gy-4">
                         <div class="col-lg-4">
                             <div class="">
-                                <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                    <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">70%</span> off managed cloud
-                                    hosting
-                                </div>
+                               
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                    Frequently ask
-                                    <span class="font-dm-serif fst-italic fw-normal">Questions</span>
+                                    Have Questions? 
+                                    <span class="font-dm-serif fst-italic fw-normal">We’ve Got Answers</span>
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-350-px fw-medium">
-                                    In today's competitive business, the demand for efficient In
-                                    today's competitive cost-effective
+                                    Everything you need to know about our development services, 
+                                    timelines, and engagement models—all in one place.
                                 </p>
 
                                 <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -1024,7 +1005,7 @@
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
                                         data-block="button">
                                         <span class="button__flair"></span>
-                                        <span class="button__label">Clients Area</span>
+                                        <span class="button__label">Talk to Our Experts</span>
                                     </a>
                                 </div>
                             </div>
@@ -1041,18 +1022,16 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="false" aria-controls="collapseTwo">
-                                                How does GoDaddy help small business owners succeed?
+                                                ❓ How do you estimate the project cost?
                                             </button>
                                         </h5>
                                         <div id="collapseTwo" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    GoDaddy offers more than just a platform to build
-                                                    your website, we offer everything you need to create
-                                                    an effective, memorable online presence. Already
-                                                    have a site? We offer hosting plans that will keep
-                                                    it fast, secure and online. Our professional
+                                                   Project cost depends on scope, features, technology stack, 
+                                                   and timeline. After a free consultation, we provide a 
+                                                   transparent and detailed estimate with no hidden charges.
                                                 </p>
                                             </div>
                                         </div>
@@ -1068,18 +1047,16 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
-                                                Why do I need a website for my business?
+                                               ❓ What is the typical project timeline?
                                             </button>
                                         </h5>
                                         <div id="collapseOne" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    GoDaddy offers more than just a platform to build
-                                                    your website, we offer everything you need to create
-                                                    an effective, memorable online presence. Already
-                                                    have a site? We offer hosting plans that will keep
-                                                    it fast, secure and online. Our professional
+                                                    Timelines vary based on complexity and requirements. Small to mid-scale 
+                                                    projects usually take 4–8 weeks, while larger 
+                                                    applications may take longer. We always share a clear delivery roadmap.
                                                 </p>
                                             </div>
                                         </div>
@@ -1094,18 +1071,16 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseThree" aria-expanded="false"
                                                 aria-controls="collapseThree">
-                                                Why do I need a professional email?
+                                                ❓ Do you sign an NDA?
                                             </button>
                                         </h5>
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    GoDaddy offers more than just a platform to build
-                                                    your website, we offer everything you need to create
-                                                    an effective, memorable online presence. Already
-                                                    have a site? We offer hosting plans that will keep
-                                                    it fast, secure and online. Our professional
+                                                   Yes. We sign a Non-Disclosure Agreement (NDA) 
+                                                   to ensure complete confidentiality and protect 
+                                                   your idea, data, and intellectual property.
                                                 </p>
                                             </div>
                                         </div>
@@ -1120,18 +1095,16 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFour" aria-expanded="false"
                                                 aria-controls="collapseFour">
-                                                What makes GoDaddy Web Hosting the world leader?
+                                                ❓ Will I get regular project updates?
                                             </button>
                                         </h5>
                                         <div id="collapseFour" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    GoDaddy offers more than just a platform to build
-                                                    your website, we offer everything you need to create
-                                                    an effective, memorable online presence. Already
-                                                    have a site? We offer hosting plans that will keep
-                                                    it fast, secure and online. Our professional
+                                                    Absolutely. We follow an agile approach and provide regular 
+                                                    updates through email, calls, or project management 
+                                                    tools like Jira, Trello, or Slack.
                                                 </p>
                                             </div>
                                         </div>
@@ -1144,20 +1117,17 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseFive" aria-expanded="false"
+                                                data-bs-target="#collapseSix" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                Why choose GoDaddy for WordPress?
+                                                ❓ Can you work with clients in different time zones?
                                             </button>
                                         </h5>
-                                        <div id="collapseFive" class="accordion-collapse collapse"
+                                        <div id="collapseSix" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    GoDaddy offers more than just a platform to build
-                                                    your website, we offer everything you need to create
-                                                    an effective, memorable online presence. Already
-                                                    have a site? We offer hosting plans that will keep
-                                                    it fast, secure and online. Our professional
+                                                   Yes. We work with clients across the US, Europe, Middle East, 
+                                                   and Asia. Our team is flexible and ensures smooth communication across time zones.
                                                 </p>
                                             </div>
                                         </div>
@@ -1169,21 +1139,87 @@
                                             class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
-                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
-                                                aria-expanded="false" aria-controls="collapseSix">
-                                                Why should I transfer my domain, website or web
-                                                hosting to GoDaddy?
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseseven" aria-expanded="false"
+                                                aria-controls="collapseFive">
+                                                ❓ Who owns the source code?
                                             </button>
                                         </h5>
-                                        <div id="collapseSix" class="accordion-collapse collapse"
+                                        <div id="collapseseven" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    GoDaddy offers more than just a platform to build
-                                                    your website, we offer everything you need to create
-                                                    an effective, memorable online presence. Already
-                                                    have a site? We offer hosting plans that will keep
-                                                    it fast, secure and online. Our professional
+                                                   Once the project is completed and payment terms are 
+                                                   fulfilled, you own 100% of the source code and intellectual property.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseeight" aria-expanded="false"
+                                                aria-controls="collapseFive">
+                                                ❓ How do we get started?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseeight" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                  Simply click on “Get a Free Consultation” or “Request a Quote”, 
+                                                  share your requirements, and our experts will get in touch within 24 hours.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsenine" aria-expanded="false"
+                                                aria-controls="collapsenine">
+                                                ❓ Can you scale the team if my project grows?
+                                            </button>
+                                        </h5>
+                                        <div id="collapsenine" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                   Yes. We can quickly scale resources based on your 
+                                                   project needs, whether you require additional 
+                                                   developers, AI engineers, or long-term support.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
+                                                aria-expanded="false" aria-controls="collapseTen">
+                                                ❓ Do you provide post-launch support and maintenance?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseTen" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                    Yes. We offer ongoing support, maintenance, performance 
+                                                    optimization, and feature enhancements after project delivery.
                                                 </p>
                                             </div>
                                         </div>
@@ -1233,16 +1269,12 @@
                                 data-aos-duration="600"
                             >
                                 <div class="">
-                                    Up to
-                                    <span
-                                        class="text-yellow text-stroke-yellow"
-                                        >70%</span
-                                    >
-                                    off managed cloud hosting
+                                    Build Fast & Scalable Node.js Applications
                                 </div>
                             </div>
                             <h3 class="splitTextStyleOne text-white">
-                                Ready to revolutionize our service?
+                                Ready to Build a Powerful
+                                    Node.js Backend for Your Business?
                             </h3>
 
                             <div class="d-none">
@@ -1275,7 +1307,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Get Started Trial</span
+                                                >Start Your Node.js Project</span
                                             >
                                         </div>
                                     </a>
@@ -1289,7 +1321,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Get Started Trial</span
+                                                >Talk to Our Experts</span
                                             >
                                         </div>
                                     </a>
@@ -1302,43 +1334,43 @@
                             >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                    >Project management</span
+                                    >API Integrations</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >Technology</span
+                                    >AWS / Cloud Deployment</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Technology</span
+                                    >Real-Time Applications</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                    >Project management</span
+                                    >Node.js</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >Technology</span
+                                    >Express.js</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Technology</span
+                                    >NestJS</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >Project management</span
+                                    >MongoDB & PostgreSQL</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Technology</span
+                                    >REST & GraphQL APIs</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >Project management</span
+                                    >On-Time Delivery</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"
-                                    >Technology</span
+                                    >Quality Assurance</span
                                 >
                             </div>
                         </div>
