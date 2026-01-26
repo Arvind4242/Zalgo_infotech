@@ -60,6 +60,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('reactjsdevelopment', 'ReactJSDevelopment')->name('react.development');
     Route::get('shopify', 'shopifyDevelopment')->name('shopify.development');
     Route::get('nodejs', 'NodejsDevelopment')->name('nodejs.development');
+    Route::get('wordpressdevelopment', 'WordpressDevelopment')->name('wordpressdevelopment.development');
     Route::get('ecommerce', 'ecommerceDevelopment')->name('ecommerce.development');
     Route::get('python', 'pythonDevelopment')->name('python.development');
     Route::get('aidevelopement', 'aiDevelopment')->name('ai.development');

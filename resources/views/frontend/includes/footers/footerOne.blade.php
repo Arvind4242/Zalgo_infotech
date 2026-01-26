@@ -167,7 +167,7 @@
 
         <div class="business-card flex-column">
             <div class="business-logo">
-                <img src="{{asset('assets/images/logo/zalgo-white.png')}}" alt="">
+                <img src="{{asset('assets/images/logo/zalgo-edutech.png')}}" alt="">
             </div>
             
             <div class="business-info d-flex flex-column text--white">  
@@ -178,7 +178,7 @@
 
         <div class="business-card flex-column">
             <div class="business-logo">
-                <img src="{{asset('assets/images/logo/zalgo-white.png')}}" alt="">
+                <img src="{{asset('assets/images/logo/zalgo-store.png')}}" alt="">
             </div>
             
             <div class="business-info d-flex flex-column text--white">  
@@ -189,7 +189,7 @@
         
         <div class="business-card flex-column">
             <div class="business-logo">
-                <img src="{{asset('assets/images/logo/zalgo-white.png')}}" alt="">
+                <img src="{{asset('assets/images/logo/zalgo-india.png')}}" alt="">
             </div>
             
             <div class="business-info d-flex flex-column text--white">  

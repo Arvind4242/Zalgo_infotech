@@ -128,6 +128,11 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.nodejs', compact('bodyClass'));
     }
+     public function WordpressDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.wordpressdevelopment', compact('bodyClass'));
+    }
     public function ecommerceDevelopment()
     {
         $bodyClass = 'home-one';
