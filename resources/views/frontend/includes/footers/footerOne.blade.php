@@ -100,7 +100,7 @@
         <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
       </div>
       <div class="address mb-4">
-        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canda.png')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canda Office</strong></p>
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canda.png')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada Office</strong></p>
         <p><img width="24" src="{{asset('assets/images/phone.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+91 99244 312536</a></p>
         <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
       </div>

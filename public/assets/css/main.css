@@ -6029,7 +6029,7 @@ input:focus, input:focus-visible {
     height: 19px;
     display: inline-block;
     border-radius: 50%;
-    background: #2a2b26;
+    background: #006d75;
 }
 
 .preloader .cssload-loading i:first-child {
@@ -8425,9 +8425,8 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
   margin-bottom: 15px;
 }
 
-.btn {
+.mega-right .btn {
   display: inline-block;
-  background: #e600a9;
   color: #fff;
   padding: 12px 20px;
   border-radius: 6px;
@@ -8496,7 +8495,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 }
 
 .footer-col ul li a:hover {
-  color: #38bdf8;
+  color: #006d75;
 }
 
 .business-card {
@@ -8608,4 +8607,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     perspective: 100px;
     font-size: 56px;
     line-height: 62px;
+}
+.play-button {
+    transform: translateY(-50%);
 }

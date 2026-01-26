@@ -94,7 +94,7 @@
 
                                          <!-- Column 2 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
+                                            <a href="{{route('testimonial')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Client Testimonials</strong>
@@ -326,7 +326,7 @@
                                         <!-- Column 1 -->
                                         <div class="mega-col">
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hireweb.developer')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-web-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Web Developers</strong>
@@ -334,7 +334,7 @@
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hirewordpressdeveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-wordpress-developers.png')}}" alt=""> </span>
                                                 <div>
                                                     <strong>Hire WordPress Developers</strong>
@@ -342,7 +342,7 @@
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hirelaraveldeveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-laravel-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Laravel Developers</strong>
@@ -353,7 +353,7 @@
                                         <!-- Column 2 -->
                                         <div class="mega-col">
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hirenodejsdeveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-nodejsdevelopers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Node.js Developers</strong>
@@ -361,7 +361,7 @@
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hirephpdeveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-php-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire PHP Developers</strong>
@@ -369,7 +369,7 @@
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hireaideveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-ai-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire AI Developers</strong>
@@ -379,7 +379,7 @@
                                         </div>
                                         <!-- Column 3 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
+                                            <a href="{{route('hirereactjsdeveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-reactjs-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire ReactJS Developers</strong>
@@ -387,7 +387,7 @@
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hirenextjsdeveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-nextjs-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire NextJS Developers</strong>
@@ -395,7 +395,7 @@
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
+                                            <a href="{{route('hirepythondeveloper')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-paython-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire python Developers</strong>

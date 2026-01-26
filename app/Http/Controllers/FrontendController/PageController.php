@@ -174,18 +174,55 @@ class PageController extends Controller
     }
 
     //Hire
-     public function hire()
+    public function hireWebdeveloper()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.hire', compact('bodyClass'));
+        return view('frontend.pages.hireWebdeveloper', compact('bodyClass'));
     }
-
-     public function hirePHPdeveloper()
+    public function hireWordpressdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirewordpressdeveloper', compact('bodyClass'));
+    }
+    public function hireLaraveldeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirelaraveldeveloper', compact('bodyClass'));
+    }
+    public function hireNodejsdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirenodejsdeveloper', compact('bodyClass'));
+    }
+    public function hirePHPdeveloper()
     {
         $bodyClass = 'home-one';
         return view('frontend.pages.hirephpdeveloper', compact('bodyClass'));
     }
+    public function hireAideveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hireaideveloper', compact('bodyClass'));
+    }
+    public function hireReactjsdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirereactjsdeveloper', compact('bodyClass'));
+    }
+    public function hireNextjsdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirenextjsdeveloper', compact('bodyClass'));
+    }
+    public function hirePythondeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirepythondeveloper', compact('bodyClass'));
+    }
 
+
+
+    // Case Study Pages
     public function BioAge()
     {
         $bodyClass = 'home-one';
@@ -212,4 +249,10 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.contact', compact('bodyClass'));
     }
+    public function testimonial()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.testimonial', compact('bodyClass'));
+    }
 }
+

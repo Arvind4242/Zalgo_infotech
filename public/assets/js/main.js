@@ -913,3 +913,7 @@ var planExecuteSlider = new Swiper('.testimonials-three-slider', {
     // ========================= Header Sticky Js End===================
 
 })(jQuery);
+
+jQuery('.play-button').magnificPopup({
+  type: 'iframe'
+});
