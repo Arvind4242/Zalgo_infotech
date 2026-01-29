@@ -12,11 +12,11 @@
                 <div class="banner-two__inner position-relative">
                     <div class="container">
                         <div class="text-center">
-                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable Node.js Development </span>
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable React & Next.js Development </span>
                             <div class="">
                                 <div class="position-relative d-inline-block">
                                     <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
-                                        for High-Performance Applications
+                                        For High-Performance, <br>SEO-Optimized Web Applications
                                     </h1>
                                     <div class="text-end svg-line d-sm-block d-none">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="489" height="18"
@@ -30,7 +30,8 @@
                             </div>
                             <p
                                 class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
-                               We build fast, secure, and scalable Node.js solutions<br> for startups and enterprises worldwide.
+                                        We build fast, secure, and scalable React & Next.js solutions
+                                        for startups and enterprises worldwide.
                             </p>
 
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
@@ -201,16 +202,17 @@
                                 <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">90%</span> Faster & Scalable Backend Solutions
+                                    Up to <span class="text-yellow">90%</span> Faster & SEO-Optimized Frontend Solutions
                                 </div>
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                   Our Node.js Solutions  
-                                    <span class="font-dm-serif fst-italic fw-normal">Power High-Performance</span>
-                                    Digital Products
+                                   Our React & Next.js Solutions  
+                                    <span class="font-dm-serif fst-italic fw-normal">Power High-Performance, SEO-Ready </span>
+                                    Digital Experiences
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                  We build fast, scalable, and secure Node.js applications designed to handle real-time data, 
-                                  high traffic, and complex business logic—helping your product perform flawlessly as you grow.
+                                        We build fast, scalable, and SEO-optimized React & Next.js applications
+                                        designed for modern user experiences, blazing-fast load times, and
+                                        business growth—helping your product convert better and scale effortlessly.
                                 </p>
 
                                 <div class="tw-mt-8">
@@ -224,7 +226,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Event-driven architecture</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Blazing-fast React & Next.js experiences</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -234,7 +236,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Scalable microservices</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">SEO-first architecture for higher visibility</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -244,7 +246,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Secure APIs</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Pixel-perfect, conversion-focused UI</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -254,8 +256,19 @@
                                                     <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Clean & maintainable code</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Scalable frontend built for growth</a>
                                             </div>
+                                            <div class="d-flex align-items-center tw-gap-405 animation-item"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="600">
+                                                <span
+                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                </span>
+                                                <a href="{{route('pricing')}}"
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Modern, maintainable codebase</a>
+                                            </div>
+                                            
                                         </div>
                                         <div
                                             class="d-flex align-items-center tw-gap-9 tw-ms-705 d-sm-flex d-none flex-shrink-0">
@@ -289,10 +302,11 @@
                 <div class="container max-w-1400-px">
                     <div class="max-w-672-px text-center mx-auto tw-mb-12">
                         <h3 class="splitTextStyleOne text-heading text-capitalize">
-                           Seamless Integrations That Enhance Digital Experiences
+                           Seamless Frontend Solutions That Elevate User Experience
                         </h3>
                         <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
-                            We connect your systems, tools, and platforms into a unified ecosystem—ensuring smooth data flow, better performance, and scalable growth.
+                            We craft modern React & Next.js frontends that integrate smoothly with your backend,
+                            deliver exceptional performance, and scale as your business grows.
                         </p>
                     </div>
 
@@ -304,13 +318,13 @@
                                         <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Custom Development
+                                        Custom Frontend Development
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We design and develop custom web and 
-                                        software solutions tailored to your 
-                                        business requirements, ensuring flexibility, 
-                                        performance, and long-term scalability.
+                                        We build tailored React & Next.js 
+                                        interfaces aligned with your brand, 
+                                        business goals, and user needs—ensuring 
+                                        speed, scalability, and consistency.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -325,12 +339,12 @@
                                         <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        API development
+                                       API & Backend Integration
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build secure, high-performance APIs 
-                                        that enable seamless communication between 
-                                        applications, platforms, and services.
+                                        We seamlessly connect React & Next.js apps 
+                                        with APIs, CMSs, and backend systems for 
+                                        smooth data flow and real-time experiences.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -345,12 +359,11 @@
                                         <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Third-party integrations
+                                        Third-Party Integrations
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We integrate CRMs, payment gateways, 
-                                        analytics, and cloud services to 
-                                        streamline operations and improve efficiency.
+                                        We integrate analytics, payment gateways, CRMs, and 
+                                        other third-party tools to enhance functionality and improve user engagement.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -365,12 +378,12 @@
                                         <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                         Maintenance & support
+                                         Performance Optimization & Support
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Ongoing monitoring, updates, and 
-                                        technical support to keep your 
-                                        systems secure, fast, and running smoothly.
+                                        We continuously optimize, monitor, and 
+                                        maintain your frontend to ensure 
+                                        fast load times, security, and long-term stability.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -651,9 +664,9 @@
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">
-                                        <span class="counter">99.9</span>%
+                                        <span class="counter">94.3</span>%
                                     </h3>
-                                    <span class="text-heading">Performance <br>Optimized APIs</span>
+                                    <span class="text-heading">Performance <br>Optimized UI</span>
                                 </div>
                             </div>
                         </div>
@@ -662,18 +675,18 @@
                                 <div class="text-start mx-auto tw-mb-12">
                                     <div class="tw-mb-10">
                                         <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
-                                            With High-Performance Node.js Development
+                                            With Modern React.js & Next.js…
                                         </h4>
                                         <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
-                                            Fast, Scalable & Secure
-                                            Node.js Backend Solutions
+                                            Fast, SEO-Friendly & Scalable
+                                            React.js & Next.js
+                                            Frontend Solutions
                                         </h2>
                                         <p
                                             class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                            We build high-performance Node.js applications 
-                                            that are fast, scalable, and future-ready.
-                                            Our expert developers create real-time, API-driven, and 
-                                            microservice-based solutions designed to handle high traffic with ease.
+                                            We build high-performance React.js and Next.js 
+                                            applications that deliver lightning-fast load times, 
+                                            seamless user experiences, and SEO-friendly architecture.
                                         </p>
                                     </div>
                                     <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -682,7 +695,7 @@
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
                                             data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Talk to Node.js Experts</span>
+                                            <span class="button__label">Talk to React & Next.js Experts</span>
                                         </a>
                                     </div>
                                 </div>
@@ -708,12 +721,15 @@
                             Why Zalgo Infotech
                         </div>
                         <h2 class="splitTextStyleOne text-white">
-                            Powering Modern Applications
+                            Powering Modern Frontend Applications
                             <span class="font-dm-serif fst-italic fw-normal">
-                                With Node.js</span>. Expertise
+                                With React & Next.js</span>Expertise
                         </h2>
                         <p class="text-neutral-300 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                            Our Node.js solutions are designed for speed, scalability, and security—ensuring seamless performance for startups and enterprises alike.
+                            Our React and Next.js solutions are built 
+                            for speed, scalability, and exceptional user 
+                            experience—delivering high-performance, SEO-friendly, and 
+                            future-ready web applications for startups and enterprises.
                         </p>
                     </div>
 
@@ -732,12 +748,14 @@
                                         <div class="">
                                             
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                High-Performance Development
+                                                High-Performance Frontend Development
                                             </h5>
-                                            <p
-                                                class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We build fast and efficient Node.js applications 
-                                                optimized for speed, scalability, and real-time performance.                                            </p>
+                                            <p class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
+                                                We build fast, responsive, and interactive 
+                                                applications using React and Next.js, optimized 
+                                                for smooth UI performance, cross-device 
+                                                compatibility, and real-time user engagement.
+                                            </p>
                                             
                                         </div>
                                     </div>
@@ -760,12 +778,15 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                               Experienced Node.js Team
+                                               Experienced React & Next.js Team
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Our developers have strong expertise in Node.js, 
-                                                Express, APIs, and modern backend frameworks.
+                                                Our expert developers specialize in 
+                                                React component-driven development 
+                                                and Next.js advanced features like 
+                                                SSR, SSG, and API routes—ensuring clean, 
+                                                scalable, and maintainable code.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -793,12 +814,14 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Scalable Architecture
+                                                Scalable & SEO-Friendly Architecture
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We design future-ready applications that 
-                                                scale easily as your business and user base grow.
+                                                We design modern frontend architectures 
+                                                that scale effortlessly. With Next.js SEO 
+                                                optimization and React modularity, your 
+                                                application stays fast, discoverable, and growth-ready.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -826,11 +849,14 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Secure Backend Solutions
+                                                Secure & Production-Ready Solutions
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Security is built into every layer with best practices for authentication, data protection, and APIs.
+                                                We implement industry-standard security practices, 
+                                                secure authentication, optimized APIs, and 
+                                                reliable deployment workflows for stable, 
+                                                enterprise-grade React & Next.js applications.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -862,8 +888,9 @@
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                               From REST APIs to third-party integrations, 
-                                               we ensure smooth and reliable system communication.
+                                               From REST APIs to third-party service integrations, 
+                                               we connect React and Next.js applications seamlessly 
+                                               with backend systems, payment gateways, CRMs, and cloud services.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -895,8 +922,10 @@
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We follow agile methodology with clear communication, 
-                                                regular updates, and on-time delivery.
+                                                We follow an agile development approach 
+                                                with clear communication, regular updates, and 
+                                                milestone-based delivery—keeping 
+                                                you fully informed at every stage.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -928,8 +957,9 @@
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Get enterprise-level Node.js development at 
-                                                competitive pricing without compromising quality.
+                                               Our React & Next.js development services are 
+                                               optimized for quality and affordability, offering cost-effective 
+                                               solutions tailored for USA-based startups and enterprises.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -961,8 +991,9 @@
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We provide continuous support, updates, 
-                                                and performance monitoring after deployment.
+                                                Beyond development, we provide continuous 
+                                                support, performance optimization, feature enhancements, 
+                                                and maintenance to keep your application running smoothly.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -1057,6 +1088,55 @@
                                                     Timelines vary based on complexity and requirements. Small to mid-scale 
                                                     projects usually take 4–8 weeks, while larger 
                                                     applications may take longer. We always share a clear delivery roadmap.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                ❓ Are React & Next.js scalable?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                   Yes. React and Next.js are ideal for 
+                                                   building fast, scalable, and 
+                                                   high-performance web applications 
+                                                   with modern UI and optimized rendering.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                ❓ Do you build SPAs & SEO websites?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                   Absolutely. We develop SPAs, 
+                                                   dashboards, admin panels, 
+                                                   and SEO-friendly websites using React and Next.js.
                                                 </p>
                                             </div>
                                         </div>
@@ -1269,12 +1349,11 @@
                                 data-aos-duration="600"
                             >
                                 <div class="">
-                                    Build Fast & Scalable Node.js Applications
+                                    Build Fast & Scalable React & Next.js Applications
                                 </div>
                             </div>
                             <h3 class="splitTextStyleOne text-white">
-                                Ready to Build a Powerful
-                                    Node.js Backend for Your Business?
+                                Ready to Build a High-Performance React & Next.js Application for Your Business?
                             </h3>
 
                             <div class="d-none">
@@ -1307,7 +1386,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Start Your Node.js Project</span
+                                                >Start Your React & Next.js Project</span
                                             >
                                         </div>
                                     </a>
@@ -1334,39 +1413,39 @@
                             >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                    >API Integrations</span
+                                    >Lightning-Fast React UI</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >AWS / Cloud Deployment</span
+                                    >Next.js SEO Boost</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Real-Time Applications</span
+                                    >SSR & SSG Power</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                    >Node.js</span
+                                    >Scalable Frontend Apps</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >Express.js</span
+                                    >Component-Driven Design</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >NestJS</span
+                                    >API-Ready Frontends</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >MongoDB & PostgreSQL</span
+                                    >Cloud-Deployed Apps</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >REST & GraphQL APIs</span
+                                    >Startup to Enterprise</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >On-Time Delivery</span
+                                    >Performance Optimized</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"

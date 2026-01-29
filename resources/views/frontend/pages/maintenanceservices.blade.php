@@ -12,11 +12,12 @@
                 <div class="banner-two__inner position-relative">
                     <div class="container">
                         <div class="text-center">
-                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable Node.js Development </span>
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Reliable Maintenance & Support Services</span>
                             <div class="">
                                 <div class="position-relative d-inline-block">
                                     <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
-                                        for High-Performance Applications
+                                            Proactive Maintenance & Support
+                                            <br>For Stable & Secure Systems
                                     </h1>
                                     <div class="text-end svg-line d-sm-block d-none">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="489" height="18"
@@ -30,7 +31,8 @@
                             </div>
                             <p
                                 class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
-                               We build fast, secure, and scalable Node.js solutions<br> for startups and enterprises worldwide.
+                               We provide ongoing maintenance and technical support to keep your 
+                               applications, websites, and systems secure, optimized, and running smoothly worldwide.
                             </p>
 
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
@@ -45,7 +47,7 @@
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Request a Quote</span>
+                                    <span class="button__label">Request a Support Plan</span>
                                 </a>
                             </div>
                         </div>
@@ -201,16 +203,17 @@
                                 <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">90%</span> Faster & Scalable Backend Solutions
+                                    Up to <span class="text-yellow">99.9%</span>System Uptime & Reliability
                                 </div>
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                   Our Node.js Solutions  
-                                    <span class="font-dm-serif fst-italic fw-normal">Power High-Performance</span>
-                                    Digital Products
+                                   Maintenance & Support Services  
+                                    <span class="font-dm-serif fst-italic fw-normal">Keep Your Digital Products</span>
+                                    Running Smoothly
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                  We build fast, scalable, and secure Node.js applications designed to handle real-time data, 
-                                  high traffic, and complex business logic—helping your product perform flawlessly as you grow.
+                                  We provide proactive maintenance, monitoring, and technical 
+                                  support to ensure your websites, applications, and systems 
+                                  remain secure, stable, and high-performing—24/7.
                                 </p>
 
                                 <div class="tw-mt-8">
@@ -224,7 +227,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Event-driven architecture</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Proactive monitoring & issue prevention</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -234,7 +237,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Scalable microservices</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Regular updates & performance optimization</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -244,7 +247,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Secure APIs</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Security patches & vulnerability fixes</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -254,7 +257,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Clean & maintainable code</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Dedicated technical support team</a>
                                             </div>
                                         </div>
                                         <div
@@ -289,10 +292,13 @@
                 <div class="container max-w-1400-px">
                     <div class="max-w-672-px text-center mx-auto tw-mb-12">
                         <h3 class="splitTextStyleOne text-heading text-capitalize">
-                           Seamless Integrations That Enhance Digital Experiences
+                            Reliable Maintenance & Support
+                            That Keeps Your Systems Running
                         </h3>
                         <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
-                            We connect your systems, tools, and platforms into a unified ecosystem—ensuring smooth data flow, better performance, and scalable growth.
+                            We ensure your applications, websites, and digital systems 
+                            stay secure, updated, and high-performing with 
+                            proactive maintenance and dedicated technical support.
                         </p>
                     </div>
 
@@ -304,17 +310,14 @@
                                         <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Custom Development
+                                        System Monitoring
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We design and develop custom web and 
-                                        software solutions tailored to your 
-                                        business requirements, ensuring flexibility, 
-                                        performance, and long-term scalability.
+                                        We continuously monitor your systems to detect and resolve issues before they impact performance or uptime.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Explore Custom Solutions
+                                       Monitor Systems
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -325,16 +328,14 @@
                                         <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        API development
+                                        Bug Fixes & Updates
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build secure, high-performance APIs 
-                                        that enable seamless communication between 
-                                        applications, platforms, and services.
+                                        Regular bug fixes, version updates, and enhancements to keep your software stable and up to date.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        View API Services
+                                        View Update Plans
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -345,16 +346,14 @@
                                         <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Third-party integrations
+                                        Security & Performance
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We integrate CRMs, payment gateways, 
-                                        analytics, and cloud services to 
-                                        streamline operations and improve efficiency.
+                                        Security patches, backups, and performance optimization to protect your data and ensure smooth operations.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
+                                        Secure Systems
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -365,12 +364,10 @@
                                         <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                         Maintenance & support
+                                         24/7 Technical Support
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Ongoing monitoring, updates, and 
-                                        technical support to keep your 
-                                        systems secure, fast, and running smoothly.
+                                        Dedicated support team available to handle issues, queries, and emergencies anytime.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -478,16 +475,12 @@
                                         class="position-absolute top-0 tw-end-0 animate__wobble__two" />
 
                                     <span
-                                        class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
-                                        we do</span>
+                                        class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">How We Work</span>
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
+                                        <span class="d-inline-block fw-semibold">Support Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
-                                        In today's competitive business,
-                                        the demand for efficient and
-                                        cost-effective IT solutions has
-                                        never been more critical.
+                                        Our structured maintenance process ensures system stability, security, and continuous performance improvement.
                                     </p>
                                     <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                         <a href="{{route('register')}}"
@@ -495,7 +488,7 @@
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800" data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Get Started</span>
+                                            <span class="button__label">Get Support</span>
                                         </a>
                                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800">
@@ -537,7 +530,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon1.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Brainstorming
+                                            System Audit
                                         </h6>
                                     </div>
 
@@ -548,8 +541,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon2.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            UX <br />
-                                            Research
+                                            Monitoring Setup
                                         </h6>
                                     </div>
 
@@ -560,7 +552,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon3.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Product Designing
+                                            Issue Detection
                                         </h6>
                                     </div>
 
@@ -571,7 +563,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon4.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Front-End Development
+                                            Fixes & Updates
                                         </h6>
                                     </div>
 
@@ -582,8 +574,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon5.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Usability <br />
-                                            Testing
+                                            Performance Optimization
                                         </h6>
                                     </div>
 
@@ -594,7 +585,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon6.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Back-End Development
+                                            Security Management
                                         </h6>
                                     </div>
 
@@ -605,7 +596,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon7.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            SEO Optimization
+                                            Support & Assistance
                                         </h6>
                                     </div>
 
@@ -616,7 +607,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon8.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Digital Marketing
+                                            Reporting & Improvement
                                         </h6>
                                     </div>
                                 </div>
@@ -651,9 +642,9 @@
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">
-                                        <span class="counter">99.9</span>%
+                                        <span class="counter">99</span>%
                                     </h3>
-                                    <span class="text-heading">Performance <br>Optimized APIs</span>
+                                    <span class="text-heading">Uptime <br>Performance</span>
                                 </div>
                             </div>
                         </div>
@@ -662,18 +653,17 @@
                                 <div class="text-start mx-auto tw-mb-12">
                                     <div class="tw-mb-10">
                                         <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
-                                            With High-Performance Node.js Development
+                                            With Proactive Maintenance & Support…
                                         </h4>
                                         <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
-                                            Fast, Scalable & Secure
-                                            Node.js Backend Solutions
+                                            Stable, Secure &
+                                            High-Performance Systems
                                         </h2>
                                         <p
                                             class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                            We build high-performance Node.js applications 
-                                            that are fast, scalable, and future-ready.
-                                            Our expert developers create real-time, API-driven, and 
-                                            microservice-based solutions designed to handle high traffic with ease.
+                                            We keep your applications and websites running smoothly 
+                                            with continuous monitoring, timely updates, and expert 
+                                            technical support—ensuring reliability, security, and peak performance at all times.
                                         </p>
                                     </div>
                                     <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -682,7 +672,7 @@
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
                                             data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Talk to Node.js Experts</span>
+                                            <span class="button__label">Talk to Support Experts</span>
                                         </a>
                                     </div>
                                 </div>
@@ -708,12 +698,15 @@
                             Why Zalgo Infotech
                         </div>
                         <h2 class="splitTextStyleOne text-white">
-                            Powering Modern Applications
+                            Powering Reliable Systems
                             <span class="font-dm-serif fst-italic fw-normal">
-                                With Node.js</span>. Expertise
+                                With Maintenance & </span>Support Expertise
                         </h2>
                         <p class="text-neutral-300 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                            Our Node.js solutions are designed for speed, scalability, and security—ensuring seamless performance for startups and enterprises alike.
+                            Our maintenance and support services ensure your 
+                            applications, websites, and systems remain secure, up-to-date, and 
+                            high-performing—so you can focus on growth while we 
+                            handle stability, monitoring, and issue resolution.
                         </p>
                     </div>
 
@@ -732,12 +725,13 @@
                                         <div class="">
                                             
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                High-Performance Development
+                                                Proactive Maintenance
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We build fast and efficient Node.js applications 
-                                                optimized for speed, scalability, and real-time performance.                                            </p>
+                                                We continuously monitor your systems to 
+                                                identify and fix issues before they impact 
+                                                performance—ensuring smooth operations and zero surprises.                                            </p>
                                             
                                         </div>
                                     </div>
@@ -760,12 +754,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                               Experienced Node.js Team
+                                               Experienced Support Team
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Our developers have strong expertise in Node.js, 
-                                                Express, APIs, and modern backend frameworks.
+                                                Our expert engineers provide dedicated technical support, quick troubleshooting, and reliable assistance whenever you need it.  
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -793,12 +786,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Scalable Architecture
+                                                Scalable & Secure Systems
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We design future-ready applications that 
-                                                scale easily as your business and user base grow.
+                                                We optimize and maintain your infrastructure to handle growth while keeping your data protected with industry-standard security practices.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -826,11 +818,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Secure Backend Solutions
+                                                24/7 Monitoring & Updates
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Security is built into every layer with best practices for authentication, data protection, and APIs.
+                                               From security patches to performance tuning, we ensure your systems stay updated, stable, and running at peak efficiency around the clock.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -858,12 +850,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                API & Integration Expertise
+                                                Proactive Monitoring & Fixes
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                               From REST APIs to third-party integrations, 
-                                               we ensure smooth and reliable system communication.
+                                               We monitor your systems 24/7 to detect issues early and resolve them before they impact performance or users.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -891,12 +882,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Agile & Transparent Process
+                                                Agile & Transparent Support Process
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We follow agile methodology with clear communication, 
-                                                regular updates, and on-time delivery.
+                                                WClear communication, fast response times, and regular updates ensure you always know what’s happening with your system.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -924,12 +914,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Cost-Effective for USA Market
+                                                Cost-Effective Maintenance Plans
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Get enterprise-level Node.js development at 
-                                                competitive pricing without compromising quality.
+                                                Flexible monthly support plans designed to reduce downtime and maintenance costs without compromising quality.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -957,12 +946,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Ongoing Support & Maintenance
+                                                Dedicated Ongoing Support
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We provide continuous support, updates, 
-                                                and performance monitoring after deployment.
+                                                From bug fixes to updates and security patches, our team provides reliable long-term support to keep everything running smoothly.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -1057,6 +1045,55 @@
                                                     Timelines vary based on complexity and requirements. Small to mid-scale 
                                                     projects usually take 4–8 weeks, while larger 
                                                     applications may take longer. We always share a clear delivery roadmap.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                ❓ How quickly do you respond to support requests?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                   We provide fast response times based on priority. 
+                                                   Critical issues are addressed immediately, while 
+                                                   regular support requests are handled within a defined SLA to 
+                                                   keep your website running smoothly.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                ❓ What is included in your website maintenance & support service?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                   Our service includes regular updates, security 
+                                                   monitoring, bug fixes, backups, performance checks, and ongoing 
+                                                   technical support to ensure your website stays secure, stable, and up to date.
                                                 </p>
                                             </div>
                                         </div>
@@ -1269,12 +1306,11 @@
                                 data-aos-duration="600"
                             >
                                 <div class="">
-                                    Build Fast & Scalable Node.js Applications
+                                    Reliable Website Maintenance & Support Services
                                 </div>
                             </div>
                             <h3 class="splitTextStyleOne text-white">
-                                Ready to Build a Powerful
-                                    Node.js Backend for Your Business?
+                                Keep Your Website Secure, Updated, and Running Smoothly — Always
                             </h3>
 
                             <div class="d-none">
@@ -1307,7 +1343,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Start Your Node.js Project</span
+                                                >Get Maintenance Support</span
                                             >
                                         </div>
                                     </a>
@@ -1321,7 +1357,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Talk to Our Experts</span
+                                                >Talk to Our Support Experts</span
                                             >
                                         </div>
                                     </a>
@@ -1334,35 +1370,35 @@
                             >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                    >API Integrations</span
+                                    >24/7 Support</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >AWS / Cloud Deployment</span
+                                    >Security Updates</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Real-Time Applications</span
+                                    >Bug Fixes</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                    >Node.js</span
+                                    >Performance Boost</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >Express.js</span
+                                    >Regular Backups</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >NestJS</span
+                                    >Uptime Monitoring</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >MongoDB & PostgreSQL</span
+                                    >CMS Updates</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >REST & GraphQL APIs</span
+                                    >Fast Resolution</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
