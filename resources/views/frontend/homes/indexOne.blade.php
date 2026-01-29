@@ -185,21 +185,21 @@
                                             aria-labelledby="pills-Daily-tab" tabindex="0">
                                             <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
                                             <h5 class="tw-mb-6 counter">
-                                                $4820.00
+                                                $450.00
                                             </h5>
                                         </div>
                                         <div class="tab-pane fade" id="pills-Weekly" role="tabpanel"
                                             aria-labelledby="pills-Weekly-tab" tabindex="0">
                                             <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
                                             <h5 class="tw-mb-6 counter">
-                                                $2445.00
+                                                $3150.00
                                             </h5>
                                         </div>
                                         <div class="tab-pane fade" id="pills-Monthly" role="tabpanel"
                                             aria-labelledby="pills-Monthly-tab" tabindex="0">
                                             <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
                                             <h5 class="tw-mb-6 counter">
-                                                $8221.00
+                                                $13500.00
                                             </h5>
                                         </div>
                                     </div>

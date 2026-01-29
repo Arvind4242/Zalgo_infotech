@@ -100,6 +100,12 @@
                                                     <strong>Client Testimonials</strong>
                                                 </div>
                                             </a>
+                                            <a href="{{route('testimonial')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
+                                                <div>
+                                                    <strong>Blogs</strong>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -168,15 +174,30 @@
                                         </div>
 
                                         <!-- RIGHT CARD -->
-                                        <div class="mega-right">
-                                            <img src="images/it-team.jpg" alt="">
-                                            <h4>Check It All Services</h4>
-                                            <p>
-                                                Comprehensive IT solutions for digital growth, security,
-                                                and performance.
-                                            </p>
-                                            <a href="#" class="btn btn-main">Hire Now!</a>
-                                        </div>
+                                        <div class="audit-box">  
+                                                <div class="autid-detail">
+                                                    <h3>Get a Free Strategy Audit</h3>
+                                                    <ul class="audit-list">
+                                                        <li>Free Website Audit</li>
+                                                        <li>Free SEO / Ads Analysis</li>
+                                                        <li>30-min Expert Call</li>
+                                                        <li>No Obligation</li>
+                                                    </ul>
+                                                    <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+                                                </div>
+                                                <div class="contact-info">
+                                                    <p><strong>📞</strong> +91 92442 13332</p>
+                                                    <p><strong>✉️</strong> hello@zalgoinfotech.com</p>
+                                                </div>
+
+                                                <div class="serving">
+                                                    <p><strong>🌍 Serving Clients:</strong></p>
+                                                    <span>USA • Canada • UK • UAE • India</span>
+                                                </div>
+
+                                                <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+
+                                            </div>
                                     </div>
                                 </div>
                         </li>
@@ -278,42 +299,30 @@
                                             </a>
                                         </div>
                                         <!-- Right Card -->
-                                        <div class="mega-card">
-                                            <h4 class="text-green">Contact Info</h4>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                           <div class="audit-box">  
+                                                <div class="autid-detail">
+                                                    <h3>Get a Free Strategy Audit</h3>
+                                                    <ul class="audit-list">
+                                                        <li>Free Website Audit</li>
+                                                        <li>Free SEO / Ads Analysis</li>
+                                                        <li>30-min Expert Call</li>
+                                                        <li>No Obligation</li>
+                                                    </ul>
+                                                    <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <div class="contact-info">
+                                                    <p><strong>📞</strong> +91 92442 13332</p>
+                                                    <p><strong>✉️</strong> hello@zalgoinfotech.com</p>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
-                                                </div>
-                                            </div>
 
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
+                                                <div class="serving">
+                                                    <p><strong>🌍 Serving Clients:</strong></p>
+                                                    <span>USA • Canada • UK • UAE • India</span>
                                                 </div>
+
+                                                <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+
                                             </div>
-                                            
-                                            <div class="mega-item align-items-center d-flex mb-3">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="#">zalgoinfotech</a>
-                                                </div>
-                                            </div>
-                                            <a href="{{route('web.development')}}" class="btn btn-main">Contact Us</a>
-                                        </div>
 
                                     </div>
                                 </div>
@@ -404,49 +413,37 @@
                                             </a>
                                         </div>
                                         <!-- Right Card -->
-                                        <div class="mega-card">
-                                            <h4 class="text-green">Contact Info</h4>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                       <div class="audit-box">  
+                                                <div class="autid-detail">
+                                                    <h3>Get a Free Strategy Audit</h3>
+                                                    <ul class="audit-list">
+                                                        <li>Free Website Audit</li>
+                                                        <li>Free SEO / Ads Analysis</li>
+                                                        <li>30-min Expert Call</li>
+                                                        <li>No Obligation</li>
+                                                    </ul>
+                                                    <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <div class="contact-info">
+                                                    <p><strong>📞</strong> +91 92442 13332</p>
+                                                    <p><strong>✉️</strong> hello@zalgoinfotech.com</p>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
-                                                </div>
-                                            </div>
 
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
+                                                <div class="serving">
+                                                    <p><strong>🌍 Serving Clients:</strong></p>
+                                                    <span>USA • Canada • UK • UAE • India</span>
                                                 </div>
+
+                                                <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+
                                             </div>
-                                            
-                                            <div class="mega-item align-items-center d-flex mb-3">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="#">zalgoinfotech</a>
-                                                </div>
-                                            </div>
-                                            <a href="#" class="btn btn-main">Contact Us</a>
-                                        </div>
 
                                     </div>
                                 </div>
                         </li>
                         <li class="nav-menu__item">
                             <a href="{{route('blog')}}"
-                                class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Blog</a>
+                                class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Case Study</a>
                         </li>
                        
                     </ul>
