@@ -7,10 +7,10 @@
     
 
     <!-- Header Start Here -->
-    <header class="header bg-white transition-all">
+    <header class="header bg-white transition-all p-0">
 
         <!-- Top Header Start -->
-        <div class="bg-main-600 header-top-bar tw-py-205 d-sm-block d-none">
+        <div class="bg-main-600 header-top-bar tw-py-205 d-sm-block">
             <div class="container">
                 <div class="d-flex justify-content-center">
                     <p class="text-white bg-white-13 d-inline-block tw-py-1 tw-px-5 rounded-pill fw-normal">
@@ -35,7 +35,7 @@
                 <div class="header-menu d-lg-block d-none">
                     <!-- Nav menu Start -->
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
-                        <li class="nav-menu__item has-submenu">
+                        <li class="nav-menu__item has-submenu about">
                             <a href="{{route('about')}}" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> Company</a>
                              <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
                                     <div class="mega-inner">
@@ -385,6 +385,7 @@
                                                     <p>Lorem ipsum dolor</p>
                                                 </div>
                                             </a>
+                                            
                                         </div>
                                         <!-- Column 3 -->
                                         <div class="mega-col">
