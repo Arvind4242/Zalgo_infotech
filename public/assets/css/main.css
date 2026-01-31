@@ -8033,7 +8033,7 @@ svg.radial-progress text {
 
 
 
-.new-header-mega-menu-inner {
+/* .new-header-mega-menu-inner {
     position: absolute;
     z-index: 99;
     left: 0;
@@ -8041,7 +8041,7 @@ svg.radial-progress text {
     padding: 30px;
     display: none;
     box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-}
+} */
 .new-header-mega-menu-inner {
     position: absolute;
     left: 0;
@@ -8055,6 +8055,10 @@ svg.radial-progress text {
     max-height: calc(100vh - 180px);
     overflow: auto;
     animation: slide-in 0.5s;
+    overflow: visible;
+    padding-top: 0;
+    padding-right: 0;
+    background-color: #fff;
 }
 @keyframes slide-in {
     0% {
@@ -8530,6 +8534,9 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .mega-inner {
     display: flex;
     gap: 40px;
+    max-width: 70%;
+    padding: 30px 0 30px 30px;
+    align-items: flex-start !important;
 }
 
 .mega-col {
@@ -8548,7 +8555,9 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     cursor: pointer;
     color: #201e1e;
 }
-
+.mega-item:last-child {
+    margin-bottom: 0;
+}
 .mega-item p {
     font-size: 13px;
     color: #666;
@@ -8610,4 +8619,66 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 }
 .play-button {
     transform: translateY(-50%);
+}
+.audit-box {
+    background: #fff;
+    border-radius: 0px 16px 16px 16px;
+    padding: 24px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.audit-box .autid-detail{
+    background: linear-gradient(135deg, #e6f7f6, #f2fbfa);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 15px;
+}
+.audit-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0b5d5b;
+  margin-bottom: 16px;
+}
+
+.audit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.audit-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #333;
+}
+
+.audit-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #16a085;
+  font-weight: bold;
+}
+.contact-info p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #222;
+}
+
+.serving {
+  margin: 16px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.serving span {
+  color: #0b5d5b;
+  font-weight: 600;
 }
