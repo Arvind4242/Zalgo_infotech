@@ -8355,7 +8355,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     color: #000 !important;
 }
 .mega-left {
-  width: 70%;
+  width: 100%;
 }
 
 .app-grid {
@@ -8538,7 +8538,9 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     padding: 30px 0 30px 30px;
     align-items: flex-start !important;
 }
-
+.about .mega-inner{
+    max-width: 100%;
+}
 .mega-col {
     flex: 1;
 }
@@ -8683,3 +8685,12 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
   font-weight: 600;
 }
 
+
+@media screen and (max-width:991px){
+    .has-submenu:hover .nav-submenu {
+        margin: 0!important;
+    }
+    .has-submenu:hover .nav-submenu li{
+        margin-bottom: 10px!important;
+    }
+}
