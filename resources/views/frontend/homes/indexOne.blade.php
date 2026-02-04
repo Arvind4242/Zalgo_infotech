@@ -73,7 +73,9 @@
                                 <span class="d-inline-block"> IT Solutions</span>
                             </h1>
                             <p class="text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8 splitTextStyleOne">
-                                We build intelligent AI chatbots and scalable IT solutions that automate customer support, enable multilingual conversations, and drive global growth.
+                                We build intelligent AI chatbots and scalable 
+                                IT solutions that automate customer support, capture leads 
+                                24/7, enable multilingual conversations, and help businesses scale globally.
                             </p>
                             <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                 <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
@@ -104,10 +106,10 @@
                                                     class="w-100 h-100 object-fit-cover" />
                                             </div>
                                         </div>
-                                        <span class="h5 counter">2.3M+</span>
+                                        <span class="h5 counter">20+</span>
                                     </div>
                                     <p class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter">
-                                        5000+ Client reviews
+                                        150+ Success Projects
                                     </p>
                                 </div>
                                 <div class="d-flex align-items-cente flex-wrap row-gap-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -127,13 +129,13 @@
                                         <span class="tw-w-7 tw-h-7 btn-main rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
                                             <i class="text--white ph-bold ph-check"></i>
                                         </span>
-                                        <span class="text-heading fw-semibold tw-text-base">Multilingual</span>
+                                        <span class="text-heading fw-semibold tw-text-base">Multilingual AI Chatbot</span>
                                     </div>
                                     <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
                                         <span class="tw-w-7 tw-h-7 btn-main rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
                                             <i class="text--white ph-bold ph-check"></i>
                                         </span>
-                                        <span class="text-heading fw-semibold tw-text-base">Chat History</span>
+                                        <span class="text-heading fw-semibold tw-text-base">Custom AI Training</span>
                                     </div>
                                     
                                 </div>
@@ -159,7 +161,7 @@
                                 </div>
                                 <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
                                 <div class="tw-mt-3 d-flex align-items-center justify-content-between max-w-154-px">
-                                    <span class="tw-text-lg text-heading fw-semibold">Trust pilot</span>
+                                    <span class="tw-text-lg text-heading fw-semibold">Upwork</span>
                                     <img src="{{asset('assets/images/icons/verified-icon.svg')}}" alt="" />
                                 </div>
                             </div>
@@ -168,7 +170,7 @@
                             <!-- Experience -->
                             <div class="bg-main-600 tw-p-12 tw-pe-6 d-inline-block tw-rounded-xl clip-path-one position-absolute bottom-0 tw-end-0 z-1 tw--me-70-px tw-mb-205"
                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="900">
-                                <h2 class="text-white counter">8+</h2>
+                                <h2 class="text-white counter">10+</h2>
                                 <span class="text-white">Years Experience</span>
                             </div>
                             <!-- Experience -->
@@ -183,23 +185,23 @@
                                     <div class="tab-content" id="pills-tabContent">
                                         <div class="tab-pane fade show active" id="pills-Daily" role="tabpanel"
                                             aria-labelledby="pills-Daily-tab" tabindex="0">
-                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
+                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">AI Lead Generation</span>
                                             <h5 class="tw-mb-6 counter">
-                                                $450.00
+                                                8–12 Qualified Leads
                                             </h5>
                                         </div>
                                         <div class="tab-pane fade" id="pills-Weekly" role="tabpanel"
                                             aria-labelledby="pills-Weekly-tab" tabindex="0">
                                             <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
                                             <h5 class="tw-mb-6 counter">
-                                                $3150.00
+                                                50+ New Leads
                                             </h5>
                                         </div>
                                         <div class="tab-pane fade" id="pills-Monthly" role="tabpanel"
                                             aria-labelledby="pills-Monthly-tab" tabindex="0">
                                             <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
                                             <h5 class="tw-mb-6 counter">
-                                                $13500.00
+                                                200+ Leads Captured
                                             </h5>
                                         </div>
                                     </div>
@@ -508,11 +510,11 @@
                                                             class="w-100 h-100 object-fit-cover" />
                                                     </div>
                                                 </div>
-                                                <span class="h5 counter text-white">2.3M+</span>
+                                                <span class="h5 counter text-white">20+</span>
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Client reviews
+                                                150+ Project
                                             </p>
                                         </div>
                                     </div>
@@ -688,11 +690,11 @@
                         <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-514-px w-100 d-flex align-items-center tw-gap-505 justify-content-center border border-main-50"
                             data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
-                                1.3m
+                                100%
                             </h3>
                             <div class="d-flex align-items-center tw-gap-2">
                                 <p class="text-main-two-600 max-w-194-px">
-                                    Clients across multiple industries worldwide
+                                   Transparent Process
                                 </p>
                             </div>
                         </div>
@@ -732,7 +734,7 @@
                                 data-aos-duration="600">
                                 <div
                                     class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 h-100 tw-pt-15 bg-pink-dark tw-px-40-px tw-pb-84-px tw-duration-300">
-                                    <span class="tw-text-base fw-semibold tw-mb-2 text-pink">Excellent Performance</span>
+                                    <span class="tw-text-base fw-semibold tw-mb-2 text-pink">Proactive IT Support</span>
                                     <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
                                         IT Management Service
                                     </h4>
@@ -748,9 +750,9 @@
                                 data-aos-duration="600">
                                 <div
                                     class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 h-100 tw-pt-15 bg-pink-lighter tw-px-40-px tw-pb-136-px tw-duration-300">
-                                    <span class="tw-text-base fw-semibold tw-mb-2 text-pink">Excellent Performance</span>
+                                    <span class="tw-text-base fw-semibold tw-mb-2 text-pink">High-Performance Stores</span>
                                     <h4 class="splitTextStyleOne fw-light tw-mb-5 max-w-330-px">
-                                        <span class="d-inline-block fw-semibold">WowCommerce System
+                                        <span class="d-inline-block fw-semibold">E-commerce System
                                             Development</span>
                                     </h4>
                                     <a href="{{route('service.details')}}"
@@ -768,7 +770,7 @@
                         data-aos-duration="600">
                         <div
                             class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 bg-main-50 tw-px-40-px tw-pb-84-px tw-duration-300 h-100">
-                            <span class="text-main-600 fw-semibold tw-mb-2">Excellent Performance</span>
+                            <span class="text-main-600 fw-semibold tw-mb-2">Conversion-Focused Design</span>
                             <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
                                 Website Design & Development
                             </h4>
@@ -787,7 +789,7 @@
                                 data-aos-duration="600">
                                 <div
                                     class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 h-100 bg-purple-light tw-px-40-px tw-pb-84-px tw-duration-300">
-                                    <span class="tw-text-base fw-semibold tw-mb-2 text-purple">Excellent Performance</span>
+                                    <span class="tw-text-base fw-semibold tw-mb-2 text-purple">Smart Business Automation</span>
                                     <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
                                         CRM Software Solution
                                     </h4>
@@ -803,10 +805,9 @@
                                 data-aos-duration="600">
                                 <div
                                     class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 h-100 bg-paste-light tw-px-40-px tw-pb-136-px tw-duration-300">
-                                    <span class="tw-text-base fw-semibold tw-mb-2 text-pink">Excellent Performance</span>
+                                    <span class="tw-text-base fw-semibold tw-mb-2 text-pink">AI-Powered Solutions</span>
                                     <h4 class="splitTextStyleOne fw-light tw-mb-5 max-w-330-px">
-                                        <span class="d-inline-block fw-semibold">WowCommerce System
-                                            Development</span>
+                                        <span class="d-inline-block fw-semibold">Intelligent AI Software Solutions</span>
                                     </h4>
                                     <a href="{{route('service.details')}}"
                                         class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-paste tw-text-2xl text-white hover--translate-y-1 active--translate-y-scale-9">

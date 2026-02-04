@@ -77,55 +77,55 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
@@ -138,55 +138,55 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/wb4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
@@ -224,9 +224,8 @@
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                                <span
-                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
+                                                <span>
+                                                    <img src="{{asset('assets/images/icons/web-Responsive-Mobile-First-Design.png')}}" alt="Icon" />
                                                 </span>
                                                 <a href="{{route('pricing')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Responsive & Mobile-First Design</a>
@@ -234,9 +233,8 @@
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                                <span
-                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-dresser"></i>
+                                               <span>
+                                                    <img src="{{asset('assets/images/icons/web-SEO-Friendly-Architecture.png')}}" alt="Icon" />
                                                 </span>
                                                 <a href="{{route('pricing')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">SEO-Friendly Architecture</a>
@@ -244,9 +242,8 @@
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                                <span
-                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-certificate"></i>
+                                                <span>
+                                                    <img src="{{asset('assets/images/icons/web-Secure-Scalable-Development.png')}}" alt="Icon" />
                                                 </span>
                                                 <a href="{{route('pricing')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Secure & Scalable Development</a>
@@ -254,9 +251,8 @@
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                                <span
-                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <span>
+                                                    <img src="{{asset('assets/images/icons/web-Clean-Maintainable-Code.png')}}" alt="Icon" />
                                                 </span>
                                                 <a href="{{route('pricing')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Clean & Maintainable Code</a>
@@ -652,9 +648,9 @@
                             <div class="position-relative tw-p-12 text-center">
                                 <img src="{{asset('assets/images/shapes/rounded-circle.png')}}" alt="Bg Round" />
 
-                                <img src="{{asset('assets/images/shapes/icons-7.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/web-development2.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-right" />
-                                <img src="{{asset('assets/images/shapes/icons-3.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/web-development.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">

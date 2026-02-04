@@ -20,13 +20,14 @@
                     <div class="col-lg-6">
                         <div class="banner-three-content max-w-570-px">
                             <h1 class="splitTextStyleOne text-white text-capitalize tw-leading-none">
-                                Simplify task
-                                <span class="text-gradient-teal font-dm-serif fst-italic fw-normal">management</span>
-                                and prioritize work
+                                Hire Dedicated  
+                                <span class="text-gradient-teal font-dm-serif fst-italic fw-normal">Node.js Developers</span>
+                                for Scalable Applications
                             </h1>
-                            <p class="splitTextStyleOne text-white tw-text-lg tw-mt-8">Sassly-<span
-                                    class="text-yellow">CRM</span> in the past allowing you to focus more on your business
-                                or simply enjoy your newfound legal time to reflect leaving</p>
+                            <p class="splitTextStyleOne text-white tw-text-lg tw-mt-8">Build-<span
+                                    class="text-yellow">high-performance, secure,</span> and scalable applications with our experienced Node.js developers.
+Hire full-time, part-time, or on a project basis — globally.
+</p>
 
                             <div class="d-flex align-items-center tw-gap-7 tw-mt-11" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
@@ -35,13 +36,14 @@
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Start Free Trial</span>
+                                        <span class="button__label">Hire Node.js Developer</span>
                                         <span class="icon">
                                             <img src="{{asset('assets/images/icons/download-cloud-icon.png')}}" alt="Icon">
                                         </span>
                                     </div>
                                 </a>
                             </div>
+                            
 
                             <div class="d-flex align-items-center tw-gap-7 tw-mt-10">
                                 <div class="d-flex align-items-center tw-gap-205" data-aos="fade-up"
@@ -50,7 +52,15 @@
                                         class="tw-w-7 tw-h-7 bg-white-08 rounded-circle d-flex justify-content-center align-items-center tw-text-sm text-white">
                                         <i class="ph-bold ph-check"></i>
                                     </span>
-                                    <span class="text-white">3-Day Free Trial</span>
+                                    <span class="text-white">NDA Protected</span>
+                                </div>
+                                 <div class="d-flex align-items-center tw-gap-205" data-aos="fade-up"
+                                    data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                                    <span
+                                        class="tw-w-7 tw-h-7 bg-white-08 rounded-circle d-flex justify-content-center align-items-center tw-text-sm text-white">
+                                        <i class="ph-bold ph-check"></i>
+                                    </span>
+                                    <span class="text-white">Flexible Hiring Models</span>
                                 </div>
                                 <div class="d-flex align-items-center tw-gap-205" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="800">
@@ -58,7 +68,7 @@
                                         class="tw-w-7 tw-h-7 bg-white-08 rounded-circle d-flex justify-content-center align-items-center tw-text-sm text-white">
                                         <i class="ph-bold ph-check"></i>
                                     </span>
-                                    <span class="text-white">No Credit Card</span>
+                                    <span class="text-white">Global Time-Zone Support</span>
                                 </div>
                             </div>
 
@@ -88,32 +98,49 @@
                                 </div>
                             </div>
                             <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                Supercharge
-                                <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">daily work</span>
-                                with built-in automation
+                                Why Clients 
+                                <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">Choose</span>
+                                 Our Developers
                             </h2>
                             <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                Sassly-CRM in the past allowing you to focus more on your business simply enjoy your
-                                newfound legal time to reflect leaving pen</p>
+                                You work directly with skilled developers — no middle layers.</p>
 
                             <div class="tw-mt-9 d-flex flex-column align-items-start tw-gap-6">
                                 <div class="tw-ps-5 tw-pe-12 tw-py-3 d-flex align-items-center tw-gap-4 bg-neutral-100 rounded-pill animation-item"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <img src="{{asset('assets/images/icons/check-star.png')}}" alt="Check Icon"
                                         class="animate__bounce">
-                                    <span class="fw-bold text-heading">Workflow streamlining</span>
+                                    <span class="fw-bold text-heading">Experienced & vetted developers</span>
                                 </div>
                                 <div class="tw-ps-5 tw-pe-12 tw-py-3 d-flex align-items-center tw-gap-4 bg-neutral-100 rounded-pill animation-item"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <img src="{{asset('assets/images/icons/check-star.png')}}" alt="Check Icon"
                                         class="animate__bounce">
-                                    <span class="fw-bold text-heading">Expedite onboarding with clear prioritization</span>
+                                    <span class="fw-bold text-heading">Proven development process</span>
                                 </div>
                                 <div class="tw-ps-5 tw-pe-12 tw-py-3 d-flex align-items-center tw-gap-4 bg-neutral-100 rounded-pill animation-item"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                                     <img src="{{asset('assets/images/icons/check-star.png')}}" alt="Check Icon"
                                         class="animate__bounce">
-                                    <span class="fw-bold text-heading">Collaborate on ideas 7x faster</span>
+                                    <span class="fw-bold text-heading">Clear communication</span>
+                                </div>
+                                <div class="tw-ps-5 tw-pe-12 tw-py-3 d-flex align-items-center tw-gap-4 bg-neutral-100 rounded-pill animation-item"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                                    <img src="{{asset('assets/images/icons/check-star.png')}}" alt="Check Icon"
+                                        class="animate__bounce">
+                                    <span class="fw-bold text-heading">Flexible engagement models</span>
+                                </div>
+                                <div class="tw-ps-5 tw-pe-12 tw-py-3 d-flex align-items-center tw-gap-4 bg-neutral-100 rounded-pill animation-item"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                                    <img src="{{asset('assets/images/icons/check-star.png')}}" alt="Check Icon"
+                                        class="animate__bounce">
+                                    <span class="fw-bold text-heading">Source code ownership</span>
+                                </div>
+                                <div class="tw-ps-5 tw-pe-12 tw-py-3 d-flex align-items-center tw-gap-4 bg-neutral-100 rounded-pill animation-item"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+                                    <img src="{{asset('assets/images/icons/check-star.png')}}" alt="Check Icon"
+                                        class="animate__bounce">
+                                    <span class="fw-bold text-heading">NDA & IP protection</span>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center tw-gap-7 tw-mt-12" data-aos="fade-up"
@@ -163,12 +190,11 @@
                                 </div>
                             </div>
                             <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                Powerful & life-saving
-                                <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">task manager</span>
+                                Flexible 
+                                <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">Hiring Options</span>
                             </h2>
                             <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                Sassly-CRM in the past allowing you to focus more on your business simply enjoy your
-                                newfound legal time to reflect leaving pen</p>
+                                Easily scale up or down based on your project needs.</p>
 
                             <div class="tw-mt-13 d-flex flex-column tw-gap-12">
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
@@ -177,9 +203,8 @@
                                         <img src="{{asset('assets/images/icons/task-manager-icon1.svg')}}" alt="Icon">
                                     </span>
                                     <div class="">
-                                        <h5 class="tw-mb-6">Automate Task Creation</h5>
-                                        <p class="text-neutral-600 max-w-432-px">In today's competitive business, the
-                                            demand for efficient cost-effective IT solutions has never been more critic.</p>
+                                        <h5 class="tw-mb-6">Dedicated Developer</h5>
+                                        <p class="text-neutral-600 max-w-432-px">Monthly basis</p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
@@ -188,9 +213,18 @@
                                         <img src="{{asset('assets/images/icons/task-manager-icon2.svg')}}" alt="Icon">
                                     </span>
                                     <div class="">
-                                        <h5 class="tw-mb-6">Simplify your daily routines</h5>
-                                        <p class="text-neutral-600 max-w-432-px">In today's competitive business, the
-                                            demand for efficient cost-effective IT solutions has never been more critic.</p>
+                                        <h5 class="tw-mb-6">Hourly Hiring </h5>
+                                        <p class="text-neutral-600 max-w-432-px">Pay as you go</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
+                                    data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                                    <span class="tw-mt-105 animate__wobble">
+                                        <img src="{{asset('assets/images/icons/task-manager-icon1.svg')}}" alt="Icon">
+                                    </span>
+                                    <div class="">
+                                        <h5 class="tw-mb-6">Project-Based Hiring </h5>
+                                        <p class="text-neutral-600 max-w-432-px">Fixed scope & cost</p>
                                     </div>
                                 </div>
                             </div>
@@ -353,9 +387,9 @@
                                 hosting
                             </div>
                             <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                Sasstech makes you a better
-                                <span class="font-dm-serif fst-italic fw-normal">elevating</span>
-                                your team's
+                               Node.js  
+                                <span class="font-dm-serif fst-italic fw-normal">Developers</span>
+                                Can Help You With:
                             </h2>
                             <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
                                 In today's competitive business, the demand for efficient In
@@ -374,7 +408,7 @@
                                                 <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                             </span>
                                             <a href="{{route('pricing')}}"
-                                                class="fw-bold tw-text-lg text-heading hover-underline">Domain</a>
+                                                class="fw-bold tw-text-lg text-heading hover-underline">Custom backend development</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -384,8 +418,7 @@
                                                 <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                             </span>
                                             <a href="{{route('pricing')}}"
-                                                class="fw-bold tw-text-lg text-heading hover-underline">Web Hosting ₹
-                                                79.00/mo</a>
+                                                class="fw-bold tw-text-lg text-heading hover-underline">REST & GraphQL API development</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -395,8 +428,7 @@
                                                 <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                             </span>
                                             <a href="{{route('pricing')}}"
-                                                class="fw-bold tw-text-lg text-heading hover-underline">SSL
-                                                Certificates</a>
+                                                class="fw-bold tw-text-lg text-heading hover-underline">Real-time applications</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -406,8 +438,37 @@
                                                 <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                             </span>
                                             <a href="{{route('pricing')}}"
-                                                class="fw-bold tw-text-lg text-heading hover-underline">Professional
-                                                Email</a>
+                                                class="fw-bold tw-text-lg text-heading hover-underline">Microservices architecture</a>
+                                        </div>
+                                        <div class="d-flex align-items-center tw-gap-405 animation-item"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="600">
+                                            <span
+                                                class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                            </span>
+                                            <a href="{{route('pricing')}}"
+                                                class="fw-bold tw-text-lg text-heading hover-underline">Third-party integrations</a>
+                                        </div>
+                                        <div class="d-flex align-items-center tw-gap-405 animation-item"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="600">
+                                            <span
+                                                class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                            </span>
+                                            <a href="{{route('pricing')}}"
+                                                class="fw-bold tw-text-lg text-heading hover-underline">Performance optimization</a>
+                                        </div>
+                                        <div class="d-flex align-items-center tw-gap-405 animation-item"
+                                            data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                            data-aos-duration="600">
+                                            <span
+                                                class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                            </span>
+                                            <a href="{{route('pricing')}}"
+                                                class="fw-bold tw-text-lg text-heading hover-underline">Maintenance & support</a>
                                         </div>
                                     </div>
                                     <div
@@ -426,7 +487,7 @@
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">See Plan & Pricing</span>
+                                    <span class="button__label">Get Free Consultation</span>
                                 </a>
                             </div>
                         </div>
@@ -446,9 +507,9 @@
                     <div
                         class="max-w-602-px w-100 text-center mx-auto position-absolute z-1 tw-start-50 translate-middle-x top-0 mt-5 pt-lg-5 pt-4">
                         <h2 class="splitTextStyleOne text-heading text-capitalize text-capitalize">
-                            Avoid
-                            <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">distractions</span>
-                            with app integrations
+                            Node.js 
+                            <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">Tech </span>
+                            Stack
                         </h2>
                     </div>
 
@@ -515,17 +576,15 @@
                                     <img src="{{asset('assets/images/shapes/curve-arrow-white.png')}}" alt="Arrow"
                                         class="position-absolute top-0 tw-end-0 animate__wobble__two" />
 
-                                    <span
-                                        class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
-                                        we do</span>
+                                    
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
+                                        <span class="d-inline-block fw-semibold">Our Development Process </span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
-                                        In today's competitive business,
-                                        the demand for efficient and
-                                        cost-effective IT solutions has
-                                        never been more critical.
+                                        We follow a structured and transparent 
+                                        Node.js development process to 
+                                        reduce risk, ensure quality, and 
+                                        deliver scalable solutions on time.
                                     </p>
                                     <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                         <a href="{{route('register')}}"
@@ -533,7 +592,7 @@
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800" data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Get Started</span>
+                                            <span class="button__label">Hire Node.js Developer</span>
                                         </a>
                                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800">
@@ -555,11 +614,11 @@
                                                             class="w-100 h-100 object-fit-cover" />
                                                     </div>
                                                 </div>
-                                                <span class="h5 counter text-white">2.3M+</span>
+                                                <span class="h5 counter text-white">5+</span>
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Client reviews
+                                                5000+ Hours completed
                                             </p>
                                         </div>
                                     </div>
@@ -575,7 +634,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon1.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Brainstorming
+                                            Requirement Discussion
                                         </h6>
                                     </div>
 
@@ -586,8 +645,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon2.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            UX <br />
-                                            Research
+                                            Project Planning & Architecture
                                         </h6>
                                     </div>
 
@@ -598,7 +656,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon3.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Product Designing
+                                            Timeline & Cost Finalization
                                         </h6>
                                     </div>
 
@@ -609,7 +667,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon4.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Front-End Development
+                                            Node.js Developer Selection
                                         </h6>
                                     </div>
 
@@ -620,8 +678,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon5.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Usability <br />
-                                            Testing
+                                            Onboarding & Kickoff
                                         </h6>
                                     </div>
 
@@ -632,7 +689,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon6.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Back-End Development
+                                            Agile Node.js Development
                                         </h6>
                                     </div>
 
@@ -643,7 +700,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon7.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            SEO Optimization
+                                            Testing & Quality Assurance
                                         </h6>
                                     </div>
 
@@ -654,7 +711,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon8.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Digital Marketing
+                                            Deployment & Ongoing Support
                                         </h6>
                                     </div>
                                 </div>
@@ -685,11 +742,11 @@
                     <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
                         <div class="max-w-672-px">
                             <h3 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block ">Our Flexible <br>
+                                <span class="d-inline-block ">Who Should <br>
                                 </span>
                             </h3>
                             <h3 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block fw-semibold">Hiring Models
+                                <span class="d-inline-block fw-semibold">Hire Our Developers 
                                 </span>
                             </h3>
                         </div>
@@ -698,10 +755,11 @@
 
                 <div class="row gy-4">
                     <div class="col-lg-5">
-                        <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15">
-                            In today's competitive business, the demand
-                            for efficient and cost-effective IT
-                            solutions has never been more critical.
+                            <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15">
+                            In today’s fast-paced digital landscape, businesses 
+                            need scalable, high-performance, and real-time solutions. 
+                            Our expert Node.js developers help you build fast, secure, and 
+                            future-ready applications tailored to your business goals.
                         </p>
                         <div class="accordion common-accordion accordion-border-left" id="accordionExample">
                             <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
@@ -712,17 +770,15 @@
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                         aria-expanded="false" aria-controls="collapseTwo"
                                         data-img="{{asset('assets/images/thumbs/faq-thumb2.png')}}">
-                                    Fixed-price Project
+                                    Startups
                                     </button>
                                 </h5>
                                 <div id="collapseTwo" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
-                                            We customize our technology
-                                            to fit your specific need
-                                            ensuring the best possible
-                                            outcomes.
+                                        Launch faster with agile and cost-effective Node.js solutions.
+                                        Our developers help startups build MVPs, scalable backends, and real-time applications while keeping performance and growth in mind.
                                         </p>
                                     </div>
                                 </div>
@@ -734,17 +790,59 @@
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne"
                                         data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
-                                        Hourly Biling
+                                        SaaS companies
                                     </button>
                                 </h5>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
-                                            We customize our technology
-                                            to fit your specific need
-                                            ensuring the best possible
-                                            outcomes.
+                                            Build scalable, high-performance SaaS platforms with ease.
+                                            We develop robust Node.js architectures that support 
+                                            multi-tenancy, real-time data processing, 
+                                            and seamless third-party integrations.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                <h5 class="accordion-header">
+                                    <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
+                                        aria-expanded="false" aria-controls="collapseOne2"
+                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        Agencies
+                                    </button>
+                                </h5>
+                                <div id="collapseOne2" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        <p class="text-neutral-500">
+                                        Extend your development team with trusted Node.js experts.
+                                        Our developers work as your extended team, ensuring timely delivery, clean code, and 
+                                        smooth collaboration with your in-house resources.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                <h5 class="accordion-header">
+                                    <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
+                                        aria-expanded="false" aria-controls="collapseOne1"
+                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                       Product-based businesses
+                                    </button>
+                                </h5>
+                                <div id="collapseOne1" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body p-0">
+                                        <p class="text-neutral-500">
+                                            Power your digital products with speed and reliability.
+                                            From APIs to complex backend systems, our Node.js developers 
+                                            ensure performance, security, and scalability for your products.
                                         </p>
                                     </div>
                                 </div>
@@ -757,17 +855,16 @@
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseThree"
                                         data-img="{{asset('assets/images/thumbs/faq-thumb3.png')}}">
-                                        Dedicated PHP Development Team
+                                        Enterprises
                                     </button>
                                 </h5>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
-                                            We customize our technology
-                                            to fit your specific need
-                                            ensuring the best possible
-                                            outcomes.
+                                                Enterprise-grade Node.js solutions for complex systems.
+                                                We help enterprises modernize legacy systems, build microservices, and 
+                                                handle high traffic with secure and scalable Node.js applications.
                                         </p>
                                     </div>
                                 </div>
@@ -801,21 +898,13 @@
                 <div class="row gy-4">
                     <div class="col-lg-4">
                         <div class="">
-                            <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
-                                data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                Up to
-                                <span class="text-yellow">70%</span> off
-                                managed cloud hosting
-                            </div>
+                            
                             <h3 class="splitTextStyleOne text-heading text-capitalize">
                                 Frequently ask
                                 <span class="font-dm-serif fst-italic fw-normal">Questions</span>
                             </h3>
                             <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-350-px fw-medium">
-                                Create tasks with various custom
-                                statuses to focus more on your keep
-                                track of the progress of each why in
+                                Everything you need to know before hiring our Node.js developers.
                             </p>
 
                             <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -824,7 +913,7 @@
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn-main-two hover-style-two"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">get started trial</span>
+                                    <span class="button__label">Talk to Our Experts</span>
                                 </a>
                             </div>
                         </div>
@@ -838,14 +927,17 @@
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne_2"
                                             aria-expanded="false" aria-controls="collapseOne_2">
-                                            What is Sassly?
+                                            What are the benefits of hiring a Node.js developer?
                                         </button>
                                     </h5>
                                     <div id="collapseOne_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
-                                                GoDaddy offers more than just a platform...
+                                                Node.js developers build fast, scalable, and 
+                                                efficient web applications. They are ideal for 
+                                                real-time apps, API development, and 
+                                                high-performance back-end solutions.
                                             </p>
                                         </div>
                                     </div>
@@ -857,14 +949,14 @@
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo_2"
                                             aria-expanded="true" aria-controls="collapseTwo_2">
-                                            Why should I choose Sassly?
+                                            What experience levels are available?
                                         </button>
                                     </h5>
                                     <div id="collapseTwo_2" class="accordion-collapse collapse show"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
-                                                GoDaddy offers more than just a platform...
+                                                We provide junior, mid-level, and senior developers to match your project’s complexity and budget.
                                             </p>
                                         </div>
                                     </div>
@@ -876,14 +968,14 @@
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_2"
                                             aria-expanded="false" aria-controls="collapseThree_2">
-                                            Can I upgrade to a different plan at a later time?
+                                            Can I hire remote Node.js developers?
                                         </button>
                                     </h5>
                                     <div id="collapseThree_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
-                                                GoDaddy offers more than just a platform...
+                                               Yes, we provide skilled remote developers who communicate seamlessly and deliver projects on time.
                                             </p>
                                         </div>
                                     </div>
@@ -895,14 +987,17 @@
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour_2"
                                             aria-expanded="false" aria-controls="collapseFour_2">
-                                            What’s the cost of additional users?
+                                            What types of projects can Node.js developers handle?
                                         </button>
                                     </h5>
                                     <div id="collapseFour_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
-                                                GoDaddy offers more than just a platform...
+                                                Our developers can work on real-time 
+                                                applications, REST APIs, eCommerce 
+                                                platforms, SaaS apps, microservices, and 
+                                                enterprise-level solutions.
                                             </p>
                                         </div>
                                     </div>
@@ -914,14 +1009,14 @@
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive_2"
                                             aria-expanded="false" aria-controls="collapseFive_2">
-                                            What’s the commitment?
+                                            What is the process to hire a Node.js developer?
                                         </button>
                                     </h5>
                                     <div id="collapseFive_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
-                                                GoDaddy offers more than just a platform...
+                                                Simple: Share your requirements → Shortlist profiles → Interview → Hire → Start the project.
                                             </p>
                                         </div>
                                     </div>
@@ -933,14 +1028,87 @@
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
                                             aria-expanded="false" aria-controls="collapseSix_2">
-                                            What languages does Sassly AI support?
+                                            Do you offer hourly or fixed-price hiring options?
                                         </button>
                                     </h5>
                                     <div id="collapseSix_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
-                                                GoDaddy offers more than just a platform...
+                                                Yes, you can hire developers on an hourly, monthly, or fixed-price basis, depending on your project needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                        <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
+                                            aria-expanded="false" aria-controls="collapseSix_2">
+                                            Is there a trial period to evaluate the developer?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                            <p class="text-neutral-500">
+                                                Yes, we offer a short trial period so you can assess skills and compatibility before committing long-term.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                        <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
+                                            aria-expanded="false" aria-controls="collapseSix_2">
+                                            Can I hire developers for long-term projects?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                            <p class="text-neutral-500">
+                                               Absolutely. You can hire developers as dedicated resources for long-term engagements.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                        <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
+                                            aria-expanded="false" aria-controls="collapseSix_2">
+                                            How do you ensure developers are skilled and up-to-date?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                            <p class="text-neutral-500">
+                                                We provide only verified developers proficient in the latest Node.js frameworks, tools, and best practices.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                                    <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                        <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
+                                            aria-expanded="false" aria-controls="collapseSix_2">
+                                           How is project confidentiality maintained?
+                                        </button>
+                                    </h5>
+                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                            <p class="text-neutral-500">
+                                                We follow strict NDAs and secure workflows to ensure your project data and intellectual property remain fully protected.
                                             </p>
                                         </div>
                                     </div>
@@ -962,12 +1130,11 @@
                     <div class="max-w-780-px text-center mx-auto">
                         <div class="tw-mb-10 max-w-672-px mx-auto text-center">
                             <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-crm">
-                                with the world's favorite CRM
+                                Ready to Hire a Node.js Developer?
                             </h4>
                             <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                The
-                                <span class="fw-normal">CRM</span>
-                                behind thousand of companies
+                                <span class="fw-normal">Let’s discuss your requirements</span>
+                                and get started.
                             </h2>
                         </div>
                         <div class="d-flex align-items-center tw-gap-4 justify-content-center tw-mt-10">
@@ -977,13 +1144,13 @@
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Schedule a Demo</span>
+                                    <span class="button__label">Hire Now</span>
                                 </a>
                                 <a href="javascript:void(0)"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Contact Sales</span>
+                                    <span class="button__label">Talk to an Expert</span>
                                 </a>
                             </div>
                         </div>
