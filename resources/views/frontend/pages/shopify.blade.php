@@ -12,11 +12,11 @@
                 <div class="banner-two__inner position-relative">
                     <div class="container">
                         <div class="text-center">
-                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable Node.js Development </span>
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable Shopify Development </span>
                             <div class="">
                                 <div class="position-relative d-inline-block">
                                     <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
-                                        for High-Performance Applications
+                                        For High-Converting eCommerce Stores
                                     </h1>
                                     <div class="text-end svg-line d-sm-block d-none">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="489" height="18"
@@ -28,9 +28,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <p
-                                class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
-                               We build fast, secure, and scalable Node.js solutions<br> for startups and enterprises worldwide.
+                            <p class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
+                               We build fast, secure, and scalable Shopify stores that drive sales for startups and growing brands worldwide.
                             </p>
 
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
@@ -201,16 +200,17 @@
                                 <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">90%</span> Faster & Scalable Backend Solutions
+                                    Up to <span class="text-yellow">90%</span> Higher Conversion with Shopify Solutions
                                 </div>
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                   Our Node.js Solutions  
-                                    <span class="font-dm-serif fst-italic fw-normal">Power High-Performance</span>
-                                    Digital Products
+                                   Our Shopify Development Solutions  
+                                    <span class="font-dm-serif fst-italic fw-normal">Build High-Converting</span>
+                                    Shopify Stores
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                  We build fast, scalable, and secure Node.js applications designed to handle real-time data, 
-                                  high traffic, and complex business logic—helping your product perform flawlessly as you grow.
+                                  We design and develop powerful, scalable, and user-friendly Shopify stores tailored 
+                                  to your business goals. From custom themes to advanced integrations, we help you 
+                                  create seamless shopping experiences that drive sales and growth.
                                 </p>
 
                                 <div class="tw-mt-8">
@@ -224,7 +224,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Event-driven architecture</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Custom Shopify Store Development</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -234,7 +234,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Scalable microservices</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Shopify Theme Design & Customization</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -244,7 +244,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Secure APIs</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Shopify App Integration</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -254,7 +254,17 @@
                                                     <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Clean & maintainable code</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Secure & Scalable Architecture</a>
+                                            </div>
+                                            <div class="d-flex align-items-center tw-gap-405 animation-item"
+                                                data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                                data-aos-duration="600">
+                                                <span
+                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                </span>
+                                                <a href="{{route('pricing')}}"
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Clean & Maintainable Code</a>
                                             </div>
                                         </div>
                                         <div
@@ -289,10 +299,11 @@
                 <div class="container max-w-1400-px">
                     <div class="max-w-672-px text-center mx-auto tw-mb-12">
                         <h3 class="splitTextStyleOne text-heading text-capitalize">
-                           Seamless Integrations That Enhance Digital Experiences
+                           Seamless Shopify Solutions That Drive Online Growth
                         </h3>
                         <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
-                            We connect your systems, tools, and platforms into a unified ecosystem—ensuring smooth data flow, better performance, and scalable growth.
+                            We build and integrate powerful Shopify solutions into a 
+                            unified eCommerce ecosystem—ensuring smooth operations, better performance, and scalable business growth.
                         </p>
                     </div>
 
@@ -304,17 +315,16 @@
                                         <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Custom Development
+                                        Custom Shopify Development
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We design and develop custom web and 
-                                        software solutions tailored to your 
-                                        business requirements, ensuring flexibility, 
-                                        performance, and long-term scalability.
+                                        We design and develop custom Shopify stores 
+                                        tailored to your business needs, ensuring 
+                                        flexibility, performance, and a conversion-focused shopping experience.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Explore Custom Solutions
+                                       Explore Custom Shopify Solutions
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -325,12 +335,12 @@
                                         <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        API development
+                                        Shopify API Development
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build secure, high-performance APIs 
-                                        that enable seamless communication between 
-                                        applications, platforms, and services.
+                                        We build secure, high-performance 
+                                        Shopify APIs that enable seamless 
+                                        communication between your store, apps, and third-party services.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -348,9 +358,8 @@
                                         Third-party integrations
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We integrate CRMs, payment gateways, 
-                                        analytics, and cloud services to 
-                                        streamline operations and improve efficiency.
+                                        We integrate payment gateways, CRMs, ERPs, shipping tools, 
+                                        analytics, and marketing platforms to streamline workflows and boost efficiency.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
@@ -368,13 +377,12 @@
                                          Maintenance & support
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Ongoing monitoring, updates, and 
-                                        technical support to keep your 
-                                        systems secure, fast, and running smoothly.
+                                        We provide ongoing monitoring, updates, performance optimization, 
+                                        and technical support to keep your Shopify store secure, fast, and running smoothly.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Get Support
+                                        Get Shopify Support
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -651,9 +659,9 @@
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">
-                                        <span class="counter">99.9</span>%
+                                        <span class="counter">98.3</span>%
                                     </h3>
-                                    <span class="text-heading">Performance <br>Optimized APIs</span>
+                                    <span class="text-heading">Performance <br>Shopify Stores</span>
                                 </div>
                             </div>
                         </div>
@@ -662,18 +670,18 @@
                                 <div class="text-start mx-auto tw-mb-12">
                                     <div class="tw-mb-10">
                                         <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
-                                            With High-Performance Node.js Development
+                                            With High-Performance Shopify Solutions…
                                         </h4>
                                         <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
-                                            Fast, Scalable & Secure
-                                            Node.js Backend Solutions
+                                            Fast, Scalable & Secure Shopify Development Solutions
                                         </h2>
                                         <p
                                             class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                            We build high-performance Node.js applications 
-                                            that are fast, scalable, and future-ready.
-                                            Our expert developers create real-time, API-driven, and 
-                                            microservice-based solutions designed to handle high traffic with ease.
+                                                We build high-performing Shopify 
+                                                stores that are fast, scalable, and 
+                                                future-ready. Our Shopify experts create 
+                                                conversion-focused, API-driven, and integration-ready 
+                                                eCommerce solutions designed to handle high traffic with ease.
                                         </p>
                                     </div>
                                     <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -682,7 +690,7 @@
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
                                             data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Talk to Node.js Experts</span>
+                                            <span class="button__label">Talk to Shopify Experts</span>
                                         </a>
                                     </div>
                                 </div>
@@ -708,12 +716,14 @@
                             Why Zalgo Infotech
                         </div>
                         <h2 class="splitTextStyleOne text-white">
-                            Powering Modern Applications
+                            Powering High-Converting Stores
                             <span class="font-dm-serif fst-italic fw-normal">
-                                With Node.js</span>. Expertise
+                                With Shopify </span>Expertise
                         </h2>
                         <p class="text-neutral-300 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                            Our Node.js solutions are designed for speed, scalability, and security—ensuring seamless performance for startups and enterprises alike.
+                            Our Shopify solutions are crafted to boost sales, enhance user experience, 
+                            and scale your eCommerce business—delivering fast, secure, and conversion-focused 
+                            online stores for startups and enterprises alike.
                         </p>
                     </div>
 
@@ -732,12 +742,12 @@
                                         <div class="">
                                             
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                High-Performance Development
+                                                High-Performance Shopify Development
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We build fast and efficient Node.js applications 
-                                                optimized for speed, scalability, and real-time performance.                                            </p>
+                                                We build fast, reliable, and conversion-optimized Shopify 
+                                                stores tailored to your business goals—ensuring seamless shopping experiences across all devices.                                            </p>
                                             
                                         </div>
                                     </div>
@@ -760,12 +770,13 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                               Experienced Node.js Team
+                                               Experienced Shopify Experts
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Our developers have strong expertise in Node.js, 
-                                                Express, APIs, and modern backend frameworks.
+                                                Our skilled Shopify developers specialize in 
+                                                custom themes, app integrations, and advanced 
+                                                store functionality to deliver results-driven eCommerce solutions.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -793,12 +804,13 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Scalable Architecture
+                                                Scalable & Flexible Architecture
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We design future-ready applications that 
-                                                scale easily as your business and user base grow.
+                                                We design Shopify stores that grow with 
+                                                your business—supporting high traffic, complex product 
+                                                catalogs, and seamless third-party integrations.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -826,11 +838,13 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Secure Backend Solutions
+                                                Secure & Reliable eCommerce Solutions
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Security is built into every layer with best practices for authentication, data protection, and APIs.
+                                                From secure payment gateways to data 
+                                                protection and compliance, we ensure your 
+                                                Shopify store is safe, stable, and built for long-term success.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -862,8 +876,9 @@
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                               From REST APIs to third-party integrations, 
-                                               we ensure smooth and reliable system communication.
+                                               We integrate third-party apps, payment gateways, shipping 
+                                               tools, CRMs, and custom APIs to extend your 
+                                               Shopify store’s functionality and streamline operations.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -895,8 +910,9 @@
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We follow agile methodology with clear communication, 
-                                                regular updates, and on-time delivery.
+                                                Our development process is fully transparent 
+                                                and agile—keeping you informed at every 
+                                                stage with regular updates, clear timelines, and measurable progress.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -924,12 +940,13 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Cost-Effective for USA Market
+                                                Cost-Effective for Global Market
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Get enterprise-level Node.js development at 
-                                                competitive pricing without compromising quality.
+                                                We deliver high-quality Shopify solutions at 
+                                                competitive pricing—making us a trusted, cost-effective 
+                                                development partner for businesses in the USA and beyond.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -961,8 +978,9 @@
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We provide continuous support, updates, 
-                                                and performance monitoring after deployment.
+                                               From updates and performance optimization to 
+                                               bug fixes and feature enhancements, we provide 
+                                               continuous Shopify support to keep your store running smoothly.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -1057,6 +1075,50 @@
                                                     Timelines vary based on complexity and requirements. Small to mid-scale 
                                                     projects usually take 4–8 weeks, while larger 
                                                     applications may take longer. We always share a clear delivery roadmap.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                               ❓ Do you offer custom Shopify store development?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                   Yes. We build custom Shopify stores, themes, and features tailored to your brand and business needs.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item tw-py-8 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                        data-aos-duration="800">
+                                        <h5
+                                            class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
+                                            <button
+                                                class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
+                                                type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                ❓ Can you customize existing Shopify themes and apps?
+                                            </button>
+                                        </h5>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
+                                                <p class="text-neutral-500">
+                                                   Definitely. We customize themes, apps, and integrations to improve store performance and conversions.
                                                 </p>
                                             </div>
                                         </div>
@@ -1269,12 +1331,11 @@
                                 data-aos-duration="600"
                             >
                                 <div class="">
-                                    Build Fast & Scalable Node.js Applications
+                                    Build High-Converting Shopify Stores
                                 </div>
                             </div>
                             <h3 class="splitTextStyleOne text-white">
-                                Ready to Build a Powerful
-                                    Node.js Backend for Your Business?
+                                Ready to Launch or Scale Your Shopify Store?
                             </h3>
 
                             <div class="d-none">
@@ -1307,7 +1368,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Start Your Node.js Project</span
+                                                >Start Your Shopify Project</span
                                             >
                                         </div>
                                     </a>
@@ -1334,35 +1395,35 @@
                             >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                    >API Integrations</span
+                                    >Custom Shopify Development</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >AWS / Cloud Deployment</span
+                                    >Shopify Theme Customization</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Real-Time Applications</span
+                                    >Shopify App Integration</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                    >Node.js</span
+                                    >Shopify Plus Solutions</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >Express.js</span
+                                    >Payment Gateway Integration</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >NestJS</span
+                                    >Third-Party API Integrations</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >MongoDB & PostgreSQL</span
+                                    >Performance Optimization</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >REST & GraphQL APIs</span
+                                    >Mobile-Optimized Stores</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"

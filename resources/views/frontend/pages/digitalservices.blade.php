@@ -12,11 +12,11 @@
                 <div class="banner-two__inner position-relative">
                     <div class="container">
                         <div class="text-center">
-                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable Node.js Development </span>
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Result-Driven Digital Marketing Services</span>
                             <div class="">
                                 <div class="position-relative d-inline-block">
                                     <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
-                                        for High-Performance Applications
+                                        That Turn Traffic Into Customers
                                     </h1>
                                     <div class="text-end svg-line d-sm-block d-none">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="489" height="18"
@@ -30,7 +30,7 @@
                             </div>
                             <p
                                 class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
-                               We build fast, secure, and scalable Node.js solutions<br> for startups and enterprises worldwide.
+                               We create powerful digital marketing campaigns using SEO, PPC, social media, and content marketing to deliver real, measurable growth.
                             </p>
 
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
@@ -39,13 +39,13 @@
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Get a Free Consultation</span>
+                                    <span class="button__label">Start Growing Today</span>
                                 </a>
                                 <a href="javascript:void(0)"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Request a Quote</span>
+                                    <span class="button__label">Get a Free Strategy Call</span>
                                 </a>
                             </div>
                         </div>
@@ -201,16 +201,19 @@
                                 <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">90%</span> Faster & Scalable Backend Solutions
+                                    Up to <span class="text-yellow">3X</span> More Leads with Data-Driven Marketing
                                 </div>
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                   Our Node.js Solutions  
-                                    <span class="font-dm-serif fst-italic fw-normal">Power High-Performance</span>
-                                    Digital Products
+                                   Our Digital Marketing Solutions  
+                                    <span class="font-dm-serif fst-italic fw-normal">Drive Real Growth</span>
+                                    & Online Visibility
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                  We build fast, scalable, and secure Node.js applications designed to handle real-time data, 
-                                  high traffic, and complex business logic—helping your product perform flawlessly as you grow.
+                                  We create result-focused digital marketing strategies 
+                                  that help businesses attract the right audience, generate 
+                                  quality leads, and convert visitors into loyal customers. 
+                                  Our campaigns are data-driven, scalable, and optimized for 
+                                  long-term success across all digital channels.
                                 </p>
 
                                 <div class="tw-mt-8">
@@ -224,7 +227,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Event-driven architecture</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">SEO & Organic Growth</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -234,7 +237,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Scalable microservices</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Paid Advertising (PPC & Google Ads)</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -244,7 +247,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Secure APIs</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Social Media Marketing</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -254,7 +257,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Clean & maintainable code</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Conversion-Focused Strategy</a>
                                             </div>
                                         </div>
                                         <div
@@ -289,10 +292,11 @@
                 <div class="container max-w-1400-px">
                     <div class="max-w-672-px text-center mx-auto tw-mb-12">
                         <h3 class="splitTextStyleOne text-heading text-capitalize">
-                           Seamless Integrations That Enhance Digital Experiences
+                           Smart Digital Marketing That Turns Attention Into Action
                         </h3>
                         <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
-                            We connect your systems, tools, and platforms into a unified ecosystem—ensuring smooth data flow, better performance, and scalable growth.
+                            We don’t just run campaigns—we build connected marketing systems that attract, engage, and 
+                            convert your ideal customers across every digital touchpoint.
                         </p>
                     </div>
 
@@ -304,17 +308,16 @@
                                         <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Custom Development
+                                        Search Visibility & Brand Authority
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We design and develop custom web and 
-                                        software solutions tailored to your 
-                                        business requirements, ensuring flexibility, 
-                                        performance, and long-term scalability.
+                                        Get found exactly when customers are searching. 
+                                        We improve rankings, boost credibility, and turn 
+                                        organic traffic into consistent business opportunities.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Explore Custom Solutions
+                                       Grow Your Search Presence
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -325,16 +328,16 @@
                                         <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        API development
+                                        Performance Marketing & Paid Growth
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build secure, high-performance APIs 
-                                        that enable seamless communication between 
-                                        applications, platforms, and services.
+                                       Every click matters. We design ROI-focused ad 
+                                       campaigns that bring high-intent traffic, lower 
+                                       acquisition costs, and scale profits faster.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        View API Services
+                                        Launch High-ROI Campaigns
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -345,16 +348,16 @@
                                         <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Third-party integrations
+                                        Social Engagement & Community Building
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We integrate CRMs, payment gateways, 
-                                        analytics, and cloud services to 
-                                        streamline operations and improve efficiency.
+                                        We help brands connect, not just post. 
+                                        Build trust, spark conversations, and 
+                                        convert engagement into real customers across social platforms.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
+                                        Build Your Social Presence
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -365,16 +368,14 @@
                                         <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                         Maintenance & support
+                                         Growth Optimization & Analytics
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Ongoing monitoring, updates, and 
-                                        technical support to keep your 
-                                        systems secure, fast, and running smoothly.
+                                        Marketing without data is guessing. We track, analyze, and continuously optimize every campaign to improve performance and maximize results.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Get Support
+                                       Optimize Your Growth
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -481,13 +482,12 @@
                                         class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
                                         we do</span>
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
+                                        <span class="d-inline-block fw-semibold">Our Digital Marketing Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
-                                        In today's competitive business,
-                                        the demand for efficient and
-                                        cost-effective IT solutions has
-                                        never been more critical.
+                                        In today’s competitive digital landscape, growth doesn’t happen by chance. 
+                                        We follow a structured, data-driven marketing roadmap that 
+                                        helps brands attract the right audience, convert leads, and scale sustainably.
                                     </p>
                                     <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                         <a href="{{route('register')}}"
@@ -537,7 +537,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon1.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Brainstorming
+                                            Research & Ideation
                                         </h6>
                                     </div>
 
@@ -548,8 +548,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon2.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            UX <br />
-                                            Research
+                                            Audience Insights
                                         </h6>
                                     </div>
 
@@ -560,7 +559,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon3.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Product Designing
+                                            Campaign Planning
                                         </h6>
                                     </div>
 
@@ -571,7 +570,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon4.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Front-End Development
+                                            Conversion Design
                                         </h6>
                                     </div>
 
@@ -582,8 +581,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon5.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Usability <br />
-                                            Testing
+                                            Testing & Refinement
                                         </h6>
                                     </div>
 
@@ -594,7 +592,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon6.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Back-End Development
+                                            Campaign Execution
                                         </h6>
                                     </div>
 
@@ -605,7 +603,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon7.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            SEO Optimization
+                                            Growth Optimization
                                         </h6>
                                     </div>
 
@@ -616,7 +614,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon8.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Digital Marketing
+                                            Scale & Expand
                                         </h6>
                                     </div>
                                 </div>
@@ -651,9 +649,9 @@
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">
-                                        <span class="counter">99.9</span>%
+                                        <span class="counter">95</span>%
                                     </h3>
-                                    <span class="text-heading">Performance <br>Optimized APIs</span>
+                                    <span class="text-heading">Campaign<br>Optimization Score</span>
                                 </div>
                             </div>
                         </div>
@@ -662,18 +660,19 @@
                                 <div class="text-start mx-auto tw-mb-12">
                                     <div class="tw-mb-10">
                                         <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
-                                            With High-Performance Node.js Development
+                                            With Result-Driven Digital Marketing…
                                         </h4>
                                         <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
-                                            Fast, Scalable & Secure
-                                            Node.js Backend Solutions
+                                            High-Impact, Scalable & ROI-Focused
+
+                                            Marketing Solutions
                                         </h2>
                                         <p
                                             class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                            We build high-performance Node.js applications 
-                                            that are fast, scalable, and future-ready.
-                                            Our expert developers create real-time, API-driven, and 
-                                            microservice-based solutions designed to handle high traffic with ease.
+                                            We build performance-driven digital 
+                                            marketing strategies that help brands 
+                                            attract the right audience, increase conversions, and 
+                                            scale revenue through SEO, paid ads, and social media.
                                         </p>
                                     </div>
                                     <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -682,7 +681,7 @@
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
                                             data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Talk to Node.js Experts</span>
+                                            <span class="button__label">Talk to Marketing Experts</span>
                                         </a>
                                     </div>
                                 </div>
@@ -708,12 +707,14 @@
                             Why Zalgo Infotech
                         </div>
                         <h2 class="splitTextStyleOne text-white">
-                            Powering Modern Applications
+                           Powering Business Growth
                             <span class="font-dm-serif fst-italic fw-normal">
-                                With Node.js</span>. Expertise
+                               With Digital Marketing</span>Expertise
                         </h2>
                         <p class="text-neutral-300 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                            Our Node.js solutions are designed for speed, scalability, and security—ensuring seamless performance for startups and enterprises alike.
+                            We help brands grow faster with smart, data-driven 
+                            digital marketing strategies focused on visibility, leads, and 
+                            measurable ROI—trusted by startups and growing businesses worldwide.
                         </p>
                     </div>
 
@@ -732,12 +733,13 @@
                                         <div class="">
                                             
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                High-Performance Development
+                                                Performance-Driven Marketing
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We build fast and efficient Node.js applications 
-                                                optimized for speed, scalability, and real-time performance.                                            </p>
+                                                We create marketing campaigns focused on real 
+                                                results—more traffic, better leads, and 
+                                                higher conversions across all digital channels.                                            </p>
                                             
                                         </div>
                                     </div>
@@ -760,12 +762,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                               Experienced Node.js Team
+                                               Experienced Marketing Team
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Our developers have strong expertise in Node.js, 
-                                                Express, APIs, and modern backend frameworks.
+                                               Our skilled digital marketers understand SEO, paid ads, social media, and analytics—delivering strategies that actually work.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -793,12 +794,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Scalable Architecture
+                                                Scalable Growth Strategy
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We design future-ready applications that 
-                                                scale easily as your business and user base grow.
+                                                From startups to enterprises, our marketing solutions scale with your business needs and long-term growth goals.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -826,11 +826,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Secure Backend Solutions
+                                                Data-Secure & Transparent Campaigns
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Security is built into every layer with best practices for authentication, data protection, and APIs.
+                                                We follow ethical marketing practices with full transparency, performance tracking, and secure handling of your data.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -858,12 +858,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                API & Integration Expertise
+                                                SEO & Organic Growth
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                               From REST APIs to third-party integrations, 
-                                               we ensure smooth and reliable system communication.
+                                               Improve search rankings, traffic, and long-term visibility with smart SEO strategies.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -891,12 +890,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Agile & Transparent Process
+                                                Paid Ads & PPC Campaigns
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We follow agile methodology with clear communication, 
-                                                regular updates, and on-time delivery.
+                                                High-converting Google & Meta ads designed to maximize ROI and reduce ad spend.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -924,12 +922,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Cost-Effective for USA Market
+                                                Social Media Marketing
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Get enterprise-level Node.js development at 
-                                                competitive pricing without compromising quality.
+                                               Build brand awareness and engagement across Facebook, Instagram, LinkedIn & more.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -957,12 +954,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Ongoing Support & Maintenance
+                                                Analytics & Conversion Tracking
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We provide continuous support, updates, 
-                                                and performance monitoring after deployment.
+                                               Track performance, user behavior, and conversions to optimize every campaign.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -995,8 +991,7 @@
                                     <span class="font-dm-serif fst-italic fw-normal">We’ve Got Answers</span>
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-350-px fw-medium">
-                                    Everything you need to know about our development services, 
-                                    timelines, and engagement models—all in one place.
+                                    Everything you need to know before starting digital marketing with us.
                                 </p>
 
                                 <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -1022,16 +1017,15 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="false" aria-controls="collapseTwo">
-                                                ❓ How do you estimate the project cost?
+                                                ❓ What digital marketing services do you offer?
                                             </button>
                                         </h5>
                                         <div id="collapseTwo" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Project cost depends on scope, features, technology stack, 
-                                                   and timeline. After a free consultation, we provide a 
-                                                   transparent and detailed estimate with no hidden charges.
+                                                   We provide SEO, Google Ads, Meta (Facebook & Instagram) Ads, 
+                                                   social media marketing, content marketing, and conversion tracking — all under one roof.
                                                 </p>
                                             </div>
                                         </div>
@@ -1047,16 +1041,15 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
-                                               ❓ What is the typical project timeline?
+                                               ❓ How long does it take to see results from digital marketing?
                                             </button>
                                         </h5>
                                         <div id="collapseOne" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    Timelines vary based on complexity and requirements. Small to mid-scale 
-                                                    projects usually take 4–8 weeks, while larger 
-                                                    applications may take longer. We always share a clear delivery roadmap.
+                                                    Paid ads can show results within a few days, while 
+                                                    SEO usually takes 2–3 months to show steady growth. Long-term results improve over time.
                                                 </p>
                                             </div>
                                         </div>
@@ -1071,16 +1064,16 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseThree" aria-expanded="false"
                                                 aria-controls="collapseThree">
-                                                ❓ Do you sign an NDA?
+                                                ❓ Is digital marketing suitable for small businesses?
                                             </button>
                                         </h5>
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Yes. We sign a Non-Disclosure Agreement (NDA) 
-                                                   to ensure complete confidentiality and protect 
-                                                   your idea, data, and intellectual property.
+                                                   Yes, absolutely. Digital marketing is 
+                                                   cost-effective and scalable, making it ideal for 
+                                                   startups and small businesses with limited budgets.
                                                 </p>
                                             </div>
                                         </div>
@@ -1095,16 +1088,14 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFour" aria-expanded="false"
                                                 aria-controls="collapseFour">
-                                                ❓ Will I get regular project updates?
+                                                ❓ Do you work with international clients?
                                             </button>
                                         </h5>
                                         <div id="collapseFour" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    Absolutely. We follow an agile approach and provide regular 
-                                                    updates through email, calls, or project management 
-                                                    tools like Jira, Trello, or Slack.
+                                                    Yes. We work with clients from the USA, Canada, Australia, and Europe, offering flexible time zones and clear communication.
                                                 </p>
                                             </div>
                                         </div>
@@ -1119,15 +1110,14 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseSix" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Can you work with clients in different time zones?
+                                                ❓ How do you measure campaign success?
                                             </button>
                                         </h5>
                                         <div id="collapseSix" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Yes. We work with clients across the US, Europe, Middle East, 
-                                                   and Asia. Our team is flexible and ensures smooth communication across time zones.
+                                                  We track key metrics like traffic, leads, conversions, ROI, and user behavior using tools like Google Analytics and ad dashboards.
                                                 </p>
                                             </div>
                                         </div>
@@ -1142,15 +1132,14 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseseven" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Who owns the source code?
+                                                ❓ Can I choose specific services instead of a full package?
                                             </button>
                                         </h5>
                                         <div id="collapseseven" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Once the project is completed and payment terms are 
-                                                   fulfilled, you own 100% of the source code and intellectual property.
+                                                   Yes. You can start with a single service like SEO or PPC and scale to a full digital marketing strategy later.
                                                 </p>
                                             </div>
                                         </div>
@@ -1165,15 +1154,14 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseeight" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ How do we get started?
+                                                ❓ What makes your digital marketing services different?
                                             </button>
                                         </h5>
                                         <div id="collapseeight" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                  Simply click on “Get a Free Consultation” or “Request a Quote”, 
-                                                  share your requirements, and our experts will get in touch within 24 hours.
+                                                  We focus on data-driven strategies, transparent reporting, and real business results — not just clicks or impressions.
                                                 </p>
                                             </div>
                                         </div>
@@ -1188,16 +1176,14 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapsenine" aria-expanded="false"
                                                 aria-controls="collapsenine">
-                                                ❓ Can you scale the team if my project grows?
+                                                ❓ Do you provide regular reports and updates?
                                             </button>
                                         </h5>
                                         <div id="collapsenine" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Yes. We can quickly scale resources based on your 
-                                                   project needs, whether you require additional 
-                                                   developers, AI engineers, or long-term support.
+                                                   Yes. We share detailed monthly reports covering performance, insights, and next-step recommendations.
                                                 </p>
                                             </div>
                                         </div>
@@ -1211,15 +1197,14 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
                                                 aria-expanded="false" aria-controls="collapseTen">
-                                                ❓ Do you provide post-launch support and maintenance?
+                                                ❓ How do we get started?
                                             </button>
                                         </h5>
                                         <div id="collapseTen" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    Yes. We offer ongoing support, maintenance, performance 
-                                                    optimization, and feature enhancements after project delivery.
+                                                   Simply contact us, share your goals, and our experts will create a custom digital marketing plan for your business.
                                                 </p>
                                             </div>
                                         </div>
@@ -1269,12 +1254,11 @@
                                 data-aos-duration="600"
                             >
                                 <div class="">
-                                    Build Fast & Scalable Node.js Applications
+                                    Grow Faster with Result-Driven Digital Marketing
                                 </div>
                             </div>
                             <h3 class="splitTextStyleOne text-white">
-                                Ready to Build a Powerful
-                                    Node.js Backend for Your Business?
+                                Ready to Boost Your Brand Visibility and Sales with Digital Marketing?
                             </h3>
 
                             <div class="d-none">
@@ -1307,7 +1291,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Start Your Node.js Project</span
+                                                >Start Your Digital Marketing Campaign</span
                                             >
                                         </div>
                                     </a>
@@ -1334,43 +1318,43 @@
                             >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                    >API Integrations</span
+                                    >SEO Optimization</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >AWS / Cloud Deployment</span
+                                    >Google Ads (PPC)</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Real-Time Applications</span
+                                    >Social Media Marketing</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                    >Node.js</span
+                                    >Lead Generation</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >Express.js</span
+                                    >Content Marketing</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >NestJS</span
+                                    >Email Marketing</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >MongoDB & PostgreSQL</span
+                                    >Conversion Optimization</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >REST & GraphQL APIs</span
+                                    >Brand Awareness</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >On-Time Delivery</span
+                                    >Performance Tracking</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"
-                                    >Quality Assurance</span
+                                    >ROI Focused Strategy</span
                                 >
                             </div>
                         </div>

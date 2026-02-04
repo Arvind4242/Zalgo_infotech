@@ -12,11 +12,11 @@
                 <div class="banner-two__inner position-relative">
                     <div class="container">
                         <div class="text-center">
-                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable Node.js Development </span>
+                            <span class="text-capitalize font-caveat fw-bold tw-mb-6 h3">Scalable SEO Services</span>
                             <div class="">
                                 <div class="position-relative d-inline-block">
                                     <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
-                                        for High-Performance Applications
+                                        For Higher Rankings & Organic Growth
                                     </h1>
                                     <div class="text-end svg-line d-sm-block d-none">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="489" height="18"
@@ -30,7 +30,8 @@
                             </div>
                             <p
                                 class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
-                               We build fast, secure, and scalable Node.js solutions<br> for startups and enterprises worldwide.
+                               We help businesses rank better, get more traffic, and grow 
+                               <br>organically on search engines.
                             </p>
 
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
@@ -39,7 +40,7 @@
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
                                     data-block="button">
                                     <span class="button__flair"></span>
-                                    <span class="button__label">Get a Free Consultation</span>
+                                    <span class="button__label">Get a Free SEO Audit</span>
                                 </a>
                                 <a href="javascript:void(0)"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
@@ -201,16 +202,16 @@
                                 <div class="bg-neutral-100 tw-py-3 tw-px-305 rounded-pill text-heading fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-w-205 tw-h-205 bg-yellow rounded-circle"></span>
-                                    Up to <span class="text-yellow">90%</span> Faster & Scalable Backend Solutions
+                                    Up to <span class="text-yellow">3X</span>More Traffic with Result-Driven SEO
                                 </div>
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                   Our Node.js Solutions  
-                                    <span class="font-dm-serif fst-italic fw-normal">Power High-Performance</span>
-                                    Digital Products
+                                   Our SEO Services  
+                                    <span class="font-dm-serif fst-italic fw-normal">Drive Rankings,</span>
+                                    Traffic & Real Growth
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                  We build fast, scalable, and secure Node.js applications designed to handle real-time data, 
-                                  high traffic, and complex business logic—helping your product perform flawlessly as you grow.
+                                  We optimize your website to rank higher on search engines, attract the right 
+                                  audience, and convert organic traffic into real business growth.
                                 </p>
 
                                 <div class="tw-mt-8">
@@ -224,7 +225,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Event-driven architecture</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Keyword & Competitor Research</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -234,7 +235,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Scalable microservices</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">On-Page & Technical SEO</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -244,7 +245,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Secure APIs</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Content & Link Building</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -254,7 +255,7 @@
                                                     <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                                 </span>
                                                 <a href="{{route('pricing')}}"
-                                                    class="fw-bold tw-text-lg text-heading hover-underline">Clean & maintainable code</a>
+                                                    class="fw-bold tw-text-lg text-heading hover-underline">Performance Tracking & Reports</a>
                                             </div>
                                         </div>
                                         <div
@@ -289,10 +290,10 @@
                 <div class="container max-w-1400-px">
                     <div class="max-w-672-px text-center mx-auto tw-mb-12">
                         <h3 class="splitTextStyleOne text-heading text-capitalize">
-                           Seamless Integrations That Enhance Digital Experiences
+                           SEO Solutions <br>That Drive Real Growth
                         </h3>
                         <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
-                            We connect your systems, tools, and platforms into a unified ecosystem—ensuring smooth data flow, better performance, and scalable growth.
+                            We optimize your website for better rankings, higher visibility, and consistent organic traffic that converts into business results.
                         </p>
                     </div>
 
@@ -304,17 +305,14 @@
                                         <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Custom Development
+                                        On-Page SEO
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We design and develop custom web and 
-                                        software solutions tailored to your 
-                                        business requirements, ensuring flexibility, 
-                                        performance, and long-term scalability.
+                                        We optimize content, meta tags, and site structure to improve search visibility and user experience.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Explore Custom Solutions
+                                       Explore On-Page SEO
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -325,16 +323,14 @@
                                         <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        API development
+                                        Technical SEO
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Build secure, high-performance APIs 
-                                        that enable seamless communication between 
-                                        applications, platforms, and services.
+                                        We fix site speed, indexing, crawl issues, and technical errors to boost search performance.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        View API Services
+                                        View Technical SEO
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -345,16 +341,14 @@
                                         <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Third-party integrations
+                                        Content & Link Building
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        We integrate CRMs, payment gateways, 
-                                        analytics, and cloud services to 
-                                        streamline operations and improve efficiency.
+                                        We create SEO-friendly content and build quality backlinks to strengthen your online authority.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
+                                        See SEO Strategy
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -365,16 +359,14 @@
                                         <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                         Maintenance & support
+                                         SEO Monitoring & Support
                                     </h6>
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                        Ongoing monitoring, updates, and 
-                                        technical support to keep your 
-                                        systems secure, fast, and running smoothly.
+                                        Ongoing tracking, reporting, and optimization to keep your rankings stable and growing.
                                     </p>
                                     <a href="{{route('intigration.details')}}"
                                         class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Get Support
+                                        Get SEO Support
                                         <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
                                     </a>
                                 </div>
@@ -481,13 +473,10 @@
                                         class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
                                         we do</span>
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
+                                        <span class="d-inline-block fw-semibold">Our SEO Working Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
-                                        In today's competitive business,
-                                        the demand for efficient and
-                                        cost-effective IT solutions has
-                                        never been more critical.
+                                        A simple, transparent process to improve rankings, attract the right traffic, and grow your business organically.
                                     </p>
                                     <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                         <a href="{{route('register')}}"
@@ -537,7 +526,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon1.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Brainstorming
+                                            Keyword Research
                                         </h6>
                                     </div>
 
@@ -548,8 +537,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon2.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            UX <br />
-                                            Research
+                                            SEO Audit
                                         </h6>
                                     </div>
 
@@ -560,7 +548,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon3.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Product Designing
+                                            On-Page Optimization
                                         </h6>
                                     </div>
 
@@ -571,7 +559,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon4.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Front-End Development
+                                            Technical SEO
                                         </h6>
                                     </div>
 
@@ -582,8 +570,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon5.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Usability <br />
-                                            Testing
+                                            Content Optimization
                                         </h6>
                                     </div>
 
@@ -594,7 +581,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon6.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Back-End Development
+                                            Link Building
                                         </h6>
                                     </div>
 
@@ -605,7 +592,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon7.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            SEO Optimization
+                                            Performance Tracking
                                         </h6>
                                     </div>
 
@@ -616,7 +603,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon8.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Digital Marketing
+                                            Growth Optimization
                                         </h6>
                                     </div>
                                 </div>
@@ -653,7 +640,7 @@
                                     <h3 class="">
                                         <span class="counter">99.9</span>%
                                     </h3>
-                                    <span class="text-heading">Performance <br>Optimized APIs</span>
+                                    <span class="text-heading">Search Visibility <br>Optimization</span>
                                 </div>
                             </div>
                         </div>
@@ -662,18 +649,17 @@
                                 <div class="text-start mx-auto tw-mb-12">
                                     <div class="tw-mb-10">
                                         <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
-                                            With High-Performance Node.js Development
+                                            With Result-Driven SEO Strategies…
                                         </h4>
                                         <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
-                                            Fast, Scalable & Secure
-                                            Node.js Backend Solutions
+                                            Boost Your Rankings with Smart, Scalable & Proven SEO Services
                                         </h2>
                                         <p
                                             class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                            We build high-performance Node.js applications 
-                                            that are fast, scalable, and future-ready.
-                                            Our expert developers create real-time, API-driven, and 
-                                            microservice-based solutions designed to handle high traffic with ease.
+                                            We help businesses improve search visibility, 
+                                            drive high-quality organic traffic, and convert 
+                                            visitors into customers. Our SEO experts craft data-driven, 
+                                            white-hat strategies focused on long-term growth, higher rankings, and measurable ROI.
                                         </p>
                                     </div>
                                     <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -682,7 +668,7 @@
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
                                             data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Talk to Node.js Experts</span>
+                                            <span class="button__label">Talk to SEO Experts</span>
                                         </a>
                                     </div>
                                 </div>
@@ -708,12 +694,12 @@
                             Why Zalgo Infotech
                         </div>
                         <h2 class="splitTextStyleOne text-white">
-                            Powering Modern Applications
+                            SEO That  
                             <span class="font-dm-serif fst-italic fw-normal">
-                                With Node.js</span>. Expertise
+                                Delivers</span> <br>Real Results
                         </h2>
                         <p class="text-neutral-300 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                            Our Node.js solutions are designed for speed, scalability, and security—ensuring seamless performance for startups and enterprises alike.
+                            Strategic optimization designed to increase visibility, traffic, and conversions.
                         </p>
                     </div>
 
@@ -732,12 +718,11 @@
                                         <div class="">
                                             
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                High-Performance Development
+                                                High-Impact SEO Strategy
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We build fast and efficient Node.js applications 
-                                                optimized for speed, scalability, and real-time performance.                                            </p>
+                                               We craft data-driven SEO strategies focused on increasing organic traffic, improving rankings, and driving qualified leads that convert.                                            </p>
                                             
                                         </div>
                                     </div>
@@ -760,12 +745,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                               Experienced Node.js Team
+                                               Experienced SEO Experts
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Our developers have strong expertise in Node.js, 
-                                                Express, APIs, and modern backend frameworks.
+                                                Our SEO specialists bring years of hands-on experience across industries, delivering proven results with ethical, white-hat techniques.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -793,12 +777,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Scalable Architecture
+                                                Scalable SEO Solutions
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We design future-ready applications that 
-                                                scale easily as your business and user base grow.
+                                                From startups to enterprises, our SEO solutions scale with your business—covering on-page, off-page, technical SEO, and content optimization.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -826,11 +809,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Secure Backend Solutions
+                                                Result-Oriented Optimization
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Security is built into every layer with best practices for authentication, data protection, and APIs.
+                                                We focus on measurable outcomes like higher search visibility, better keyword rankings, improved CTR, and long-term ROI.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -858,12 +841,12 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                API & Integration Expertise
+                                                Advanced Keyword Research
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                               From REST APIs to third-party integrations, 
-                                               we ensure smooth and reliable system communication.
+                                               We identify high-intent keywords that your target 
+                                               audience is searching for, ensuring better rankings and qualified organic traffic.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -891,12 +874,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Agile & Transparent Process
+                                                Technical SEO Optimization
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We follow agile methodology with clear communication, 
-                                                regular updates, and on-time delivery.
+                                                We optimize site speed, crawlability, indexing, and core web vitals to ensure search engines can easily discover and rank your website.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -924,12 +906,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Cost-Effective for USA Market
+                                                Content Optimization & Strategy
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                Get enterprise-level Node.js development at 
-                                                competitive pricing without compromising quality.
+                                                Our SEO-driven content strategies improve relevance, engagement, and authority to help your pages rank higher in search results.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -957,12 +938,11 @@
                                                     Invoicing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Ongoing Support & Maintenance
+                                                SEO Analytics & Reporting
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                                We provide continuous support, updates, 
-                                                and performance monitoring after deployment.
+                                                Get transparent performance reports with keyword rankings, traffic insights, and conversion tracking for data-backed decisions.
                                             </p>
                                             <a href="javascript:void(0)"
                                                 class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
@@ -991,12 +971,13 @@
                             <div class="">
                                
                                 <h2 class="splitTextStyleOne text-heading text-capitalize">
-                                    Have Questions? 
-                                    <span class="font-dm-serif fst-italic fw-normal">We’ve Got Answers</span>
+                                    SEO <br/>
+                                    Questions? 
+                                    <span class="font-dm-serif fst-italic fw-normal">We’ve Got <br/>Clear Answers</span>
                                 </h2>
                                 <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-350-px fw-medium">
-                                    Everything you need to know about our development services, 
-                                    timelines, and engagement models—all in one place.
+                                    Everything you need to know about our SEO process, timelines, reporting, and results.
+
                                 </p>
 
                                 <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -1022,16 +1003,16 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                 aria-expanded="false" aria-controls="collapseTwo">
-                                                ❓ How do you estimate the project cost?
+                                                ❓ What SEO services do you offer?
                                             </button>
                                         </h5>
                                         <div id="collapseTwo" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Project cost depends on scope, features, technology stack, 
-                                                   and timeline. After a free consultation, we provide a 
-                                                   transparent and detailed estimate with no hidden charges.
+                                                   We offer complete SEO solutions including website audit, 
+                                                   keyword research, on-page SEO, technical SEO, content 
+                                                   optimization, link building, and local SEO to improve search visibility and organic traffic.
                                                 </p>
                                             </div>
                                         </div>
@@ -1047,16 +1028,16 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                                 aria-expanded="true" aria-controls="collapseOne">
-                                               ❓ What is the typical project timeline?
+                                               ❓ How long does SEO take to show results?
                                             </button>
                                         </h5>
                                         <div id="collapseOne" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    Timelines vary based on complexity and requirements. Small to mid-scale 
-                                                    projects usually take 4–8 weeks, while larger 
-                                                    applications may take longer. We always share a clear delivery roadmap.
+                                                    SEO is a long-term strategy. Initial improvements 
+                                                    can be seen in 6–8 weeks, while strong and consistent 
+                                                    results usually take 3–6 months depending on competition and website condition.
                                                 </p>
                                             </div>
                                         </div>
@@ -1071,16 +1052,14 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseThree" aria-expanded="false"
                                                 aria-controls="collapseThree">
-                                                ❓ Do you sign an NDA?
+                                                ❓ How do you measure SEO success?
                                             </button>
                                         </h5>
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Yes. We sign a Non-Disclosure Agreement (NDA) 
-                                                   to ensure complete confidentiality and protect 
-                                                   your idea, data, and intellectual property.
+                                                   We track keyword rankings, organic traffic, conversions, click-through rates (CTR), and overall ROI using tools like Google Analytics and Search Console.
                                                 </p>
                                             </div>
                                         </div>
@@ -1095,16 +1074,16 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFour" aria-expanded="false"
                                                 aria-controls="collapseFour">
-                                                ❓ Will I get regular project updates?
+                                                ❓ Will my website rank #1 on Google?
                                             </button>
                                         </h5>
                                         <div id="collapseFour" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    Absolutely. We follow an agile approach and provide regular 
-                                                    updates through email, calls, or project management 
-                                                    tools like Jira, Trello, or Slack.
+                                                   No ethical SEO agency can guarantee #1 rankings. 
+                                                   What we guarantee is a data-driven strategy that 
+                                                   improves visibility, traffic quality, and business growth.
                                                 </p>
                                             </div>
                                         </div>
@@ -1119,15 +1098,15 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseSix" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Can you work with clients in different time zones?
+                                                ❓ Do you provide SEO reports?
                                             </button>
                                         </h5>
                                         <div id="collapseSix" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Yes. We work with clients across the US, Europe, Middle East, 
-                                                   and Asia. Our team is flexible and ensures smooth communication across time zones.
+                                                   Yes. We provide detailed monthly SEO reports covering 
+                                                   rankings, traffic growth, completed tasks, and performance insights.
                                                 </p>
                                             </div>
                                         </div>
@@ -1142,15 +1121,15 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseseven" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Who owns the source code?
+                                                ❓ Can SEO help generate leads and sales?
                                             </button>
                                         </h5>
                                         <div id="collapseseven" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Once the project is completed and payment terms are 
-                                                   fulfilled, you own 100% of the source code and intellectual property.
+                                                   Yes. SEO attracts high-intent users who are actively 
+                                                   searching for your services, resulting in better lead quality and long-term sales growth.
                                                 </p>
                                             </div>
                                         </div>
@@ -1165,15 +1144,14 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseeight" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ How do we get started?
+                                                ❓ Do you offer SEO for startups and small businesses?
                                             </button>
                                         </h5>
                                         <div id="collapseeight" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                  Simply click on “Get a Free Consultation” or “Request a Quote”, 
-                                                  share your requirements, and our experts will get in touch within 24 hours.
+                                                  Yes. We provide scalable SEO plans tailored for startups, small businesses, and enterprises based on goals and budget.
                                                 </p>
                                             </div>
                                         </div>
@@ -1188,16 +1166,16 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapsenine" aria-expanded="false"
                                                 aria-controls="collapsenine">
-                                                ❓ Can you scale the team if my project grows?
+                                                ❓ Is SEO a one-time service or ongoing?
                                             </button>
                                         </h5>
                                         <div id="collapsenine" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                   Yes. We can quickly scale resources based on your 
-                                                   project needs, whether you require additional 
-                                                   developers, AI engineers, or long-term support.
+                                                   SEO is an ongoing process. Search engine 
+                                                   algorithms, competitors, and user behavior change regularly, so 
+                                                   continuous optimization is required for sustainable rankings.
                                                 </p>
                                             </div>
                                         </div>
@@ -1211,15 +1189,15 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
                                                 aria-expanded="false" aria-controls="collapseTen">
-                                                ❓ Do you provide post-launch support and maintenance?
+                                                ❓ Do you follow Google SEO guidelines?
                                             </button>
                                         </h5>
                                         <div id="collapseTen" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
-                                                    Yes. We offer ongoing support, maintenance, performance 
-                                                    optimization, and feature enhancements after project delivery.
+                                                    Yes. We strictly follow Google’s white-hat 
+                                                    SEO guidelines to ensure safe, ethical, and long-lasting results without risking penalties.
                                                 </p>
                                             </div>
                                         </div>
@@ -1269,12 +1247,12 @@
                                 data-aos-duration="600"
                             >
                                 <div class="">
-                                    Build Fast & Scalable Node.js Applications
+                                   Grow Your Business with Proven SEO Strategies
                                 </div>
                             </div>
                             <h3 class="splitTextStyleOne text-white">
-                                Ready to Build a Powerful
-                                    Node.js Backend for Your Business?
+                                Boost Your Google Rankings, Traffic, and Leads with Expert SEO Services
+
                             </h3>
 
                             <div class="d-none">
@@ -1307,7 +1285,7 @@
                                             class="d-flex align-items-center tw-gap-2 z-1"
                                         >
                                             <span class="button__label"
-                                                >Start Your Node.js Project</span
+                                                >Start Your SEO Campaign</span
                                             >
                                         </div>
                                     </a>
@@ -1334,43 +1312,43 @@
                             >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                    >API Integrations</span
+                                    >Technical SEO</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >AWS / Cloud Deployment</span
+                                    >On-Page SEO</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >Real-Time Applications</span
+                                    >Off-Page SEO</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                    >Node.js</span
+                                    >Keyword Research</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >Express.js</span
+                                    >Content Optimization</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >NestJS</span
+                                    >Local SEO</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                    >MongoDB & PostgreSQL</span
+                                    >E-commerce SEO</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                    >REST & GraphQL APIs</span
+                                    >Link Building</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                    >On-Time Delivery</span
+                                    >SEO Audits</span
                                 >
                                 <span
                                     class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"
-                                    >Quality Assurance</span
+                                    >White-Hat SEO</span
                                 >
                             </div>
                         </div>
