@@ -651,9 +651,9 @@
                             <div class="position-relative tw-p-12 text-center">
                                 <img src="{{asset('assets/images/shapes/rounded-circle.png')}}" alt="Bg Round" />
 
-                                <img src="{{asset('assets/images/shapes/icons-7.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/laravel-development2.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-right" />
-                                <img src="{{asset('assets/images/shapes/icons-3.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/laravel-development.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">

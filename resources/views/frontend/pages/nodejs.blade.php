@@ -74,55 +74,55 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ6.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
@@ -135,55 +135,55 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ6.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/thumbs/NJ3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
@@ -645,9 +645,9 @@
                             <div class="position-relative tw-p-12 text-center">
                                 <img src="{{asset('assets/images/shapes/rounded-circle.png')}}" alt="Bg Round" />
 
-                                <img src="{{asset('assets/images/shapes/icons-7.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/nodejs-development2.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-right" />
-                                <img src="{{asset('assets/images/shapes/icons-3.png')}}" alt="Icons"
+                                <img src="{{asset('assets/images/shapes/nodejs-development.png')}}" alt="Icons"
                                     class="position-absolute top-50 start-50 animation-rotate-left" />
                                 <div class="position-absolute top-50 start-50 translate-middle">
                                     <h3 class="">
