@@ -192,7 +192,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon1.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon1.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -209,7 +209,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon2.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon2.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -226,7 +226,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon3.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon3.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -243,7 +243,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon4.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon4.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -278,7 +278,7 @@
                         data-aos-duration="600">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img1.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/sanjeev.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -309,8 +309,8 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">John Doe</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Sanjeev</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">Business Development Manager</span>
                             </div>
                         </div>
                     </div>
@@ -318,7 +318,7 @@
                         data-aos-duration="800">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img2.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/vaibhav.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -349,8 +349,8 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">John Milton</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Vaibhav</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">Business Development Executive</span>
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,7 @@
                         data-aos-duration="1000">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img3.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/ashu.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -389,8 +389,8 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">Robiul Hasan</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Ashu</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">Creative Head</span>
                             </div>
                         </div>
                     </div>
@@ -398,7 +398,7 @@
                         data-aos-duration="1200">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img4.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/annu.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -429,8 +429,8 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">John Smith</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Annu</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">AI & Python Developer</span>
                             </div>
                         </div>
                     </div>
@@ -984,13 +984,13 @@
                         <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
                             data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <div class="">
-                                Up to
-                                <span class="text-yellow text-stroke-yellow">70%</span>
-                                off managed cloud hosting
+                                Trusted  
+                                <span class="text-yellow text-stroke-yellow">IT</span>
+                                Partner for Growing Businesses
                             </div>
                         </div>
                         <h3 class="splitTextStyleOne text-white">
-                            Ready to revolutionize our service?
+                            Ready to Transform Your Digital Vision into Reality?
                         </h3>
 
                         <div class="d-none">
@@ -1010,7 +1010,7 @@
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Get Started Trial</span>
+                                        <span class="button__label">Talk to our experts</span>
                                     </div>
                                 </a>
                                 <a href="javascript:void(0)"
@@ -1018,7 +1018,7 @@
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Get Started Trial</span>
+                                        <span class="button__label">Get free consult</span>
                                     </div>
                                 </a>
                             </div>
@@ -1028,29 +1028,25 @@
                         <div
                             class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Custom Web Development</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Dedicated Developers</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">AI & Automation Solutions</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-yellow rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-yellow rounded-pill">Node.js & Laravel Experts</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Cloud & DevOps Services</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">UI/UX Focused Design</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Agile Project Management</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Scalable Architecture</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Long-term Tech Partnership</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-pink rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-pink rounded-pill">Transparent Communication</span>
                         </div>
                     </div>
                 </div>

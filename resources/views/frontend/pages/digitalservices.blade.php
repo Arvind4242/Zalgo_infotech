@@ -305,7 +305,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/Search-Visibility-Brand-Authority.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                         Search Visibility & Brand Authority
@@ -325,7 +325,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/Performance-Marketing-Paid-Growth.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                         Performance Marketing & Paid Growth
@@ -345,7 +345,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/Social-Engagement-Community-Building.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                         Social Engagement & Community Building
@@ -365,7 +365,7 @@
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
-                                        <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
+                                        <img src="{{asset('assets/images/icons/Growth-Optimization-Analytics.png')}}" alt="Icon" />
                                     </span>
                                     <h6 class="tw-mb-10 max-w-172-px mx-auto">
                                          Growth Optimization & Analytics

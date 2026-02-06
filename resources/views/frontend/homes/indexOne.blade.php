@@ -256,13 +256,13 @@
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/wordpress.svg')}}" alt="Logo" class="w-50" />
+                            <img src="{{asset('assets/images/thumbs/RJ1.png')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/woocommerce-logo.svg')}}" alt="Logo" class="w-50" />
+                            <img src="{{asset('assets/images/thumbs/njlogo1.png')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
@@ -292,7 +292,7 @@
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                         <div class="text-center">
-                            <img src="{{asset('assets/images/thumbs/razorpay.svg')}}" alt="Logo" class="w-50" />
+                            <img src="{{asset('assets/images/thumbs/M1.png')}}" alt="Logo" class="w-50" />
                         </div>
                     </div>
                     <div class="swiper-slide me-0 tw-py-4 border tw-border-dashed border-neutral-200 border-top-0 tw-h-114-px border-end-0 tw-px-4 d-flex justify-content-center align-items-center"
