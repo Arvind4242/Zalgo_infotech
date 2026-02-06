@@ -8685,12 +8685,30 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
   font-weight: 600;
 }
 
-
+@media screen and (max-width:1366px){
+    .ball {
+        width: 150px;
+        height: 150px;
+    }
+}
 @media screen and (max-width:991px){
     .has-submenu:hover .nav-submenu {
         margin: 0!important;
     }
     .has-submenu:hover .nav-submenu li{
         margin-bottom: 10px!important;
+    }
+}
+
+@media screen and (max-width:767px){
+    .header-top-bar {
+        display: none;
+    }
+    .banner .w-50 {
+        width: 100% !important;
+    }
+    .banner .tw-ps-98-px {
+        padding-inline-start: 0;
+        padding: 0 15px;
     }
 }
