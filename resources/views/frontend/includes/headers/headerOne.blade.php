@@ -36,13 +36,13 @@
                     <!-- Nav menu Start -->
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
                         <li class="nav-menu__item has-submenu about">
-                            <a href="{{route('about')}}" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> Company</a>
+                            <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> Company</a>
                              <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
                                     <div class="mega-inner">
                                         <!-- Column 1 -->
                                         <div class="mega-col">
 
-                                            <a class="mega-item">
+                                            <a href="{{route('about')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/about-company.png')}}" alt=""></span>
                                                 <div class="align-items-center d-flex"> 
                                                     <strong>About Company</strong>
@@ -100,7 +100,7 @@
                                                     <strong>Client Testimonials</strong>
                                                 </div>
                                             </a>
-                                            <a href="{{route('testimonial')}}" class="mega-item">
+                                            <a href="{{route('blog')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Blogs</strong>
@@ -111,7 +111,7 @@
                                 </div>
                         </li>
                         <li class="nav-menu__item has-submenu">
-                            <a href="{{route('industry')}}" class="nav-menu__link  tw-pe-5 hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100">Industry</a>
+                            <a href="javascript:void(0)" class="nav-menu__link  tw-pe-5 hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100">Industry</a>
                               <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
                                     <div class="align-items-center mega-inner">
                                         <!-- LEFT GRID -->

@@ -79,7 +79,7 @@
                             </p>
                             <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
                                 <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                    <a href="{{route('register')}}"
+                                    <a href="{{route('contact')}}"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
                                         data-block="button">
                                         <span class="button__flair"></span>
@@ -411,7 +411,7 @@
                                     <div class="d-flex align-items-start tw-gap-26-px animation-item" data-aos="fade-up"
                                         data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                         <span class="tw-w-14 d-flex justify-content-center align-items-center">
-                                            <img src="{{asset('assets/images/icons/about-icon1.svg')}}" alt=""
+                                            <img src="{{asset('assets/images/icons/about-icon1.png')}}" alt=""
                                                 class="animate__bounce" />
                                         </span>
                                         <div class="">
@@ -426,7 +426,7 @@
                                     <div class="d-flex align-items-start tw-gap-26-px animation-item" data-aos="fade-up"
                                         data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                         <span class="tw-w-14 d-flex justify-content-center align-items-center">
-                                            <img src="{{asset('assets/images/icons/about-icon2.svg')}}" alt=""
+                                            <img src="{{asset('assets/images/icons/about-icon2.png')}}" alt=""
                                                 class="animate__bounce" />
                                         </span>
                                         <div class="">
@@ -441,7 +441,7 @@
                                     <div class="d-flex align-items-start tw-gap-26-px animation-item" data-aos="fade-up"
                                         data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                         <span class="tw-w-14 d-flex justify-content-center align-items-center">
-                                            <img src="{{asset('assets/images/icons/about-icon3.svg')}}" alt=""
+                                            <img src="{{asset('assets/images/icons/about-icon3.png')}}" alt=""
                                                 class="animate__bounce" />
                                         </span>
                                         <div class="">
@@ -483,7 +483,7 @@
                                        A structured, transparent process that helps us deliver reliable, scalable, and performance-driven IT solutions for growing businesses.
                                     </p>
                                     <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
-                                        <a href="{{route('register')}}"
+                                        <a href="{{route('contact')}}"
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-three button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800" data-block="button">
@@ -738,7 +738,7 @@
                                     <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
                                         IT Management Service
                                     </h4>
-                                    <a href="{{route('service.details')}}"
+                                    <a href="{{route('web.development')}}"
                                         class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9">
                                         <i class="ph-bold ph-arrow-up-right"></i>
                                     </a>
@@ -755,7 +755,7 @@
                                         <span class="d-inline-block fw-semibold">E-commerce System
                                             Development</span>
                                     </h4>
-                                    <a href="{{route('service.details')}}"
+                                    <a href="{{route('ecommerce.development')}}"
                                         class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-pink-light tw-text-2xl text-white hover--translate-y-1 active--translate-y-scale-9">
                                         <i class="ph-bold ph-arrow-up-right"></i>
                                     </a>
@@ -774,7 +774,7 @@
                             <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
                                 Website Design & Development
                             </h4>
-                            <a href="{{route('service.details')}}"
+                            <a href="{{route('cms.development')}}"
                                 class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle text-white tw-text-2xl bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9">
                                 <i class="ph-bold ph-arrow-up-right"></i>
                             </a>
@@ -793,7 +793,7 @@
                                     <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
                                         CRM Software Solution
                                     </h4>
-                                    <a href="{{route('service.details')}}"
+                                    <a href="{{route('nodejs.development')}}"
                                         class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-white tw-text-2xl hover-bg-main-600 hover-text-white hover--translate-y-1 active--translate-y-scale-9">
                                         <i class="ph-bold ph-arrow-up-right"></i>
                                     </a>
@@ -809,7 +809,7 @@
                                     <h4 class="splitTextStyleOne fw-light tw-mb-5 max-w-330-px">
                                         <span class="d-inline-block fw-semibold">Intelligent AI Software Solutions</span>
                                     </h4>
-                                    <a href="{{route('service.details')}}"
+                                    <a href="{{route('ai.development')}}"
                                         class="tw-w-15 tw-h-15 d-flex justify-content-center align-items-center rounded-circle bg-paste tw-text-2xl text-white hover--translate-y-1 active--translate-y-scale-9">
                                         <i class="ph-bold ph-arrow-up-right"></i>
                                     </a>
@@ -851,7 +851,7 @@
                                 <span class="d-inline-block fw-semibold">Businesses</span>
                             </h3>
                         </div>
-                        <a href="{{route('register')}}"
+                        <a href="{{route('contact')}}"
                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
                             data-block="button">
                             <span class="button__flair"></span>
@@ -873,7 +873,7 @@
                                         class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                         aria-expanded="false" aria-controls="collapseTwo"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb2.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/Tailored-solution.jpg')}}">
                                         Tailored solution
                                     </button>
                                 </h5>
@@ -1455,11 +1455,11 @@
                                 Insights to help you do what you do
                                 better, faster and more profitably.
                             </h6>
-                            <a href="{{route('register')}}"
+                            <a href="{{route('contact')}}"
                                 class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                 data-block="button">
                                 <span class="button__flair"></span>
-                                <span class="button__label">Sign Up Now</span>
+                                <span class="button__label">Contact Us  </span>
                             </a>
                         </div>
 
@@ -1557,7 +1557,7 @@
                                 <p class="text-neutral-600 tw-text-lg splitTextStyleOne">
                                     Talk to our experts and get clear guidance, realistic timelines, and a solution tailored to your business goals.
                                 </p>
-                                <a href="{{route('register')}}"
+                                <a href="{{route('contact')}}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10"
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800"
                                     data-block="button">

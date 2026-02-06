@@ -100,7 +100,7 @@
         <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
       </div>
       <div class="address mb-4">
-        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canda.png')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada Office</strong></p>
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canda.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada Office</strong></p>
         <p><img width="24" src="{{asset('assets/images/phone.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+91 99244 312536</a></p>
         <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
       </div>
@@ -112,11 +112,98 @@
             <div class="footer-col col-lg-3">
             <h4>Services</h4>
             <ul>
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">E-Commerce Development</a></li>
-                <li><a href="#">WordPress Development</a></li>
-                <li><a href="#">Plugin Development</a></li>
-                <li><a href="#">Digital Marketing</a></li>
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('web.development')}}" class="mega-item">
+                            <div>
+                                Web Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('cms.development')}}" class="mega-item">
+                            <div>
+                                CMS Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('react.development')}}" class="mega-item">
+                            <div>
+                                ReactJS Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('shopify.development')}}" class="mega-item">
+                            <div>
+                                Shopify Development
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('nodejs.development')}}" class="mega-item">
+                            <div>
+                                NodeJS Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('ecommerce.development')}}" class="mega-item">
+                            <div>
+                                E-commerce Development
+                            </div>
+                        </a>
+                    </li>    
+                    
+            </ul>
+            </div>
+
+            <div class="footer-col col-lg-3">
+            <h4 style='height:24px;'></h4>
+            <ul>
+                    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('python.development')}}" class="mega-item">
+                            <div>
+                                python Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('ai.development')}}" class="mega-item">
+                            <div>
+                                AI Development
+                            </div>
+                        </a>
+                    </li>        
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('laravel.development')}}" class="mega-item">
+                            <div>
+                                Laravel Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('maintenanceservices.development')}}" class="mega-item">
+                            <div>
+                                Maintenance Services
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('seoservices.development')}}" class="mega-item">
+                            <div>
+                                SEO Services
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('digitalservices.development')}}" class="mega-item">
+                            <div>
+                                Digital Marketing
+                            </div>
+                        </a>
+                    </li>   
             </ul>
             </div>
 
@@ -137,17 +224,68 @@
             <div class="footer-col col-lg-3">
             <h4>Quick Links</h4>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Engagement Models</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Life @Zalgo Infotech</a></li>
-                <li><a href="#">Culture & Values</a></li>
+                <li>
+                    <a class="mega-item">
+                        <div class="align-items-center d-flex"> 
+                            About Company
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="mega-item">
+                        <div class="align-items-center d-flex">
+                            Engagement Models
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a class="mega-item">
+                        <div class="align-items-center d-flex">
+                            Life At ZalgoInfotec
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a class="mega-item">
+                        <div class="align-items-center d-flex">
+                            Infrastructure
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a class="mega-item">
+                        <div class="align-items-center d-flex">
+                            Culture & Values
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="mega-item">
+                        <div class="align-items-center d-flex">
+                            Career
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a href="{{route('testimonial')}}" class="mega-item">
+                        <div class="align-items-center d-flex">
+                            Client Testimonials
+                        </div>
+                    </a>
+                </li>
+            <li>
+                    <a href="{{route('blog')}}" class="mega-item">
+                        <div class="align-items-center d-flex">
+                          Blogs
+                        </div>
+                    </a>
+                </li>
+            
             </ul>
             </div>
 
              <!-- Quick Links -->
-            <div class="footer-col col-lg-3">
+            <!-- <div class="footer-col col-lg-3">
             <h4>Industry</h4>
             <ul>
                 <li><a href="#">E-Commerce</a></li>
@@ -158,7 +296,7 @@
                 <li><a href="#">Media & Entertainment</a></li>
                 <li><a href="#">Business Services</a></li>
             </ul>
-            </div>
+            </div> -->
         </div>
         <div class="row">
                  <!-- Business Portfolio -->
@@ -217,7 +355,7 @@
                     </p>
                     <ul class="d-flex align-items-center tw-gap-6">
                         <li>
-                            <a href="https://www.facebook.com"
+                            <a target='blank' href="https://www.facebook.com/people/Zalgo-Infotech-Pvt-Ltd/61579841284566/"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
                                 <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-facebook-logo"></i>
@@ -235,20 +373,12 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com"
+                            <a target='blank' href="https://www.instagram.com/zalgoinfotech/"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
                                 <span class="d-flex hover-text-main-600 text--white">
                                     <i class="ph-fill ph-instagram-logo"></i>
                                 </span>
                                 <!-- <span class="tw-text-base">Instagram</span> -->
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.pinterest.com" class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
-                                <span class="d-flex hover-text-main-600 text--white">
-                                    <i class="ph-fill ph-pinterest-logo"></i>
-                                </span>
-                                <!-- <span class="tw-text-base">Pinterest</span> -->
                             </a>
                         </li>
                     </ul>
