@@ -707,7 +707,7 @@
             <!-- Integrated apps End -->
             
             <!-- Services section start -->
-            <section class="services py-120 position-relative z-1 gradient-bg-two">
+            <section class="gradient-bg-five position-relative py-120 services z-1">
                 <img src="{{asset('assets/images/shapes/rope-shape.png')}}" alt="Rope"
                     class="position-absolute tw-start-0 tw-ms-80-px tw-mt-16 top-0 z-n1" />
                 <img src="{{asset('assets/images/shapes/matherboard-shape.png')}}" alt="Shape"
