@@ -16,6 +16,7 @@
     @include('frontend.includes.partials.scripts')
     @yield('script')
     <!-- End Script area -->
+    <script src="https://app.zalgostore.com/plugin.js" data-key="ZA-76A233D9"></script>
 </body>
 
 </html>
