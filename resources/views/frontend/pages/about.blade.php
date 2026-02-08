@@ -110,8 +110,8 @@
 
         <!-- About Counter section Start -->
         <section class="about-counter py-120">
-            <div class="container">
-                <div class="max-w-830-px text-center tw-mb-12 mx-auto">
+            <div class="container p-0">
+                <div class="text-center tw-mb-12 mx-auto">
                     <div class="text-center tw-mb-3">
                         <img src="{{asset('assets/images/icons/sparkle.png')}}" alt="Icon" />
                     </div>
@@ -437,17 +437,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="text-center tw-mt-13">
-                    <a href="javascript:void(0)"
-                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-8 tw-rounded-xl tw-py-505 fw-bold text-capitalize"
-                        data-block="button">
-                        <span class="button__flair"></span>
-                        <div class="d-flex align-items-center tw-gap-2 z-1">
-                            <span class="button__label">all team members</span>
-                        </div>
-                    </a>
-                </div>
             </div>
         </section>
         <!-- About Team section End -->
@@ -707,7 +696,7 @@
 
         <!-- Fouder  start -->
         <section class="founder-section-new pt-120">
-            <div class="founder-container">
+            <div class="align-items-end founder-container p-0" style="background-image:url({{asset('assets/images/thumbs/founder-bg.png')}});">
                 
                 <!-- Left: Founder Image -->
                 <div class="founder-image">
@@ -715,34 +704,34 @@
                 </div>
 
                 <!-- Right: Founder Content -->
-                <div class="founder-content">
+                <div class="founder-content p-5 ps-0">
                     <span class="founder-badge">Founder & Visionary Leader</span>
 
-                    <h2 class="founder-name">Your Name</h2>
+                    <h2 class="founder-name">Bhupendra Singh Parmar</h2>
                     <h4 class="founder-title">Founder & CEO, Zalgo Infotech</h4>
 
                     <p>
-                        As the Founder of Zalgo Infotech, I focus on building scalable, secure, 
-                        and future-ready digital solutions that help businesses grow globally.
+                        As the Founder of Zalgo Infotech, I focus on building scalable, reliable, and future-ready digital solutions for businesses worldwide.
                     </p>
-
+                    <p>
+                        With a strong understanding of web technologies, backend systems, and emerging Al-driven solutions, my goal is to help companies transform ideas into high-performing digital products.
+                    </p>
                     <ul class="founder-points">
                         <li>Business-Focused Technology Solutions</li>
                         <li>Scalable & Secure System Architecture</li>
                         <li>Client-Centric & Transparent Approach</li>
                     </ul>
 
-                    <a href="https://www.linkedin.com/" target="_blank" class="linkedin-btn">
-                        Connect on LinkedIn
+                    <a href="https://www.linkedin.com/company/zalgo-infotech/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-none d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
+                      <img src="{{asset('assets/images/icons/linkdin.png')}}" alt="Linkd In">  Connect on LinkedIn
                     </a>
                 </div>
-
             </div>
         </section>
         <!-- Founder End -->
 
         <!-- Task Management Section Start -->
-        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
             <div class="container">
                 <div class="text-end tw--mb-40-px position-relative z-2">
                     <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />

@@ -83,6 +83,7 @@ Route::controller(PageController::class)->group(function () {
 
     // Blog
     Route::get('blog', 'blog')->name('blog');
+    Route::get('casestudy', 'casestudy')->name('casestudy');
     Route::get('blog-details', 'blogDetails')->name('blog.details');
 
     // Contact

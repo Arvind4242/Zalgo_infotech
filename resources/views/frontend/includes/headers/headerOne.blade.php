@@ -443,7 +443,7 @@
                                 </div>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="{{route('blog')}}"
+                            <a href="{{route('casestudy')}}"
                                 class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Case Study</a>
                         </li>
                        
