@@ -241,6 +241,13 @@ class PageController extends Controller
         return view('frontend.pages.blog', compact('bodyClass'));
     }
 
+    // Casestudy
+    public function casestudy()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.casestudy', compact('bodyClass'));
+    }
+
     // Blog Details
     public function blogDetails()
     {

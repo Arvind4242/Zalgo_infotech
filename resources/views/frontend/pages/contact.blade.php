@@ -4,524 +4,399 @@
     <!-- header area -->
     @include('frontend.includes.headers.headercontact')
     <!-- header area end -->
+<style>
+.contact-section {
+  background: #f9fbfc;
+  padding: 80px 20px;
+}
 
+.section-head {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-head h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.section-head p {
+  color: #666;
+}
+
+/* Grid */
+.contact-grid {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* Offices */
+.office-box {
+    display: flex;
+    gap: 20px;
+    background: #eef6f7;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+    flex-direction: column;
+}
+
+.office-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.office-card p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.office-card h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--main-600) !important;
+}
+
+.office-card a {
+  color: #3a8f8f;
+  font-size: 14px;
+}
+
+/* Form */
+.form-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.05);
+  width: 70%;
+}
+
+.form-box h3 {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-box input,
+.form-box textarea,
+.form-box .select{
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+textarea {
+  resize: none;
+  height: 120px;
+}
+
+.policy {
+  font-size: 13px;
+  color: #777;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(90deg,#3a8f8f,#2f6f6f);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Trusted */
+.trusted {
+    text-align: center;
+    margin: 120px 0 60px;
+    width: 100%;
+    position: relative;
+}
+.trusted h4 {
+    margin-bottom: 18px;
+}
+.logos span {
+  margin: 0 15px;
+  color: #777;
+  font-weight: 500;
+}
+
+/* Testimonial */
+.testimonial {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #006d75 !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.video-box{
+    position:relative;
+    width:40%;
+    border-radius:15px;
+    overflow:hidden;
+}
+
+.video-box img{
+    width:100%;
+    display:block;
+}
+
+.play-btn{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:70px;
+    width:70px;
+    border-radius:50%;
+    background:#1f7a74;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:28px;
+    text-decoration:none;
+}
+.stats-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #ffffff80;
+    padding: 14px 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+    backdrop-filter: blur(221px);
+}
+.testimonial-content > .stats-wrapper + p {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 25px 0;
+    width: 70%;
+}
+.stat-box {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    gap: 20px;
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f7a7a;
+}
+.stat-box:first-child {
+    border-right: 1px solid #1f7a7a;
+}
+.stat-text {
+    font-size: 25px;
+    color: #000;
+    font-weight: 400;
+}
+
+.stats{
+    display:flex;
+    gap:15px;
+    margin-bottom:10px;
+}
+
+.stats span{
+    background:#eaf3f2;
+    padding:6px 12px;
+    border-radius:8px;
+    font-weight:600;
+    font-size:14px;
+}
+
+.stars{
+    color:#ffb400;
+    margin:5px 0;
+}
+.clint-relation {
+    margin-top: 20px;
+    background: rgb(31 122 122 / 10%);
+    width: auto;
+    padding: 9px 12px;
+    border-radius: 5px;
+    max-width: max-content;
+    backdrop-filter: blur(221px);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-grid,
+  .testimonial {
+    grid-template-columns: 1fr;
+  }
+
+  .office-box {
+    flex-direction: column;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+}
+</style>
     <div id="smooth-content">
-                <!-- Breadcrumb Start Here -->
-                <!-- <section class="breadcrumb section-bg-two mb-0">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="text-center">
-                                    <span class="tw-mb-4">
-                                        <img
-                                            src="{{asset('assets/images/logo/favicon-two.png')}}"
-                                            alt="Favicon Two"
-                                        />
-                                    </span>
-                                    <h1
-                                        class="mb-0 splitTextStyleOne text-capitalize"
-                                    >
-                                        Get In Touch
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                        
+        <section class="contact-section">
+            <div class="container">
+                <!-- Heading -->
+                <div class="section-head">
+                <h2>Get in Touch</h2>
+                <p>
+                    We'd love to hear about your project or answer any questions you may have.<br>
+                    Let's build something great together!
+                </p>
+                </div>
+
+                <!-- Top Grid -->
+                <div class="contact-grid">
+
+                <!-- Offices -->
+                <div class="office-box">
+                    <div class="office-card">
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</h4>
+                    <p>30 Broad St,<br>New York, NY 10004</p>
+                    <strong>+1 (332) 209-9994</strong>
+                    <a href="#">View on Google Maps</a>
                     </div>
-                </section> -->
-                <!-- Breadcrumb End Here -->
 
-                <!-- Contact box section Start -->
-                <!-- <section class="bg-neutral-light-half style-two">
-                    <div class="container">
-                        <div class="bg-white tw-py-9 tw-px-8">
-                            <div class="row gy-4">
-                                <div class="col-lg-4 col-sm-6">
-                                    <div
-                                        class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100"
-                                    >
-                                        <span class="tw-mb-705">
-                                            <img
-                                                src="{{asset('assets/images/icons/contact-icon1.svg')}}"
-                                                alt="Icon"
-                                                class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat"
-                                            />
-                                        </span>
-                                        <h5
-                                            class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne"
-                                        >
-                                            address line
-                                        </h5>
-                                        <div class="max-w-250-px mx-auto">
-                                            <p
-                                                class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
-                                            >
-                                                1/65, vinay nagar sec 3, 100 feet road, 
-                                   s. p. ashram, gwalior, madhya pradesh, india - 474012
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6">
-                                    <div
-                                        class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100"
-                                    >
-                                        <span class="tw-mb-705">
-                                            <img
-                                                src="{{asset('assets/images/icons/contact-icon2.svg')}}"
-                                                alt="Icon"
-                                                class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat"
-                                            />
-                                        </span>
-                                        <h5
-                                            class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne"
-                                        >
-                                            Phone Number
-                                        </h5>
-                                        <div class="max-w-250-px mx-auto">
-                                            <a
-                                                href="tel:+125556865234374221"
-                                                class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
-                                                >+91 9244213326</a
-                                            >
-                                            <a
-                                                href="tel:+12555686523"
-                                                class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne tw-mt-1"
-                                                >0751-4521125</a
-                                            >
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-6">
-                                    <div
-                                        class="bg-white tw-rounded-lg tw-py-15 tw-px-5 common-shadow-thirteen hover-bg-main-600 group group-item text-center animation-item tw-transition tw-duration-200 h-100"
-                                    >
-                                        <span class="tw-mb-705">
-                                            <img
-                                                src="{{asset('assets/images/icons/contact-icon3.svg')}}"
-                                                alt="Icon"
-                                                class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat"
-                                            />
-                                        </span>
-                                        <h5
-                                            class="group-hover-text-white tw-transition tw-duration-200 tw-mb-5 text-capitalize splitTextStyleOne"
-                                        >
-                                            Mail Address
-                                        </h5>
-                                        <div class="max-w-250-px mx-auto">
-                                            <a
-                                                href="mailto:email@example.com"
-                                                class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
-                                                >zalgoinfotec@gmail.com</a
-                                            >
-                                            <a
-                                                href="mailto:info@yourdomain.com"
-                                                class="group-hover-text-white tw-transition tw-duration-200 text-neutral-600 fw-medium tw-text-lg splitTextStyleOne"
-                                                >info@zalgoinfotech.com</a
-                                            >
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="office-card">
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada Office</h4>
+                    <p>68 Pacific Blvd,<br>Vancouver, BC V6Z 2V6</p>
+                    <strong>+1 (604) 555-1234</strong>
+                    <a href="#">View on Google Maps</a>
                     </div>
-                </section> -->
-                <!-- Contact box section End -->
 
-                <!-- Contact Page section start= -->
-                <section class="py-120 mt-4">
-                    <div class="container">
-                        <div class="row gy-5">
-                            <div class="col-lg-6">
-                                <div class="pe-xl-5 pe-lg-4">
-                                    <div class="">
-                                        <span
-                                            class="splitTextStyleTwo tw-text-xl fw-bold fst-italic text-decoration-underline text-main-600 tw-mb-305"
-                                            >Get In Touch</span
-                                        >
-                                        <h3 class="splitTextStyleOne tw-mb-4">
-                                            Contact Us
-                                        </h3>
-                                        <p class="text-neutral-900">
-                                            Sed ut perspiciatis unde omnis iste
-                                            natus error sit voluptatem
-                                            accusantium doloremque laudantium,
-                                            totam rem aperiam, eaque inventore
-                                        </p>
-                                    </div>
-                                    <div
-                                        class="xs-grid-cols-2 d-grid tw-mt-16 tw-gap-74-px"
-                                    >
-                                        <div
-                                            class="d-flex align-items-start tw-gap-6"
-                                        >
-                                            <span
-                                                class="tw-text-3xl text-main-600 d-flex"
-                                            >
-                                                <i
-                                                    class="ph-bold ph-map-pin"
-                                                ></i>
-                                            </span>
-                                            <div class="">
-                                                <h6 class="tw-mb-4">
-                                                    Location
-                                                </h6>
-                                                <p class="text-neutral-600">
-                                                   1/65, vinay nagar sec 3, 100 feet road, 
-                                   s. p. ashram, gwalior, madhya pradesh, india - 474012
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="d-flex align-items-start tw-gap-6"
-                                        >
-                                            <span
-                                                class="tw-text-3xl text-main-600 d-flex"
-                                            >
-                                                <i class="ph-bold ph-phone"></i>
-                                            </span>
-                                            <div class="">
-                                                <h6 class="tw-mb-4">Phone</h6>
-                                                <a
-                                                    href="tel:+1(368)5678954"
-                                                    class="text-neutral-600 hover-text-main-600"
-                                                    >+91 9244213326, </a
-                                                >
-                                                <a
-                                                    href="tel:+236(456)89622"
-                                                    class="text-neutral-600 hover-text-main-600 tw-mt-1"
-                                                    >0751-4521125</a
-                                                >
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="d-flex align-items-start tw-gap-6"
-                                        >
-                                            <span
-                                                class="tw-text-3xl text-main-600 d-flex"
-                                            >
-                                                <i
-                                                    class="ph-bold ph-envelope-simple"
-                                                ></i>
-                                            </span>
-                                            <div class="">
-                                                <h6 class="tw-mb-4">
-                                                    Mail
-                                                </h6>
-                                                <a
-                                                    href="mailto:wiatechinfo@gmail.com"
-                                                    class="text-neutral-600 hover-text-main-600"
-                                                    >zalgoinfotec@gmail.com</a
-                                                >
-                                                <a
-                                                    href="mailto:www.wiatech.com"
-                                                    class="text-neutral-600 hover-text-main-600"
-                                                    >www.zalgoinfotech.com</a
-                                                >
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="d-flex align-items-start tw-gap-6"
-                                        >
-                                            <span
-                                                class="tw-text-3xl text-main-600 d-flex"
-                                            >
-                                                <i
-                                                    class="ph-bold ph-share-network"
-                                                ></i>
-                                            </span>
-                                            <div class="">
-                                                <h6 class="tw-mb-4">Social</h6>
-                                                <ul
-                                                    class="d-flex align-items-center tw-gap-3 justify-content-center tw-mt-6"
-                                                >
-                                                    <li>
-                                                        <a
-                                                            href="https://www.facebook.com/profile.php?id=61579841284566#"
-                                                            class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
-                                                        >
-                                                            <i
-                                                                class="ph ph-facebook-logo"
-                                                            ></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="https://www.twitter.com"
-                                                            class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
-                                                        >
-                                                            <i
-                                                                class="ph ph-x-logo"
-                                                            ></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="https://www.instagram.com/zalgoinfotech/"
-                                                            class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
-                                                        >
-                                                            <i
-                                                                class="ph ph-instagram-logo"
-                                                            ></i>
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href="https://www.youtube.com"
-                                                            class="tw-w-11 tw-h-11 border border-neutral-200 rounded-circle text-main-two-600 tw-text-xl d-flex justify-content-center align-items-center bg-white hover-bg-main-600 hover-text-white hover-border-main-600 active-scale-09 tw-duration-200"
-                                                        >
-                                                            <i
-                                                                class="ph ph-youtube-logo"
-                                                            ></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- map Start -->
-                                    <div class="map tw-mt-15">
-                                        <iframe
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591642.125572935!2d-118.45027922609367!3d46.81821123121407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5343f19fafa367dd%3A0xe0a08a08122c4da1!2sHelena-Lewis%20and%20Clark%20National%20Forest!5e0!3m2!1sen!2sbd!4v1731480188813!5m2!1sen!2sbd"
-                                            class="w-100"
-                                            height="240"
-                                            allowfullscreen=""
-                                            loading="lazy"
-                                            referrerpolicy="no-referrer-when-downgrade"
-                                        ></iframe>
-                                    </div>
-                                    <!-- map End -->
-                                </div>
-                            </div>
-
-                            <div class="col-lg-6 ps-lg-5">
-                                <div class="bg-neutral-50 tw-py-17 tw-px-705">
-                                    <h4 class="tw-mb-4">Fill Up The Form</h4>
-                                    <p class="text-neutral-600 max-w-444-px">
-                                        Your email address will not be
-                                        published. Required fields are marked *
-                                    </p>
-                                    <form
-                                        action="{{ route('contact.send') }}"
-                                        class="tw-mt-70-px d-flex flex-column tw-gap-12 form-submit"
-                                        method="POST"
-                                    >
-                                    @csrf
-                                        <div class="position-relative">
-                                            <input
-                                                type="text"
-                                                class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600"
-                                                placeholder="Your Name*"
-                                                required
-                                            />
-                                            <span
-                                                class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0"
-                                            >
-                                                <i class="ph-bold ph-user"></i>
-                                            </span>
-                                        </div>
-                                        <div class="position-relative">
-                                            <input
-                                                type="email"
-                                                class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600"
-                                                placeholder="Email Address*"
-                                                required
-                                            />
-                                            <span
-                                                class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0"
-                                            >
-                                                <i
-                                                    class="ph-bold ph-envelope"
-                                                ></i>
-                                            </span>
-                                        </div>
-                                        <div class="position-relative">
-                                            <textarea
-                                                class="focus-outline-0 bg-transparent border-0 tw-pb-5 tw-ps-9 w-100 border-bottom border-neutral-200 focus-border-main-600 tw-h-108-px"
-                                                placeholder="Enter Your Message here"
-                                            ></textarea>
-                                            <span
-                                                class="tw-text-xl d-flex text-neutral-500 position-absolute top-0 tw-start-0"
-                                            >
-                                                <i
-                                                    class="ph-bold ph-note-pencil"
-                                                ></i>
-                                            </span>
-                                        </div>
-                                        <div class="">
-                                            <button
-                                                type="submit"
-                                                class="btn btn-main hover--translate-y-1 active--translate-y-scale-9 hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 rounded-0"
-                                                data-block="button"
-                                            >
-                                                <span
-                                                    class="button__flair"
-                                                ></span>
-                                                <span
-                                                    class="text-white tw-text-2xl group-hover-text-white tw-duration-500 position-relative"
-                                                >
-                                                    <i
-                                                        class="ph-bold ph-paper-plane-tilt"
-                                                    ></i>
-                                                </span>
-                                                <span class="button__label"
-                                                    >Get In Touch</span
-                                                >
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="office-card">
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India Office</h4>
+                    <p>Indore, Madhya Pradesh<br>452001</p>
+                    <strong>+91 90981 23499</strong>
+                    <a href="#">View on Google Maps</a>
                     </div>
-                </section>
-                <!-- Contact Page section End= -->
+                </div>
 
-                <!-- Task Management Section Start -->
-                <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
-                    <div class="container"> 
-                        <div class="text-end tw--mb-40-px position-relative z-2">
-                            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px"/>
-                        </div>
-
-                        <div
-                            class="bg-green-deep tw-rounded-3xl bg-green-deep tw-pt-100-px position-relative z-1"
-                        >
-                            <img
-                                src="{{asset('assets/images/shapes/hill-shape.png')}}"
-                                alt="Hill Shape"
-                                class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1"
-                            />
-                            <img
-                                src="{{asset('assets/images/thumbs/task-management-img.png')}}"
-                                alt="Image"
-                                class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none"
-                            />
-
-                            <div
-                                class="tw-mb-8 text-center max-w-570-px mx-auto"
-                            >
-                                <div
-                                    class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
-                                    data-aos="fade-up"
-                                    data-aos-anchor-placement="top-bottom"
-                                    data-aos-duration="600"
-                                >
-                                    <div class="">
-                                        Up to
-                                        <span
-                                            class="text-yellow text-stroke-yellow"
-                                            >70%</span
-                                        >
-                                        off managed cloud hosting
-                                    </div>
-                                </div>
-                                <h3 class="splitTextStyleOne text-white">
-                                    Ready to revolutionize our service?
-                                </h3>
-
-                                <div class="d-none">
-                                    <a
-                                        href="javascript:void(0)"
-                                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7"
-                                        data-block="button"
-                                    >
-                                        <span class="button__flair"></span>
-                                        <div
-                                            class="d-flex align-items-center tw-gap-2 z-1"
-                                        >
-                                            <span class="button__label"
-                                                >Download for free</span
-                                            >
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="d-block">
-                                    <div
-                                        class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap"
-                                    >
-                                        <a
-                                            href="javascript:void(0)"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
-                                            data-block="button"
-                                        >
-                                            <span class="button__flair"></span>
-                                            <div
-                                                class="d-flex align-items-center tw-gap-2 z-1"
-                                            >
-                                                <span class="button__label"
-                                                    >Get Started Trial</span
-                                                >
-                                            </div>
-                                        </a>
-                                        <a
-                                            href="javascript:void(0)"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
-                                            data-block="button"
-                                        >
-                                            <span class="button__flair"></span>
-                                            <div
-                                                class="d-flex align-items-center tw-gap-2 z-1"
-                                            >
-                                                <span class="button__label"
-                                                    >Get Started Trial</span
-                                                >
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tw-pt-8 text-center">
-                                <div
-                                    class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6"
-                                >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                        >Project management</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                        >Technology</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                        >Technology</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                        >Project management</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                        >Technology</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                        >Technology</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                        >Project management</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                        >Technology</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                        >Project management</span
-                                    >
-                                    <span
-                                        class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"
-                                        >Technology</span
-                                    >
-                                </div>
-                            </div>
-                        </div>
+                <!-- Form -->
+                <div class="form-box">
+                    <h3>Send us a message</h3>
+                    <form>
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
                     </div>
-                </section>
-                <!-- Task Management Section End -->
+
+                    <div class="form-row">
+                        <input type="text" placeholder="Company Name">
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <select class="select" >
+                        <option value="">Select Services</option>
+                        <option value="general">Web Development</option>
+                        <option value="support">CMS Development</option>
+                        <option value="ReactJS">ReactJS Development</option>
+                        <option value="Shopify">Shopify Development</option>
+                        <option value="NodeJS">NodeJS Development</option>
+                        <option value="E-Commerce">E-Commerce Development</option>
+                        <option value="Python">Python Development</option>
+                        <option value="AI">AI Development</option>
+                        <option value="Laravel">Laravel Development</option>
+                        <option value="Maintenance-Services">Maintenance Services</option>
+                        <option value="SEO Services">SEO Services</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                    </select>
+                    <textarea placeholder="How can we help you?"></textarea>
+
+                    <p class="policy">
+                        By submitting, you agree to our <a href="#">Privacy Policy</a>
+                    </p>
+
+                    <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                </div>
+
+                <!-- Trusted -->
+                <div class="trusted">
+                <h4>Trusted by Leading Companies</h4>
+                <div class="logos">
+                    <span>Uber</span>
+                    <span>Airtable</span>
+                    <span>Fiverr</span>
+                    <span>Toshiba</span>
+                </div>
+                </div>
+
+                <!-- Testimonial -->
+                <div class="testimonial" style="background-image:url({{asset('assets/images/thumbs/video.png')}});">
+    <!-- Video Box -->
+            <div class="video-box">
+                <div class="position-relative max-w-390-px w-100">
+                    <img
+                        src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}"
+                        alt="Thumb"
+                        class="w-100 h-100 object-fit-cover"/>
+                    <a
+                        href="https://youtu.be/2ppG5SuLmEE?si=7OoakZp51OIH9I2N"
+                        class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1"
+                    >
+                        <i
+                            class="ph-fill ph-play"
+                        ></i>
+                    </a>
+                </div>
+            </div>
+
+                <!-- Content -->
+                <div class="testimonial-content">
+                    <div class="stats-wrapper">
+                <div class="stat-box">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-text">Years Partnership</span>
+                </div>
+
+                <div class="stat-box">
+                    <span class="stat-number">$50k+</span>
+                    <span class="stat-text">Client Revenue</span>
+                </div>
+            </div>
+
+
+                <p>
+                    “Our 5-year partnership has consistently delivered results and
+                    long-term value for our business.”
+                </p>
+
+                <div class="d-flex fs-5 gap-2">
+                    <strong>Ethan Williams</strong>
+                    <div class="m-0 stars">★★★★★</div>
+                </div>
+                <small class="fs-6 fw-medium">CEO, Tech Enterprises</small>
+
+                <div class="clint-relation"><span class="fw-bold">Long Term Client</span> | 5+ Years Collaboration</div>
+            </div>
+</div>
+
+            </div>
+        </section>
+
 
                 <!-- footer area -->
                 @include('frontend.includes.footers.footerOne')

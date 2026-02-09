@@ -683,7 +683,7 @@
                                                     alt="Thumb"
                                                     class="w-100 h-100 object-fit-cover"/>
                                                 <a
-                                                    href="https://www.youtube.com/watch?v=MFLVmAE4cqg"
+                                                    href="https://www.youtube.com/watch?v=TxjsRFwDvbQ&t=3s"
                                                     class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1"
                                                 >
                                                     <i

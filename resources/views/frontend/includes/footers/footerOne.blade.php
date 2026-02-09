@@ -91,16 +91,14 @@
 
       <div class="address mb-4 mt-4">
         <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</strong></p>
-        <p><img class="me-1" width="24" src="{{asset('assets/images/phone.svg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+1 917 791 6831</a></p>
-        <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
-      </div>
+        <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</a></p>
+     </div>
       <div class="address mb-4">
         <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> India Office</strong></p>
-        <p><img class="me-1" width="24" src="{{asset('assets/images/phone.svg')}}" alt="india-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+1 437 887 2290</a></p>
-        <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
+         <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</a></p>
       </div>
       <div class="address mb-4">
-        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canda.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada Office</strong></p>
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada Office</strong></p>
         <p><img width="24" src="{{asset('assets/images/phone.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+91 99244 312536</a></p>
         <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
       </div>

@@ -347,7 +347,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-wordpress-developers.png')}}" alt=""> </span>
                                                 <div>
                                                     <strong>Hire WordPress Developers</strong>
-                                                    <p>Scalable Backend</p>
+                                                    <p>WordPress Experts</p>
                                                 </div>
                                             </a>
 
@@ -355,7 +355,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-laravel-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Laravel Developers</strong>
-                                                    <p>Secure Applications</p>
+                                                    <p>Secure Apps</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -366,7 +366,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-nodejsdevelopers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Node.js Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Fast Backend</p>
                                                 </div>
                                             </a>
 
@@ -374,7 +374,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-php-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire PHP Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>PHP Experts</p>
                                                 </div>
                                             </a>
 
@@ -382,7 +382,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-ai-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire AI Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>AI Solutions</p>
                                                 </div>
                                             </a>
                                             
@@ -393,7 +393,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-reactjs-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire ReactJS Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Modern UI</p>
                                                 </div>
                                             </a>
 
@@ -401,7 +401,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-nextjs-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire NextJS Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Fast Websites</p>
                                                 </div>
                                             </a>
 
@@ -409,7 +409,7 @@
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-paython-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire python Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Smart Backend</p>
                                                 </div>
                                             </a>
                                         </div>
@@ -443,7 +443,7 @@
                                 </div>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="{{route('blog')}}"
+                            <a href="{{route('casestudy')}}"
                                 class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Case Study</a>
                         </li>
                        
