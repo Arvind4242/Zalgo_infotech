@@ -40,7 +40,7 @@
             </div>
         </section>
         <!-- Banner Section End -->
-        <section class="search-domain-two tw-pt-10 tw-pb-10 position-relative z-1">
+        <section class="search-domain-two tw-pt-10 tw-pb-10 position-relative z-1 zal-projet-type">
             <div class="container">              
                 <div class="row gy-4 select-domain-wrapper">
                     <div class="col-md-12">
@@ -48,42 +48,46 @@
                             <div
                                 class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
                                 data-domain=".shop">
-                                <img src="{{asset('assets/images/thumbs/search-domain-two-img2.png')}}" alt="Logo"
+                                <img src="{{asset('assets/images/thumbs/pltform.gif')}}" alt="Logo"
                                     class="animate__wobble" />
                                 <span
-                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
+                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Platform</span>
+                                    <span class="p-type">WordPress</span>
                             </div>
                             <div
                                 class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
                                 data-domain=".icu">
-                                <img src="{{asset('assets/images/thumbs/search-domain-two-img3.png')}}" alt="Logo"
+                                <img src="{{asset('assets/images/thumbs/industry.gif')}}" alt="Logo"
                                     class="animate__wobble" />
-                                <span
-                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
+                                <span class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Industry</span>
+                                <span class="p-type">E-Commerce</span>
                             </div>
                             <div
                                 class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
                                 data-domain=".site">
-                                <img src="{{asset('assets/images/thumbs/search-domain-two-img4.png')}}" alt="Logo"
+                                <img src="{{asset('assets/images/thumbs/project-type.gif')}}" alt="Logo"
                                     class="animate__wobble" />
                                 <span
-                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
+                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Project Type</span>
+                                    <span class="p-type">Long Term</span>
                             </div>
                             <div
                                 class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
                                 data-domain=".in">
-                                <img src="{{asset('assets/images/thumbs/search-domain-two-img5.png')}}" alt="Logo"
+                                <img src="{{asset('assets/images/thumbs/duration.gif')}}" alt="Logo"
                                     class="animate__wobble" />
                                 <span
-                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
+                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Duration</span>
+                                    <span class="p-type">6+ Year</span>
                             </div>
                             <div
                                 class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
                                 data-domain=".gives">
-                                <img src="{{asset('assets/images/thumbs/search-domain-two-img6.png')}}" alt="Logo"
+                                <img src="{{asset('assets/images/thumbs/region.gif')}}" alt="Logo"
                                     class="animate__wobble" />
                                 <span
-                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">$13.34/Yearly</span>
+                                    class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Region</span>
+                                    <span class="p-type">Canada</span>
                             </div>
                         </div>
                     </div>
@@ -111,7 +115,7 @@
                     <div class="col-md-6">
                         <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
                             <div class="tw-rounded-28-px overflow-hidden h-100">
-                                <img src="{{asset('assets/images/thumbs/brand-marketing-img.png')}}" alt="Image"
+                                <img src="{{asset('assets/images/case-study/bio-img1.jpg')}}" alt="Image"
                                     class="w-100 h-100 object-fit-cover" />
                             </div>
 
@@ -319,7 +323,7 @@
                                         <i class="ph ph-check"></i>
                                     </span>
                                     <p class="tw-text-lg fw-medium text-heading flex-grow-1">
-                                        Sales and conversion optimization
+                                        Sales and growth optimization
                                     </p>
                                 </div>
                             </div>
@@ -342,7 +346,7 @@
                     <div class="col-md-6">
                         <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
                             <div class="tw-rounded-28-px overflow-hidden h-100">
-                                <img src="{{asset('assets/images/thumbs/brand-marketing-img.png')}}" alt="Image"
+                                <img src="{{asset('assets/images/case-study/bio-img2.jpg')}}" alt="Image"
                                     class="w-100 h-100 object-fit-cover" />
                             </div>
 
@@ -360,7 +364,7 @@
                     <div class="col-md-6">
                         <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
                             <div class="tw-rounded-28-px overflow-hidden h-100">
-                                <img src="{{asset('assets/images/thumbs/brand-marketing-img.png')}}" alt="Image"
+                                <img src="{{asset('assets/images/case-study/bio-img3.jpg')}}" alt="Image"
                                     class="w-100 h-100 object-fit-cover" />
                             </div>
 
@@ -479,20 +483,19 @@
                         <div class="">
                             <div class="text-start mx-auto tw-mb-12">
                                 <div class="tw-mb-10">
-                                    <h4 class="tw-mb-2 fw-bold line-clamp-1 font-caveat text-capitalize text-orange">
-                                        with the world's favorite CRM
-                                    </h4>
+                                    
                                     <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
-                                        Simple set up,easy to stay
-                                        organized
+                                        Technology Stack
                                     </h2>
                                     <p
                                         class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                        Sassly-CRM in the past allowing
-                                        you to focus more on your
-                                        business simply enjoy your
-                                        newfound legal time to reflect
-                                        leaving pen
+                                        <b>CMS:</b> WordPress <br>
+                                        <b>E-commerce:</b> WooCommerce<br>
+                                        <b>Hosting:</b> SiteGround<br>
+                                        <b>Security:</b> Sucuri<br>
+                                        <b>SEO Tools & Analytics</b><br>
+                                        <b>Payment Gateways:<b> Intuit, Strip, Woo, Paypal<br> 
+
                                     </p>
                                 </div>
                                 <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
@@ -518,10 +521,10 @@
             <div class="container max-w-1400-px">
                 <div class="max-w-672-px text-center mx-auto tw-mb-12">
                     <h3 class="splitTextStyleOne text-heading text-capitalize">
-                        Seamless Integrations That Enhance Digital Experiences
+                        Results & Impact
                     </h3>
                     <p class="text-neutral-500 tw-mt-5 splitTextStyleOne max-w-500-px mx-auto">
-                        We connect your systems, tools, and platforms into a unified ecosystem—ensuring smooth data flow, better performance, and scalable growth.
+                        This long-term collaboration delivered strong, measurable results
                     </p>
                 </div>
 
@@ -533,19 +536,9 @@
                                     <img src="{{asset('assets/images/icons/seamless-icon1.png')}}" alt="Icon" />
                                 </span>
                                 <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                    Custom Development
+                                    $1M+ monthly sales
                                 </h6>
-                                <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                    We design and develop custom web and 
-                                    software solutions tailored to your 
-                                    business requirements, ensuring flexibility, 
-                                    performance, and long-term scalability.
-                                </p>
-                                <a href="{{route('intigration.details')}}"
-                                    class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                    Explore Custom Solutions
-                                    <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -554,18 +547,9 @@
                                     <img src="{{asset('assets/images/icons/seamless-icon2.png')}}" alt="Icon" />
                                 </span>
                                 <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                    API development
+                                    Stable performance during high traffic
                                 </h6>
-                                <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                    Build secure, high-performance APIs 
-                                    that enable seamless communication between 
-                                    applications, platforms, and services.
-                                </p>
-                                <a href="{{route('intigration.details')}}"
-                                    class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                    View API Services
-                                    <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -574,18 +558,9 @@
                                     <img src="{{asset('assets/images/icons/seamless-icon3.png')}}" alt="Icon" />
                                 </span>
                                 <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                    Third-party integrations
+                                    Continuous organic growth through SEO
                                 </h6>
-                                <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                    We integrate CRMs, payment gateways, 
-                                    analytics, and cloud services to 
-                                    streamline operations and improve efficiency.
-                                </p>
-                                <a href="{{route('intigration.details')}}"
-                                    class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                    See integration
-                                    <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                </a>
+                                
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -594,18 +569,9 @@
                                     <img src="{{asset('assets/images/icons/seamless-icon4.png')}}" alt="Icon" />
                                 </span>
                                 <h6 class="tw-mb-10 max-w-172-px mx-auto">
-                                        Maintenance & support
+                                        6+ years of successful partnership
                                 </h6>
-                                <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
-                                    Ongoing monitoring, updates, and 
-                                    technical support to keep your 
-                                    systems secure, fast, and running smoothly.
-                                </p>
-                                <a href="{{route('intigration.details')}}"
-                                    class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                    Get Support
-                                    <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                </a>
+                                
                             </div>
                         </div>
                         <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -749,15 +715,11 @@
             <div class="container max-w-1552-px">
                 <div class="max-w-672-px text-center mx-auto tw-mb-12">
                     <h2 class="splitTextStyleOne text-white">
-                        Speed.
+                        Why This 
                         <span class="font-dm-serif fst-italic fw-normal">
-                            Reliability</span>. Efficiency.
+                            Case Study</span> Matters
                     </h2>
-                    <p class="text-neutral-300 tw-mt-5 splitTextStyleOne max-w-570-px mx-auto">
-                        In today's competitive business, the demand for efficient In
-                        today's competitive cost-effective IT solutions has never been
-                        more critic. business
-                    </p>
+                    
                 </div>
 
                 <div class="service-slider swiper">
@@ -769,28 +731,15 @@
                                 <div
                                     class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                     <span class="tw-mb-13 group-hover-item-text-invert">
-                                        <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                        <img src="{{asset('assets/images/icons/marketing-report.png')}}" alt="Icon"
                                             class="animate__heartBeat" />
                                     </span>
                                     <div class="">
-                                        <div class="group-hover-item-d-none tw-mb-4">
-                                            <span
-                                                class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                Invoicing</span>
-                                        </div>
+                                        
                                         <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                            Live and kicking. 24/7.
+                                            Proves real-world e-commerce scalability
                                         </h5>
-                                        <p
-                                            class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                            Web hosting provides everything you idea online. From
-                                            where your website
-                                        </p>
-                                        <a href="javascript:void(0)"
-                                            class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                            Learn More
-                                            <i class="ph ph-arrow-right tw-text-sm"></i>
-                                        </a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -802,28 +751,16 @@
                                 <div
                                     class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                     <span class="tw-mb-13 group-hover-item-text-invert">
-                                        <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                        <img src="{{asset('assets/images/icons/satisfaction.png')}}" alt="Icon"
                                             class="animate__heartBeat" />
                                     </span>
                                     <div class="">
-                                        <div class="group-hover-item-d-none tw-mb-4">
-                                            <span
-                                                class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                Invoicing</span>
-                                        </div>
+                                        
                                         <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                            Live and kicking. 24/7.
+                                            Demonstrates WooCommerce & WordPress expertise
                                         </h5>
-                                        <p
-                                            class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                            Web hosting provides everything you idea online. From
-                                            where your website
-                                        </p>
-                                        <a href="javascript:void(0)"
-                                            class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                            Learn More
-                                            <i class="ph ph-arrow-right tw-text-sm"></i>
-                                        </a>
+                                        
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -835,28 +772,15 @@
                                 <div
                                     class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                     <span class="tw-mb-13 group-hover-item-text-invert">
-                                        <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                        <img src="{{asset('assets/images/icons/system.png')}}" alt="Icon"
                                             class="animate__heartBeat" />
                                     </span>
                                     <div class="">
-                                        <div class="group-hover-item-d-none tw-mb-4">
-                                            <span
-                                                class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                Invoicing</span>
-                                        </div>
+                                        
                                         <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                            Live and kicking. 24/7.
+                                            Shows ability to manage both tech + growth
                                         </h5>
-                                        <p
-                                            class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                            Web hosting provides everything you idea online. From
-                                            where your website
-                                        </p>
-                                        <a href="javascript:void(0)"
-                                            class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                            Learn More
-                                            <i class="ph ph-arrow-right tw-text-sm"></i>
-                                        </a>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -868,28 +792,15 @@
                                 <div
                                     class="service-item bg-white hover-bg-main-600 group group-item tw-py-16 tw-ps-10 tw-pe-4 tw-rounded-2xl h-100 d-flex flex-column justify-content-center tw-duration-200">
                                     <span class="tw-mb-13 group-hover-item-text-invert">
-                                        <img src="{{asset('assets/images/icons/service-icon3.svg')}}" alt="Icon"
+                                        <img src="{{asset('assets/images/icons/trust.png')}}" alt="Icon"
                                             class="animate__heartBeat" />
                                     </span>
                                     <div class="">
-                                        <div class="group-hover-item-d-none tw-mb-4">
-                                            <span
-                                                class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                Invoicing</span>
-                                        </div>
+                                        
                                         <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                            Live and kicking. 24/7.
+                                            Builds strong trust for global B2B & B2C clients
                                         </h5>
-                                        <p
-                                            class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
-                                            Web hosting provides everything you idea online. From
-                                            where your website
-                                        </p>
-                                        <a href="javascript:void(0)"
-                                            class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                            Learn More
-                                            <i class="ph ph-arrow-right tw-text-sm"></i>
-                                        </a>
+                                        
                                     </div>
                                 </div>
                             </div>
