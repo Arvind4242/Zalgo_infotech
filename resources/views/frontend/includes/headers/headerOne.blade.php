@@ -7,14 +7,14 @@
     
 
     <!-- Header Start Here -->
-    <header class="header bg-white transition-all">
+    <header class="header bg-white transition-all p-0">
 
         <!-- Top Header Start -->
-        <div class="bg-main-600 header-top-bar tw-py-205 d-sm-block d-none">
+        <div class="bg-main-600 header-top-bar tw-py-205 d-sm-block">
             <div class="container">
                 <div class="d-flex justify-content-center">
                     <p class="text-white bg-white-13 d-inline-block tw-py-1 tw-px-5 rounded-pill fw-normal">
-                        Delivering reliable IT solutions tailored for growing businesses worldwide
+                        Reliable IT solutions designed for performance, security, and scalability—supporting growing businesses worldwide, every step of the way.
                     </p>
                 </div>
             </div>
@@ -35,12 +35,171 @@
                 <div class="header-menu d-lg-block d-none">
                     <!-- Nav menu Start -->
                     <ul class="nav-menu d-lg-flex align-items-center tw-gap-14">
-                        <li class="nav-menu__item  position-relative">
-                            <a href="{{route('about')}}" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> About Us</a>
+                        <li class="nav-menu__item has-submenu about">
+                            <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> Company</a>
+                             <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
+                                    <div class="mega-inner">
+                                        <!-- Column 1 -->
+                                        <div class="mega-col">
 
+                                            <a href="{{route('about')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/about-company.png')}}" alt=""></span>
+                                                <div class="align-items-center d-flex"> 
+                                                    <strong>About Company</strong>
+                                                </div>
+                                            </a>
+
+                                            <a class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/engagement-models.png')}}" alt=""> </span>
+                                                <div class="align-items-center d-flex">
+                                                    <strong>Engagement Models</strong>
+                                                </div>
+                                            </a>
+
+                                            
+                                        </div>
+                                        <!-- Column 2 -->
+                                        <div class="mega-col">
+                                            <a class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/life-at-zalgolnfotec.png')}}" alt=""></span>
+                                                <div class="align-items-center d-flex">
+                                                    <strong>Life At ZalgoInfotec</strong>
+                                                </div>
+                                            </a>
+                                            <a class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/infrastructure.png')}}" alt=""></span>
+                                                <div class="align-items-center d-flex">
+                                                    <strong>Infrastructure</strong>
+                                                </div>
+                                            </a>
+                                            
+                                        </div>
+                                         <!-- Column 2 -->
+                                        <div class="mega-col">
+                                            <a class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/culture-values.png')}}" alt=""></span>
+                                                <div class="align-items-center d-flex">
+                                                    <strong>Culture & Values</strong>
+                                                </div>
+                                            </a>
+
+                                            <a class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/Career.png')}}" alt=""></span>
+                                                <div class="align-items-center d-flex">
+                                                    <strong>Career</strong>
+                                                </div>
+                                            </a>
+                                            
+                                        </div>
+
+                                         <!-- Column 2 -->
+                                        <div class="mega-col">
+                                            <a href="{{route('testimonial')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
+                                                <div>
+                                                    <strong>Client Testimonials</strong>
+                                                </div>
+                                            </a>
+                                            <a href="{{route('blog')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
+                                                <div>
+                                                    <strong>Blogs</strong>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                         </li>
-                        <li class="nav-menu__item activePage">
-                            <a href="{{route('industry')}}" class="nav-menu__link  tw-pe-5 hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100">Industry</a>
+                        <li class="nav-menu__item has-submenu">
+                            <a href="javascript:void(0)" class="nav-menu__link  tw-pe-5 hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100">Industry</a>
+                              <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
+                                    <div class="align-items-center mega-inner">
+                                        <!-- LEFT GRID -->
+                                        <div class="mega-left">
+                                            <div class="app-grid">
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/healthcare.png')}}" alt="">
+                                                <span>HealthCare</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/destination.png')}}" alt="">
+                                                <span>Travel</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/online-shop.png')}}" alt="">
+                                                <span>E-Commerce</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/education.png')}}" alt="">
+                                                <span>Education</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/building.png')}}" alt="">
+                                                <span>Real Estate</span>
+                                                </div>
+
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/cinema.png')}}" alt="">
+                                                <span>Entertainment</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/customer-service.png')}}" alt="">
+                                                <span>Business Services</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/holding-hands.png')}}" alt="">
+                                                <span>Non Profit</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/asset-management.png')}}" alt="">
+                                                <span>Finance</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/cutlery.png')}}" alt="">
+                                                <span>Food & Restaurant</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/enviromentally-friendly.png')}}" alt="">
+                                                <span>Manufacturing</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/law.png')}}" alt="">
+                                                <span>Lawyer</span>
+                                                </div>
+                                                <div class="app-box">
+                                                <img src="{{asset('assets/images/icons/crm.png')}}" alt="">
+                                                <span>CRM</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- RIGHT CARD -->
+                                        <div class="audit-box">  
+                                                <div class="autid-detail">
+                                                    <h3>Get a Free Strategy Audit</h3>
+                                                    <ul class="audit-list">
+                                                        <li>Free Website Audit</li>
+                                                        <li>Free SEO / Ads Analysis</li>
+                                                        <li>30-min Expert Call</li>
+                                                        <li>No Obligation</li>
+                                                    </ul>
+                                                    <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+                                                </div>
+                                                <div class="contact-info">
+                                                    <p><strong>📞</strong> +91 92442 13332</p>
+                                                    <p><strong>✉️</strong> hello@zalgoinfotech.com</p>
+                                                </div>
+
+                                                <div class="serving">
+                                                    <p><strong>🌍 Serving Clients:</strong></p>
+                                                    <span>USA • Canada • UK • UAE • India</span>
+                                                </div>
+
+                                                <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+
+                                            </div>
+                                    </div>
+                                </div>
                         </li>
                         <li class="nav-menu__item has-submenu">
                             <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Our Services</a>
@@ -48,145 +207,122 @@
                                     <div class="align-items-center mega-inner">
                                         <!-- Column 1 -->
                                         <div class="mega-col">
-
-                                            <a class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
+                                            <a href="{{route('web.development')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/domain.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Web Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Custom Websites</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
+                                            <a href="{{route('cms.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>CMS Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Easy Management</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
+                                            <a href="{{route('react.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/react.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>ReactJS Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Modern Frontend</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
+                                            <a href="{{route('shopify.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/shopify.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Shopify Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Shopify Stores</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <!-- Column 2 -->
                                         <div class="mega-col">
-
-                                            <a class="mega-item">
+                                            <a href="{{route('nodejs.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/nodejs.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>NodeJS Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Scalable Backend</p>
                                                 </div>
                                             </a>
-                                            
-                                            <a class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
+                                            <a href="{{route('ecommerce.development')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/ecommerce.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>E-commerce Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Online Stores</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
+                                            <a href="{{route('python.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/python.png')}}" alt=""></span>
                                                 <div>
-                                                    <strong>Paython Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <strong>python Development</strong>
+                                                    <p>Backend Solutions</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
+                                            <a href="{{route('ai.development')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/ai-processor.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>AI Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Smart Automation</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <!-- Column 3 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
+                                            <a href="{{route('laravel.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/laravel.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Laravel Development</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Secure Applications</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/cms.png')}}" alt=""></span>
+                                            <a href="{{route('maintenanceservices.development')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/maintenance.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Maintenance Services</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Ongoing Support</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
+                                            <a href="{{route('seoservices.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/seo.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>SEO Services</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Search Growth</p>
                                                 </div>
                                             </a>
-
-                                            <a class="mega-item">
+                                            <a href="{{route('digitalservices.development')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/dm.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Digital Marketing</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Online Growth</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <!-- Right Card -->
-                                        <div class="mega-card">
-                                            <h4 class="text-green">Contact Info</h4>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                           <div class="audit-box">  
+                                                <div class="autid-detail">
+                                                    <h3>Get a Free Strategy Audit</h3>
+                                                    <ul class="audit-list">
+                                                        <li>Free Website Audit</li>
+                                                        <li>Free SEO / Ads Analysis</li>
+                                                        <li>30-min Expert Call</li>
+                                                        <li>No Obligation</li>
+                                                    </ul>
+                                                    <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <div class="contact-info">
+                                                    <p><strong>📞</strong> +91 92442 13332</p>
+                                                    <p><strong>✉️</strong> hello@zalgoinfotech.com</p>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
-                                                </div>
-                                            </div>
 
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
+                                                <div class="serving">
+                                                    <p><strong>🌍 Serving Clients:</strong></p>
+                                                    <span>USA • Canada • UK • UAE • India</span>
                                                 </div>
+
+                                                <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+
                                             </div>
-                                            
-                                            <div class="mega-item align-items-center d-flex mb-3">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="#">zalgoinfotech</a>
-                                                </div>
-                                            </div>
-                                            <a href="#" class="btn btn-main">Contact Us</a>
-                                        </div>
 
                                     </div>
                                 </div>
@@ -199,127 +335,116 @@
                                         <!-- Column 1 -->
                                         <div class="mega-col">
 
-                                            <a class="mega-item">
-                                                <span class="icon">🏠</span>
+                                            <a href="{{route('hireweb.developer')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-web-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Web Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Custom Websites</p>
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
-                                                <span class="icon"><tool_call>  </span>
+                                            <a href="{{route('hirewordpressdeveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-wordpress-developers.png')}}" alt=""> </span>
                                                 <div>
                                                     <strong>Hire WordPress Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>WordPress Experts</p>
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
-                                                <span class="icon">🛒</span>
+                                            <a href="{{route('hirelaraveldeveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-laravel-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Laravel Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Secure Apps</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <!-- Column 2 -->
                                         <div class="mega-col">
 
-                                            <a class="mega-item">
-                                                <span class="icon">W</span>
+                                            <a href="{{route('hirenodejsdeveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-nodejsdevelopers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire Node.js Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Fast Backend</p>
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
-                                                <span class="icon">W</span>
+                                            <a href="{{route('hirephpdeveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-php-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire PHP Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>PHP Experts</p>
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
-                                                <span class="icon">📰</span>
+                                            <a href="{{route('hireaideveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-ai-developers.png')}}" alt=""></span>
                                                 <div>
-                                                    <strong>Hire CodeIgniter Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <strong>Hire AI Developers</strong>
+                                                    <p>AI Solutions</p>
                                                 </div>
                                             </a>
+                                            
                                         </div>
                                         <!-- Column 3 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
-                                                <span class="icon">💼</span>
+                                            <a href="{{route('hirereactjsdeveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-reactjs-developers.png')}}" alt=""></span>
                                                 <div>
                                                     <strong>Hire ReactJS Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <p>Modern UI</p>
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
-                                                <span class="icon">⏳</span>
+                                            <a href="{{route('hirenextjsdeveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-nextjs-developers.png')}}" alt=""></span>
                                                 <div>
-                                                    <strong>Hire Shopify Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <strong>Hire NextJS Developers</strong>
+                                                    <p>Fast Websites</p>
                                                 </div>
                                             </a>
 
-                                            <a class="mega-item">
-                                                <span class="icon">🎤</span>
+                                            <a href="{{route('hirepythondeveloper')}}" class="mega-item">
+                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/hire-paython-developers.png')}}" alt=""></span>
                                                 <div>
-                                                    <strong>Hire Paython Developers</strong>
-                                                    <p>Lorem ipsum dolor</p>
+                                                    <strong>Hire python Developers</strong>
+                                                    <p>Smart Backend</p>
                                                 </div>
                                             </a>
                                         </div>
                                         <!-- Right Card -->
-                                        <div class="mega-card">
-                                            <h4 class="text-green">Contact Info</h4>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                       <div class="audit-box">  
+                                                <div class="autid-detail">
+                                                    <h3>Get a Free Strategy Audit</h3>
+                                                    <ul class="audit-list">
+                                                        <li>Free Website Audit</li>
+                                                        <li>Free SEO / Ads Analysis</li>
+                                                        <li>30-min Expert Call</li>
+                                                        <li>No Obligation</li>
+                                                    </ul>
+                                                    <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="mailto:zalgoinfotec@gmail.com">zalgoinfotec@gmail.com</a>
+                                                <div class="contact-info">
+                                                    <p><strong>📞</strong> +91 92442 13332</p>
+                                                    <p><strong>✉️</strong> hello@zalgoinfotech.com</p>
                                                 </div>
-                                            </div>
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
-                                                </div>
-                                            </div>
 
-                                            <div class="mega-item align-items-center d-flex mb-2">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="tel:924421332">+91 924421332</a>
+                                                <div class="serving">
+                                                    <p><strong>🌍 Serving Clients:</strong></p>
+                                                    <span>USA • Canada • UK • UAE • India</span>
                                                 </div>
+
+                                                <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+
                                             </div>
-                                            
-                                            <div class="mega-item align-items-center d-flex mb-3">
-                                                <span class="">🏠</span>
-                                                <div>
-                                                    <a class="text-green" href="#">zalgoinfotech</a>
-                                                </div>
-                                            </div>
-                                            <a href="#" class="btn btn-main">Contact Us</a>
-                                        </div>
 
                                     </div>
                                 </div>
                         </li>
                         <li class="nav-menu__item">
-                            <a href="{{route('blog')}}"
-                                class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Blog</a>
+                            <a href="{{route('casestudy')}}"
+                                class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Case Study</a>
                         </li>
                        
                     </ul>

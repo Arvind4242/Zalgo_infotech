@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Web Designs')
+@section('title', 'WordPress Development')
 @section('content')
 
     <!-- header area -->
@@ -298,7 +298,7 @@
 
                     <div class="border border-neutral-200 tw-rounded-xl common-shadow-sixteen">
                         <div class="row col-border-wrapper">
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
@@ -319,7 +319,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
@@ -339,7 +339,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
@@ -359,7 +359,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
@@ -379,7 +379,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon5.png')}}" alt="Icon" />
@@ -399,7 +399,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon6.png')}}" alt="Icon" />
@@ -419,7 +419,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon7.png')}}" alt="Icon" />
@@ -439,7 +439,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6">
+                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon8.png')}}" alt="Icon" />
@@ -465,7 +465,7 @@
             </section>
             <!-- seamless integration section End -->
 
-                    <!-- Roadmap section start -->
+            <!-- Roadmap section start -->
         <section class="py-120 section-bg-one">
             <div class="container max-w-1440-px">
                 <!-- what we do Start -->
@@ -693,8 +693,8 @@
             </section>
             <!-- Integrated apps End -->
             
-                        <!-- Services section start -->
-            <section class="services py-120 position-relative z-1 gradient-bg-two">
+            <!-- Services section start -->
+            <section class="gradient-bg-five position-relative py-120 services z-1">
                 <img src="{{asset('assets/images/shapes/rope-shape.png')}}" alt="Rope"
                     class="position-absolute tw-start-0 tw-ms-80-px tw-mt-16 top-0 z-n1" />
                 <img src="{{asset('assets/images/shapes/matherboard-shape.png')}}" alt="Shape"
@@ -1232,7 +1232,7 @@
             </section>
             <!-- Faq Two Section End -->
 
-             <!-- Task Management Section Start -->
+            <!-- Task Management Section Start -->
             <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
                 <div class="container">
                     <div

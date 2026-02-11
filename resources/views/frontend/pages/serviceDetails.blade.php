@@ -123,32 +123,20 @@
                                             class="text-uppercase text-white tw-mb-2"
                                             >Call anytime</span
                                         >
-                                        <a
-                                            href="tel:+(2)871382023"
-                                            class="btn btn-main hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-py-505 rounded-pill fw-bold w-100"
-                                            data-block="button"
+                                        <a href="tel:+(2)871382023" class="btn btn-main hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-py-505 rounded-pill fw-bold w-100" data-block="button"
                                         >
                                             <span class="button__flair"></span>
-                                            <span class="button__label"
-                                                >+(2) 871 382 023</span
-                                            >
+                                            <span class="button__label">+(2) 871 382 023</span>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-8 ps-xl-5">
                                 <div class="">
-                                    <img
-                                        src="{{asset('assets/images/thumbs/service-details-img.png')}}"
-                                        alt="Thumb"
-                                    />
-                                    <div
-                                        class="tw-mt-8 d-flex flex-column tw-gap-12"
-                                    >
+                                    <img src="{{asset('assets/images/thumbs/service-details-img.png')}}" alt="Thumb"/> 
+                                    <div class="tw-mt-8 d-flex flex-column tw-gap-12">
                                         <div class="">
-                                            <h4
-                                                class="tw-mb-3 splitTextStyleOne"
-                                            >
+                                            <h4 class="tw-mb-3 splitTextStyleOne">
                                                 Cargo Transportation service
                                             </h4>
                                             <p class="text-neutral-600">
@@ -168,9 +156,7 @@
                                             </p>
                                         </div>
                                         <div class="">
-                                            <h5
-                                                class="tw-mb-3 splitTextStyleOne"
-                                            >
+                                            <h5 class="tw-mb-3 splitTextStyleOne">
                                                 Sed ut perspiciatis unde omnis
                                                 iste natus et
                                             </h5>
@@ -196,20 +182,14 @@
                                         </div>
                                         <div class="d-flex tw-gap-9">
                                             <div
-                                                class="position-relative max-w-390-px w-100"
-                                            >
+                                                class="position-relative max-w-390-px w-100">
                                                 <img
                                                     src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}"
                                                     alt="Thumb"
                                                     class="w-100 h-100 object-fit-cover"
                                                 />
-                                                <a
-                                                    href="https://www.youtube.com/watch?v=MFLVmAE4cqg"
-                                                    class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1"
-                                                >
-                                                    <i
-                                                        class="ph-fill ph-play"
-                                                    ></i>
+                                                <a href="https://www.youtube.com/watch?v=MFLVmAE4cqg" class=" bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1">
+                                                    <i class="ph-fill ph-play"></i>
                                                 </a>
                                             </div>
                                             <div class="">
@@ -661,18 +641,10 @@
                 <!-- Services Details end -->
 
                 <!-- Task Management Section Start -->
-                <section
-                    class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half"
-                >
+                <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
                     <div class="container">
-                        <div
-                            class="text-end tw--mb-40-px position-relative z-2"
-                        >
-                            <img
-                                src="{{asset('assets/images/thumbs/laptop-man.png')}}"
-                                alt="Image"
-                                class="tw-me-84-px"
-                            />
+                        <div class="text-end tw--mb-40-px position-relative z-2">
+                            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />
                         </div>
 
                         <div

@@ -103,6 +103,71 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.webdesign', compact('bodyClass'));
     }
+    public function webDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.web-development', compact('bodyClass'));
+    }
+     public function ReactJSDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.reactjsdevelopment', compact('bodyClass'));
+    }
+    public function cmsDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.cmsdevelopment', compact('bodyClass'));
+    }
+    public function shopifyDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.shopify', compact('bodyClass'));
+    }
+    public function NodejsDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.nodejs', compact('bodyClass'));
+    }
+     public function WordpressDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.wordpressdevelopment', compact('bodyClass'));
+    }
+    public function ecommerceDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.ecommerce', compact('bodyClass'));
+    }
+     public function pythonDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.python', compact('bodyClass'));
+    }
+    public function aiDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.aidevelopement', compact('bodyClass'));
+    }
+    public function laravelDevelopment()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.laravel', compact('bodyClass'));
+    }
+    public function maintenanceServices()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.maintenanceservices', compact('bodyClass'));
+    }
+    public function seoServices()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.seoservices', compact('bodyClass'));
+    }
+    public function digitalMarketing()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.digitalservices', compact('bodyClass'));
+    }
 
     
 
@@ -114,22 +179,59 @@ class PageController extends Controller
     }
 
     //Hire
-     public function hire()
+    public function hireWebdeveloper()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.hire', compact('bodyClass'));
+        return view('frontend.pages.hireWebdeveloper', compact('bodyClass'));
     }
-
-     public function hirePHPdeveloper()
+    public function hireWordpressdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirewordpressdeveloper', compact('bodyClass'));
+    }
+    public function hireLaraveldeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirelaraveldeveloper', compact('bodyClass'));
+    }
+    public function hireNodejsdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirenodejsdeveloper', compact('bodyClass'));
+    }
+    public function hirePHPdeveloper()
     {
         $bodyClass = 'home-one';
         return view('frontend.pages.hirephpdeveloper', compact('bodyClass'));
     }
-
-      public function wordpressDevelopment()
+    public function hireAideveloper()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.wordpressdevelopment', compact('bodyClass'));
+        return view('frontend.pages.hireaideveloper', compact('bodyClass'));
+    }
+    public function hireReactjsdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirereactjsdeveloper', compact('bodyClass'));
+    }
+    public function hireNextjsdeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirenextjsdeveloper', compact('bodyClass'));
+    }
+    public function hirePythondeveloper()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.hirepythondeveloper', compact('bodyClass'));
+    }
+
+
+
+    // Case Study Pages
+    public function BioAge()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.bioage', compact('bodyClass'));
     }
 
     // Blog
@@ -137,6 +239,13 @@ class PageController extends Controller
     {
         $bodyClass = 'home-one';
         return view('frontend.pages.blog', compact('bodyClass'));
+    }
+
+    // Casestudy
+    public function casestudy()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.casestudy', compact('bodyClass'));
     }
 
     // Blog Details
@@ -152,4 +261,10 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.contact', compact('bodyClass'));
     }
+    public function testimonial()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.testimonial', compact('bodyClass'));
+    }
 }
+

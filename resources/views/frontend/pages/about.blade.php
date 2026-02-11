@@ -42,22 +42,22 @@
                             <div class="">
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown one">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img1.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a06.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 two">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img2.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a07.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown three">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img3.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a01.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 four">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img4.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a02.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
@@ -67,7 +67,7 @@
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 six">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img6.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a03.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
@@ -77,12 +77,12 @@
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown animation-delay-3 eight">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img8.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a04.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
                                     class="positioned-image tw-rounded-3xl overflow-hidden common-shadow-fifteen d-inline-block position-absolute animation-upDown nine">
-                                    <img src="{{asset('assets/images/thumbs/about-banner-img9.png')}}" alt="Image"
+                                    <img src="{{asset('assets/images/thumbs/a05.png')}}" alt="Image"
                                         class="tw-rounded-3xl w-100 h-100 object-fit-cover" />
                                 </div>
                                 <div
@@ -110,8 +110,8 @@
 
         <!-- About Counter section Start -->
         <section class="about-counter py-120">
-            <div class="container">
-                <div class="max-w-830-px text-center tw-mb-12 mx-auto">
+            <div class="container p-0">
+                <div class="text-center tw-mb-12 mx-auto">
                     <div class="text-center tw-mb-3">
                         <img src="{{asset('assets/images/icons/sparkle.png')}}" alt="Icon" />
                     </div>
@@ -167,6 +167,8 @@
         </section>
         <!-- About Counter section End -->
 
+
+
         <!-- About Features section Start -->
         <section class="about-features py-120 section-bg-two">
             <div class="container">
@@ -192,7 +194,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon1.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon1.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -209,7 +211,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon2.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon2.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -226,7 +228,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon3.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon3.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -243,7 +245,7 @@
                             class="tw-rounded-2xl bg-white bg-hover-app-landing tw-py-14 tw-px-7 border border-neutral-200 group animation-item group-item tw-transition tw-duration-200 h-100">
                             <span
                                 class="tw-w-92-px tw-h-92-px rounded-circle d-flex align-items-center justify-content-center common-shadow-fifteen tw-mb-11">
-                                <img src="{{asset('assets/images/icons/about-features-icon4.svg')}}" alt="Icon"
+                                <img src="{{asset('assets/images/icons/about-features-icon4.png')}}" alt="Icon"
                                     class="group-hover-item-text-invert tw-transition tw-duration-200 animate__heartBeat" />
                             </span>
                             <h5 class="splitTextStyleOne tw-mb-7 group-hover-text-white tw-transition tw-duration-200">
@@ -278,7 +280,7 @@
                         data-aos-duration="600">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img1.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/sanjeev.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -309,8 +311,8 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">John Doe</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Sanjeev</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">Business Development Manager</span>
                             </div>
                         </div>
                     </div>
@@ -318,7 +320,7 @@
                         data-aos-duration="800">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img2.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/vaibhav.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -349,8 +351,8 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">John Milton</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Vaibhav</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">Business Development Executive</span>
                             </div>
                         </div>
                     </div>
@@ -358,7 +360,7 @@
                         data-aos-duration="1000">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img3.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/ashu.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -389,8 +391,8 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">Robiul Hasan</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Ashu</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">Creative Head</span>
                             </div>
                         </div>
                     </div>
@@ -398,7 +400,7 @@
                         data-aos-duration="1200">
                         <div class="about-team group-item">
                             <div class="position-relative tw-rounded-xl overflow-hidden">
-                                <img src="{{asset('assets/images/thumbs/about-team-img4.jpg')}}" alt="Thumb"
+                                <img src="{{asset('assets/images/thumbs/annu.png')}}" alt="Thumb"
                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-transition tw-duration-300" />
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
@@ -429,22 +431,11 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">John Smith</h6>
-                                <span class="text-capitalize text-neutral-500 tw-text-sm">creative director</span>
+                                <h6 class="tw-mb-2">Annu</h6>
+                                <span class="text-capitalize text-neutral-500 tw-text-sm">AI & Python Developer</span>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="text-center tw-mt-13">
-                    <a href="javascript:void(0)"
-                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 px-8 tw-rounded-xl tw-py-505 fw-bold text-capitalize"
-                        data-block="button">
-                        <span class="button__flair"></span>
-                        <div class="d-flex align-items-center tw-gap-2 z-1">
-                            <span class="button__label">all team members</span>
-                        </div>
-                    </a>
                 </div>
             </div>
         </section>
@@ -703,272 +694,44 @@
         </div>
         <!-- Brand Three section end= -->
 
-        <!-- Pricing Plan three start -->
-        <section class="pricing-plan-three py-120">
-            <div class="container">
-                <div class="max-w-602-px text-center mx-auto tw-mb-13">
-                    <div class="bg-white tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max border border-spring-green"
-                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                        <div class="text-gradient-teal">
-                            Up to
-                            <span class="text-yellow text-stroke-yellow">70%</span>
-                            off managed cloud hosting
-                        </div>
-                    </div>
-                    <h2 class="splitTextStyleOne text-heading text-capitalize text-capitalize">
-                        flexible pricing
-                        <span style="width:130px;" class="font-dm-serif fst-italic fw-normal text-gradient-teal">plan</span>
-                        that include business
-                    </h2>
+        <!-- Fouder  start -->
+        <section class="founder-section-new pt-120">
+            <div class="align-items-end founder-container p-0" style="background-image:url({{asset('assets/images/thumbs/founder-bg.png')}});">
+                
+                <!-- Left: Founder Image -->
+                <div class="founder-image">
+                    <img src="{{asset('assets/images/thumbs/annu.png')}}" alt="Founder - Zalgo Infotech">
                 </div>
 
-                <div class="row gy-4">
-                    <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-duration="600">
-                        <div class="position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600">
-                            <div class="">
-                                <div class="tw-ps-205">
-                                    <h5 class="tw-mb-1">Basic plan</h5>
-                                    <p class="text-neutral-500">
-                                        Customized anything in anytime
-                                    </p>
-                                    <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
-                                    <div class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-10">
-                                        <h2 class="mb-0">
-                                            $1.99<span class="tw-text-xl fw-medium">/Yearly</span>
-                                        </h2>
-                                    </div>
-                                </div>
-                                <a href="{{route('login')}}"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Start Free Trial</span>
-                                    </div>
-                                </a>
-                                <span class="text-heading tw-mt-3 text-center d-block fw-medium">Renews at
-                                    $9.88/month</span>
+                <!-- Right: Founder Content -->
+                <div class="founder-content p-5 ps-0">
+                    <span class="founder-badge">Founder & Visionary Leader</span>
 
-                                <div class="tw-ps-205">
-                                    <div class="d-flex flex-column tw-gap-5 tw-mt-10">
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Real-time tracking and
-                                                notifications</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="620">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Real-time
-                                                analytics</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="640">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Drag and drop
-                                                templates</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="660">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Project
-                                                Management</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="680">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">24/7 email and chat
-                                                support</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-duration="800">
-                        <div class="position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600">
-                            <div class="">
-                                <div class="tw-ps-205">
-                                    <h5 class="tw-mb-1">
-                                        Premium plan
-                                    </h5>
-                                    <p class="text-neutral-500">
-                                        Customized anything in anytime
-                                    </p>
-                                    <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
-                                    <div class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-10">
-                                        <h2 class="mb-0">
-                                            $9.99<span class="tw-text-xl fw-medium">/Yearly</span>
-                                        </h2>
-                                    </div>
-                                </div>
-                                <a href="{{route('login')}}"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Start Free Trial</span>
-                                    </div>
-                                </a>
-                                <span class="text-heading tw-mt-3 text-center d-block fw-medium">Renews at
-                                    $9.88/month</span>
+                    <h2 class="founder-name">Bhupendra Singh Parmar</h2>
+                    <h4 class="founder-title">Founder & CEO, Zalgo Infotech</h4>
 
-                                <div class="tw-ps-205">
-                                    <div class="d-flex flex-column tw-gap-5 tw-mt-10">
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Real-time tracking and
-                                                notifications</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="620">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Real-time
-                                                analytics</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="640">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Drag and drop
-                                                templates</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="660">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Project
-                                                Management</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="680">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">24/7 email and chat
-                                                support</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                        data-aos-duration="900">
-                        <div class="position-relative bg-neutral-100 tw-px-7 tw-py-16 bg-white hover-border-main-600">
-                            <div class="">
-                                <div class="tw-ps-205">
-                                    <h5 class="tw-mb-1">Pro plan</h5>
-                                    <p class="text-neutral-500">
-                                        Customized anything in anytime
-                                    </p>
-                                    <span class="d-block tw-h-px bg-neutral-200 tw-my-6"></span>
-                                    <div class="d-flex align-items-center justify-content-between tw-gap-1 tw-mb-10">
-                                        <h2 class="mb-0">
-                                            $19.99<span class="tw-text-xl fw-medium">/Yearly</span>
-                                        </h2>
-                                    </div>
-                                </div>
-                                <a href="{{route('login')}}"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Start Free Trial</span>
-                                    </div>
-                                </a>
-                                <span class="text-heading tw-mt-3 text-center d-block fw-medium">Renews at
-                                    $9.88/month</span>
+                    <p>
+                        As the Founder of Zalgo Infotech, I focus on building scalable, reliable, and future-ready digital solutions for businesses worldwide.
+                    </p>
+                    <p>
+                        With a strong understanding of web technologies, backend systems, and emerging Al-driven solutions, my goal is to help companies transform ideas into high-performing digital products.
+                    </p>
+                    <ul class="founder-points">
+                        <li>Business-Focused Technology Solutions</li>
+                        <li>Scalable & Secure System Architecture</li>
+                        <li>Client-Centric & Transparent Approach</li>
+                    </ul>
 
-                                <div class="tw-ps-205">
-                                    <div class="d-flex flex-column tw-gap-5 tw-mt-10">
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Real-time tracking and
-                                                notifications</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="620">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Real-time
-                                                analytics</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="640">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Drag and drop
-                                                templates</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="660">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">Project
-                                                Management</span>
-                                        </div>
-                                        <div class="d-flex align-items-center tw-gap-305" data-aos="fade-up"
-                                            data-aos-anchor-placement="top-bottom" data-aos-duration="680">
-                                            <span
-                                                class="tw-w-7 tw-h-7 bg-main-50 rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
-                                                <i class="text-gradient-teal ph-bold ph-check"></i>
-                                            </span>
-                                            <span class="text-heading fw-semibold tw-text-base">24/7 email and chat
-                                                support</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="https://www.linkedin.com/company/zalgo-infotech/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-none d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
+                      <img src="{{asset('assets/images/icons/linkdin.png')}}" alt="Linkd In">  Connect on LinkedIn
+                    </a>
                 </div>
             </div>
         </section>
-        <!-- Pricing Plan three End -->
+        <!-- Founder End -->
 
         <!-- Task Management Section Start -->
-        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
             <div class="container">
                 <div class="text-end tw--mb-40-px position-relative z-2">
                     <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />
@@ -984,13 +747,13 @@
                         <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
                             data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <div class="">
-                                Up to
-                                <span class="text-yellow text-stroke-yellow">70%</span>
-                                off managed cloud hosting
+                                Trusted  
+                                <span class="text-yellow text-stroke-yellow">IT</span>
+                                Partner for Growing Businesses
                             </div>
                         </div>
                         <h3 class="splitTextStyleOne text-white">
-                            Ready to revolutionize our service?
+                            Ready to Transform Your Digital Vision into Reality?
                         </h3>
 
                         <div class="d-none">
@@ -1010,7 +773,7 @@
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Get Started Trial</span>
+                                        <span class="button__label">Talk to our experts</span>
                                     </div>
                                 </a>
                                 <a href="javascript:void(0)"
@@ -1018,7 +781,7 @@
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Get Started Trial</span>
+                                        <span class="button__label">Get free consult</span>
                                     </div>
                                 </a>
                             </div>
@@ -1028,29 +791,25 @@
                         <div
                             class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Custom Web Development</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Dedicated Developers</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">AI & Automation Solutions</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-yellow rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-yellow rounded-pill">Node.js & Laravel Experts</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Cloud & DevOps Services</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">UI/UX Focused Design</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-orange rounded-pill">Agile Project Management</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading gradient-bg-six rounded-pill">Scalable Architecture</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Project
-                                management</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-paste rounded-pill">Long-term Tech Partnership</span>
                             <span
-                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-pink rounded-pill">Technology</span>
+                                class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white text-heading bg-pink rounded-pill">Transparent Communication</span>
                         </div>
                     </div>
                 </div>
