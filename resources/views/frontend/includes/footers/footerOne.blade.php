@@ -95,12 +95,13 @@
      </div>
       <div class="address mb-4">
         <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> India Office</strong></p>
-         <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</a></p>
+        <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</a></p>
       </div>
       <div class="address mb-4">
         <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada Office</strong></p>
-        <p><img width="24" src="{{asset('assets/images/phone.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+19177916831">+91 99244 312536</a></p>
-        <p><a class="mail text-white" href="mailto:hello@zalgoinfotech.com">hello@zalgoinfotech.com</a></p>
+        <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">2482 Yonge Street #1080 Toronto,<br> ON M4P 2H5 Canada</a></p>
+        <p><img width="24" src="{{asset('assets/images/phone.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+16465687779">+1 (646) 568-7779</a></p>
+        <p><a class="mail text-white" href="mailto:sales@zalgoinfotech.com">sales@zalgoinfotech.com</a></p>
       </div>
     </div>
 
@@ -208,12 +209,52 @@
             <!-- Hire Developers -->
             <div class="footer-col col-lg-3">
             <h4>Hire Developers</h4>
-            <ul>
-                <li><a href="#">Hire WordPress Developer</a></li>
-                <li><a href="#">Hire WooCommerce Developer</a></li>
-                <li><a href="#">Hire Laravel Developer</a></li>
-                <li><a href="#">Hire PHP Developer</a></li>
-                <li><a href="#">Hire Full-Stack Developer</a></li>
+            <ul>                
+                <li>
+                    <a href="{{route('hireweb.developer')}}" class="mega-item">
+                        Hire Web Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('hirewordpressdeveloper')}}" class="mega-item">    
+                        Hire WordPress Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('hirelaraveldeveloper')}}" class="mega-item">
+                        Hire Laravel Developers
+                    </a>                
+                </li>
+                <li>
+                    <a href="{{route('hirenodejsdeveloper')}}" class="mega-item">
+                            Hire Node.js Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('hirephpdeveloper')}}" class="mega-item">
+                        Hire PHP Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('hireaideveloper')}}" class="mega-item">
+                        Hire AI Developers
+                    </a>                
+                </li>
+                <li>
+                    <a href="{{route('hirereactjsdeveloper')}}" class="mega-item">
+                        Hire ReactJS Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('hirenextjsdeveloper')}}" class="mega-item">
+                        Hire NextJS Developers
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('hirepythondeveloper')}}" class="mega-item">
+                        Hire python Developers
+                    </a>
+                </li>
             </ul>
             </div>
 

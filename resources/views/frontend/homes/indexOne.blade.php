@@ -958,7 +958,7 @@
                             <img src="{{asset('assets/images/thumbs/faq-img-2.png')}}" alt=""
                                 class="position-absolute bottom-0 tw-end-0 tw--me-32-px" />
                             <img src="{{asset('assets/images/thumbs/faq-img-3.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-start-0 tw--ms-24-px" />
+                                class="bottom-0 position-absolute rounded-3 tw--ms-24-px tw-start-0" />
                         </div>
                     </div>
                 </div>
