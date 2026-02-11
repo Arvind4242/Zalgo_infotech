@@ -223,9 +223,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Blazing-fast React & Next.js experiences</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -233,9 +233,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-dresser"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">SEO-first architecture for higher visibility</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -243,9 +243,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-certificate"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Pixel-perfect, conversion-focused UI</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -253,9 +253,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Scalable frontend built for growth</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -263,9 +263,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Modern, maintainable codebase</a>
                                             </div>
                                             
@@ -326,11 +326,7 @@
                                         business goals, and user needs—ensuring 
                                         speed, scalability, and consistency.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Explore Custom Solutions
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -346,11 +342,7 @@
                                         with APIs, CMSs, and backend systems for 
                                         smooth data flow and real-time experiences.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        View API Services
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -365,11 +357,7 @@
                                         We integrate analytics, payment gateways, CRMs, and 
                                         other third-party tools to enhance functionality and improve user engagement.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -385,11 +373,7 @@
                                         maintain your frontend to ensure 
                                         fast load times, security, and long-term stability.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Get Support
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -530,11 +514,11 @@
                                                             class="w-100 h-100 object-fit-cover" />
                                                     </div>
                                                 </div>
-                                                <span class="h5 counter text-white">2.3M+</span>
+                                                <span class="h5 counter text-white">20M+</span>
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Client reviews
+                                                150+ Success Projects
                                             </p>
                                         </div>
                                     </div>
@@ -689,15 +673,7 @@
                                             seamless user experiences, and SEO-friendly architecture.
                                         </p>
                                     </div>
-                                    <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="900">
-                                        <a href="{{route('pricing')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Talk to React & Next.js Experts</span>
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -746,7 +722,11 @@
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
-                                            
+                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <span
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Performance Optimized</span>
+                                            </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 High-Performance Frontend Development
                                             </h5>
@@ -774,8 +754,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Proven Industry Experience</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                Experienced React & Next.js Team
@@ -788,11 +768,7 @@
                                                 SSR, SSG, and API routes—ensuring clean, 
                                                 scalable, and maintainable code.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -810,8 +786,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                Built for Growth</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Scalable & SEO-Friendly Architecture
@@ -823,11 +799,7 @@
                                                 optimization and React modularity, your 
                                                 application stays fast, discoverable, and growth-ready.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -845,8 +817,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                Advanced Protection</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Secure & Production-Ready Solutions
@@ -858,11 +830,7 @@
                                                 reliable deployment workflows for stable, 
                                                 enterprise-grade React & Next.js applications.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -880,8 +848,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Custom API Solutions</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 API & Integration Expertise
@@ -892,11 +860,7 @@
                                                we connect React and Next.js applications seamlessly 
                                                with backend systems, payment gateways, CRMs, and cloud services.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -914,8 +878,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Client-Centric Approach</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Agile & Transparent Process
@@ -927,11 +891,7 @@
                                                 milestone-based delivery—keeping 
                                                 you fully informed at every stage.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -949,11 +909,11 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Value-Driven Pricing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
-                                                Cost-Effective for USA Market
+                                                Cost-Effective for Global Market
                                             </h5>
                                             <p
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
@@ -961,11 +921,7 @@
                                                optimized for quality and affordability, offering cost-effective 
                                                solutions tailored for USA-based startups and enterprises.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -983,8 +939,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Long-Term Partnership</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Ongoing Support & Maintenance
@@ -995,11 +951,7 @@
                                                 support, performance optimization, feature enhancements, 
                                                 and maintenance to keep your application running smoothly.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>

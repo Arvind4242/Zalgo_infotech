@@ -700,7 +700,7 @@
                 
                 <!-- Left: Founder Image -->
                 <div class="founder-image">
-                    <img src="{{asset('assets/images/thumbs/annu.png')}}" alt="Founder - Zalgo Infotech">
+                    <img src="{{asset('assets/images/thumbs/bhupendra.png')}}" alt="Founder - Zalgo Infotech">
                 </div>
 
                 <!-- Right: Founder Content -->
@@ -711,16 +711,32 @@
                     <h4 class="founder-title">Founder & CEO, Zalgo Infotech</h4>
 
                     <p>
-                        As the Founder of Zalgo Infotech, I focus on building scalable, reliable, and future-ready digital solutions for businesses worldwide.
+                        At Zalgo Infotech, our foundation has always been built on relationships — not revenue.
                     </p>
                     <p>
-                        With a strong understanding of web technologies, backend systems, and emerging Al-driven solutions, my goal is to help companies transform ideas into high-performing digital products.
+                    From the very beginning of my journey, I have believed that long-term partnerships matter more than short-term profits. 
+                    Over the years, I’ve had the privilege of working with global clients for 4+ and 6+ years 
+                    continuously — a testament to the trust, transparency, and commitment we deliver.
+                    </p>
+                    <p>
+                    I have never focused on chasing payments; instead, my priority has always been 
+                    delivering exceptional service, being available whenever clients need support, and ensuring their business grows with confidence.
+                    </p>
+                    <p>
+                        For me, success is not measured by how much we earn —<br>
+                        it is measured by how long our clients stay with us.
                     </p>
                     <ul class="founder-points">
-                        <li>Business-Focused Technology Solutions</li>
-                        <li>Scalable & Secure System Architecture</li>
+                        <li>Long-Term Client Relationships</li>
+                        <li>Service-First, Profit-Second Approach</li>
                         <li>Client-Centric & Transparent Approach</li>
+                        <li>Trust, Transparency & Consistency</li>
                     </ul>
+
+                    <p>
+                        At Zalgo Infotech, our goal is simple: <br>
+                        Build relationships that last — and success follows naturally.
+                    </p>
 
                     <a href="https://www.linkedin.com/company/zalgo-infotech/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-none d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
                       <img src="{{asset('assets/images/icons/linkdin.png')}}" alt="Linkd In">  Connect on LinkedIn
