@@ -163,7 +163,7 @@
                     <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
                         <a href="{{route('python.development')}}" class="mega-item">
                             <div>
-                                python Development
+                                Python Development
                             </div>
                         </a>
                     </li>    

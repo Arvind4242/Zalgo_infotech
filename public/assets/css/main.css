@@ -7137,15 +7137,18 @@ svg.radial-progress text {
 .testimonials-item {
     flex: 1;
     transition: 0.2s linear;
-    height: 504px;
+    height: 100%;
 }
 
 .testimonials-item .hidden-content {
     visibility: hidden;
     opacity: 0;
     height: 0;
+    display:none !important;
 }
-
+.testimonials-item.active .hidden-content{
+    display: flex !important;
+}
 .testimonials-item.active {
     flex: 2.2;
 }
@@ -8797,7 +8800,12 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .linkedin-btn:hover {
     background: #084b8a;
 }
-
+.video-testimonial {
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 /* Contact Page CSS */
 
 

@@ -1262,8 +1262,7 @@
             <div class="container">
                 <div class="max-w-602-px mx-auto text-center tw-mb-15">
                     <span
-                        class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work
-                        Showcase</span>
+                        class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work Showcase</span>
                     <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-9 d-flex gap-2">
                         <span class="d-inline-block fw-medium">
                             <span class="">What </span>
@@ -1292,11 +1291,11 @@
                             </div>
                         </div>
 
-                        <div class="hidden-content tw-px-56-px tw-py-76-px">
+                        <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
-                                <span class="tw-mb-6 animate-left-right animation-delay-02 tw-duration-200">
-                                    <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
-                                </span>
+                                <div class="video-testimonial">
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
@@ -1332,8 +1331,7 @@
                     <!-- Testimonials Item End -->
 
                     <!-- Testimonials Item Start -->
-                    <div
-                        class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100 active">
+                    <div class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100 active">
                         <div class="current-content">
                             <div class="tw-max-h-397-px overflow-hidden text-center">
                                 <img src="{{asset('assets/images/thumbs/testimonials-img3.png')}}" alt="Image" class="" />
@@ -1347,11 +1345,11 @@
                             </div>
                         </div>
 
-                        <div class="hidden-content tw-px-56-px tw-py-76-px">
+                        <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
-                                <span class="tw-mb-6 animate-left-right animation-delay-02 tw-duration-200">
-                                    <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
-                                </span>
+                                <div class="video-testimonial">
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
@@ -1400,11 +1398,11 @@
                             </div>
                         </div>
 
-                        <div class="hidden-content tw-px-56-px tw-py-76-px">
+                        <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
-                                <span class="tw-mb-6 animate-left-right animation-delay-02 tw-duration-200">
-                                    <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
-                                </span>
+                                <div class="video-testimonial">
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
