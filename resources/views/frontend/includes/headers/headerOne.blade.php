@@ -14,7 +14,7 @@
             <div class="container">
                 <div class="d-flex justify-content-center">
                     <p class="text-white bg-white-13 d-inline-block tw-py-1 tw-px-5 rounded-pill fw-normal">
-                        Delivering reliable IT solutions tailored for growing businesses worldwide
+                        Reliable IT solutions designed for performance, security, and scalability—supporting growing businesses worldwide, every step of the way.
                     </p>
                 </div>
             </div>

@@ -224,37 +224,41 @@
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                                <span>
-                                                    <img src="{{asset('assets/images/icons/web-Responsive-Mobile-First-Design.png')}}" alt="Icon" />
+                                                <span
+                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Responsive & Mobile-First Design</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                               <span>
-                                                    <img src="{{asset('assets/images/icons/web-SEO-Friendly-Architecture.png')}}" alt="Icon" />
+                                               <span
+                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">SEO-Friendly Architecture</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                                <span>
-                                                    <img src="{{asset('assets/images/icons/web-Secure-Scalable-Development.png')}}" alt="Icon" />
+                                                <span
+                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Secure & Scalable Development</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
                                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                                 data-aos-duration="600">
-                                                <span>
-                                                    <img src="{{asset('assets/images/icons/web-Clean-Maintainable-Code.png')}}" alt="Icon" />
+                                                <span
+                                                    class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Clean & Maintainable Code</a>
                                             </div>
                                         </div>
@@ -270,7 +274,7 @@
                                 </div>
                                 <div class="tw-mt-8 max-w-500-px" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                    <a href="{{route('pricing')}}"
+                                    <a href="https://calendly.com/zalgoinfotec/30min" target="_blank"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium"
                                         data-block="button">
                                         <span class="button__flair"></span>

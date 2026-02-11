@@ -8687,6 +8687,9 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
   color: #0b5d5b;
   font-weight: 600;
 }
+.zal-projet-type img{
+    width: 100px;
+}
 
 /* Founder CSS */
 
