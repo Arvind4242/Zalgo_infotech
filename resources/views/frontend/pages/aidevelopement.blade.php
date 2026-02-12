@@ -222,9 +222,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Machine Learning Models</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -232,9 +232,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-dresser"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">AI-Powered Automation</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -242,9 +242,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-certificate"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Natural Language Processing (NLP)</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -252,9 +252,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Computer Vision Solutions</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -262,9 +262,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Scalable & Secure AI Systems</a>
                                             </div>
                                         </div>
@@ -320,11 +320,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         We design and build AI solutions tailored to your business needs, ensuring accuracy, scalability, and real-world impact.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Explore AI Solutions
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -338,11 +334,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         Secure, high-performance AI APIs that enable smooth communication between applications and intelligent systems.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        View API Services
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -356,11 +348,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         We integrate AI tools, cloud services, and data sources to automate workflows and improve decision-making.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -374,11 +362,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         Continuous monitoring, optimization, and support to keep your AI systems reliable and future-ready.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Get Support
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -519,11 +503,11 @@
                                                             class="w-100 h-100 object-fit-cover" />
                                                     </div>
                                                 </div>
-                                                <span class="h5 counter text-white">2.3M+</span>
+                                                <span class="h5 counter text-white">20+</span>
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Client reviews
+                                                150+ Success Projects
                                             </p>
                                         </div>
                                     </div>
@@ -679,15 +663,7 @@
                                             handle complex workloads with ease.
                                         </p>
                                     </div>
-                                    <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="900">
-                                        <a href="{{route('pricing')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Talk to AI Experts</span>
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -733,7 +709,11 @@
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
-                                            
+                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <span
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Performance Optimized</span>
+                                            </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 High-Performance AI Development
                                             </h5>
@@ -758,8 +738,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Dedicated Professionals</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                Experienced AI Team
@@ -768,11 +748,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 Skilled AI engineers delivering reliable, production-ready intelligent systems.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -790,8 +766,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Scalable Systems</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Scalable AI Architecture
@@ -800,11 +776,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 Future-ready AI architectures designed to grow with your business needs.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -822,8 +794,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Advanced Protection</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Secure AI Solutions
@@ -832,11 +804,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 Robust and secure AI systems ensuring data protection and compliance.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -854,8 +822,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    System Connectivity</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 API & AI Integration Expertise
@@ -864,11 +832,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                From AI APIs to third-party integrations, we ensure smooth, secure, and reliable intelligent system communication.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -886,8 +850,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Agile Methodology</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Agile & Transparent Process
@@ -896,11 +860,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 Clear workflows, regular updates, and flexible AI development aligned with your business goals.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -918,8 +878,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Value-Driven Pricing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Cost-Effective for Global Market
@@ -928,11 +888,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 High-quality AI solutions at optimized costs without compromising performance or security.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -950,8 +906,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Long-Term Partnership</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Ongoing AI Support & Maintenance
