@@ -36,7 +36,7 @@
 
                                     <div class="d-flex align-items-center tw-gap-7 tw-mt-11 flex-wrap" data-aos="fade-up"
                                         data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                        <a href="{{route('register')}}"
+                                        <a href="{{route('contact')}}"
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium"
                                             data-block="button">
                                             <span class="button__flair"></span>
@@ -566,7 +566,7 @@
                         </div>
                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                             data-aos-duration="800">
-                            <a href="{{route('register')}}"
+                            <a href="{{route('contact')}}"
                                 class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 rounded-pill tw-py-505 fw-medium"
                                 data-block="button">
                                 <span class="button__flair"></span>
@@ -897,7 +897,7 @@
                                         <h5 class="tw-mb-6 line-clamp-2">
                                             Launching a website is easier with AI
                                         </h5>
-                                        <a href="{{route('register')}}"
+                                        <a href="{{route('contact')}}"
                                             class="fw-bold tw-text-lg text-decoration-underline text-main-600 hover-text-yellow">Build
                                             your website today</a>
                                     </div>
@@ -913,7 +913,7 @@
                                         <h5 class="tw-mb-6 line-clamp-2">
                                             Transfer your Domain Today
                                         </h5>
-                                        <a href="{{route('register')}}"
+                                        <a href="{{route('contact')}}"
                                             class="fw-bold tw-text-lg text-decoration-underline text-main-600 hover-text-yellow">Transfer
                                             domain</a>
                                     </div>
@@ -2153,7 +2153,7 @@
 
                                     <div class="tw-mt-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="900">
-                                        <a href="{{route('register')}}"
+                                        <a href="{{route('contact')}}"
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
                                             data-block="button">
                                             <span class="button__flair"></span>
