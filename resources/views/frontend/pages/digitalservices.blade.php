@@ -1016,11 +1016,11 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                ❓ What digital marketing services do you offer?
+                                                aria-expanded="true" aria-controls="collapseTwo">
+                                                <span>❓</span> What digital marketing services do you offer?
                                             </button>
                                         </h5>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                        <div id="collapseTwo" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1040,11 +1040,11 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                               ❓ How long does it take to see results from digital marketing?
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                               <span>❓</span> How long does it take to see results from digital marketing?
                                             </button>
                                         </h5>
-                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                        <div id="collapseOne" class="accordion-collapse collapse "
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1064,7 +1064,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseThree" aria-expanded="false"
                                                 aria-controls="collapseThree">
-                                                ❓ Is digital marketing suitable for small businesses?
+                                                <span>❓</span> Is digital marketing suitable for small businesses?
                                             </button>
                                         </h5>
                                         <div id="collapseThree" class="accordion-collapse collapse"
@@ -1088,7 +1088,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFour" aria-expanded="false"
                                                 aria-controls="collapseFour">
-                                                ❓ Do you work with international clients?
+                                                <span>❓</span> Do you work with international clients?
                                             </button>
                                         </h5>
                                         <div id="collapseFour" class="accordion-collapse collapse"
@@ -1110,7 +1110,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseSix" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ How do you measure campaign success?
+                                                <span>❓</span> How do you measure campaign success?
                                             </button>
                                         </h5>
                                         <div id="collapseSix" class="accordion-collapse collapse"
@@ -1132,7 +1132,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseseven" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Can I choose specific services instead of a full package?
+                                                <span>❓</span> Can I choose specific services instead of a full package?
                                             </button>
                                         </h5>
                                         <div id="collapseseven" class="accordion-collapse collapse"
@@ -1154,7 +1154,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseeight" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ What makes your digital marketing services different?
+                                                <span>❓</span> What makes your digital marketing services different?
                                             </button>
                                         </h5>
                                         <div id="collapseeight" class="accordion-collapse collapse"
@@ -1176,7 +1176,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapsenine" aria-expanded="false"
                                                 aria-controls="collapsenine">
-                                                ❓ Do you provide regular reports and updates?
+                                                <span>❓</span> Do you provide regular reports and updates?
                                             </button>
                                         </h5>
                                         <div id="collapsenine" class="accordion-collapse collapse"
@@ -1197,7 +1197,7 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
                                                 aria-expanded="false" aria-controls="collapseTen">
-                                                ❓ How do we get started?
+                                                <span>❓</span> How do we get started?
                                             </button>
                                         </h5>
                                         <div id="collapseTen" class="accordion-collapse collapse"

@@ -998,11 +998,11 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                ❓ How do you estimate the project cost?
+                                                aria-expanded="true" aria-controls="collapseTwo">
+                                                <span>❓</span> How do you estimate the project cost?
                                             </button>
                                         </h5>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                        <div id="collapseTwo" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1023,11 +1023,11 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                               ❓ What is the typical project timeline?
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                               <span>❓</span> What is the typical project timeline?
                                             </button>
                                         </h5>
-                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                        <div id="collapseOne" class="accordion-collapse collapse "
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1048,7 +1048,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseThree" aria-expanded="false"
                                                 aria-controls="collapseThree">
-                                                ❓ Is Laravel suitable for large-scale and enterprise applications?
+                                                <span>❓</span> Is Laravel suitable for large-scale and enterprise applications?
                                             </button>
                                         </h5>
                                         <div id="collapseThree" class="accordion-collapse collapse"
@@ -1072,12 +1072,12 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                                ❓ Can you migrate my existing PHP or legacy system to Laravel?
+                                                data-bs-target="#collapseFive" aria-expanded="false"
+                                                aria-controls="collapseFive">
+                                                <span>❓</span> Can you migrate my existing PHP or legacy system to Laravel?
                                             </button>
                                         </h5>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                        <div id="collapseFive" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1098,12 +1098,12 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                                ❓ Do you sign an NDA?
+                                                data-bs-target="#collapselven" aria-expanded="false"
+                                                aria-controls="collapselven">
+                                                <span>❓</span> Do you sign an NDA?
                                             </button>
                                         </h5>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                        <div id="collapselven" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1124,7 +1124,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFour" aria-expanded="false"
                                                 aria-controls="collapseFour">
-                                                ❓ Will I get regular project updates?
+                                                <span>❓</span> Will I get regular project updates?
                                             </button>
                                         </h5>
                                         <div id="collapseFour" class="accordion-collapse collapse"
@@ -1148,7 +1148,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseSix" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Can you work with clients in different time zones?
+                                                <span>❓</span> Can you work with clients in different time zones?
                                             </button>
                                         </h5>
                                         <div id="collapseSix" class="accordion-collapse collapse"
@@ -1171,7 +1171,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseseven" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Who owns the source code?
+                                                <span>❓</span> Who owns the source code?
                                             </button>
                                         </h5>
                                         <div id="collapseseven" class="accordion-collapse collapse"
@@ -1194,7 +1194,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseeight" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ How do we get started?
+                                                <span>❓</span> How do we get started?
                                             </button>
                                         </h5>
                                         <div id="collapseeight" class="accordion-collapse collapse"
@@ -1217,7 +1217,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapsenine" aria-expanded="false"
                                                 aria-controls="collapsenine">
-                                                ❓ Can you scale the team if my project grows?
+                                                <span>❓</span> Can you scale the team if my project grows?
                                             </button>
                                         </h5>
                                         <div id="collapsenine" class="accordion-collapse collapse"
@@ -1240,7 +1240,7 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
                                                 aria-expanded="false" aria-controls="collapseTen">
-                                                ❓ Do you provide post-launch support and maintenance?
+                                                <span>❓</span> Do you provide post-launch support and maintenance?
                                             </button>
                                         </h5>
                                         <div id="collapseTen" class="accordion-collapse collapse"

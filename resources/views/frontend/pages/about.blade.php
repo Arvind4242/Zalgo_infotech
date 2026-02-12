@@ -711,7 +711,7 @@
                         </div>
                         <div class="d-block">
                             <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
-                                <a href="javascript:void(0)"
+                                <a href="{{route('contact')}}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                     data-block="button">
                                     <span class="button__flair"></span>
@@ -719,7 +719,7 @@
                                         <span class="button__label">Talk to our experts</span>
                                     </div>
                                 </a>
-                                <a href="javascript:void(0)"
+                                <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                     data-block="button">
                                     <span class="button__flair"></span>

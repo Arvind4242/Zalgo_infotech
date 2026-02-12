@@ -234,7 +234,10 @@
 .common-accordion .accordion-item:not(:last-child) {
     margin-block-end: 20px;
 }
-
+.common-accordion span {
+    display: inline-block;
+    filter: brightness(0) saturate(100%) invert(24%) sepia(60%) saturate(2135%) hue-rotate(159deg) brightness(97%) contrast(105%);
+}
 .accordion-border-left .accordion-item {
     border-left: 4px solid transparent !important;
 }
@@ -8708,21 +8711,23 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 }
 
 .founder-container {
-    max-width: 1100px;
+    max-width: 1367px;
     margin: auto;
     background: #ffffff;
     border-radius: 18px;
     padding: 50px;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 0;
     box-shadow: 0 20px 50px rgba(0,0,0,0.15);
 }
-
+.flower + div {
+    min-height: 100%;
+}
 /* Image */
 .founder-image img {
-    width: 320px;
-    height: auto;
+    width: auto;
+    height: 700px;
     border-radius: 16px;
     object-fit: cover;
 }
