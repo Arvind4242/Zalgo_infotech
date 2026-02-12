@@ -726,13 +726,7 @@
                         For me, success is not measured by how much we earn —<br>
                         it is measured by how long our clients stay with us.
                     </p>
-                    <ul class="founder-points">
-                        <li>Long-Term Client Relationships</li>
-                        <li>Service-First, Profit-Second Approach</li>
-                        <li>Client-Centric & Transparent Approach</li>
-                        <li>Trust, Transparency & Consistency</li>
-                    </ul>
-
+                    
                     <p>
                         At Zalgo Infotech, our goal is simple: <br>
                         Build relationships that last — and success follows naturally.
