@@ -234,7 +234,10 @@
 .common-accordion .accordion-item:not(:last-child) {
     margin-block-end: 20px;
 }
-
+.common-accordion span {
+    display: inline-block;
+    filter: brightness(0) saturate(100%) invert(24%) sepia(60%) saturate(2135%) hue-rotate(159deg) brightness(97%) contrast(105%);
+}
 .accordion-border-left .accordion-item {
     border-left: 4px solid transparent !important;
 }
@@ -7137,15 +7140,18 @@ svg.radial-progress text {
 .testimonials-item {
     flex: 1;
     transition: 0.2s linear;
-    height: 504px;
+    height: 100%;
 }
 
 .testimonials-item .hidden-content {
     visibility: hidden;
     opacity: 0;
     height: 0;
+    display:none !important;
 }
-
+.testimonials-item.active .hidden-content{
+    display: flex !important;
+}
 .testimonials-item.active {
     flex: 2.2;
 }
@@ -8631,6 +8637,11 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     position: absolute;
     right: 0;
     top: 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .audit-box .autid-detail{
     background: linear-gradient(135deg, #e6f7f6, #f2fbfa);
@@ -8668,10 +8679,14 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
   color: #16a085;
   font-weight: bold;
 }
-.contact-info p {
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+.contact-info a {
   margin: 6px 0;
-  font-size: 14px;
-  color: #222;
+  font-size: 16px;
+  color: var(--main-two-600);
 }
 
 .serving {
@@ -8696,21 +8711,23 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 }
 
 .founder-container {
-    max-width: 1100px;
+    max-width: 1367px;
     margin: auto;
     background: #ffffff;
     border-radius: 18px;
     padding: 50px;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 0;
     box-shadow: 0 20px 50px rgba(0,0,0,0.15);
 }
-
+.flower + div {
+    min-height: 100%;
+}
 /* Image */
 .founder-image img {
-    width: 320px;
-    height: auto;
+    width: auto;
+    height: 700px;
     border-radius: 16px;
     object-fit: cover;
 }
@@ -8800,7 +8817,12 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .linkedin-btn:hover {
     background: #084b8a;
 }
-
+.video-testimonial {
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
 /* Contact Page CSS */
 
 

@@ -317,11 +317,7 @@
                                        and web applications based on your business 
                                        objectives—ensuring flexibility, performance, and long-term scalability.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Explore Custom Solutions
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -337,11 +333,7 @@
                                         enable seamless communication between 
                                         front-end, backend, and third-party systems.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        View API Services
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -358,11 +350,7 @@
                                         and cloud services to streamline 
                                         workflows and improve operational efficiency.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        See integration
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -379,11 +367,7 @@
                                         support to keep your website fast, 
                                         secure, and always up to date.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Get Support
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -524,11 +508,11 @@
                                                             class="w-100 h-100 object-fit-cover" />
                                                     </div>
                                                 </div>
-                                                <span class="h5 counter text-white">2.3M+</span>
+                                                <span class="h5 counter text-white">20+</span>
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Client reviews
+                                                150+ Success Projects
                                             </p>
                                         </div>
                                     </div>
@@ -684,15 +668,7 @@
                                             even with growing traffic and business demands.
                                         </p>
                                     </div>
-                                    <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="900">
-                                        <a href="{{route('pricing')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Get a Free Web Consultation</span>
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -739,7 +715,11 @@
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
-                                            
+                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <span
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Performance Optimized</span>
+                                            </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 High-Performance Web Development
                                             </h5>
@@ -767,8 +747,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Proven Industry Experience</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                Experienced Web Development Team
@@ -780,11 +760,7 @@
                                                 UI/UX best practices, and backend 
                                                 systems to deliver reliable and future-ready web solutions.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -800,11 +776,11 @@
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
-                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
-                                            </div>
+                                                class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                Built for Growth</span>
+</div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Scalable Website Architecture
                                             </h5>
@@ -815,11 +791,7 @@
                                                increasing traffic, content, and 
                                                integrations without compromising performance.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -837,8 +809,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                Advanced Protection</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Secure Web Solutions
@@ -849,11 +821,7 @@
                                                 practices to protect your website from 
                                                 vulnerabilities, ensure data safety, and maintain long-term stability.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -871,8 +839,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Custom API Solutions</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 API & Integration Expertise
@@ -882,11 +850,7 @@
                                               We integrate your website with third-party tools, CRMs, payment gateways, 
                                               analytics platforms, and marketing systems to ensure smooth data flow and better operational efficiency.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -904,8 +868,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Client-Centric Approach</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Agile & Transparent Development Process
@@ -916,11 +880,7 @@
                                                 communication, regular updates, and milestone-based 
                                                 delivery—so you stay informed at every stage of the project.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -938,8 +898,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Value-Driven Pricing</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Cost-Effective for Global Markets
@@ -950,11 +910,7 @@
                                                competitive pricing without compromising on performance, 
                                                security, or design—ideal for startups, SMEs, and international clients.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -972,8 +928,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Long-Term Partnership</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Ongoing Support & Maintenance
@@ -984,11 +940,7 @@
                                                 security patches, and performance monitoring to 
                                                 keep your web platform stable, secure, and up to date.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -1041,11 +993,11 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                                aria-expanded="false" aria-controls="collapseTwo">
-                                                ❓ How do you estimate the project cost?
+                                                aria-expanded="true" aria-controls="collapseTwo">
+                                                <span>❓</span> How do you estimate the project cost?
                                             </button>
                                         </h5>
-                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                        <div id="collapseTwo" class="accordion-collapse collapse show"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1066,11 +1018,11 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                                aria-expanded="true" aria-controls="collapseOne">
-                                               ❓ What is the typical project timeline?
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                               <span>❓</span> What is the typical project timeline?
                                             </button>
                                         </h5>
-                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                        <div id="collapseOne" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1091,7 +1043,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseThree" aria-expanded="false"
                                                 aria-controls="collapseThree">
-                                                ❓ Do you build custom and responsive websites?
+                                                <span>❓</span> Do you build custom and responsive websites?
                                             </button>
                                         </h5>
                                         <div id="collapseThree" class="accordion-collapse collapse"
@@ -1112,12 +1064,12 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                                ❓ Will my website be SEO-friendly and optimized?
+                                                data-bs-target="#collapseFive" aria-expanded="false"
+                                                aria-controls="collapseFive">
+                                                <span>❓</span> Will my website be SEO-friendly and optimized?
                                             </button>
                                         </h5>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                        <div id="collapseFive" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1136,12 +1088,12 @@
                                             <button
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse"
-                                                data-bs-target="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                                ❓ Do you sign an NDA?
+                                                data-bs-target="#collapseleven" aria-expanded="false"
+                                                aria-controls="collapseleven">
+                                                <span>❓</span> Do you sign an NDA?
                                             </button>
                                         </h5>
-                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                        <div id="collapseleven" class="accordion-collapse collapse"
                                             data-bs-parent="#accordionExample">
                                             <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                                 <p class="text-neutral-500">
@@ -1162,7 +1114,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseFour" aria-expanded="false"
                                                 aria-controls="collapseFour">
-                                                ❓ Will I get regular project updates?
+                                                <span>❓</span> Will I get regular project updates?
                                             </button>
                                         </h5>
                                         <div id="collapseFour" class="accordion-collapse collapse"
@@ -1186,7 +1138,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseSix" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Can you work with clients in different time zones?
+                                                <span>❓</span> Can you work with clients in different time zones?
                                             </button>
                                         </h5>
                                         <div id="collapseSix" class="accordion-collapse collapse"
@@ -1209,7 +1161,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseseven" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ Who owns the source code?
+                                                <span>❓</span> Who owns the source code?
                                             </button>
                                         </h5>
                                         <div id="collapseseven" class="accordion-collapse collapse"
@@ -1232,7 +1184,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapseeight" aria-expanded="false"
                                                 aria-controls="collapseFive">
-                                                ❓ How do we get started?
+                                                <span>❓</span> How do we get started?
                                             </button>
                                         </h5>
                                         <div id="collapseeight" class="accordion-collapse collapse"
@@ -1255,7 +1207,7 @@
                                                 type="button" data-bs-toggle="collapse"
                                                 data-bs-target="#collapsenine" aria-expanded="false"
                                                 aria-controls="collapsenine">
-                                                ❓ Can you scale the team if my project grows?
+                                                <span>❓</span> Can you scale the team if my project grows?
                                             </button>
                                         </h5>
                                         <div id="collapsenine" class="accordion-collapse collapse"
@@ -1278,7 +1230,7 @@
                                                 class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                                 type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen"
                                                 aria-expanded="false" aria-controls="collapseTen">
-                                                ❓ Do you provide post-launch support and maintenance?
+                                                <span>❓</span> Do you provide post-launch support and maintenance?
                                             </button>
                                         </h5>
                                         <div id="collapseTen" class="accordion-collapse collapse"

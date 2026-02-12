@@ -36,10 +36,8 @@
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Hire Web Developer</span>
-                                        <span class="icon">
-                                            <img src="{{asset('assets/images/icons/download-cloud-icon.png')}}" alt="Icon">
-                                        </span>
+                                        <span class="button__label">Book a Free 30-Minute Consultation</span>
+                                        
                                     </div>
                                 </a>
                             </div>
@@ -143,20 +141,7 @@
                                     <span class="fw-bold text-heading">NDA & IP protection</span>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center tw-gap-7 tw-mt-12" data-aos="fade-up"
-                                data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                <a href="javascript:void(0)"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Start Free Trial</span>
-                                        <span class="icon">
-                                            <img src="{{asset('assets/images/icons/download-cloud-icon.png')}}" alt="Icon">
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
+                            
 
                         </div>
                     </div>
@@ -194,37 +179,39 @@
                                 <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">Hiring Options</span>
                             </h2>
                             <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                Easily scale up or down based on your project needs.</p>
+                                Choose a hiring model that works for you. 
+                                We offer flexible engagement options so you can collaborate 
+                                directly with skilled developers, scale anytime, and stay fully in control.</p>
 
                             <div class="tw-mt-13 d-flex flex-column tw-gap-12">
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-mt-105 animate__wobble">
-                                        <img src="{{asset('assets/images/icons/task-manager-icon1.svg')}}" alt="Icon">
+                                        <img src="{{asset('assets/images/icons/Dedicated-Developer.png')}}" alt="Icon">
                                     </span>
                                     <div class="">
                                         <h5 class="tw-mb-6">Dedicated Developer</h5>
-                                        <p class="text-neutral-600 max-w-432-px">Monthly basis</p>
+                                        <p class="text-neutral-600 max-w-432-px">Hire a full-time developer committed exclusively to your business growth.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <span class="tw-mt-105 animate__wobble">
-                                        <img src="{{asset('assets/images/icons/task-manager-icon2.svg')}}" alt="Icon">
+                                        <img src="{{asset('assets/images/icons/Hourly-Hiring.png')}}" alt="Icon">
                                     </span>
                                     <div class="">
                                         <h5 class="tw-mb-6">Hourly Hiring </h5>
-                                        <p class="text-neutral-600 max-w-432-px">Pay as you go</p>
+                                        <p class="text-neutral-600 max-w-432-px">Pay only for the hours worked with complete flexibility.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-mt-105 animate__wobble">
-                                        <img src="{{asset('assets/images/icons/task-manager-icon1.svg')}}" alt="Icon">
+                                        <img src="{{asset('assets/images/icons/Project-Based-Hiring.png')}}" alt="Icon">
                                     </span>
                                     <div class="">
                                         <h5 class="tw-mb-6">Project-Based Hiring </h5>
-                                        <p class="text-neutral-600 max-w-432-px">Fixed scope & cost</p>
+                                        <p class="text-neutral-600 max-w-432-px">Defined milestones, clear timelines, and predictable project costs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -404,9 +391,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Custom website development</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -414,9 +401,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-dresser"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Responsive & mobile-first design</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -424,9 +411,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-certificate"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Frontend & backend development</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -434,9 +421,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">CMS development (WordPress, headless CMS)</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -444,9 +431,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">E-commerce web development</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -454,9 +441,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Third-party API integrations</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -464,9 +451,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Website maintenance & support</a>
                                         </div>
                                     </div>

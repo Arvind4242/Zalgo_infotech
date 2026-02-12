@@ -22,17 +22,17 @@
                                         <p>Zalgo Infotech partners with global brands to create secure, high-impact digital products.</p>
                                         <div
                                             class="d-flex align-items-center tw-gap-4 justify-content-center tw-mt-12 flex-wrap">
-                                            <a href="{{route('register')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn btn-main hover-style-one"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
                                                 <span class="button__label">Let’s Talk</span>
                                             </a>
-                                            <a href="{{route('register')}}"
+                                            <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
                                                 class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke tw-gap-5 group active--translate-y-2 tw-rounded-xl text-capitalize tw-px-8 tw-py-505 fw-medium btn-main-two hover-style-two"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
-                                                <span class="button__label">View Services</span>
+                                                <span class="button__label">Get a Free Consultation</span>
                                             </a>
                                         </div>
                                     </div>
@@ -285,27 +285,9 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.facebook.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-facebook-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-twitter-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-instagram-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="https://www.pinterest.com"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-pinterest-logo"></i>
+                                            <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -325,27 +307,9 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.facebook.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-facebook-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-twitter-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-instagram-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="https://www.pinterest.com"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-pinterest-logo"></i>
+                                            <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -365,27 +329,9 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.facebook.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-facebook-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-twitter-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-instagram-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="https://www.pinterest.com"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-pinterest-logo"></i>
+                                            <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -405,27 +351,9 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.facebook.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-facebook-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-twitter-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com"
-                                            class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-instagram-logo"></i>
-                                        </a>
-                                    </li>
-                                    <li>
                                         <a href="https://www.pinterest.com"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
-                                            <i class="ph-fill ph-pinterest-logo"></i>
+                                            <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -441,7 +369,7 @@
         </section>
         <!-- About Team section End -->
 
-        <!-- Testimonials section start= -->
+         <!-- Testimonials section start -->
         <section class="testimonials py-120 bg-neutral-50 position-relative z-1">
             <img src="{{asset('assets/images/shapes/faq-bg.png')}}" alt=""
                 class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
@@ -449,8 +377,7 @@
             <div class="container">
                 <div class="max-w-602-px mx-auto text-center tw-mb-15">
                     <span
-                        class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work
-                        Showcase</span>
+                        class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work Showcase</span>
                     <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-9 d-flex gap-2">
                         <span class="d-inline-block fw-medium">
                             <span class="">What </span>
@@ -479,11 +406,11 @@
                             </div>
                         </div>
 
-                        <div class="hidden-content tw-px-56-px tw-py-76-px">
+                        <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
-                                <span class="tw-mb-6 animate-left-right animation-delay-02 tw-duration-200">
-                                    <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
-                                </span>
+                                <div class="video-testimonial">
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
@@ -519,8 +446,7 @@
                     <!-- Testimonials Item End -->
 
                     <!-- Testimonials Item Start -->
-                    <div
-                        class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100 active">
+                    <div class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100 active">
                         <div class="current-content">
                             <div class="tw-max-h-397-px overflow-hidden text-center">
                                 <img src="{{asset('assets/images/thumbs/testimonials-img3.png')}}" alt="Image" class="" />
@@ -534,13 +460,14 @@
                             </div>
                         </div>
 
-                        <div class="hidden-content tw-px-56-px tw-py-76-px">
+                        <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
-                                <span class="tw-mb-6 animate-left-right animation-delay-02 tw-duration-200">
-                                    <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
-                                </span>
+                                <div class="video-testimonial">
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
-                                    <p class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
+                                    <p
+                                        class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
                                         “Zalgo Infotech hires great people
                                         from a widely variety of
                                         backgrounds, which simply makes
@@ -586,11 +513,11 @@
                             </div>
                         </div>
 
-                        <div class="hidden-content tw-px-56-px tw-py-76-px">
+                        <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
-                                <span class="tw-mb-6 animate-left-right animation-delay-02 tw-duration-200">
-                                    <img src="{{asset('assets/images/icons/ratings.svg')}}" alt="" class="" />
-                                </span>
+                                <div class="video-testimonial">
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
@@ -626,7 +553,7 @@
                 </div>
             </div>
         </section>
-        <!-- Testimonials section End= -->
+        <!-- Testimonials section End -->
 
         <!-- Brand Three section start= -->
         <div class="brand-three pt-120">
@@ -700,7 +627,7 @@
                 
                 <!-- Left: Founder Image -->
                 <div class="founder-image">
-                    <img src="{{asset('assets/images/thumbs/annu.png')}}" alt="Founder - Zalgo Infotech">
+                    <img src="{{asset('assets/images/thumbs/bhupendra.png')}}" alt="Founder - Zalgo Infotech">
                 </div>
 
                 <!-- Right: Founder Content -->
@@ -711,16 +638,26 @@
                     <h4 class="founder-title">Founder & CEO, Zalgo Infotech</h4>
 
                     <p>
-                        As the Founder of Zalgo Infotech, I focus on building scalable, reliable, and future-ready digital solutions for businesses worldwide.
+                        At Zalgo Infotech, our foundation has always been built on relationships — not revenue.
                     </p>
                     <p>
-                        With a strong understanding of web technologies, backend systems, and emerging Al-driven solutions, my goal is to help companies transform ideas into high-performing digital products.
+                    From the very beginning of my journey, I have believed that long-term partnerships matter more than short-term profits. 
+                    Over the years, I’ve had the privilege of working with global clients for 4+ and 6+ years 
+                    continuously — a testament to the trust, transparency, and commitment we deliver.
                     </p>
-                    <ul class="founder-points">
-                        <li>Business-Focused Technology Solutions</li>
-                        <li>Scalable & Secure System Architecture</li>
-                        <li>Client-Centric & Transparent Approach</li>
-                    </ul>
+                    <p>
+                    I have never focused on chasing payments; instead, my priority has always been 
+                    delivering exceptional service, being available whenever clients need support, and ensuring their business grows with confidence.
+                    </p>
+                    <p>
+                        For me, success is not measured by how much we earn —<br>
+                        it is measured by how long our clients stay with us.
+                    </p>
+                    
+                    <p>
+                        At Zalgo Infotech, our goal is simple: <br>
+                        Build relationships that last — and success follows naturally.
+                    </p>
 
                     <a href="https://www.linkedin.com/company/zalgo-infotech/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-none d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
                       <img src="{{asset('assets/images/icons/linkdin.png')}}" alt="Linkd In">  Connect on LinkedIn
@@ -768,7 +705,7 @@
                         </div>
                         <div class="d-block">
                             <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
-                                <a href="javascript:void(0)"
+                                <a href="{{route('contact')}}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                     data-block="button">
                                     <span class="button__flair"></span>
@@ -776,7 +713,7 @@
                                         <span class="button__label">Talk to our experts</span>
                                     </div>
                                 </a>
-                                <a href="javascript:void(0)"
+                                <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                     data-block="button">
                                     <span class="button__flair"></span>
