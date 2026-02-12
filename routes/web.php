@@ -8,6 +8,8 @@ use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\ContactController;
 
 Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
+Route::get('/thankyou', [ContactController::class, 'thankYou'])->name('thankyou.page');
+
 
 /**
  *    Frontend
