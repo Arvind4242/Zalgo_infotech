@@ -21,3 +21,7 @@
 <link rel="stylesheet" href="{{asset('assets/css/satoshi.css')}}">
 <!-- Main css -->
 <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css"/>
+

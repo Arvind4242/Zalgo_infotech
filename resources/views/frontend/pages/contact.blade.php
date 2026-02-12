@@ -4,6 +4,7 @@
     <!-- header area -->
     @include('frontend.includes.headers.headercontact')
     <!-- header area end -->
+
 <style>
 .contact-section {
   background: #f9fbfc;
@@ -238,6 +239,9 @@ button {
     backdrop-filter: blur(221px);
 }
 
+
+
+
 /* Responsive */
 @media (max-width: 900px) {
   .contact-grid,
@@ -252,6 +256,48 @@ button {
   .form-row {
     flex-direction: column;
   }
+
+  .upload-box {
+    border: 2px solid #2f4c8a;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    background: #f8f9fc;
+    margin-bottom: 20px;
+}
+
+.upload-box:hover {
+    background: #eef2ff;
+}
+
+.upload-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.upload-icon {
+    font-size: 40px;
+    color: #2f4c8a;
+}
+
+.upload-label h5 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.upload-label p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+
 }
 </style>
     <div id="smooth-content">
@@ -296,39 +342,62 @@ button {
                 <!-- Form -->
                 <div class="form-box">
                     <h3>Send us a message</h3>
-                    <form>
-                    <div class="form-row">
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Your Email">
-                    </div>
+                    @if(session('success'))
+                            <div style="color:white; background:green; padding:10px; margin-bottom:15px;">
+                                {{ session('success') }}
+                            </div>
+                        @endif
 
-                    <div class="form-row">
-                        <input type="text" placeholder="Company Name">
-                        <input type="text" placeholder="Phone Number">
-                    </div>
-                    <select class="select" >
-                        <option value="">Select Services</option>
-                        <option value="general">Web Development</option>
-                        <option value="support">CMS Development</option>
-                        <option value="ReactJS">ReactJS Development</option>
-                        <option value="Shopify">Shopify Development</option>
-                        <option value="NodeJS">NodeJS Development</option>
-                        <option value="E-Commerce">E-Commerce Development</option>
-                        <option value="Python">Python Development</option>
-                        <option value="AI">AI Development</option>
-                        <option value="Laravel">Laravel Development</option>
-                        <option value="Maintenance-Services">Maintenance Services</option>
-                        <option value="SEO Services">SEO Services</option>
-                        <option value="Digital Marketing">Digital Marketing</option>
-                    </select>
-                    <textarea placeholder="How can we help you?"></textarea>
+                        @if(session('error'))
+                            <div style="color:white; background:red; padding:10px; margin-bottom:15px;">
+                                {{ session('error') }}
+                            </div>
+                        @endif
 
-                    <p class="policy">
-                        By submitting, you agree to our <a href="#">Privacy Policy</a>
-                    </p>
+                    <form action="{{ route('contact.send') }}" method="POST" enctype="multipart/form-data">
+    @csrf
 
-                    <button type="submit">Send Message</button>
-                    </form>
+    <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+
+    <div class="form-row">
+        <select class="select" name="budget" required>
+            <option value="">Select Budget</option>
+            <option value="$100 or less">$100 or less</option>
+            <option value="$500 - $1000">$500 - $1000</option>
+            <option value="$1000 - $1500">$1000 - $1500</option>
+            <option value="$1500 - $2000">$1500 - $2000</option>
+            <option value="Over $2000">Over $2000</option>
+        </select>
+
+        <input id="phone" type="tel" name="phone" required>
+    </div>
+
+    <select class="select" name="service" required>
+        <option value="">Select Services</option>
+        <option value="Web Development">Web Development</option>
+        <option value="CMS Development">CMS Development</option>
+        <option value="ReactJS Development">ReactJS Development</option>
+        <option value="Shopify Development">Shopify Development</option>
+        <option value="NodeJS Development">NodeJS Development</option>
+        <option value="E-Commerce Development">E-Commerce Development</option>
+        <option value="Python Development">Python Development</option>
+        <option value="AI Development">AI Development</option>
+        <option value="Laravel Development">Laravel Development</option>
+        <option value="Maintenance Services">Maintenance Services</option>
+        <option value="SEO Services">SEO Services</option>
+        <option value="Digital Marketing">Digital Marketing</option>
+    </select>
+
+    <textarea name="message" placeholder="How can we help you?" required></textarea>
+
+    <input type="file" name="additional_document" id="additional_document">
+
+    <button type="submit">Send Message</button>
+</form>
+
                 </div>
 
                 </div>
@@ -403,5 +472,33 @@ button {
                 <!-- footer area end -->
             </div>
         </div>
+@section('script')
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const input = document.querySelector("#phone");
+
+    if (input) {
+        window.intlTelInput(input, {
+            initialCountry: "us",
+            separateDialCode: true,
+            preferredCountries: ["us", "gb", "in"],
+            autoPlaceholder: "polite",
+            formatOnDisplay: true,
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+        });
+    }
+
+});
+</script>
+<script>
+    setTimeout(function() {
+        let alerts = document.querySelectorAll('.alert');
+        alerts.forEach(alert => alert.style.display = 'none');
+    }, 3000);
+</script>
+
 
 @endsection
+
+<!-- @endsection -->
