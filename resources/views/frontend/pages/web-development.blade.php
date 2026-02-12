@@ -44,7 +44,7 @@
                                     <span class="button__flair"></span>
                                     <span class="button__label">Get a Free Consultation</span>
                                 </a>
-                                <a href="javascript:void(0)"
+                                <a href="{{route('contact')}}"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
                                     data-block="button">
                                     <span class="button__flair"></span>
