@@ -224,9 +224,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Proactive monitoring & issue prevention</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -234,9 +234,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-dresser"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Regular updates & performance optimization</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -244,9 +244,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-certificate"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Security patches & vulnerability fixes</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -254,9 +254,9 @@
                                                 data-aos-duration="600">
                                                 <span
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                    <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                    <i class="animate__heartBeat ph-bold ph-check"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="javascript:void(0)"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Dedicated technical support team</a>
                                             </div>
                                         </div>
@@ -315,11 +315,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         We continuously monitor your systems to detect and resolve issues before they impact performance or uptime.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                       Monitor Systems
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -333,11 +329,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         Regular bug fixes, version updates, and enhancements to keep your software stable and up to date.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        View Update Plans
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -351,11 +343,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         Security patches, backups, and performance optimization to protect your data and ensure smooth operations.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Secure Systems
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -369,11 +357,7 @@
                                     <p class="mx-auto max-w-228-px text-neutral-500 tw-text-sm tw-mb-705">
                                         Dedicated support team available to handle issues, queries, and emergencies anytime.
                                     </p>
-                                    <a href="{{route('intigration.details')}}"
-                                        class="fw-semibold text-main-600 d-inline-flex align-items-center tw-gap-3 hover-underline">
-                                        Get Support
-                                        <i class="ph-bold d-inline-flex tw-leading-none ph-arrow-right"></i>
-                                    </a>
+                                    
                                 </div>
                             </div>
                             <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
@@ -510,11 +494,11 @@
                                                             class="w-100 h-100 object-fit-cover" />
                                                     </div>
                                                 </div>
-                                                <span class="h5 counter text-white">2.3M+</span>
+                                                <span class="h5 counter text-white">20+</span>
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Client reviews
+                                                150+ Success Projects
                                             </p>
                                         </div>
                                     </div>
@@ -666,15 +650,7 @@
                                             technical support—ensuring reliability, security, and peak performance at all times.
                                         </p>
                                     </div>
-                                    <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                        data-aos-duration="900">
-                                        <a href="{{route('pricing')}}"
-                                            class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
-                                            data-block="button">
-                                            <span class="button__flair"></span>
-                                            <span class="button__label">Talk to Support Experts</span>
-                                        </a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -723,7 +699,11 @@
                                                 class="animate__heartBeat" />
                                         </span>
                                         <div class="">
-                                            
+                                            <div class="group-hover-item-d-none tw-mb-4">
+                                                <span
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Preventive Care</span>
+                                            </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Proactive Maintenance
                                             </h5>
@@ -750,8 +730,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Skilled Maintenance Team</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                Experienced Support Team
@@ -760,11 +740,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 Our expert engineers provide dedicated technical support, quick troubleshooting, and reliable assistance whenever you need it.  
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -782,8 +758,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Stability & Security</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Scalable & Secure Systems
@@ -792,11 +768,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 We optimize and maintain your infrastructure to handle growth while keeping your data protected with industry-standard security practices.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -814,8 +786,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Round-the-Clock Support</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 24/7 Monitoring & Updates
@@ -824,11 +796,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                From security patches to performance tuning, we ensure your systems stay updated, stable, and running at peak efficiency around the clock.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -846,8 +814,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Real-Time Issue Detection</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Proactive Monitoring & Fixes
@@ -856,11 +824,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                We monitor your systems 24/7 to detect issues early and resolve them before they impact performance or users.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -878,8 +842,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Clear Support Workflow</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Agile & Transparent Support Process
@@ -888,11 +852,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 WClear communication, fast response times, and regular updates ensure you always know what’s happening with your system.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -910,8 +870,8 @@
                                         <div class="">
                                             <div class="group-hover-item-d-none tw-mb-4">
                                                 <span
-                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">Easy
-                                                    Invoicing</span>
+                                                    class="tw-py-1 tw-px-305 rounded-pill bg-main-50 text-uppercase text-neutral-500 tw-text-xs fw-semibold group-hover-text-white tw-duration-200 group-hover-bg-main-two-600">
+                                                    Affordable Support Packages</span>
                                             </div>
                                             <h5 class="group-hover-text-white tw-duration-200 max-w-250-px">
                                                 Cost-Effective Maintenance Plans
@@ -920,11 +880,7 @@
                                                 class="text-neutral-300 tw-mt-3 line-clamp-2 d-none group-hover-item-d-block">
                                                 Flexible monthly support plans designed to reduce downtime and maintenance costs without compromising quality.
                                             </p>
-                                            <a href="javascript:void(0)"
-                                                class="d-flex align-items-center tw-gap-205 text-main-600 fw-bold d-lg-flex align-items-center tw-gap-305 group-hover-text-white tw-duration-200 tw-mt-6 tw-transition-0">
-                                                Learn More
-                                                <i class="ph ph-arrow-right tw-text-sm"></i>
-                                            </a>
+                                            
                                         </div>
                                     </div>
                                 </div>
