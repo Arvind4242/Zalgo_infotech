@@ -267,7 +267,7 @@
             <!-- Nav menu End -->
 
         </div>
-        <a href="{{route('register')}}"
+        <a href="{{route('contact')}}"
             class="btn btn-main-two hover-style-two button--stroke d-sm-none d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-8 rounded-pill tw-mt-6"
             data-block="button">
             <span class="button__flair"></span>

@@ -444,7 +444,7 @@
                             </div>
                             <div class="tw-mt-13" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                 data-aos-duration="1200">
-                                <a href="{{route('register')}}"
+                                <a href="{{route('contact')}}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-505 fw-semibold common-shadow-inset-one"
                                     data-block="button">
                                     <span class="button__flair"></span>
