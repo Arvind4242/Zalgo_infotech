@@ -376,9 +376,7 @@
             <div class="container">
                 <div class="text-center tw-mb-16">
                     <h5 class="mb-0 line-clamp-1">
-                        Loved by next-gen B2B
-                        <span class="text-gradient-teal">SaaS</span>
-                        compnaies.....
+                       Our Technology Partners
                     </h5>
                 </div>
                 <div class="brand-three-slider swiper left-right-gradient gradient-width-200">
@@ -386,49 +384,61 @@
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img1.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/paypal.png')}}" alt="Logo" />
                             </div>
                         </div>
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img2.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/Zoho.png')}}" alt="Logo" />
                             </div>
                         </div>
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img3.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/upwork.png')}}" alt="Logo" />
                             </div>
                         </div>
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img4.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/envato.png')}}" alt="Logo" />
                             </div>
                         </div>
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img5.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/shopify.png')}}" alt="Logo" />
                             </div>
                         </div>
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img6.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/godaddy.png')}}" alt="Logo" />
                             </div>
                         </div>
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img7.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/digitalocean.png')}}" alt="Logo" />
                             </div>
                         </div>
                         <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="700">
                             <div class="">
-                                <img src="{{asset('assets/images/thumbs/brand-three-img5.png')}}" alt="Logo" />
+                                <img src="{{asset('assets/images/logo/Stripe.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo//HubSpot.svg')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/cloudflare.png')}}" alt="Logo" />
                             </div>
                         </div>
                     </div>

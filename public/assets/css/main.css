@@ -8888,7 +8888,10 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .case-study-item {
     align-items: center;
 }
-
+.brand-three img {
+    height:40px;
+    width:auto;
+}
 /* Button */
 .founder-content a {
     max-width: fit-content;
