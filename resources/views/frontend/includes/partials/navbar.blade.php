@@ -45,13 +45,13 @@
                     <ul
                         class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
                         <li class="nav-menu__item activePage">
-                            <a href="{{route('home')}}"
+                            <a href="{{route('about')}}"
                                 class="mega-item">
-                               <div> About Company</div>
+                               <div>About Company</div>
                             </a>
                         </li>
                         <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a href="{{route('indexTwo')}}"
+                            <a href="javascript:void(0)"
                                 class="mega-item">
                                <div>Engagement Models</div>
                             </a>
@@ -81,7 +81,7 @@
                             </a>
                         </li>
                         <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a href="{{route('testimonial')}}"
+                            <a href="{{route('blog')}}"
                                 class="mega-item">
                                 <div>Blogs</div>
                             </a>
@@ -256,12 +256,8 @@
                     </ul>
                 </li>
                 <li class="nav-menu__item">
-                    <a href="{{route('blog')}}"
+                    <a href="{{route('casestudy')}}"
                                 class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Case Study</a>
-                </li>
-                <li class="nav-menu__item">
-                    <a href="{{route('contact')}}"
-                        class="nav-menu__link hover--translate-y-1 text-heading tw-py-9 fw-semibold w-100">Contact</a>
                 </li>
             </ul>
             <!-- Nav menu End -->
@@ -271,7 +267,7 @@
             class="btn btn-main-two hover-style-two button--stroke d-sm-none d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-8 rounded-pill tw-mt-6"
             data-block="button">
             <span class="button__flair"></span>
-            <span class="button__label">Sign Up Now</span>
+            <span class="button__label">Contact</span>
         </a>
     </div>
 </div>

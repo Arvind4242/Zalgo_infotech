@@ -321,21 +321,18 @@ button {
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</h4>
                     <p>30 Broad St,<br>New York, NY 10004</p>
                     <strong>+1 (332) 209-9994</strong>
-                    <a href="#">View on Google Maps</a>
                     </div>
 
                     <div class="office-card">
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada Office</h4>
                     <p>68 Pacific Blvd,<br>Vancouver, BC V6Z 2V6</p>
                     <strong>+1 (604) 555-1234</strong>
-                    <a href="#">View on Google Maps</a>
                     </div>
 
                     <div class="office-card">
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India Office</h4>
                     <p>Indore, Madhya Pradesh<br>452001</p>
                     <strong>+91 90981 23499</strong>
-                    <a href="#">View on Google Maps</a>
                     </div>
                 </div>
 
@@ -393,8 +390,9 @@ button {
 
     <textarea name="message" placeholder="How can we help you?" required></textarea>
 
-    <input type="file" name="additional_document" id="additional_document">
-
+    <div class="file">
+        <input type="file" name="additional_document" id="additional_document">
+    </div>
     <button type="submit">Send Message</button>
 </form>
 
