@@ -234,7 +234,7 @@
 .common-accordion .accordion-item:not(:last-child) {
     margin-block-end: 20px;
 }
-.common-accordion span {
+.common-accordion h5 span {
     display: inline-block;
     filter: brightness(0) saturate(100%) invert(24%) sepia(60%) saturate(2135%) hue-rotate(159deg) brightness(97%) contrast(105%);
 }
@@ -6552,7 +6552,7 @@ input:focus, input:focus-visible {
 }
 
 .gradient-bg-five {
-    background: linear-gradient(69.92deg, #003D3D 28.63%, #00664E 87.07%, #008C63 112.98%);
+    background: linear-gradient(72deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)),linear-gradient(72deg, #002f34, #006d75, #002f34);
 }
 
 .gradient-bg-six, .pagination-style-three .swiper-pagination-bullet {
