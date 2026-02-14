@@ -185,23 +185,23 @@
                                     <div class="tab-content" id="pills-tabContent">
                                         <div class="tab-pane fade show active" id="pills-Daily" role="tabpanel"
                                             aria-labelledby="pills-Daily-tab" tabindex="0">
-                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">AI Lead Generation</span>
+                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Qualified</span>
                                             <h5 class="tw-mb-6 counter">
-                                                8–12 Qualified Leads
+                                                8–12 Leads
                                             </h5>
                                         </div>
                                         <div class="tab-pane fade" id="pills-Weekly" role="tabpanel"
                                             aria-labelledby="pills-Weekly-tab" tabindex="0">
-                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
+                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">New</span>
                                             <h5 class="tw-mb-6 counter">
-                                                50+ New Leads
+                                                50+ Leads
                                             </h5>
                                         </div>
                                         <div class="tab-pane fade" id="pills-Monthly" role="tabpanel"
                                             aria-labelledby="pills-Monthly-tab" tabindex="0">
-                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Revenue</span>
+                                            <span class="tw-text-sm text-neutral-500 tw-mb-1 text-uppercase">Leads</span>
                                             <h5 class="tw-mb-6 counter">
-                                                200+ Leads Captured
+                                                200+ Captured
                                             </h5>
                                         </div>
                                     </div>
@@ -477,7 +477,7 @@
                                         class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
                                         we do</span>
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Our Proven Working Roadmap</span>
+                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
                                        A structured, transparent process that helps us deliver reliable, scalable, and performance-driven IT solutions for growing businesses.
@@ -1063,8 +1063,7 @@
         <section class="show-case py-120 bg-main-two-600 overflow-hidden">
             <div class="max-w-602-px mx-auto text-center tw-mb-15">
                 <span
-                    class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work
-                    Showcase</span>
+                    class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Proven Client Success</span>
                 <h3 class="fw-light tw-leading-104 tw-mb-9 text-white">
                     <span class="splitTextStyleOne d-inline-block fw-medium">
                         <span class="fw-semibold">Comprehensive IT Solution
@@ -1092,12 +1091,10 @@
                                 </a>
                             </div>
                             <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <span class="tw-text-base fw-medium text-white">Digital Product Launch</span>
                                 <h5 class="text-white tw-mt-1">
                                     <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Mobile
-                                        Application
-                                        Development</a>
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Custom Digital Learning & Book Platform</a>
                                 </h5>
                             </div>
                         </div>
@@ -1117,12 +1114,10 @@
                                 </a>
                             </div>
                             <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <span class="tw-text-base fw-medium text-white">Figma to WordPress</span>
                                 <h5 class="text-white tw-mt-1">
                                     <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Mobile
-                                        Application
-                                        Development</a>
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Pixel-Perfect Figma to WordPress Website Build</a>
                                 </h5>
                             </div>
                         </div>
@@ -1142,11 +1137,10 @@
                                 </a>
                             </div>
                             <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <span class="tw-text-base fw-medium text-white">Long-Term Client (5+ Years)</span>
                                 <h5 class="text-white tw-mt-1">
                                     <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Cloud
-                                        Computing System</a>
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Full-Scale Website, SEO & Maintenance Management</a>
                                 </h5>
                             </div>
                         </div>
@@ -1166,12 +1160,10 @@
                                 </a>
                             </div>
                             <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <span class="tw-text-base fw-medium text-white">Listing Platform</span>
                                 <h5 class="text-white tw-mt-1">
                                     <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Mobile
-                                        Application
-                                        Development</a>
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Directory & Listing Website Solution</a>
                                 </h5>
                             </div>
                         </div>
@@ -1191,11 +1183,10 @@
                                 </a>
                             </div>
                             <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <span class="tw-text-base fw-medium text-white">2FA Implemented</span>
                                 <h5 class="text-white tw-mt-1">
                                     <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Creative
-                                        UI/UX Designing</a>
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">UX-Focused Website Redesign & Security Enhancement</a>
                                 </h5>
                             </div>
                         </div>
@@ -1215,11 +1206,10 @@
                                 </a>
                             </div>
                             <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <span class="tw-text-base fw-medium text-white">Built from Scratch</span>
                                 <h5 class="text-white tw-mt-1">
                                     <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Cloud
-                                        Computing System</a>
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Fully Custom Website Built from Scratch</a>
                                 </h5>
                             </div>
                         </div>
@@ -1239,12 +1229,10 @@
                                 </a>
                             </div>
                             <div class="tw-mt-8">
-                                <span class="tw-text-base fw-medium text-white">Excellent Performance</span>
+                                <span class="tw-text-base fw-medium text-white">Plugin Customization</span>
                                 <h5 class="text-white tw-mt-1">
                                     <a href="{{route('project.details')}}"
-                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Mobile
-                                        Application
-                                        Development</a>
+                                        class="hover-text-main-600 text-white line-clamp-1 hover--translate-y-1">Advanced Digital Signature Plugin Customization</a>
                                 </h5>
                             </div>
                         </div>
@@ -1262,7 +1250,7 @@
             <div class="container">
                 <div class="max-w-602-px mx-auto text-center tw-mb-15">
                     <span
-                        class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work Showcase</span>
+                        class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Trusted by Clients</span>
                     <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-9 d-flex gap-2 justify-content-center">
                         <span class="d-inline-block fw-medium">
                             <span class="">What </span>
