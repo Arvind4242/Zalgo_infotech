@@ -8607,6 +8607,9 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     padding: 30px 0 30px 30px;
     align-items: flex-start !important;
 }
+.hire .mega-inner {
+    padding: 50px 0 50px 30px;
+}
 .about .mega-inner{
     max-width: 100%;
 }
@@ -8970,5 +8973,8 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     }
     .col-sm-12 {
         width: 100% !important;
+    }
+    .text-neutral-300{
+        max-width: 100%;
     }
 }
