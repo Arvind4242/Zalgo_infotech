@@ -8,6 +8,7 @@
     <!-- =========================================
    HERO / BANNER SECTION
 ========================================= -->
+<div class="zalgo-hire">
 <div id="smooth-content">
 
         <!-- Banner Three Section start -->
@@ -1138,7 +1139,7 @@
 
 
 
-
+</div>
 <!-- footer area -->
 @include('frontend.includes.footers.footerOne')
 <!-- footer area end -->
