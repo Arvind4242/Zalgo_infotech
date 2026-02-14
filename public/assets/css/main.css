@@ -8958,13 +8958,17 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     .footer-col ul {
         max-height: 0;
         overflow: hidden;
-        opacity: 0;
         transition: all 0.5s ease;
     }
-
+    .flex-sm-row-reverse {
+        flex-direction: column;
+    }
     .footer-col ul.active {
         max-height: 200px; /* adjust based on content */
         opacity: 1;
         padding: 15px;
+    }
+    .col-sm-12 {
+        width: 100% !important;
     }
 }

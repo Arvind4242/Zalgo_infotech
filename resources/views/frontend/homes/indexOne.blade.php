@@ -1009,8 +1009,8 @@
                             </div>
 
                             <div class="tw-mt-10">
-                                <div class="row gy-4">
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                <div class="row gy-4 flex-sm-row-reverse">
+                                    <div class="col-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
@@ -1022,7 +1022,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    <div class="col-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
