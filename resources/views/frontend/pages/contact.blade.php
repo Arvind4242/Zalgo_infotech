@@ -321,18 +321,21 @@ button {
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</h4>
                     <p>30 Broad St,<br>New York, NY 10004</p>
                     <strong>+1 (332) 209-9994</strong>
+                    <a href="#">View on Google Maps</a>
                     </div>
 
                     <div class="office-card">
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada Office</h4>
                     <p>68 Pacific Blvd,<br>Vancouver, BC V6Z 2V6</p>
                     <strong>+1 (604) 555-1234</strong>
+                    <a href="#">View on Google Maps</a>
                     </div>
 
                     <div class="office-card">
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India Office</h4>
                     <p>Indore, Madhya Pradesh<br>452001</p>
                     <strong>+91 90981 23499</strong>
+                    <a href="#">View on Google Maps</a>
                     </div>
                 </div>
 
@@ -389,20 +392,8 @@ button {
     </select>
 
     <textarea name="message" placeholder="How can we help you?" required></textarea>
-    <select  class="select" name="Soource" required>
-        <option value="">Select Source*</option>
-        <option value="Via Google Search">Via Google Search</option>
-        <option value="Via Social Media (e.g. LinkedIn)">Via Social Media (e.g. LinkedIn)</option>
-        <option value="Via Clutch">Via Clutch</option>
-        <option value="Recommended by a Friend">Recommended by a Friend</option>
-        <option value="I'm an Existing Client of WPWeb Infotech">I'm an Existing Client of WPWeb Infotech</option>
-        <option value="Referred by Another WPWeb Infotech Client">Referred by Another WPWeb Infotech Client</option>
-        <option value="Other Source">Other Source</option>
-    </select>
 
-    <div class="file">
-        <input type="file" name="additional_document" id="additional_document">
-    </div>
+    <input type="file" name="additional_document" id="additional_document">
 
     <button type="submit">Send Message</button>
 </form>
@@ -426,13 +417,18 @@ button {
                 <div class="testimonial" style="background-image:url({{asset('assets/images/thumbs/video.png')}});">
     <!-- Video Box -->
             <div class="video-box">
-                <div class="position-relative max-w-390-px w-100">
-                    <img src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}" alt="Thumb" class="w-100 h-100 object-fit-cover"/>
-                    <a href="https://youtu.be/2ppG5SuLmEE?si=7OoakZp51OIH9I2N" class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1">
-                        <i class="ph-fill ph-play"></i>
-                    </a>
-                </div>
-            </div>
+    <div class="position-relative max-w-390-px w-100">
+        <img src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}" 
+             alt="Thumb" 
+             class="w-100 h-100 object-fit-cover"/>
+
+        <a href="https://www.youtube.com/watch?v=TxjsRFwDvbQ"
+           class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1">
+            <i class="ph-fill ph-play"></i>
+        </a>
+    </div>
+</div>
+
 
                 <!-- Content -->
                 <div class="testimonial-content">
