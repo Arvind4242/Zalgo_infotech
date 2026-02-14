@@ -176,15 +176,13 @@
                                         <!-- RIGHT CARD -->
                                         <div class="audit-box">  
                                                 <div class="autid-detail">
-                                                    <h3>Get a Free Strategy Audit</h3>
-                                                    <ul class="audit-list">
+                                                    <ul class="audit-list m-0">
                                                         <li>Free Website Audit</li>
                                                         <li>Free SEO / Ads Analysis</li>
                                                         <li>30-min Expert Call</li>
-                                                        <li>No Obligation</li>
+                                                        <li class="m-0">No Obligation</li>
                                                     </ul>
-                                                    <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
-                                                </div>
+                                                     </div>
                                                 <div class="contact-info">
                                                     <p><strong>📞</strong> +91 92442 13332</p>
                                                     <p><strong>✉️</strong> hello@zalgoinfotech.com</p>
@@ -192,10 +190,10 @@
 
                                                 <div class="serving">
                                                     <p><strong>🌍 Serving Clients:</strong></p>
-                                                    <span>USA • Canada • UK • UAE • India</span>
+                                                    <span>USA • CANADA • UK • UAE • INDIA</span>
                                                 </div>
 
-                                                <a href="#" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
+                                                <a target="blank" href="https://calendly.com/zalgoinfotec/30min?month=2026-02" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Claim Free Audit</a>
 
                                             </div>
                                     </div>
@@ -300,24 +298,25 @@
                                         </div>
                                         <!-- Right Card -->
                                            <div class="audit-box">  
-                                               <div class="contact-info">
-                                                    <a href="tel:+16465687779" ><strong>📞</strong> +1 (646) 568-7779</a>
-                                                    <a href="mailto:sales@zalgoinfotech.com"><strong>✉️</strong>sales@zalgoinfotech.com</a>
+                                               <div class="autid-detail">
+                                                    <div class="contact-info">
+                                                        <a href="tel:+16465687779" ><strong>📞</strong> +1 (646) 568-7779</a>
+                                                        <a href="mailto:sales@zalgoinfotech.com"><strong>✉️</strong>sales@zalgoinfotech.com</a>
+                                                    </div>
+
+                                                    <div class="serving">
+                                                        <p><strong>🌍 Serving Clients:</strong></p>
+                                                        <span>USA • CANADA • UK • UAE • INDIA</span>
+                                                    </div>
+
+                                                    <a target="blank" href="https://calendly.com/zalgoinfotec/30min?month=2026-02" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Get a Free Consultation</a>
                                                 </div>
-
-                                                <div class="serving">
-                                                    <p><strong>🌍 Serving Clients:</strong></p>
-                                                    <span>USA • Canada • UK • UAE • India</span>
-                                                </div>
-
-                                                <a href="https://calendly.com/zalgoinfotec/30min?month=2026-02" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Get a Free Consultation</a>
-
                                             </div>
 
                                     </div>
                                 </div>
                         </li>
-                        <li class="nav-menu__item has-submenu">
+                        <li class="nav-menu__item has-submenu hire">
                             <a href="javascript:void(0)"
                                 class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Hire Developers</a>
                                 <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
@@ -404,21 +403,22 @@
                                             </a>
                                         </div>
                                         <!-- Right Card -->
-                                       <div class="audit-box">  
-                                                <div class="contact-info">
-                                                    <a href="tel:+16465687779" ><strong>📞</strong> +1 (646) 568-7779</a>
-                                                    <a href="mailto:sales@zalgoinfotech.com"><strong>✉️</strong>sales@zalgoinfotech.com</a>
-                                                </div>
+                                    <div class="audit-box">  
+                                        <div class="autid-detail">
+                                            <div class="contact-info">
+                                            <a href="tel:+16465687779" ><strong>📞</strong> +1 (646) 568-7779</a>
+                                            <a href="mailto:sales@zalgoinfotech.com"><strong>✉️</strong>sales@zalgoinfotech.com</a>
+                                        </div>
 
-                                                <div class="serving">
-                                                    <p><strong>🌍 Serving Clients:</strong></p>
-                                                    <span>USA • Canada • UK • UAE • India</span>
-                                                </div>
+                                        <div class="serving">
+                                            <p><strong>🌍 Serving Clients:</strong></p>
+                                            <span>USA • CANADA • UK • UAE • INDIA</span>
+                                        </div>
 
-                                                <a href="https://calendly.com/zalgoinfotec/30min?month=2026-02" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Get a Free Consultation</a>
+                                        <a target="blank" href="https://calendly.com/zalgoinfotec/30min?month=2026-02" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Get a Free Consultation</a>
 
-                                            </div>
-
+                                        </div>
+                                    </div>
                                     </div>
                                 </div>
                         </li>

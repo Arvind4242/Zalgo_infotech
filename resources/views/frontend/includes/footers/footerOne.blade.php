@@ -1,3 +1,50 @@
+
+<style>
+    .desktop-hide{
+        display:none !important;
+    }    
+    .footer-col h4 .arrow{
+        display:none !important;        
+    }
+  @media screen and (max-width:767px){
+        .desktop-hide{
+           display:block !important;
+        }
+        .desktop-show{
+           display:none !important;
+        }
+        .footer-col h4{
+            cursor:pointer;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+
+        /* Arrow */
+        .footer-col h4 .arrow{
+            display:inline-block !important;
+            transition:0.3s;
+            font-size:18px;
+            
+        }
+
+        .arrow::before{
+            content: url({{asset('assets/images/arrow.svg')}});
+        }
+
+        /* Rotate when active */
+        .footer-col h4.active .arrow{
+            transform: rotate(90deg);
+        }
+        .our-businesses {
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        .our-businesses .business-card{
+            width: 100% !important;
+        }
+    }    
+</style>
 <!-- Footer Start Here -->
 <footer class="footer bg-black position-relative z-1 mt-auto tw-pt-16 overflow-hidden">
     <!-- Footer Top Start -->
@@ -108,9 +155,9 @@
     <div class="col-lg-9">
         <div class="row">
             <!-- Services -->
-            <div class="footer-col col-lg-3">
-            <h4>Services</h4>
-            <ul>
+            <div class="desktop-show footer-col col-lg-3">
+                <h4>Services<span class="arrow"></span></h4>
+                <ul>
                     <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
                         <a href="{{route('web.development')}}" class="mega-item">
                             <div>
@@ -154,10 +201,101 @@
                         </a>
                     </li>    
                     
-            </ul>
+                </ul>
             </div>
 
-            <div class="footer-col col-lg-3">
+            <div class="desktop-hide footer-col col-lg-3">
+                <h4>Services <span class="arrow"></span></h4>
+                <ul>
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('web.development')}}" class="mega-item">
+                            <div>
+                                Web Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('cms.development')}}" class="mega-item">
+                            <div>
+                                CMS Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('react.development')}}" class="mega-item">
+                            <div>
+                                ReactJS Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('shopify.development')}}" class="mega-item">
+                            <div>
+                                Shopify Development
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('nodejs.development')}}" class="mega-item">
+                            <div>
+                                NodeJS Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('ecommerce.development')}}" class="mega-item">
+                            <div>
+                                E-commerce Development
+                            </div>
+                        </a>
+                    </li>  
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('python.development')}}" class="mega-item">
+                            <div>
+                                Python Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('ai.development')}}" class="mega-item">
+                            <div>
+                                AI Development
+                            </div>
+                        </a>
+                    </li>        
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('laravel.development')}}" class="mega-item">
+                            <div>
+                                Laravel Development
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('maintenanceservices.development')}}" class="mega-item">
+                            <div>
+                                Maintenance Services
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('seoservices.development')}}" class="mega-item">
+                            <div>
+                                SEO Services
+                            </div>
+                        </a>
+                    </li>    
+                    <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                        <a href="{{route('digitalservices.development')}}" class="mega-item">
+                            <div>
+                                Digital Marketing
+                            </div>
+                        </a>
+                    </li>   
+                    
+                </ul>
+            </div>
+
+            <div class="desktop-show footer-col col-lg-3">
             <h4 style='height:24px;'></h4>
             <ul>
                     
@@ -208,7 +346,7 @@
 
             <!-- Hire Developers -->
             <div class="footer-col col-lg-3">
-            <h4>Hire Developers</h4>
+            <h4>Hire Developers <span class="arrow"></span></h4>
             <ul>                
                 <li>
                     <a href="{{route('hireweb.developer')}}" class="mega-item">
@@ -261,7 +399,7 @@
 
             <!-- Quick Links -->
             <div class="footer-col col-lg-3">
-            <h4>Quick Links</h4>
+            <h4>Quick Links <span class="arrow"></span></h4>
             <ul>
                 <li>
                     <a class="mega-item">
@@ -339,7 +477,7 @@
         </div>
         <div class="row">
                  <!-- Business Portfolio -->
-    <div class="col-lg-12 d-flex flex-wrap footer-col gap-3">
+    <div class="col-lg-12 d-flex flex-wrap footer-col gap-3 our-businesses">
       <h4 class="w-100 m-0">Our Businesses</h4>
 
         <div class="business-card flex-column">
@@ -427,3 +565,24 @@
     </div>
 </footer>
 <!-- Footer End Here -->
+<script>
+document.querySelectorAll(".footer-col h4").forEach(title => {
+
+    title.addEventListener("click", () => {
+
+        const content = title.nextElementSibling;
+
+        title.classList.toggle("active");
+
+        if(content.style.maxHeight){
+            content.style.maxHeight = null;
+        }else{
+            content.style.maxHeight = content.scrollHeight + "px";
+        }
+
+    });
+
+});
+
+
+</script>

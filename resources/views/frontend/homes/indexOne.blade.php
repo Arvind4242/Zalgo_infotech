@@ -168,7 +168,7 @@
                             <!-- Review -->
 
                             <!-- Experience -->
-                            <div class="bg-main-600 tw-p-12 tw-pe-6 d-inline-block tw-rounded-xl clip-path-one position-absolute bottom-0 tw-end-0 z-1 tw--me-70-px tw-mb-205"
+                            <div class="bg-main-600 d-xs-none tw-p-12 tw-pe-6 d-inline-block tw-rounded-xl clip-path-one position-absolute bottom-0 tw-end-0 z-1 tw--me-70-px tw-mb-205"
                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="900">
                                 <h2 class="text-white counter">10+</h2>
                                 <span class="text-white">Years Experience</span>
@@ -312,7 +312,7 @@
                 <div class="tw-rounded-50-px gradient-bg-one tw-px-36-px tw-pt-9">
                     <div class="row gy-4">
                         <div class="col-lg-6">
-                            <div class="tw-pe-12 position-relative">
+                            <div class="tw-pe-12 position-relative pe-sm-0">
                                 <div class="row g-2">
                                     <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="800">
@@ -522,7 +522,7 @@
                             </div>
 
                             <div class="flex-grow-1">
-                                <div class="d-flex tw-gap-3 flex-wrap">
+                                <div class="align-items-cente d-flex flex-wrap justify-content-center tw-gap-3">
                                     <div
                                         class="ball text-center rounded-circle tw-w-180-px tw-h-180-px tw-w-180-px d-flex flex-column justify-content-center align-items-center position-relative animation-item bg-main-600 tw-mt-705">
                                         <span
@@ -1009,8 +1009,8 @@
                             </div>
 
                             <div class="tw-mt-10">
-                                <div class="row gy-4">
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                <div class="row gy-4 flex-sm-row-reverse">
+                                    <div class="col-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
@@ -1022,7 +1022,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    <div class="col-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
@@ -1263,7 +1263,7 @@
                 <div class="max-w-602-px mx-auto text-center tw-mb-15">
                     <span
                         class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Work Showcase</span>
-                    <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-9 d-flex gap-2">
+                    <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-9 d-flex gap-2 justify-content-center">
                         <span class="d-inline-block fw-medium">
                             <span class="">What </span>
                             <span class="fw-semibold">
@@ -1294,7 +1294,7 @@
                         <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
                                 <div class="video-testimonial">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/TxjsRFwDvbQ?si=LA4zrJXjOhfKCdMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p

@@ -71,22 +71,22 @@
                             </div>
 
                             <h4 class="tw-mb-4">
-                                <a href="{{ route('blog.details') }}" class="splitTextStyleOne">
+                                <a href="{{ route('bioage') }}" class="splitTextStyleOne">
                                     BIOAGE – E-commerce Growth
                                 </a>
                             </h4>
-                            <h6>✔ Long-Term Client  ✔ 50K+ USD Revenue Managed</h6> 
-                            <p class="tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne">
+                            <h6 class="pb-2">✔ Long-Term Client  ✔ 50K+ USD Revenue Managed</h6> 
+                            <p class="tw-text-sm pb-3 text-neutral-600 max-w-730-px splitTextStyleOne">
                                     BIOAGE is a high-performing e-commerce brand built on WordPress & WooCommerce. We have been managing and scaling this project end-to-end for over 6 years, covering development, security, marketing, and ongoing growth.
 
                             </p>
                             
-                            <h4>Tech Stack:</h4>
+                            <h4 class="pb-3">Tech Stack:</h4>
                             WordPress, WooCommerce, SiteGround, Sucuri, Payment Gateways
 
 
 
-                            <a href="{{ route('blog.details') }}"
+                            <a href="{{ route('bioage') }}"
                                class="text-uppercase tw-text-sm text-main-two-600 fw-bold hover-text-main-600 d-flex align-items-center tw-gap-4 tw-mt-11 tw-tracking-wider">
                                 View Case Study
                                 <span>
@@ -142,13 +142,13 @@
                                 </a>
                             </h4>
 
-                            <p class="tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne">
+                            <p class="tw-text-sm pb-3 text-neutral-600 max-w-730-px splitTextStyleOne">
                                 Expert Heavy Equipment is a trusted business in the heavy equipment industry, serving customers 
                                 who require reliable machinery and professional service. The client needed a strong, secure 
                                 online presence to represent their brand and support long-term growth.
                             </p>
 
-                            <h4>Tech Stack:</h4>
+                            <h4 class="pb-3">Tech Stack:</h4>
                             WordPress, WooCommerce, Twilio, Wordfence
 
                             <a href="{{ route('blog.details') }}"
@@ -207,7 +207,7 @@
                                 </a>
                             </h4>
 
-                            <p class="tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne">
+                            <p class="tw-text-sm pb-3 text-neutral-600 max-w-730-px splitTextStyleOne">
                                 There are many variations of passages of Lorem Ipsum available, but majority have suffered
                                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                             </p>
@@ -268,7 +268,7 @@
                                 </a>
                             </h4>
 
-                            <p class="tw-text-lg text-neutral-600 max-w-730-px splitTextStyleOne">
+                            <p class="tw-text-sm pb-3 text-neutral-600 max-w-730-px splitTextStyleOne">
                                 There are many variations of passages of Lorem Ipsum available, but majority have suffered
                                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                             </p>

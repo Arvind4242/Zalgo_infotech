@@ -119,7 +119,7 @@
                             >
                                 <span>Are you new here?</span>
                                 <a
-                                    href="{{route('register')}}"
+                                    href="{{route('contact')}}"
                                     class="text-decoration-underline text-neutral-600 fw-semibold hover--translate-y-1 active-scale-09 hover-text-main-600"
                                     >Create an account</a
                                 >
