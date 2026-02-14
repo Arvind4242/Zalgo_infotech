@@ -457,6 +457,13 @@
                         </div>
                     </a>
                 </li>
+                <li>
+                    <a href="{{route('policy.privacy')}}" class="mega-item">
+                        <div class="align-items-center d-flex">
+                          Privacy Policy
+                        </div>
+                    </a>
+                </li>
             
             </ul>
             </div>

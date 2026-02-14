@@ -22,7 +22,7 @@
                             <h1 class="splitTextStyleOne text-white text-capitalize tw-leading-none">
                                 Hire Dedicated  
                                 <span class="text-gradient-teal font-dm-serif fst-italic fw-normal">ReactJS Developers</span>
-                                For High-Performance Websites
+                                For High Performance Websites
                             </h1>
                             <p class="splitTextStyleOne text-white tw-text-lg tw-mt-8">Build-<span
                                     class="text-yellow">fast, scalable, and interactive</span> web applications with our experienced React JS developers. 
@@ -36,10 +36,7 @@
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Hire React JS Developer</span>
-                                        <span class="icon">
-                                            <img src="{{asset('assets/images/icons/download-cloud-icon.png')}}" alt="Icon">
-                                        </span>
+                                        <span class="button__label">Book a Free 30-Minute Consultation</span>
                                     </div>
                                 </a>
                             </div>
@@ -143,21 +140,7 @@
                                     <span class="fw-bold text-heading">NDA & IP protection</span>
                                 </div>
                             </div>
-                            <div class="d-flex align-items-center tw-gap-7 tw-mt-12" data-aos="fade-up"
-                                data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                <a href="javascript:void(0)"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <div class="d-flex align-items-center tw-gap-2 z-1">
-                                        <span class="button__label">Start Free Trial</span>
-                                        <span class="icon">
-                                            <img src="{{asset('assets/images/icons/download-cloud-icon.png')}}" alt="Icon">
-                                        </span>
-                                    </div>
-                                </a>
-                            </div>
-
+                            
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -194,37 +177,39 @@
                                 <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">Hiring Options</span>
                             </h2>
                             <p class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                Easily scale up or down based on your project needs.</p>
+                                Choose a hiring model that works for you. 
+                                We offer flexible engagement options so you can collaborate 
+                                directly with skilled developers, scale anytime, and stay fully in control.</p>
 
                             <div class="tw-mt-13 d-flex flex-column tw-gap-12">
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-mt-105 animate__wobble">
-                                        <img src="{{asset('assets/images/icons/task-manager-icon1.svg')}}" alt="Icon">
+                                        <img src="{{asset('assets/images/icons/Dedicated-Developer.png')}}" alt="Icon">
                                     </span>
                                     <div class="">
                                         <h5 class="tw-mb-6">Dedicated Developer</h5>
-                                        <p class="text-neutral-600 max-w-432-px">Monthly basis</p>
+                                        <p class="text-neutral-600 max-w-432-px">Hire a full-time developer committed exclusively to your business growth.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <span class="tw-mt-105 animate__wobble">
-                                        <img src="{{asset('assets/images/icons/task-manager-icon2.svg')}}" alt="Icon">
+                                        <img src="{{asset('assets/images/icons/Hourly-Hiring.png')}}" alt="Icon">
                                     </span>
                                     <div class="">
                                         <h5 class="tw-mb-6">Hourly Hiring </h5>
-                                        <p class="text-neutral-600 max-w-432-px">Pay as you go</p>
+                                        <p class="text-neutral-600 max-w-432-px">Pay only for the hours worked with complete flexibility.</p>
                                     </div>
                                 </div>
                                 <div class="d-flex align-items-start tw-gap-10 animation-item" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                     <span class="tw-mt-105 animate__wobble">
-                                        <img src="{{asset('assets/images/icons/task-manager-icon1.svg')}}" alt="Icon">
+                                        <img src="{{asset('assets/images/icons/Project-Based-Hiring.png')}}" alt="Icon">
                                     </span>
                                     <div class="">
                                         <h5 class="tw-mb-6">Project-Based Hiring </h5>
-                                        <p class="text-neutral-600 max-w-432-px">Fixed scope & cost</p>
+                                        <p class="text-neutral-600 max-w-432-px">Defined milestones, clear timelines, and predictable project costs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -405,9 +390,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Custom React JS application development</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -415,9 +400,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-dresser"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Single Page Applications (SPAs) using React</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -425,9 +410,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-certificate"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Responsive & mobile-first UI development</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -435,9 +420,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Reusable component-based architecture</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -445,9 +430,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">State management (Redux, Context API, Zustand)</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -455,9 +440,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">API integration (REST & GraphQL)</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -465,9 +450,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Performance optimization & code splitting</a>
                                         </div>
                                         <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -475,9 +460,9 @@
                                             data-aos-duration="600">
                                             <span
                                                 class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
-                                                <i class="animate__heartBeat ph-bold ph-envelope"></i>
+                                                <i class="animate__heartBeat ph-bold ph-check"></i>
                                             </span>
-                                            <a href="{{route('pricing')}}"
+                                            <a href="javascript:void(0)"
                                                 class="fw-bold tw-text-lg text-heading hover-underline">Maintenance, upgrades & ongoing support</a>
                                         </div>
                                     </div>
@@ -551,23 +536,6 @@
                             <img src="{{asset('assets/images/thumbs/distraction-icon7.png')}}" alt="Icon Image" class="">
                         </div>
                     </div>
-
-
-                    <div class="d-flex align-items-center justify-content-center tw-gap-7 position-absolute z-1 tw-start-50 translate-middle-x bottom-0 mb-2 w-100"
-                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                        <a href="javascript:void(0)"
-                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
-                            data-block="button">
-                            <span class="button__flair"></span>
-                            <div class="d-flex align-items-center tw-gap-2 z-1">
-                                <span class="button__label">Start Free Trial</span>
-                                <span class="icon">
-                                    <img src="{{asset('assets/images/icons/download-cloud-icon.png')}}" alt="Icon">
-                                </span>
-                            </div>
-                        </a>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -588,11 +556,11 @@
 
                                     
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Our Development Process </span>
+                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
                                         We follow a structured and transparent 
-                                        Node.js development process to 
+                                        ReactJS development process to 
                                         reduce risk, ensure quality, and 
                                         deliver scalable solutions on time.
                                     </p>
@@ -602,7 +570,7 @@
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800" data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Hire Web Developer</span>
+                                            <span class="button__label">Hire Now</span>
                                         </a>
                                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800">
@@ -628,7 +596,7 @@
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Hours completed
+                                                50+ Success Projects
                                             </p>
                                         </div>
                                     </div>
@@ -677,7 +645,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon4.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Node.js Developer Selection
+                                            React Developer Selection
                                         </h6>
                                     </div>
 
@@ -699,7 +667,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon6.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Agile Node.js Development
+                                            Agile ReactJS Development
                                         </h6>
                                     </div>
 
@@ -795,7 +763,7 @@
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img2.png')}}">
                                         Teams Needing Dedicated React JS Developers
                                     </button>
                                 </h5>
@@ -814,7 +782,7 @@
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
                                         aria-expanded="false" aria-controls="collapseOne2"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img3.png')}}">
                                         Businesses Scaling Frontend Platforms
                                     </button>
                                 </h5>
@@ -833,7 +801,7 @@
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
                                         aria-expanded="false" aria-controls="collapseOne1"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img5.png')}}">
                                        Enterprises With Complex Web Systems
                                     </button>
                                 </h5>
@@ -853,15 +821,10 @@
                     <div class="col-lg-7">
                         <div class="position-relative tw-pb-8 tw-ps-12 h-100">
                             <div class="bg-white tw-p-205 tw-rounded-3xl h-100 tw-min-h-400-px">
-                                <img src="{{asset('assets/images/thumbs/faq-thumb1.png')}}" id="faqImage" alt="Image"
+                                <img src="{{asset('assets/images/thumbs/hire-img2.png')}}" id="faqImage" alt="Image"
                                     class="w-100 h-100 object-fit-cover tw-rounded-2xl tw-duration-300" />
                             </div>
-                            <img src="{{asset('assets/images/thumbs/faq-img-1.png')}}" alt=""
-                                class="position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-2.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-end-0 tw--me-32-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-3.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-start-0 tw--ms-24-px" />
+                            
                         </div>
                     </div>
                 </div>

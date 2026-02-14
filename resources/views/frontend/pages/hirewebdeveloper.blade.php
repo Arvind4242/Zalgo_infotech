@@ -373,7 +373,7 @@
                                 Up to <span class="text-yellow">60%</span>Cost-Effective Web Development
                             </div>
                             <h2 class="splitTextStyleOne text-heading text-capitalize">
-                               Web Developers
+                               Web 
                                 <span class="font-dm-serif fst-italic fw-normal">Developers</span>
                                 Can Help You With:
                             </h2>
@@ -530,20 +530,7 @@
                     </div>
 
 
-                    <div class="d-flex align-items-center justify-content-center tw-gap-7 position-absolute z-1 tw-start-50 translate-middle-x bottom-0 mb-2 w-100"
-                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                        <a href="javascript:void(0)"
-                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
-                            data-block="button">
-                            <span class="button__flair"></span>
-                            <div class="d-flex align-items-center tw-gap-2 z-1">
-                                <span class="button__label">Start Free Trial</span>
-                                <span class="icon">
-                                    <img src="{{asset('assets/images/icons/download-cloud-icon.png')}}" alt="Icon">
-                                </span>
-                            </div>
-                        </a>
-                    </div>
+                    
 
                 </div>
             </div>
@@ -565,11 +552,11 @@
 
                                     
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
-                                        <span class="d-inline-block fw-semibold">Our Development Process </span>
+                                        <span class="d-inline-block fw-semibold">Working Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
                                         We follow a structured and transparent 
-                                        Node.js development process to 
+                                        Web development process to 
                                         reduce risk, ensure quality, and 
                                         deliver scalable solutions on time.
                                     </p>
@@ -579,7 +566,7 @@
                                             data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800" data-block="button">
                                             <span class="button__flair"></span>
-                                            <span class="button__label">Hire Web Developer</span>
+                                            <span class="button__label">Hire Now</span>
                                         </a>
                                         <div class="" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                             data-aos-duration="800">
@@ -601,11 +588,11 @@
                                                             class="w-100 h-100 object-fit-cover" />
                                                     </div>
                                                 </div>
-                                                <span class="h5 counter text-white">5+</span>
+                                                <span class="h5 counter text-white">20+</span>
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                5000+ Hours completed
+                                                150+ Success Projects
                                             </p>
                                         </div>
                                     </div>
@@ -654,7 +641,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon4.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Node.js Developer Selection
+                                            Web Developer Selection
                                         </h6>
                                     </div>
 
@@ -676,7 +663,7 @@
                                         <img src="{{asset('assets/images/icons/roadmap-icon6.svg')}}" alt="Icon"
                                             class="animate__swing" />
                                         <h6 class="tw-text-base text-white tw-mt-4 fw-medium max-w-118-px mx-auto">
-                                            Agile Node.js Development
+                                            Agile Web Development
                                         </h6>
                                     </div>
 
@@ -752,13 +739,13 @@
                                 <h5 class="accordion-header">
                                     <button
                                         class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
-                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb2.png')}}">
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo12"
+                                        aria-expanded="false" aria-controls="collapseTwo12"
+                                        data-img="{{asset('assets/images/thumbs/hire-img1.png')}}">
                                     Businesses Needing Custom Websites
                                     </button>
                                 </h5>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                <div id="collapseTwo12" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
@@ -773,7 +760,7 @@
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img2.png')}}">
                                         Companies Building Web Applications
                                     </button>
                                 </h5>
@@ -792,7 +779,7 @@
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
                                         aria-expanded="false" aria-controls="collapseOne2"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img3.png')}}">
                                         Teams Requiring Dedicated Web Developers
                                     </button>
                                 </h5>
@@ -811,7 +798,7 @@
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
                                         aria-expanded="false" aria-controls="collapseOne1"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img4.png')}}">
                                        Companies Scaling Web Platforms
                                     </button>
                                 </h5>
@@ -831,7 +818,7 @@
                                         class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                         aria-expanded="false" aria-controls="collapseThree"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb3.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img5.png')}}">
                                         Enterprises With Complex Web Systems
                                     </button>
                                 </h5>
@@ -850,15 +837,11 @@
                     <div class="col-lg-7">
                         <div class="position-relative tw-pb-8 tw-ps-12 h-100">
                             <div class="bg-white tw-p-205 tw-rounded-3xl h-100 tw-min-h-400-px">
-                                <img src="{{asset('assets/images/thumbs/faq-thumb1.png')}}" id="faqImage" alt="Image"
+                                <img src="{{asset('assets/images/thumbs/hire-img2.png')}}" id="faqImage" alt="Image"
                                     class="w-100 h-100 object-fit-cover tw-rounded-2xl tw-duration-300" />
                             </div>
-                            <img src="{{asset('assets/images/thumbs/faq-img-1.png')}}" alt=""
-                                class="position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-2.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-end-0 tw--me-32-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-3.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-start-0 tw--ms-24-px" />
+                            
+                            
                         </div>
                     </div>
                 </div>
