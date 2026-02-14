@@ -54,7 +54,23 @@ body::after{
     max-width:850px;
     padding:30px;
 }
-
+a.backhome {
+    background: #006d75;
+    color: #fff;
+    padding: 20px 50px;
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.backhome:hover {
+    background: #000;
+    color: #fff;
+}
 .logo{
     width:220px;
     margin-bottom:25px;
@@ -136,6 +152,11 @@ h1{
     <div class="desc">
         🚀 Our support team usually replies within a few hours (max 24 hours).
         We’re excited to help you and will be in touch soon.
+    </div>
+    <div class="tw-mt-9" data-aos-duration="900">
+        <a href="/" class="backhome" data-block="button">
+            Back TO Home
+        </a>
     </div>
 
 </div>
