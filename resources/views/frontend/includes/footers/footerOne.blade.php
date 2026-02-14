@@ -458,7 +458,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{route('policy.privacy')}}" class="mega-item">
+                    <a href="{{asset('assets/images/case-study/zalgo-Infotech-privacy-policy.pdf')}}" class="mega-item" download>
                         <div class="align-items-center d-flex">
                           Privacy Policy
                         </div>

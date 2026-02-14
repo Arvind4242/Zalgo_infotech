@@ -199,6 +199,7 @@ textarea {
     line-height: 28px;
     margin: 25px 0;
     width: 70%;
+    text-align:left;
 }
 .stat-box {
     display: flex;
@@ -502,7 +503,7 @@ textarea {
                     <strong>Ethan Williams</strong>
                     <div class="m-0 stars">★★★★★</div>
                 </div>
-                <small class="fs-6 fw-medium">CEO, Tech Enterprises</small>
+                <small class="d-flex fs-6 fw-medium">CEO, Tech Enterprises</small>
 
                 <div class="clint-relation"><span class="fw-bold">Long Term Client</span> | 5+ Years Collaboration</div>
             </div>
