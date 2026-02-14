@@ -487,7 +487,7 @@ textarea {
                 </div>
 
                 <div class="stat-box">
-                    <span class="stat-number">$50k+</span>
+                    <span class="stat-number">1M+</span>
                     <span class="stat-text">Client Revenue</span>
                 </div>
             </div>
@@ -499,10 +499,10 @@ textarea {
                 </p>
 
                 <div class="d-flex fs-5 gap-2">
-                    <strong>Ethan Williams</strong>
+                    <strong>Roland Thomas</strong>
                     <div class="m-0 stars">★★★★★</div>
                 </div>
-                <small class="fs-6 fw-medium">CEO, Tech Enterprises</small>
+                <small class="fs-6 fw-medium">CEO, Bioage Inc.</small>
 
                 <div class="clint-relation"><span class="fw-bold">Long Term Client</span> | 5+ Years Collaboration</div>
             </div>
