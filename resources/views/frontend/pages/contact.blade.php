@@ -105,7 +105,7 @@ textarea {
   color: #777;
 }
 
-button {
+.form-box button {
   width: 100%;
   padding: 14px;
   border-radius: 30px;
@@ -114,6 +114,16 @@ button {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+}
+.logos {
+    margin: 40px 0 30px 0;
+}
+.logos img {
+    height: 35px;
+    width: auto;
+}
+.logos .swiper-wrapper{
+    height: auto !important;
 }
 
 /* Trusted */
@@ -319,23 +329,20 @@ button {
                 <div class="office-box">
                     <div class="office-card">
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</h4>
-                    <p>30 Broad St,<br>New York, NY 10004</p>
-                    <strong>+1 (332) 209-9994</strong>
-                    <a href="#">View on Google Maps</a>
+                    <p>200 Hollywood Blvd<br>California, CA 94601</p>
+                    <strong>+1 (646) 568-7779</strong>
                     </div>
 
                     <div class="office-card">
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada Office</h4>
-                    <p>68 Pacific Blvd,<br>Vancouver, BC V6Z 2V6</p>
-                    <strong>+1 (604) 555-1234</strong>
-                    <a href="#">View on Google Maps</a>
+                    <p>2482 Yonge Street #1080 Toronto,<br> ON M4P 2H5 Canada</p>
+                    <strong>+1 (646) 568-7779</strong>
                     </div>
 
                     <div class="office-card">
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India Office</h4>
-                    <p>Indore, Madhya Pradesh<br>452001</p>
-                    <strong>+91 90981 23499</strong>
-                    <a href="#">View on Google Maps</a>
+                    <p>1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</p>
+                    <strong> +91 92442 13332</strong>
                     </div>
                 </div>
 
@@ -404,30 +411,71 @@ button {
 
                 <!-- Trusted -->
                 <div class="trusted">
-                <h4>Trusted by Leading Companies</h4>
+                <h4>Our Technology Partners </h4>
                 <div class="logos">
-                    <span>Uber</span>
-                    <span>Airtable</span>
-                    <span>Fiverr</span>
-                    <span>Toshiba</span>
+                    <div class="show-case-slider-logo swiper">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/upwork.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/paypal.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/Zoho.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/envato.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/shopify.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/godaddy.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/digitalocean.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/Stripe.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/cloudflare.png')}}" alt="">
+                            </div>
+
+                            <div class="swiper-slide">
+                                <img src="{{asset('assets/images/logo/HubSpot.svg')}}" alt="">
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-                </div>
+
 
                 <!-- Testimonial -->
                 <div class="testimonial" style="background-image:url({{asset('assets/images/thumbs/video.png')}});">
-    <!-- Video Box -->
-            <div class="video-box">
-    <div class="position-relative max-w-390-px w-100">
-        <img src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}" 
-             alt="Thumb" 
-             class="w-100 h-100 object-fit-cover"/>
+                <!-- Video Box -->
+                        <div class="video-box">
+                <div class="position-relative max-w-390-px w-100">
+                    <img src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}" 
+                        alt="Thumb" 
+                        class="w-100 h-100 object-fit-cover"/>
 
-        <a href="https://www.youtube.com/watch?v=TxjsRFwDvbQ"
-           class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1">
-            <i class="ph-fill ph-play"></i>
-        </a>
-    </div>
-</div>
+                    <a href="https://www.youtube.com/watch?v=TxjsRFwDvbQ"
+                    class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1">
+                        <i class="ph-fill ph-play"></i>
+                    </a>
+                </div>
+            </div>
 
 
                 <!-- Content -->
@@ -493,6 +541,33 @@ document.addEventListener("DOMContentLoaded", function () {
         let alerts = document.querySelectorAll('.alert');
         alerts.forEach(alert => alert.style.display = 'none');
     }, 3000);
+
+
+    var swiper = new Swiper(".show-case-slider-logo", {
+    slidesPerView: 8,
+    spaceBetween: 40,
+    loop: true,
+    speed: 5000,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+    },
+
+    breakpoints: {
+        320: {
+            slidesPerView: 2,
+        },
+        576: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 5,
+        },
+    }
+});
 </script>
 
 

@@ -323,7 +323,9 @@
         <!-- Driven section End -->
 
         <!-- Faq Two Section Start -->
-        <section class="faq-two py-120">
+        @include('frontend.includes.partials.testimonial')
+
+<section class="faq-two py-120">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-4">
