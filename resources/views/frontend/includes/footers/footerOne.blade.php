@@ -137,18 +137,18 @@
       </p>
 
       <div class="address mb-4 mt-4">
-        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</strong></p>
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US</strong></p>
         <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">200 Hollywood Blvd<br>California, CA 94601</a></p>
      </div>
       <div class="address mb-4">
-        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> India Office</strong></p>
-        <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</a></p>
-      </div>
-      <div class="address mb-4">
-        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada Office</strong></p>
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada</strong></p>
         <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">2482 Yonge Street #1080 Toronto,<br> ON M4P 2H5 Canada</a></p>
         <p><img width="24" src="{{asset('assets/images/phone.svg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> <a class="text-white" href="tel:+16465687779">+1 (646) 568-7779</a></p>
         <p><a class="mail text-white" href="mailto:sales@zalgoinfotech.com">sales@zalgoinfotech.com</a></p>
+      </div>
+      <div class="address mb-4">
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="india-flag" class="site-country-flag" loading="lazy"> India</strong></p>
+        <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</a></p>
       </div>
     </div>
 
@@ -571,6 +571,9 @@
         </div>
     </div>
 </footer>
+<!-- <a href="{{ route('privacy') }}">Privacy Policy</a> |
+<a href="{{ route('cookie') }}">Cookie Policy</a> -->
+
 <!-- Footer End Here -->
 <script>
 document.querySelectorAll(".footer-col h4").forEach(title => {
