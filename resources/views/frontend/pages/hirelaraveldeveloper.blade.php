@@ -536,25 +536,25 @@
                     </div>
                     <div class="">
                         <div class="distraction-icon one position-absolute z-1 animation-scalation">
-                            <img src="{{asset('assets/images/thumbs/distraction-icon1.png')}}" alt="Icon Image">
+                            <img src="{{asset('assets/images/tech-stack/laravel1.png')}}" alt="Icon Image">
                         </div>
                         <div class="distraction-icon two position-absolute z-1 animation-upDown">
-                            <img src="{{asset('assets/images/thumbs/distraction-icon2.png')}}" alt="Icon Image">
+                            <img src="{{asset('assets/images/tech-stack/laravel2.png')}}" alt="Icon Image">
                         </div>
                         <div class="distraction-icon three position-absolute z-1 animation-upDown animation-delay-1">
-                            <img src="{{asset('assets/images/thumbs/distraction-icon3.png')}}" alt="Icon Image">
+                            <img src="{{asset('assets/images/tech-stack/laravel4.png')}}" alt="Icon Image">
                         </div>
                         <div class="distraction-icon four position-absolute z-1 animation-upDown animation-delay-2">
-                            <img src="{{asset('assets/images/thumbs/distraction-icon4.png')}}" alt="Icon Image">
+                            <img src="{{asset('assets/images/tech-stack/laravel6.png')}}" alt="Icon Image">
                         </div>
                         <div class="distraction-icon five position-absolute z-1 animation-scalation animation-delay-1">
-                            <img src="{{asset('assets/images/thumbs/distraction-icon5.png')}}" alt="Icon Image">
+                            <img src="{{asset('assets/images/tech-stack/laravel7.png')}}" alt="Icon Image">
                         </div>
                         <div class="distraction-icon six position-absolute z-1 animation-scalation animation-delay-2">
-                            <img src="{{asset('assets/images/thumbs/distraction-icon6.png')}}" alt="Icon Image">
+                            <img src="{{asset('assets/images/tech-stack/laravel8.png')}}" alt="Icon Image">
                         </div>
                         <div class="distraction-icon seven position-absolute z-1">
-                            <img src="{{asset('assets/images/thumbs/distraction-icon7.png')}}" alt="Icon Image" class="">
+                            <img src="{{asset('assets/images/tech-stack/laravel3.png')}}" alt="Icon Image" class="">
                         </div>
                     </div>
                 </div>
