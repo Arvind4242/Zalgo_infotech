@@ -304,7 +304,7 @@
 
                     <div class="border border-neutral-200 tw-rounded-xl common-shadow-sixteen">
                         <div class="row col-border-wrapper">
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/System-Monitoring.png')}}" alt="Icon" />
@@ -318,7 +318,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Bug-Fixes-Updates.png')}}" alt="Icon" />
@@ -332,7 +332,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Security-Performance.png')}}" alt="Icon" />
@@ -346,7 +346,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/247-Technical-Support.png')}}" alt="Icon" />
@@ -360,7 +360,7 @@
                                     
                                 </div>
                             </div>
-                            <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <!-- <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon5.png')}}" alt="Icon" />
@@ -380,7 +380,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon6.png')}}" alt="Icon" />
@@ -400,7 +400,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon7.png')}}" alt="Icon" />
@@ -420,7 +420,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon8.png')}}" alt="Icon" />

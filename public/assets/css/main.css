@@ -2526,6 +2526,20 @@ input:focus, input:focus-visible {
     body .why-choose-us > div{
         width: calc(50% - 10px) !important;
     }
+    .faq-two .row.gy-4 {
+        flex-direction: column;
+    }
+    .faq-two .max-w-350-px,
+    .faq-two .row.gy-4 > div{
+        width:100%;
+    }
+    
+    header .nav-menu{
+        gap:25px;
+    }
+    .header-top-bar p {
+        font-size: 13px;
+    }
 }
 @media (max-width: 991px) {
     .overflow-x-max-lg-auto {
@@ -7372,6 +7386,9 @@ svg.radial-progress text {
     }
     p,li,a{
         font-size:16px !important;
+    }
+    .about-two .bg-neutral-100 {
+        font-size: 12px;
     }
 }
 
