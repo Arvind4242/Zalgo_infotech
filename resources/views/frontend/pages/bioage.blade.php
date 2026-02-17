@@ -456,7 +456,7 @@
         </section>   
 
         <!-- Integrated apps start -->
-        <section class="pt-120 pb-120 overflow-hidden position-relative">
+        <section class="pb-120 overflow-hidden position-relative">
             <img src="{{asset('assets/images/bg/mash-gradient-bg6.png')}}" alt="Gradient BG"
                 class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
 

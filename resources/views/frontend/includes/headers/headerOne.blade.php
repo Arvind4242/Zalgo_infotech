@@ -184,7 +184,7 @@
                                                     </ul>
                                                      </div>
                                                 <div class="contact-info">
-                                                    <a href="tel:+919244213332"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +91 92442 13332</a>
+                                                    <a href="tel:+16465687779"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +1 (646) 568-7779</a>
                                                     <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="{{asset('assets/images/icons/email.png')}}" alt=""> sales@zalgoinfotech.com</a>
                                                 </div>
 
@@ -300,7 +300,7 @@
                                            <div class="audit-box">  
                                                <div class="autid-detail">
                                                     <div class="contact-info">
-                                                        <a href="tel:+919244213332"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +91 92442 13332</a>
+                                                        <a href="tel:+16465687779"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +1 (646) 568-7779</a>
                                                         <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="{{asset('assets/images/icons/email.png')}}" alt=""> sales@zalgoinfotech.com</a>
                                                     </div>
 
@@ -406,7 +406,7 @@
                                     <div class="audit-box">  
                                         <div class="autid-detail">
                                            <div class="contact-info">
-                                                <a href="tel:+919244213332"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +91 92442 13332</a>
+                                                <a href="tel:+16465687779"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +1 (646) 568-7779</a>
                                                 <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="{{asset('assets/images/icons/email.png')}}" alt=""> sales@zalgoinfotech.com</a>
                                             </div>
 
