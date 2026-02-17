@@ -74,58 +74,35 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
+                                           
                                         </div>
                                     </div>
                                     <!-- First Slider end -->
@@ -135,58 +112,35 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/laravel5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
-                                                        class="w-100 h-100 object-fit-cover" />
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <!-- Second Slider end -->
