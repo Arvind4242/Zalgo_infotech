@@ -21,6 +21,10 @@ Route::get('/register', [PageController::class, 'register'])->name('register');
 
 Route::post('/register', [AuthController::class, 'register'])->name('register.store');
 
+Route::view('/privacy-policy', 'privacy-policy')->name('privacy');
+Route::view('/cookie-policy', 'cookie-policy')->name('cookie');
+
+
 Route::controller(HomeController::class)->group(function () {
     Route::get('/', 'indexOne')->name('home');
     Route::get('index-two', 'indexTwo')->name('indexTwo');

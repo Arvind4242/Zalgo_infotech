@@ -49,7 +49,7 @@ public function send(Request $request)
         $formData['additional_document'] = $filePath;
 
         // Send Email
-        Mail::to('arvindsinghsikarwar606@gmail.com')
+        Mail::to('sales@zalgoinfotech.com')
             ->send(new ContactFormMail($formData));
 
        return redirect()->route('thankyou.page')

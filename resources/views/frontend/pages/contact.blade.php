@@ -328,19 +328,20 @@ textarea {
                 <!-- Offices -->
                 <div class="office-box">
                     <div class="office-card">
-                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US Office</h4>
-                    <p>200 Hollywood Blvd<br>California, CA 94601</p>
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US</h4>
+                    <p>1601 Penfield Road Suite 575
+                    <br>Rochester, NY 14625</p>
                     <strong>+1 (646) 568-7779</strong>
                     </div>
 
                     <div class="office-card">
-                    <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada Office</h4>
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada</h4>
                     <p>2482 Yonge Street #1080 Toronto,<br> ON M4P 2H5 Canada</p>
                     <strong>+1 (646) 568-7779</strong>
                     </div>
 
                     <div class="office-card">
-                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India Office</h4>
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India</h4>
                     <p>1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</p>
                     <strong> +91 92442 13332</strong>
                     </div>
