@@ -2540,6 +2540,26 @@ input:focus, input:focus-visible {
     .header-top-bar p {
         font-size: 13px;
     }
+    .casstudy-testimonial {
+        flex-direction: column;
+    }
+    .casstudy-testimonial > div {
+        width:100% !important;
+    }
+    .video-popup {
+        padding: 0 30px;
+    }
+    .search-domain-two .min-w-144-px {
+        min-width: calc(50% - 10px) !important;
+        flex-grow: inherit !important;
+    }
+    .case-study-content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .brand-marketing .ps-5 {
+        padding-left: 0rem!important;
+    }
 }
 @media (max-width: 991px) {
     .overflow-x-max-lg-auto {
@@ -7390,6 +7410,10 @@ svg.radial-progress text {
     .about-two .bg-neutral-100 {
         font-size: 12px;
     }
+    .search-domain-two .min-w-144-px {
+        min-width: calc(100%) !important;
+        flex-grow: inherit !important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -8962,7 +8986,18 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     overflow: hidden;
 }
 /* Contact Page CSS */
+.video-popup {
+    width: calc(50% - 40px);
+}
 
+.site-screen {
+    width: calc(50% - 40px);
+}
+
+.casstudy-testimonial {
+    align-items: center;
+    gap: 80px;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
