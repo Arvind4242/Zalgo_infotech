@@ -485,7 +485,7 @@
                         Build relationships that last — and success follows naturally.
                     </p>
 
-                    <a href="https://www.linkedin.com/company/zalgo-infotech/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-none d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
+                    <a href="https://www.linkedin.com/company/zalgo-infotech/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
                       <img src="{{asset('assets/images/icons/linkdin.png')}}" alt="Linkd In">  Connect on LinkedIn
                     </a>
                 </div>

@@ -46,7 +46,7 @@
                     <div class="col-md-12">
                         <div class="d-flex tw-gap-305 flex-wrap">
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".shop">
                                 <img src="{{asset('assets/images/thumbs/pltform.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -55,7 +55,7 @@
                                     <span class="p-type">WordPress</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".icu">
                                 <img src="{{asset('assets/images/thumbs/industry.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -63,7 +63,7 @@
                                 <span class="p-type">E-Commerce</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".site">
                                 <img src="{{asset('assets/images/thumbs/project-type.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -72,7 +72,7 @@
                                     <span class="p-type">Long Term</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".in">
                                 <img src="{{asset('assets/images/thumbs/duration.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -81,7 +81,7 @@
                                     <span class="p-type">6+ Year</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".gives">
                                 <img src="{{asset('assets/images/thumbs/region.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -344,7 +344,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
+                        <div class="ps-5 position-relative tw-pb-4 h-100">
                             <div class="tw-rounded-28-px overflow-hidden h-100">
                                 <img src="{{asset('assets/images/case-study/bio-img2.jpg')}}" alt="Image"
                                     class="w-100 h-100 object-fit-cover" />
@@ -902,7 +902,7 @@
         <!-- Services section End -->
 
         <!-- Task Management Section Start -->
-        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
             <div class="container">
                 <div
                     class="text-end tw--mb-40-px position-relative z-2"

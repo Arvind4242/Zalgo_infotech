@@ -1242,7 +1242,6 @@
         </section>
         <!-- Show-case section End -->
 
-<<<<<<< HEAD
         <!-- Testimonials section start -->
         <section class="testimonials py-120 bg-neutral-50 position-relative z-1">
             <img src="{{asset('assets/images/shapes/faq-bg.png')}}" alt=""
@@ -1428,9 +1427,6 @@
             </div>
         </section>
         <!-- Testimonials section End -->
-=======
-     @include('frontend.includes.partials.testimonial')
->>>>>>> 10129b4506f527d6d45b0c841090d8f67885324e
 
         <div class="position-relative z-1">
             <img src="{{asset('assets/images/shapes/shape-image.png')}}" alt="Shape"
