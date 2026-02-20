@@ -9020,6 +9020,12 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
         width: 150px;
         height: 150px;
     }
+    .about-features h5 {
+        font-size: 20px;
+    }
+    .about-features p {
+        line-height: 24px;
+    }
 }
 @media screen and (max-width:991px){
     .has-submenu:hover .nav-submenu {
@@ -9038,6 +9044,24 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     }
     .case-study-item-left {
         width: 100%;
+    }
+    .about-team .col-lg-3 {
+        width: 50%;
+    }
+    section.founder-section-new > div {
+        flex-direction: column-reverse;
+    }
+    .founder-image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .founder-image img {
+        width: auto;
+    }
+    .founder-content {
+        padding: 50px 20px 0 20px  !important;
     }
 }
 
@@ -9074,5 +9098,15 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     }
     .text-neutral-300{
         max-width: 100%;
+    }
+    .about-banner {
+        margin-top: 20px;
+    }
+    .founder-image img {
+        width: auto;
+    }
+    .about-counter  .col-lg-3 {
+        justify-content: center;
+        display: flex;
     }
 }
