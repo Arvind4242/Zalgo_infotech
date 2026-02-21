@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <img src="{{asset('assets/images/thumbs/brand-marketing-img.png')}}" alt="Image" class="w-100 h-100 object-fit-cover" />                     
+                        <img src="{{asset('assets/images/case-study/bioage.png')}}" alt="Image" class="w-100 h-100 object-fit-cover" />                     
                     </div>
                 </div>
             </div>
@@ -686,12 +686,7 @@
                                                 </a>
                                             </div>
                             </div>
-                            <img src="{{asset('assets/images/thumbs/faq-img-1.png')}}" alt=""
-                                class="position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-2.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-end-0 tw--me-32-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-3.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-start-0 tw--ms-24-px" />
+                            
                         </div>
                     </div>
                     <div class="site-screen">
@@ -699,43 +694,37 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb1.png')}}" alt="Thumb"/>
+                                        <img src="{{asset('assets/images/case-study/bioage-cs1.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb2.png')}}" alt="Thumb" />
+                                        <img src="{{asset('assets/images/case-study/bioage-cs2.png')}}" alt="Thumb" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb3.png')}}" alt="Thumb"/>
+                                        <img src="{{asset('assets/images/case-study/bioage-cs3.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div
                                         class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden"
                                     >
-                                        <img
-                                            src="{{asset('assets/images/thumbs/shop-details-thumb4.png')}}"
-                                            alt="Thumb"
-                                        />
+                                        <img src="{{asset('assets/images/case-study/bioage-cs4.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div
                                         class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden"
                                     >
-                                        <img
-                                            src="{{asset('assets/images/thumbs/shop-details-thumb5.png')}}"
-                                            alt="Thumb"
-                                        />
+                                        <img src="{{asset('assets/images/case-study/bioage-cs5.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="swiper shop-small-thumbs tw-mt-8">
+                        <div class="swiper shop-small-thumbs tw-mt-8 d-none">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide h-100">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px"
@@ -961,7 +950,7 @@
                                     class="d-flex align-items-center tw-gap-2 z-1"
                                 >
                                     <span class="button__label"
-                                        >Download for free</span
+                                        >Talk to Our Experts</span
                                     >
                                 </div>
                             </a>
@@ -980,7 +969,7 @@
                                         class="d-flex align-items-center tw-gap-2 z-1"
                                     >
                                         <span class="button__label"
-                                            >Get Started Trial</span
+                                            >Request a Quote</span
                                         >
                                     </div>
                                 </a>
@@ -1007,43 +996,43 @@
                         >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                >Project management</span
+                                >WooCommerce Development</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                >Technology</span
+                                >Custom Checkout Logic</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                >Technology</span
+                                >Add-On Integration</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                >Project management</span
+                                >CSV Automation</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                >Technology</span
+                                >Custom Plugin Development</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                >Technology</span
+                                >Secure Data Handling</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                >Project management</span
+                                >Payment Gateway Integration</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                >Technology</span
+                                >WordPress</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                >Project management</span
+                                >Custom Backend Tool</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"
-                                >Technology</span
+                                >Backend System Design</span
                             >
                         </div>
                     </div>
