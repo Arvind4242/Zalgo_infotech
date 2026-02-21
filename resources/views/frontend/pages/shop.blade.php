@@ -2159,13 +2159,9 @@
                 <!-- Shop end -->
 
                 <!-- Task Management Section Start -->
-                <section
-                    class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half"
-                >
+                <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
                     <div class="container">
-                        <div
-                            class="text-end tw--mb-40-px position-relative z-2"
-                        >
+                        <div class="text-end tw--mb-40-px position-relative z-2">
                             <img
                                 src="{{asset('assets/images/thumbs/laptop-man.png')}}"
                                 alt="Image"

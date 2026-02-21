@@ -46,7 +46,7 @@
                     <div class="col-md-12">
                         <div class="d-flex tw-gap-305 flex-wrap">
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".shop">
                                 <img src="{{asset('assets/images/thumbs/pltform.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -55,7 +55,7 @@
                                     <span class="p-type">WordPress</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".icu">
                                 <img src="{{asset('assets/images/thumbs/industry.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -63,7 +63,7 @@
                                 <span class="p-type">E-Commerce</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".site">
                                 <img src="{{asset('assets/images/thumbs/project-type.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -72,7 +72,7 @@
                                     <span class="p-type">Long Term</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".in">
                                 <img src="{{asset('assets/images/thumbs/duration.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -81,7 +81,7 @@
                                     <span class="p-type">6+ Year</span>
                             </div>
                             <div
-                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item"
+                                class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
                                 data-domain=".gives">
                                 <img src="{{asset('assets/images/thumbs/region.gif')}}" alt="Logo"
                                     class="animate__wobble" />
@@ -112,7 +112,7 @@
         <section class="brand-marketing py-120">
             <div class="container">
                 <div class="row gy-5">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
                             <div class="tw-rounded-28-px overflow-hidden h-100">
                                 <img src="{{asset('assets/images/case-study/bio-img1.jpg')}}" alt="Image"
@@ -123,7 +123,7 @@
                                 class="flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1" />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="">
                             <h2 class="splitTextStyleOne text-heading fw-semibold text-capitalize">
                                 Business
@@ -220,7 +220,7 @@
         <section class="brand-marketing bg-success-subtle py-120">
             <div class="container">
                 <div class="row gy-5">
-                     <div class="col-md-6">
+                     <div class="col-lg-6 col-md-12">
                         <div class="">
                             <h2 class="splitTextStyleOne text-heading fw-semibold text-capitalize">
                                 Our Role &
@@ -343,8 +343,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="ps-5 position-relative tw-pb-4 h-100">
                             <div class="tw-rounded-28-px overflow-hidden h-100">
                                 <img src="{{asset('assets/images/case-study/bio-img2.jpg')}}" alt="Image"
                                     class="w-100 h-100 object-fit-cover" />
@@ -361,7 +361,7 @@
          <section class="brand-marketing py-120">
             <div class="container">
                 <div class="row gy-5">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="ps-5 position-relative pe-lg-5 tw-pb-4 h-100">
                             <div class="tw-rounded-28-px overflow-hidden h-100">
                                 <img src="{{asset('assets/images/case-study/bio-img3.jpg')}}" alt="Image"
@@ -372,7 +372,7 @@
                                 class="flower animate__wobble__two position-absolute tw-end-100 bottom-100 tw--m-24-px z-n1" />
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-12">
                         <div class="">
                             <h2 class="splitTextStyleOne text-heading fw-semibold text-capitalize">
                                 Solution
@@ -456,7 +456,7 @@
         </section>   
 
         <!-- Integrated apps start -->
-        <section class="pt-120 pb-120 overflow-hidden position-relative">
+        <section class="pb-120 overflow-hidden position-relative">
             <img src="{{asset('assets/images/bg/mash-gradient-bg6.png')}}" alt="Gradient BG"
                 class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
 
@@ -530,7 +530,7 @@
 
                 <div class="border border-neutral-200 tw-rounded-xl common-shadow-sixteen">
                     <div class="row col-border-wrapper">
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon1.png')}}" alt="Icon" />
@@ -541,7 +541,7 @@
                                 
                             </div>
                         </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon2.png')}}" alt="Icon" />
@@ -552,7 +552,7 @@
                                 
                             </div>
                         </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon3.png')}}" alt="Icon" />
@@ -563,7 +563,7 @@
                                 
                             </div>
                         </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon4.png')}}" alt="Icon" />
@@ -574,7 +574,7 @@
                                 
                             </div>
                         </div>
-                        <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <!-- <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon5.png')}}" alt="Icon" />
@@ -594,7 +594,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon6.png')}}" alt="Icon" />
@@ -614,7 +614,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon7.png')}}" alt="Icon" />
@@ -634,7 +634,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                        <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                             <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                 <span class="tw-mb-8">
                                     <img src="{{asset('assets/images/icons/seamless-icon8.png')}}" alt="Icon" />
@@ -660,6 +660,8 @@
         </section>
         <!-- seamless integration section End -->
 
+
+
         <!-- seamless integration section Start -->
         <section class="seamless-integration py-120 bg-light">
             <div class="container max-w-1400-px">
@@ -673,22 +675,14 @@
                     </p>        
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-7 mx-auto">
+                <div class="casstudy-testimonial d-flex">
+                    <div class="video-popup">
                         <div class="position-relative tw-pb-8 tw-ps-12 h-100">
                             <div class="bg-white tw-p-205 tw-rounded-3xl h-100 tw-min-h-400-px">
                                 <div class="position-relative max-w-390-px w-100">
-                                                <img
-                                                    src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}"
-                                                    alt="Thumb"
-                                                    class="w-100 h-100 object-fit-cover"/>
-                                                <a
-                                                    href="https://www.youtube.com/watch?v=TxjsRFwDvbQ&t=3s"
-                                                    class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1"
-                                                >
-                                                    <i
-                                                        class="ph-fill ph-play"
-                                                    ></i>
+                                                <img src="{{asset('assets/images/thumbs/service-details-video-img.jpg')}}" alt="Thumb" class="w-100 h-100 object-fit-cover"/>
+                                                <a href="https://www.youtube.com/watch?v=TxjsRFwDvbQ" class="play-button bg-light-animation tw-w-75-px tw-h-75-px d-inline-flex justify-content-center align-items-center bg-white text-main-600 hover-text-main-two-700 rounded-circle tw-text-xl position-absolute tw-start-50 tw--translate-middle top-50 z-1">
+                                                    <i class="ph-fill ph-play"></i>
                                                 </a>
                                             </div>
                             </div>
@@ -700,6 +694,102 @@
                                 class="position-absolute bottom-0 tw-start-0 tw--ms-24-px" />
                         </div>
                     </div>
+                    <div class="site-screen">
+                        <div class="swiper shop-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
+                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb1.png')}}" alt="Thumb"/>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
+                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb2.png')}}" alt="Thumb" />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
+                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb3.png')}}" alt="Thumb"/>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden"
+                                    >
+                                        <img
+                                            src="{{asset('assets/images/thumbs/shop-details-thumb4.png')}}"
+                                            alt="Thumb"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div
+                                        class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden"
+                                    >
+                                        <img
+                                            src="{{asset('assets/images/thumbs/shop-details-thumb5.png')}}"
+                                            alt="Thumb"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper shop-small-thumbs tw-mt-8">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide h-100">
+                                    <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px"
+                                    >
+                                        <img
+                                            src="{{asset('assets/images/thumbs/shop-details-small-thumb1.png')}}"
+                                            alt="Small Thumb"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide h-100">
+                                    <div
+                                        class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px"
+                                    >
+                                        <img
+                                            src="{{asset('assets/images/thumbs/shop-details-small-thumb2.png')}}"
+                                            alt="Small Thumb"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide h-100">
+                                    <div
+                                        class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px"
+                                    >
+                                        <img
+                                            src="{{asset('assets/images/thumbs/shop-details-small-thumb3.png')}}"
+                                            alt="Small Thumb"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide h-100">
+                                    <div
+                                        class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px"
+                                    >
+                                        <img
+                                            src="{{asset('assets/images/thumbs/shop-details-small-thumb4.png')}}"
+                                            alt="Small Thumb"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="swiper-slide h-100">
+                                    <div
+                                        class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px"
+                                    >
+                                        <img
+                                            src="{{asset('assets/images/thumbs/shop-details-small-thumb5.png')}}"
+                                            alt="Small Thumb"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -722,9 +812,9 @@
                     
                 </div>
 
-                <div class="service-slider swiper">
-                    <div class="d-flex flex-wrap gap-3 swiper-wrapper1 why-choose-us">
-                        <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
+                <div class="service-slider1">
+                    <div class="d-flex flex-wrap gap-3 why-choose-us">
+                        <div class=" w-25 tw-pb-105" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                             <div
                                 class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -744,7 +834,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
+                        <div class=" w-25 tw-pb-105" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                             <div
                                 class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -765,7 +855,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
+                        <div class=" w-25 tw-pb-105" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                             <div
                                 class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -785,7 +875,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide w-25 tw-pb-105" data-aos="fade-up"
+                        <div class=" w-25 tw-pb-105" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
                             <div
                                 class="square-bg-shape position-relative tw-rounded-2xl z-1 animation-item tw-h-424-px">
@@ -808,15 +898,11 @@
                     </div>
                 </div>
 
-                <!-- <div
-                    class="service-slider-pagination pagination-style-two d-lg-non d-flex align-items-center justify-content-center tw-mt-605">
-                </div> -->
-            </div>
         </section>
         <!-- Services section End -->
 
         <!-- Task Management Section Start -->
-        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half">
+        <section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
             <div class="container">
                 <div
                     class="text-end tw--mb-40-px position-relative z-2"

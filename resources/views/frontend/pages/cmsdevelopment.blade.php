@@ -75,55 +75,62 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo6.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo7.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo8.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo9.png')}}" alt="Image"
+                                                        class="w-100 h-100 object-fit-cover" />
+                                                </div>
+                                            </div>
+
+                                            <div class="swiper-slide">
+                                                <div class="tw-rounded-2xl overflow-hidden">
+                                                    <img src="{{asset('assets/images/service-product/zalgo10.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
@@ -136,55 +143,61 @@
                                         <div class="swiper-wrapper transition-timing-linear tw-gap-6">
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo1.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo2.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo3.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo4.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo5.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo6.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img1.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo7.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img2.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo8.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="tw-rounded-2xl overflow-hidden">
-                                                    <img src="{{asset('assets/images/thumbs/about-slide-img3.png')}}" alt="Image"
+                                                    <img src="{{asset('assets/images/service-product/zalgo9.png')}}" alt="Image"
+                                                        class="w-100 h-100 object-fit-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="tw-rounded-2xl overflow-hidden">
+                                                    <img src="{{asset('assets/images/service-product/zalgo10.png')}}" alt="Image"
                                                         class="w-100 h-100 object-fit-cover" />
                                                 </div>
                                             </div>
@@ -303,7 +316,7 @@
 
                     <div class="border border-neutral-200 tw-rounded-xl common-shadow-sixteen">
                         <div class="row col-border-wrapper">
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Custom-Development.png')}}" alt="Icon" />
@@ -320,7 +333,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/API-development.png')}}" alt="Icon" />
@@ -337,7 +350,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Third-party-integrations.png')}}" alt="Icon" />
@@ -354,7 +367,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/Maintenance-support.png')}}" alt="Icon" />
@@ -371,7 +384,7 @@
                                     
                                 </div>
                             </div>
-                            <!-- <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <!-- <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon5.png')}}" alt="Icon" />
@@ -391,7 +404,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon6.png')}}" alt="Icon" />
@@ -411,7 +424,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon7.png')}}" alt="Icon" />
@@ -431,7 +444,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6 col-xs-6 border-0">
+                            <div class="col-xl-3 col-md-6 col-sm-6 col-xs-12 border-0">
                                 <div class="bg-white tw-py-12 tw-px-6 text-center hover-common-shadow-sixteen tw-rounded-2xl">
                                     <span class="tw-mb-8">
                                         <img src="{{asset('assets/images/icons/seamless-icon8.png')}}" alt="Icon" />
