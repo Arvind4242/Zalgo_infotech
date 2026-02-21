@@ -851,7 +851,7 @@
                                 <span class="d-inline-block fw-semibold">Businesses</span>
                             </h3>
                         </div>
-                        <a href="{{route('contact')}}"
+                        <a target="blank" href="https://calendly.com/zalgoinfotec/30min?month=2026-02"
                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
                             data-block="button">
                             <span class="button__flair"></span>
