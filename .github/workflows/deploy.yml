@@ -24,7 +24,7 @@ jobs:
       - name: Deploy to server
         run: |
 
-          ===== MAIN DEPLOYMENT DISABLED =====
+         # ===== MAIN DEPLOYMENT DISABLED =====
           if [ "${GITHUB_REF_NAME}" = "main" ]; then
             ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
               cd /var/www/zalgoinfotech.in &&
