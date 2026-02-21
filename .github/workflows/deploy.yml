@@ -24,18 +24,18 @@ jobs:
       - name: Deploy to server
         run: |
 
-          # ===== MAIN DEPLOYMENT DISABLED =====
-          # if [ "${GITHUB_REF_NAME}" = "main" ]; then
-          #   ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
-          #     cd /var/www/zalgoinfotech.in &&
-          #     git fetch origin &&
-          #     git reset --hard origin/main &&
-          #     git clean -fd &&
-          #     composer install --no-dev &&
-          #     php artisan migrate --force &&
-          #     php artisan optimize
-          #   "
-          # fi
+          ===== MAIN DEPLOYMENT DISABLED =====
+          if [ "${GITHUB_REF_NAME}" = "main" ]; then
+            ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
+              cd /var/www/zalgoinfotech.in &&
+              git fetch origin &&
+              git reset --hard origin/main &&
+              git clean -fd &&
+              composer install --no-dev &&
+              php artisan migrate --force &&
+              php artisan optimize
+            "
+          fi
 
           # ===== STAGING DEPLOYMENT =====
           if [ "${GITHUB_REF_NAME}" = "staging" ]; then
