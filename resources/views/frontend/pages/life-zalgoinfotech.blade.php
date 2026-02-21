@@ -400,29 +400,124 @@
 </section>
 
 <!-- TECH STACK -->
-<section class="tech-section">
-  <h2 class="section-title">Technologies We <span>Work With</span></h2>
-  <div class="tech-grid">
-    <div class="tech-badge"><span class="dot" style="background:#777bb4;"></span>PHP</div>
-    <div class="tech-badge"><span class="dot" style="background:#ff2d20;"></span>Laravel</div>
-    <div class="tech-badge"><span class="dot" style="background:#95bf47;"></span>Shopify</div>
-    <div class="tech-badge"><span class="dot" style="background:#21759b;"></span>WordPress</div>
-    <div class="tech-badge"><span class="dot" style="background:#61dafb;"></span>React</div>
-    <div class="tech-badge"><span class="dot" style="background:#3776ab;"></span>Python</div>
-    <div class="tech-badge"><span class="dot" style="background:#000;"></span>Next.js</div>
-    <div class="tech-badge"><span class="dot" style="background:#ff6600;"></span>AI Solutions</div>
-  </div>
-</section>
+        <!-- Brand Three section start= -->
+        <div class="brand-three pt-120">
+            <div class="container">
+                <div class="text-center tw-mb-16">
+                    <h5 class="mb-0 line-clamp-1">
+                       Our Technology Partners
+                    </h5>
+                </div>
+                <div class="brand-three-slider swiper left-right-gradient gradient-width-200">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/paypal.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/Zoho.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/upwork.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/envato.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/shopify.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/godaddy.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/digitalocean.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/Stripe.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo//HubSpot.svg')}}" alt="Logo" />
+                            </div>
+                        </div>
+                        <div class="swiper-slide d-flex align-items-center justify-content-center" data-aos="fade-up"
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+                            <div class="">
+                                <img src="{{asset('assets/images/logo/cloudflare.png')}}" alt="Logo" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Brand Three section end= -->
 
 <!-- CTA -->
-<section class="cta-section">
-  <h2>Ready to Grow With Us?</h2>
-  <p>We're always looking for passionate developers, designers, and problem-solvers.</p>
-  <div class="cta-btns">
-    <a href="mailto:life@zalgo.com" class="btn-white">Send Resume to life@zalgo.com</a>
-    <a href="#" class="btn-outline">Explore Open Roles</a>
-  </div>
-</section>
+<!-- Cta section start -->
+            <section class="cta py-md-0 py-5">
+                <div class="container">
+                    <div class="row gy-4 align-items-center">
+                        <div class="col-md-6 d-md-block d-none">
+                            <div class="pe-lg-2">
+                                <div class="position-relative">
+                                    <img src="{{asset('assets/images/thumbs/model-img.png')}}" alt="Model" />
+                                    <img src="{{asset('assets/images/shapes/arrow-right-curve.png')}}" alt="Arrow shape"
+                                        class="position-absolute top-0 tw-end-0 tw-mt-160-px animate__wobble__two" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="ps-lg-4 max-w-532-px">
+                                <span
+                                    class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">Have a Project?</span>
+                                <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-5 d-flex gap-2">
+                                    <span class="d-inline-block fw-semibold">
+                                        <span class="fw-normal">Let’s </span>
+                                        Turn Your Idea Into a Scalable 
+                                        <span class="fw-normal">
+                                            Digital Solution</span>
+                                    </span>
+                                </h3>
+                                <p class="text-neutral-600 tw-text-lg splitTextStyleOne">
+                                    Talk to our experts and get clear guidance, realistic timelines, and a solution tailored to your business goals.
+                                </p>
+                                <a href="{{route('contact')}}"
+                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10"
+                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800"
+                                    data-block="button">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Speak With Our Experts</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Cta section End -->
    
    
    <!-- footer area -->
