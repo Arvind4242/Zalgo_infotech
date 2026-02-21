@@ -62,7 +62,7 @@
                     <div class="col-lg-6">
                         <div class="">
                             <h1 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block">Zalgo
+                                <span class="d-inline-block">Zalgo edutech
                                 </span>
                                 <span class="d-inline-block fw-semibold">
                                      Your
