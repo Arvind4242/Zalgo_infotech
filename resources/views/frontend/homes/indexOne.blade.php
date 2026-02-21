@@ -1010,7 +1010,7 @@
 
                             <div class="tw-mt-10">
                                 <div class="row gy-4 flex-sm-row-reverse">
-                                    <div class="col-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
@@ -1022,7 +1022,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                    <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div
                                             class="bg-neutral-50 tw-ps-705 tw-pe-4 tw-py-9 border border-neutral-50 hover-border-main-600 tw-rounded-lg tw-duration-300">
@@ -1243,189 +1243,7 @@
         <!-- Show-case section End -->
 
         <!-- Testimonials section start -->
-        <section class="testimonials py-120 bg-neutral-50 position-relative z-1">
-            <img src="{{asset('assets/images/shapes/faq-bg.png')}}" alt=""
-                class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
-
-            <div class="container">
-                <div class="max-w-602-px mx-auto text-center tw-mb-15">
-                    <span
-                        class="tw-py-1 tw-px-705 bg-neutral-100 tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Trusted by Clients</span>
-                    <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-9 d-flex gap-2 justify-content-center">
-                        <span class="d-inline-block fw-medium">
-                            <span class="">What </span>
-                            <span class="fw-semibold">
-                                Our Client
-                            </span>
-                            <span class=""> Say</span>
-                            <span class="fw-semibold">About Us</span>
-                        </span>
-                    </h3>
-                </div>
-
-                <div class="d-flex tw-gap-6 testimonials-item-wrapper flex-wrap">
-                    <!-- Testimonials Item Start -->
-                    <div class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100">
-                        <div class="current-content">
-                            <div class="tw-max-h-397-px overflow-hidden text-center">
-                                <img src="{{asset('assets/images/thumbs/testimonials-img1.png')}}" alt="Image" class="" />
-                            </div>
-                            <div class="tw-py-8 tw-px-4 text-center">
-                                <h6 class="tw-mb-2">Webcly jhonson</h6>
-                                <span class="text-neutral-600 fw-medium tw-text-sm">
-                                    <span class="fw-semibold text-neutral-600">Tung Phan -</span>
-                                    Ceo and Founder
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-column h-100 hidden-content p-3">
-                            <div class="">
-                                <div class="video-testimonial">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/TxjsRFwDvbQ?si=LA4zrJXjOhfKCdMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                                <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
-                                    <p
-                                        class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “Zalgo Infotech hires great people
-                                        from a widely variety of
-                                        backgrounds, which simply makes
-                                        our compan stronger, and we
-                                        couldn't be prouder of that.
-                                        elevating your optimizing
-                                        Business Growth.”
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="d-flex align-items-center tw-gap-6 animate-left-right animation-delay-04 tw-duration-200">
-                                <div class="tw-h-84-px tw-w-84-px rounded-circle">
-                                    <img src="{{asset('assets/images/thumbs/testimonials-short-img1.png')}}" alt="Image"
-                                        class="w-100 h-100 object-fit-cover" />
-                                </div>
-                                <div class="">
-                                    <h6 class="tw-mb-2">
-                                        Webcly jhonson
-                                    </h6>
-                                    <span class="text-neutral-600">
-                                        <span class="fw-semibold text-neutral-600">Tung Phan -
-                                        </span>
-                                        and Founder
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonials Item End -->
-
-                    <!-- Testimonials Item Start -->
-                    <div class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100 active">
-                        <div class="current-content">
-                            <div class="tw-max-h-397-px overflow-hidden text-center">
-                                <img src="{{asset('assets/images/thumbs/testimonials-img3.png')}}" alt="Image" class="" />
-                            </div>
-                            <div class="tw-py-8 tw-px-4 text-center">
-                                <h6 class="tw-mb-2">James anderson</h6>
-                                <span class="text-neutral-600 fw-medium tw-text-sm">
-                                    <span class="fw-semibold text-main-600">CEO -</span>
-                                    and Founder
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-column h-100 hidden-content p-3">
-                            <div class="">
-                                <div class="video-testimonial">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                                <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
-                                    <p
-                                        class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “Zalgo Infotech hires great people
-                                        from a widely variety of
-                                        backgrounds, which simply makes
-                                        our compan stronger, and we
-                                        couldn't be prouder of that.
-                                        elevating your optimizing
-                                        Business Growth.”
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="d-flex align-items-center tw-gap-6 animate-left-right animation-delay-04 tw-duration-200">
-                                <div class="tw-h-84-px tw-w-84-px rounded-circle">
-                                    <img src="{{asset('assets/images/thumbs/testimonials-short-img3.png')}}" alt="Image"
-                                        class="w-100 h-100 object-fit-cover" />
-                                </div>
-                                <div class="">
-                                    <h6 class="tw-mb-2">
-                                        James anderson
-                                    </h6>
-                                    <span class="text-neutral-600">
-                                        <span class="fw-semibold text-main-600">CEO</span>
-                                        and Founder
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonials Item End -->
-
-                    <!-- Testimonials Item Start -->
-                    <div class="testimonials-item cursor-pointer bg-white tw-rounded-28-px border border-neutral-100">
-                        <div class="current-content">
-                            <div class="tw-max-h-397-px overflow-hidden text-center">
-                                <img src="{{asset('assets/images/thumbs/testimonials-img2.png')}}" alt="Image" class="" />
-                            </div>
-                            <div class="tw-py-8 tw-px-4 text-center">
-                                <h6 class="tw-mb-2">John Doe</h6>
-                                <span class="text-neutral-600 fw-medium tw-text-sm">
-                                    <span class="fw-semibold text-neutral-600">Developer -</span>
-                                    Web Developer
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-column h-100 hidden-content p-3">
-                            <div class="">
-                                <div class="video-testimonial">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                </div>
-                                <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
-                                    <p
-                                        class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “Zalgo Infotech hires great people
-                                        from a widely variety of
-                                        backgrounds, which simply makes
-                                        our compan stronger, and we
-                                        couldn't be prouder of that.
-                                        elevating your optimizing
-                                        Business Growth.”
-                                    </p>
-                                </div>
-                            </div>
-                            <div
-                                class="d-flex align-items-center tw-gap-6 animate-left-right animation-delay-04 tw-duration-200">
-                                <div class="tw-h-84-px tw-w-84-px rounded-circle">
-                                    <img src="{{asset('assets/images/thumbs/testimonials-short-img2.png')}}" alt="Image"
-                                        class="w-100 h-100 object-fit-cover" />
-                                </div>
-                                <div class="">
-                                    <h6 class="tw-mb-2">
-                                        Webcly jhonson
-                                    </h6>
-                                    <span class="text-neutral-600 fw-medium tw-text-sm">
-                                        <span class="fw-semibold text-neutral-600">Developer -</span>
-                                        Web Developer
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Testimonials Item End -->
-                </div>
-            </div>
-        </section>
+        @include('frontend.includes.partials.testimonial')
         <!-- Testimonials section End -->
 
         <div class="position-relative z-1">

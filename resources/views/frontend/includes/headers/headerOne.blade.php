@@ -60,7 +60,7 @@
                                         </div>
                                         <!-- Column 2 -->
                                         <div class="mega-col">
-                                            <a class="mega-item">
+                                            <aculturevalue class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/life-at-zalgolnfotec.png')}}" alt=""></span>
                                                 <div class="align-items-center d-flex">
                                                     <strong>Life At ZalgoInfotec</strong>
