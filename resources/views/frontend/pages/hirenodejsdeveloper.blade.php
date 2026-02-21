@@ -31,13 +31,13 @@ Hire full-time, part-time, or on a project basis — globally.
 
                             <div class="d-flex align-items-center tw-gap-7 tw-mt-11" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                <a href="javascript:void(0)"
+                                <a  href="https://calendly.com/zalgoinfotec/30min"
+                                         target="blank"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 tw-rounded-md tw-py-6 fw-bold"
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <div class="d-flex align-items-center tw-gap-2 z-1">
                                         <span class="button__label">Book a Free 30-Minute Consultation</span>
-                                        
                                     </div>
                                 </a>
                             </div>
@@ -759,7 +759,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne"
-                                        data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
                                         SaaS companies
                                     </button>
                                 </h5>
@@ -781,7 +781,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
                                         aria-expanded="false" aria-controls="collapseOne2"
-                                        data-img="{{asset('assets/images/thumbs/hire-img2.png')}}">
+                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/hire-img2.png')}}">
                                         Agencies
                                     </button>
                                 </h5>
@@ -802,7 +802,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
                                         aria-expanded="false" aria-controls="collapseOne1"
-                                        data-img="{{asset('assets/images/thumbs/hire-img4.png')}}">
+                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/hire-img4.png')}}">
                                        Product-based businesses
                                     </button>
                                 </h5>
@@ -893,11 +893,11 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne_2"
-                                            aria-expanded="false" aria-controls="collapseOne_2">
-                                            What are the benefits of hiring a Node.js developer?
+                                            aria-expanded="true" aria-controls="collapseOne_2">
+                                        <span>❓</span>    What are the benefits of hiring a Node.js developer?
                                         </button>
                                     </h5>
-                                    <div id="collapseOne_2" class="accordion-collapse collapse"
+                                    <div id="collapseOne_2" class="accordion-collapse collapse show"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
@@ -915,8 +915,8 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo_2"
-                                            aria-expanded="true" aria-controls="collapseTwo_2">
-                                            What experience levels are available?
+                                            aria-expanded="false" aria-controls="collapseTwo_2">
+                                        <span>❓</span>    What experience levels are available?
                                         </button>
                                     </h5>
                                     <div id="collapseTwo_2" class="accordion-collapse collapse show"
@@ -935,7 +935,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree_2"
                                             aria-expanded="false" aria-controls="collapseThree_2">
-                                            Can I hire remote Node.js developers?
+                                        <span>❓</span>    Can I hire remote Node.js developers?
                                         </button>
                                     </h5>
                                     <div id="collapseThree_2" class="accordion-collapse collapse"
@@ -954,7 +954,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour_2"
                                             aria-expanded="false" aria-controls="collapseFour_2">
-                                            What types of projects can Node.js developers handle?
+                                        <span>❓</span>    What types of projects can Node.js developers handle?
                                         </button>
                                     </h5>
                                     <div id="collapseFour_2" class="accordion-collapse collapse"
@@ -976,7 +976,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive_2"
                                             aria-expanded="false" aria-controls="collapseFive_2">
-                                            What is the process to hire a Node.js developer?
+                                        <span>❓</span>    What is the process to hire a Node.js developer?
                                         </button>
                                     </h5>
                                     <div id="collapseFive_2" class="accordion-collapse collapse"
@@ -995,7 +995,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
                                             aria-expanded="false" aria-controls="collapseSix_2">
-                                            Do you offer hourly or fixed-price hiring options?
+                                        <span>❓</span>    Do you offer hourly or fixed-price hiring options?
                                         </button>
                                     </h5>
                                     <div id="collapseSix_2" class="accordion-collapse collapse"
@@ -1012,12 +1012,12 @@ Hire full-time, part-time, or on a project basis — globally.
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
-                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
-                                            aria-expanded="false" aria-controls="collapseSix_2">
-                                            Is there a trial period to evaluate the developer?
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven_2"
+                                            aria-expanded="false" aria-controls="collapseSeven_2">
+                                        <span>❓</span>    Is there a trial period to evaluate the developer?
                                         </button>
                                     </h5>
-                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                    <div id="collapseSeven_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
@@ -1030,12 +1030,12 @@ Hire full-time, part-time, or on a project basis — globally.
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
-                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
-                                            aria-expanded="false" aria-controls="collapseSix_2">
-                                            Can I hire developers for long-term projects?
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight_2"
+                                            aria-expanded="false" aria-controls="collapseEight_2">
+                                        <span>❓</span>    Can I hire developers for long-term projects?
                                         </button>
                                     </h5>
-                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                    <div id="collapseEight_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
@@ -1048,12 +1048,12 @@ Hire full-time, part-time, or on a project basis — globally.
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
-                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
-                                            aria-expanded="false" aria-controls="collapseSix_2">
-                                            How do you ensure developers are skilled and up-to-date?
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine_2"
+                                            aria-expanded="false" aria-controls="collapseNine_2">
+                                        <span>❓</span>    How do you ensure developers are skilled and up-to-date?
                                         </button>
                                     </h5>
-                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                    <div id="collapseNine_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
@@ -1066,12 +1066,12 @@ Hire full-time, part-time, or on a project basis — globally.
                                     data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
                                     <h5 class="accordion-header d-flex align-items-center justify-content-between tw-gap-3">
                                         <button class="accordion-button shadow-none p-0 line-clamp-3 bg-transparent h5 collapsed"
-                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix_2"
-                                            aria-expanded="false" aria-controls="collapseSix_2">
-                                           How is project confidentiality maintained?
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen_2"
+                                            aria-expanded="false" aria-controls="collapseTen_2">
+                                        <span>❓</span>   How is project confidentiality maintained?
                                         </button>
                                     </h5>
-                                    <div id="collapseSix_2" class="accordion-collapse collapse"
+                                    <div id="collapseTen_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">
@@ -1107,13 +1107,14 @@ Hire full-time, part-time, or on a project basis — globally.
                         <div class="d-flex align-items-center tw-gap-4 justify-content-center tw-mt-10">
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap"
                                 data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                <a href="javascript:void(0)"
+                                <a href="{{route('contact')}}"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
                                     data-block="button">
                                     <span class="button__flair"></span>
                                     <span class="button__label">Hire Now</span>
                                 </a>
-                                <a href="javascript:void(0)"
+                                <a  href="https://calendly.com/zalgoinfotec/30min"
+                                         target="blank"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
                                     data-block="button">
                                     <span class="button__flair"></span>
