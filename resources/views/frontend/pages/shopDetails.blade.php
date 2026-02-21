@@ -37,7 +37,7 @@
                             <div class="col-xl-11">
                                 <div class="row gy-5">
                                     <div class="col-lg-6 pe-xxl-5">
-                                        <div class="swiper shop-thumbs">
+                                        <div class="swiper ?">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
                                                     <div

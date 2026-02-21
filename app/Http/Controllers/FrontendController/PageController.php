@@ -168,7 +168,16 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.digitalservices', compact('bodyClass'));
     }
-
+    public function CultureValue()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.culture-values', compact('bodyClass'));
+    }
+    public function LifeZalgo()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.life-zalgoinfotech', compact('bodyClass'));
+    }
     
 
 

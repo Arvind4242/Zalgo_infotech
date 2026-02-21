@@ -722,24 +722,30 @@ var planExecuteSlider = new Swiper('.testimonials-three-slider', {
 
   
   // ========================= Shop Details Slider Js Start =====================
-  var shopSmallThumbs = new Swiper(".shop-small-thumbs", {
-    loop: true,
-    spaceBetween: 10,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesProgress: true,
-  });
-  var shopThumbs = new Swiper(".shop-thumbs", {
-    loop: true,
-    spaceBetween: 10,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    thumbs: {
-      swiper: shopSmallThumbs,
-    },
-  });
+if (document.querySelector(".shop-small-thumbs") && document.querySelector(".shop-thumbs")) {
+
+    var shopSmallThumbs = new Swiper(".shop-small-thumbs", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesProgress: true,
+    });
+
+    var shopThumbs = new Swiper(".shop-thumbs", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: shopSmallThumbs,
+        },
+    });
+
+}
+
   // ========================= Shop Details Slider Js End =====================
 
   

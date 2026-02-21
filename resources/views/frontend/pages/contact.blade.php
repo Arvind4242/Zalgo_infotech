@@ -199,6 +199,7 @@ textarea {
     line-height: 28px;
     margin: 25px 0;
     width: 70%;
+    text-align:left;
 }
 .stat-box {
     display: flex;
@@ -328,20 +329,33 @@ textarea {
                 <!-- Offices -->
                 <div class="office-box">
                     <div class="office-card">
+<<<<<<< HEAD
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US </h4>
+                    <p>1601 Penfield Road Suite <br>575 Rochester, NY 14625</p>
+=======
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US</h4>
                     <p>1601 Penfield Road Suite 575
                     <br>Rochester, NY 14625</p>
+>>>>>>> b9a5b54e1ca781a62d54c7c93b3c45e22e92ff00
                     <strong>+1 (646) 568-7779</strong>
                     </div>
 
                     <div class="office-card">
+<<<<<<< HEAD
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada </h4>
+=======
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="us-flag" class="site-country-flag" loading="lazy"> Canada</h4>
+>>>>>>> b9a5b54e1ca781a62d54c7c93b3c45e22e92ff00
                     <p>2482 Yonge Street #1080 Toronto,<br> ON M4P 2H5 Canada</p>
                     <strong>+1 (646) 568-7779</strong>
                     </div>
 
                     <div class="office-card">
+<<<<<<< HEAD
+                    <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India </h4>
+=======
                     <h4><img class="me-1" width="24" src="{{asset('assets/images/Group-3.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> India</h4>
+>>>>>>> b9a5b54e1ca781a62d54c7c93b3c45e22e92ff00
                     <p>1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012</p>
                     <strong> +91 92442 13332</strong>
                     </div>
@@ -503,7 +517,11 @@ textarea {
                     <strong>Roland Thomas</strong>
                     <div class="m-0 stars">★★★★★</div>
                 </div>
+<<<<<<< HEAD
+                <small class="d-flex fs-6 fw-medium">CEO, Tech Enterprises</small>
+=======
                 <small class="fs-6 fw-medium">CEO, Bioage Inc.</small>
+>>>>>>> b9a5b54e1ca781a62d54c7c93b3c45e22e92ff00
 
                 <div class="clint-relation"><span class="fw-bold">Long Term Client</span> | 5+ Years Collaboration</div>
             </div>

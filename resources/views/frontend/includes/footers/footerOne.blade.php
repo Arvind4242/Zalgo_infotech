@@ -137,9 +137,9 @@
       </p>
 
       <div class="address mb-4 mt-4">
-        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> US</strong></p>
-        <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">200 Hollywood Blvd<br>California, CA 94601</a></p>
-     </div>
+        <p><strong><img class="me-1" width="24" src="{{asset('assets/images/Group-4.webp')}}" alt="us-flag" class="site-country-flag" loading="lazy"> United States </strong></p>
+        <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">1601 Penfield Road Suite <br>575 Rochester, NY 14625</a></p>
+      </div>
       <div class="address mb-4">
         <p><strong><img class="me-1" width="24" src="{{asset('assets/images/canada.jpg')}}" alt="ca-flag" class="site-country-flag" loading="lazy"> Canada</strong></p>
         <p class=" d-flex gap-3"><i class="fs-3 ph-bold ph-map-pin"></i> <a class="text-white" href="#">2482 Yonge Street #1080 Toronto,<br> ON M4P 2H5 Canada</a></p>
@@ -402,7 +402,7 @@
             <h4>Quick Links <span class="arrow"></span></h4>
             <ul>
                 <li>
-                    <a class="mega-item">
+                    <a href="{{route('about')}}" class="mega-item">
                         <div class="align-items-center d-flex"> 
                             About Company
                         </div>
@@ -458,7 +458,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{route('policy.privacy')}}" class="mega-item">
+                    <a href="{{asset('assets/images/case-study/zalgo-Infotech-privacy-policy.pdf')}}" class="mega-item" download>
                         <div class="align-items-center d-flex">
                           Privacy Policy
                         </div>
@@ -505,7 +505,7 @@
             
             <div class="business-info d-flex flex-column text--white">  
             <span>Advanced IT & E-commerce Product</span>
-            <a class="text-white" href="https://zalgostore.com" target="_blank">www.zalgostore.com</a>
+            <a class="text-white" href="https://app.zalgostore.com" target="_blank">www.zalgostore.com</a>
             </div>
         </div>
         
@@ -548,10 +548,10 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.twitter.com"
+                            <a href="https://www.linkedin.com/company/zalgo-infotech/"
                                 class="text--white tw-text-2xl hover--translate-y-1 active--translate-y-scale-9 d-flex align-items-center tw-gap-205 hover-text-white">
                                 <span class="d-flex hover-text-main-600 text--white">
-                                    <i class="ph-fill ph-twitter-logo"></i>
+                                    <i class="ph-fill ph-linkedin-logo"></i>
                                 </span>
                                 <!-- <span class="tw-text-base">Twitter</span> -->
                             </a>
