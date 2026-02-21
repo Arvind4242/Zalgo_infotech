@@ -1,9 +1,8 @@
-name: Deploy Laravel
+name: Deploy Staging
 
 on:
   push:
     branches:
-      - main
       - staging
 
 jobs:
@@ -11,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
@@ -21,31 +17,14 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy to server
+      - name: Deploy
         run: |
-
-         # ===== MAIN DEPLOYMENT DISABLED =====
-          if [ "${GITHUB_REF_NAME}" = "main" ]; then
-            ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
-              cd /var/www/zalgoinfotech.in &&
-              git fetch origin &&
-              git reset --hard origin/main &&
-              git clean -fd &&
-              composer install --no-dev &&
-              php artisan migrate --force &&
-              php artisan optimize
-            "
-          fi
-
-          # ===== STAGING DEPLOYMENT =====
-          if [ "${GITHUB_REF_NAME}" = "staging" ]; then
-            ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
-              cd /var/www/staging.zalgoinfotech.in/Zalgo_infotech &&
-              git fetch origin &&
-              git reset --hard origin/staging &&
-              git clean -fd &&
-              composer install &&
-              php artisan migrate --force &&
-              php artisan optimize
-            "
-          fi
+          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
+            cd /var/www/staging.zalgoinfotech.in/Zalgo_infotech &&
+            git fetch origin &&
+            git reset --hard origin/staging &&
+            git clean -fd &&
+            composer install &&
+            php artisan migrate --force &&
+            php artisan optimize
+          "
