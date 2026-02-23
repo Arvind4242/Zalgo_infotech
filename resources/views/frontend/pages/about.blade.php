@@ -285,7 +285,7 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.pinterest.com"
+                                        <a trget="blank" href="https://www.linkedin.com/in/sanjeev-rajput-b4284b2b4/"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
                                             <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
@@ -307,7 +307,7 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.pinterest.com"
+                                        <a trget="blank" href="https://www.linkedin.com/in/vaibhav-jadhav-311379196/"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
                                             <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
@@ -329,7 +329,7 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.pinterest.com"
+                                        <a trget="blank" href="https://www.linkedin.com/in/aashu-parmar-313034389/"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
                                             <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
@@ -351,7 +351,7 @@
                                 <ul
                                     class="list-social position-absolute top-50 tw-end-0 translate-middle-y d-flex flex-column">
                                     <li>
-                                        <a href="https://www.pinterest.com"
+                                        <a trget="blank" href="https://www.linkedin.com/in/anurag-singh-kushwah-8615583ab/"
                                             class="tw-w-11 tw-h-10 bg-app-landing hover-bg-main-600 text-white tw-text-lg d-flex justify-content-center align-items-center">
                                             <i class="ph-fill ph-linkedin-logo"></i>
                                         </a>
@@ -359,7 +359,7 @@
                                 </ul>
                             </div>
                             <div class="tw-mt-705 text-center">
-                                <h6 class="tw-mb-2">Annu</h6>
+                                <h6 class="tw-mb-2">Anurag Singh</h6>
                                 <span class="text-capitalize text-neutral-500 tw-text-sm">AI & Python Developer</span>
                             </div>
                         </div>
@@ -485,7 +485,7 @@
                         Build relationships that last — and success follows naturally.
                     </p>
 
-                    <a href="https://www.linkedin.com/company/zalgo-infotech/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
+                    <a href="https://www.linkedin.com/in/bhupendra-singh-parmar-b7a216276/" target="_blank" class="active--translate-y-2 active--translate-y-scale-9 align-items-center btn btn-main button--stroke d-sm-flex fw-semibold group hover--translate-y-1 hover-style-one justify-content-center rounded-pill tw-gap-5 tw-py-05">
                       <img src="{{asset('assets/images/icons/linkdin.png')}}" alt="Linkd In">  Connect on LinkedIn
                     </a>
                 </div>
