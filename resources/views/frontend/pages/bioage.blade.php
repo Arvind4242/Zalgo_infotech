@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <img src="{{asset('assets/images/thumbs/brand-marketing-img.png')}}" alt="Image" class="w-100 h-100 object-fit-cover" />                     
+                        <img src="{{asset('assets/images/case-study/bioage.png')}}" alt="Image" class="w-100 h-100 object-fit-cover" />                     
                     </div>
                 </div>
             </div>
@@ -201,15 +201,7 @@
                                 The client needed one reliable technical partner to manage everything.
                             </p>
 
-                            <div class="tw-mt-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                data-aos-duration="900">
-                                <a href="{{route('contact')}}"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <span class="button__label">Get Started</span>
-                                </a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -332,15 +324,7 @@
                                 The client needed one reliable technical partner to manage everything.
                             </p>
 
-                            <div class="tw-mt-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                data-aos-duration="900">
-                                <a href="{{route('contact')}}"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <span class="button__label">Get Started</span>
-                                </a>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
@@ -467,9 +451,9 @@
                         <div class="position-relative tw-p-12 text-center">
                             <img src="{{asset('assets/images/shapes/rounded-circle.png')}}" alt="Bg Round" />
 
-                            <img src="{{asset('assets/images/shapes/round-icons-big.png')}}" alt="Icons"
+                            <img src="{{asset('assets/images/shapes/cms-development.png')}}" alt="Icons"
                                 class="position-absolute top-50 start-50 animation-rotate-right" />
-                            <img src="{{asset('assets/images/shapes/round-icons-small.png')}}" alt="Icons"
+                            <img src="{{asset('assets/images/shapes/cms-development2.png')}}" alt="Icons"
                                 class="position-absolute top-50 start-50 animation-rotate-left" />
                             <div class="position-absolute top-50 start-50 translate-middle">
                                 <h3 class="">
@@ -487,26 +471,28 @@
                                     <h2 class="splitTextStyleOne text-heading text-capitalize max-w-532-px">
                                         Technology Stack
                                     </h2>
-                                    <p
-                                        class="splitTextStyleOne text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
-                                        <b>CMS:</b> WordPress <br>
-                                        <b>E-commerce:</b> WooCommerce<br>
-                                        <b>Hosting:</b> SiteGround<br>
-                                        <b>Security:</b> Sucuri<br>
-                                        <b>SEO Tools & Analytics</b><br>
-                                        <b>Payment Gateways:<b> Intuit, Strip, Woo, Paypal<br> 
+                                    <p class="flex-column d-flex text-neutral-500 tw-mt-8 max-w-570-px fw-medium tw-text-lg">
+                                        <span><b>CMS:</b> WordPress </span>
+                                        <span><b>E-commerce:</b> WooCommerce</span>
+                                        <span><b>Hosting:</b> SiteGround</span>
+                                        <span><b>Security:</b> Sucuri, Wordfence</span>
+                                        <span><b>SEO Tools & Analytics</b></span>
+                                        <span><b>Payment Gateways:</b> Intuit, Strip, Woo, Paypal</span> 
 
                                     </p>
                                 </div>
-                                <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
-                                    data-aos-duration="900">
-                                    <a href="{{route('pricing')}}"
-                                        class="hover--translate-y-1 active--translate-y-scale-9 btn button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 tw-py-505 fw-bold rounded-pill btn-main hover-style-one common-shadow-inset-one"
-                                        data-block="button">
-                                        <span class="button__flair"></span>
-                                        <span class="button__label">See all Integrations</span>
-                                    </a>
-                                </div>
+
+
+                                <div class="tw-mt-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                                data-aos-duration="900">
+                                <a href="{{route('contact')}}"
+                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
+                                    data-block="button">
+                                    <span class="button__flair"></span>
+                                    <span class="button__label">Get Started</span>
+                                </a>
+                            </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -686,12 +672,7 @@
                                                 </a>
                                             </div>
                             </div>
-                            <img src="{{asset('assets/images/thumbs/faq-img-1.png')}}" alt=""
-                                class="position-absolute top-0 tw-end-0 tw-mt-9 tw--me-48-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-2.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-end-0 tw--me-32-px" />
-                            <img src="{{asset('assets/images/thumbs/faq-img-3.png')}}" alt=""
-                                class="position-absolute bottom-0 tw-start-0 tw--ms-24-px" />
+                            
                         </div>
                     </div>
                     <div class="site-screen">
@@ -699,43 +680,40 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb1.png')}}" alt="Thumb"/>
+                                        <img src="{{asset('assets/images/case-study/bioage-cs1.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb2.png')}}" alt="Thumb" />
+                                        <img src="{{asset('assets/images/case-study/bioage-cs2.png')}}" alt="Thumb" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/shop-details-thumb3.png')}}" alt="Thumb"/>
+                                        <img src="{{asset('assets/images/case-study/bioage-cs3.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div
                                         class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden"
                                     >
-                                        <img
-                                            src="{{asset('assets/images/thumbs/shop-details-thumb4.png')}}"
-                                            alt="Thumb"
-                                        />
+                                        <img src="{{asset('assets/images/case-study/bioage-cs4.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div
                                         class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden"
                                     >
-                                        <img
-                                            src="{{asset('assets/images/thumbs/shop-details-thumb5.png')}}"
-                                            alt="Thumb"
-                                        />
+                                        <img src="{{asset('assets/images/case-study/bioage-cs5.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
+                                 <!-- Arrows -->
+                                <div class="swiper-button-next shop-thumbs-next"></div>
+                                <div class="swiper-button-prev shop-thumbs-prev"></div>
                             </div>
                         </div>
 
-                        <div class="swiper shop-small-thumbs tw-mt-8">
+                        <div class="swiper shop-small-thumbs tw-mt-8 d-none">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide h-100">
                                     <div class="border border-neutral-200 tw-rounded-2xl d-flex align-items-center justify-content-center overflow-hidden tw-h-92-px"
@@ -961,7 +939,7 @@
                                     class="d-flex align-items-center tw-gap-2 z-1"
                                 >
                                     <span class="button__label"
-                                        >Download for free</span
+                                        >Talk to Our Experts</span
                                     >
                                 </div>
                             </a>
@@ -980,7 +958,7 @@
                                         class="d-flex align-items-center tw-gap-2 z-1"
                                     >
                                         <span class="button__label"
-                                            >Get Started Trial</span
+                                            >Request a Quote</span
                                         >
                                     </div>
                                 </a>
@@ -994,7 +972,7 @@
                                         class="d-flex align-items-center tw-gap-2 z-1"
                                     >
                                         <span class="button__label"
-                                            >Get Started Trial</span
+                                            >Talk to Expert</span
                                         >
                                     </div>
                                 </a>
@@ -1007,43 +985,43 @@
                         >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill"
-                                >Project management</span
+                                >WooCommerce Development</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                >Technology</span
+                                >Custom Checkout Logic</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                >Technology</span
+                                >Add-On Integration</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill"
-                                >Project management</span
+                                >CSV Automation</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                >Technology</span
+                                >Custom Plugin Development</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                >Technology</span
+                                >Secure Data Handling</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill"
-                                >Project management</span
+                                >Payment Gateway Integration</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill"
-                                >Technology</span
+                                >WordPress</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill"
-                                >Project management</span
+                                >Custom Backend Tool</span
                             >
                             <span
                                 class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill"
-                                >Technology</span
+                                >Backend System Design</span
                             >
                         </div>
                     </div>

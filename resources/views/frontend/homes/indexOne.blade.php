@@ -1256,14 +1256,13 @@
                         <span class="line w-0 tw-h-2 bg-main-600 tw-mb-4"></span>
                         <div class="d-flex align-items-center justify-content-between tw-mb-12">
                             <h6 class="">
-                                Insights to help you do what you do
-                                better, faster and more profitably.
+                                Scaling Brands with Smart Digital Solutions
                             </h6>
                             <a href="{{route('contact')}}"
                                 class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                 data-block="button">
                                 <span class="button__flair"></span>
-                                <span class="button__label">Contact Us  </span>
+                                <span class="button__label">View All Case Studies</span>
                             </a>
                         </div>
 
@@ -1273,20 +1272,17 @@
                                 data-aos-duration="200">
                                 <div class="group-item">
                                     <a href="{{route('blog.details')}}" class="w-100 h-100 overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/blog-img1.png')}}" alt="Blog Image"
+                                        <img src="{{asset('assets/images/case-study/bioage-case-study.png')}}" alt="Blog Image"
                                             class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                     </a>
                                     <div class="tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap">
                                         <span
-                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">02
-                                            Apr 2021</span>
-                                        <span class="text-heading fw-medium tw-text-base">Comments (03)</span>
+                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">E-commerce</span>
+                                        <span class="text-heading fw-medium tw-text-base">6+ Years Engagement</span>
                                     </div>
                                     <h5 class="tw-mt-4">
                                         <a href="{{route('blog.details')}}"
-                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">15 Best
-                                            AI Apps for Android
-                                            to Make Life Easier</a>
+                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">BIOAGE — Scaling a 7-Figure E-commerce Brand</a>
                                     </h5>
                                     <a href="{{route('blog.details')}}"
                                         class="text-main-600 fw-medium tw-text-lg hover--translate-y-1">
@@ -1301,22 +1297,17 @@
                                 data-aos-duration="400">
                                 <div class="group-item">
                                     <a href="{{route('blog.details')}}" class="w-100 h-100 overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/blog-img2.png')}}" alt="Blog Image"
+                                        <img src="{{asset('assets/images/case-study/finance-case-study.png')}}" alt="Blog Image"
                                             class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                     </a>
                                     <div class="tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap">
                                         <span
-                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">02
-                                            Apr 2021</span>
-                                        <span class="text-heading fw-medium tw-text-base">Comments (03)</span>
+                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">E-commerce</span>
+                                        <span class="text-heading fw-medium tw-text-base">4+ Years Engagement</span>
                                     </div>
                                     <h5 class="tw-mt-4">
                                         <a href="{{route('blog.details')}}"
-                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">15 Best
-                                            man-made
-                                            intelligence Applications
-                                            for Android to Make Life
-                                            More straightforward</a>
+                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">Expert Heavy Equipment — Website Redesign & Security Enhancement</a>
                                     </h5>
                                     <a href="{{route('blog.details')}}"
                                         class="text-main-600 fw-medium tw-text-lg hover--translate-y-1">

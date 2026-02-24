@@ -72,12 +72,14 @@
 
                             <h4 class="tw-mb-4">
                                 <a href="{{ route('bioage') }}" class="splitTextStyleOne">
-                                    BIOAGE – E-commerce Growth
+                                    BIOAGE — Scaling a 7-Figure E-commerce Brand
                                 </a>
                             </h4>
-                            <h6 class="pb-2">✔ Long-Term Client  ✔ 50K+ USD Revenue Managed</h6> 
+                            <h6 class="pb-2">✓ Long-Term Strategic Tech Partner</h6> 
                             <p class="tw-text-sm pb-3 text-neutral-600 max-w-730-px splitTextStyleOne">
-                                    BIOAGE is a high-performing e-commerce brand built on WordPress & WooCommerce. We have been managing and scaling this project end-to-end for over 6 years, covering development, security, marketing, and ongoing growth.
+                                    BIOAGE is a high-performing e-commerce brand generating 7-figure monthly revenue. 
+                                    For over 6 years, we have managed end-to-end technology, performance 
+                                    optimization, security, marketing integration, and continuous platform growth.
 
                             </p>
                             
