@@ -729,20 +729,25 @@ if (document.querySelector(".shop-small-thumbs") && document.querySelector(".sho
         spaceBetween: 10,
         slidesPerView: 4,
         freeMode: true,
+
         watchSlidesProgress: true,
+        navigation: {
+        nextEl: ".shop-thumbs-next",
+        prevEl: ".shop-thumbs-prev",
+    },
     });
 
-    var shopThumbs = new Swiper(".shop-thumbs", {
-        loop: true,
-        spaceBetween: 10,
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        thumbs: {
-            swiper: shopSmallThumbs,
-        },
-    });
+    // var shopThumbs = new Swiper(".shop-thumbs", {
+    //     loop: true,
+    //     spaceBetween: 10,
+    //     navigation: {
+    //         nextEl: ".swiper-button-next",
+    //         prevEl: ".swiper-button-prev",
+    //     },
+    //     thumbs: {
+    //         swiper: shopSmallThumbs,
+    //     },
+    // });
 
 }
 
