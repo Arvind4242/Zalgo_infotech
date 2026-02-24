@@ -1271,10 +1271,10 @@
                                 <img src="{{asset('assets/images/thumbs/testimonials-img1.png')}}" alt="Image" class="" />
                             </div>
                             <div class="tw-py-8 tw-px-4 text-center">
-                                <h6 class="tw-mb-2">Webcly jhonson</h6>
+                                <h6 class="tw-mb-2">Ryan</h6>
                                 <span class="text-neutral-600 fw-medium tw-text-sm">
-                                    <span class="fw-semibold text-neutral-600">Tung Phan -</span>
-                                    Ceo and Founder
+                                    <span class="fw-semibold text-neutral-600">CEO -</span>
+                                    and Founder
                                 </span>
                             </div>
                         </div>
@@ -1282,18 +1282,15 @@
                         <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
                                 <div class="video-testimonial">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/TxjsRFwDvbQ?si=LA4zrJXjOhfKCdMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <img src="{{asset('assets/images/case-study/finance-case-study.png')}}" alt="Image" class="" />
                                 </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “Zalgo Infotech hires great people
-                                        from a widely variety of
-                                        backgrounds, which simply makes
-                                        our compan stronger, and we
-                                        couldn't be prouder of that.
-                                        elevating your optimizing
-                                        Business Growth.”
+                                        “For over four years, they have been our trusted development 
+                                        partner, transforming our Figma designs into a fully functional 
+                                        WordPress website. Their attention to UI detail and frontend 
+                                        precision has consistently elevated our digital presence.”
                                     </p>
                                 </div>
                             </div>
@@ -1305,10 +1302,10 @@
                                 </div>
                                 <div class="">
                                     <h6 class="tw-mb-2">
-                                        Webcly jhonson
+                                        Ryan
                                     </h6>
                                     <span class="text-neutral-600">
-                                        <span class="fw-semibold text-neutral-600">Tung Phan -
+                                        <span class="fw-semibold text-neutral-600">CEO -
                                         </span>
                                         and Founder
                                     </span>
@@ -1325,7 +1322,7 @@
                                 <img src="{{asset('assets/images/thumbs/testimonials-img3.png')}}" alt="Image" class="" />
                             </div>
                             <div class="tw-py-8 tw-px-4 text-center">
-                                <h6 class="tw-mb-2">James anderson</h6>
+                                <h6 class="tw-mb-2">Roland Thomas</h6>
                                 <span class="text-neutral-600 fw-medium tw-text-sm">
                                     <span class="fw-semibold text-main-600">CEO -</span>
                                     and Founder
@@ -1336,18 +1333,16 @@
                         <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
                                 <div class="video-testimonial">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/TxjsRFwDvbQ?si=LA4zrJXjOhfKCdMM" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                 </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “Zalgo Infotech hires great people
-                                        from a widely variety of
-                                        backgrounds, which simply makes
-                                        our compan stronger, and we
-                                        couldn't be prouder of that.
-                                        elevating your optimizing
-                                        Business Growth.”
+                                        “Over the past five years, they have managed our 
+                                        complete eCommerce infrastructure — from SEO strategy 
+                                        to payment gateway integrations and ongoing technical 
+                                        optimization. Their 24/7 support and proactive approach 
+                                        have played a key role in our consistent business growth.”
                                     </p>
                                 </div>
                             </div>
@@ -1359,7 +1354,7 @@
                                 </div>
                                 <div class="">
                                     <h6 class="tw-mb-2">
-                                        James anderson
+                                        Roland Thomas
                                     </h6>
                                     <span class="text-neutral-600">
                                         <span class="fw-semibold text-main-600">CEO</span>
@@ -1378,29 +1373,28 @@
                                 <img src="{{asset('assets/images/thumbs/testimonials-img2.png')}}" alt="Image" class="" />
                             </div>
                             <div class="tw-py-8 tw-px-4 text-center">
-                                <h6 class="tw-mb-2">John Doe</h6>
-                                <span class="text-neutral-600 fw-medium tw-text-sm">
-                                    <span class="fw-semibold text-neutral-600">Developer -</span>
-                                    Web Developer
-                                </span>
+                                <h6 class="tw-mb-2">
+                                        — Edmilson
+                                    </h6>
+                                    <span class="text-neutral-600 fw-medium tw-text-sm">
+                                        <span class="fw-semibold text-neutral-600">Backend Systems Developer -</span>
+                                       Brazil
+                                    </span>
                             </div>
                         </div>
 
                         <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
                                 <div class="video-testimonial">
-                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                    <img src="{{asset('assets/images/case-study/edmilson-testi.png')}}" alt="Image" class="" />
                                 </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
                                         class="testimonials-item__desc h5 text-heading fw-medium tw-leading-153 animate-left-right animation-delay-03 tw-duration-200 line-clamp-4">
-                                        “Zalgo Infotech hires great people
-                                        from a widely variety of
-                                        backgrounds, which simply makes
-                                        our compan stronger, and we
-                                        couldn't be prouder of that.
-                                        elevating your optimizing
-                                        Business Growth.”
+                                        “Over the 6+ years, we’ve worked closely on multiple backend 
+                                        systems built with PHP, Node.js, and Laravel. 
+                                        Their reliability, clean architecture approach, and consistent 
+                                        support make them a trusted long-term technical partner.”
                                     </p>
                                 </div>
                             </div>
@@ -1412,11 +1406,11 @@
                                 </div>
                                 <div class="">
                                     <h6 class="tw-mb-2">
-                                        Webcly jhonson
+                                        — Edmilson
                                     </h6>
                                     <span class="text-neutral-600 fw-medium tw-text-sm">
-                                        <span class="fw-semibold text-neutral-600">Developer -</span>
-                                        Web Developer
+                                        <span class="fw-semibold text-neutral-600">Backend Systems Developer -</span>
+                                       Brazil
                                     </span>
                                 </div>
                             </div>
@@ -1438,14 +1432,13 @@
                         <span class="line w-0 tw-h-2 bg-main-600 tw-mb-4"></span>
                         <div class="d-flex align-items-center justify-content-between tw-mb-12">
                             <h6 class="">
-                                Insights to help you do what you do
-                                better, faster and more profitably.
+                                Scaling Brands with Smart Digital Solutions
                             </h6>
                             <a href="{{route('contact')}}"
                                 class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                 data-block="button">
                                 <span class="button__flair"></span>
-                                <span class="button__label">Contact Us  </span>
+                                <span class="button__label">View All Case Studies</span>
                             </a>
                         </div>
 
@@ -1455,20 +1448,17 @@
                                 data-aos-duration="200">
                                 <div class="group-item">
                                     <a href="{{route('blog.details')}}" class="w-100 h-100 overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/blog-img1.png')}}" alt="Blog Image"
+                                        <img src="{{asset('assets/images/case-study/bioage-case-study.png')}}" alt="Blog Image"
                                             class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                     </a>
                                     <div class="tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap">
                                         <span
-                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">02
-                                            Apr 2021</span>
-                                        <span class="text-heading fw-medium tw-text-base">Comments (03)</span>
+                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">E-commerce</span>
+                                        <span class="text-heading fw-medium tw-text-base">6+ Years Engagement</span>
                                     </div>
                                     <h5 class="tw-mt-4">
                                         <a href="{{route('blog.details')}}"
-                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">15 Best
-                                            AI Apps for Android
-                                            to Make Life Easier</a>
+                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">BIOAGE — Scaling a 7-Figure E-commerce Brand</a>
                                     </h5>
                                     <a href="{{route('blog.details')}}"
                                         class="text-main-600 fw-medium tw-text-lg hover--translate-y-1">
@@ -1483,22 +1473,17 @@
                                 data-aos-duration="400">
                                 <div class="group-item">
                                     <a href="{{route('blog.details')}}" class="w-100 h-100 overflow-hidden">
-                                        <img src="{{asset('assets/images/thumbs/blog-img2.png')}}" alt="Blog Image"
+                                        <img src="{{asset('assets/images/case-study/finance-case-study.png')}}" alt="Blog Image"
                                             class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                     </a>
                                     <div class="tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap">
                                         <span
-                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">02
-                                            Apr 2021</span>
-                                        <span class="text-heading fw-medium tw-text-base">Comments (03)</span>
+                                            class="text-heading fw-medium tw-py-05 tw-px-405 border border-neutral-400 rounded-pill tw-text-base">E-commerce</span>
+                                        <span class="text-heading fw-medium tw-text-base">4+ Years Engagement</span>
                                     </div>
                                     <h5 class="tw-mt-4">
                                         <a href="{{route('blog.details')}}"
-                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">15 Best
-                                            man-made
-                                            intelligence Applications
-                                            for Android to Make Life
-                                            More straightforward</a>
+                                            class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">Expert Heavy Equipment — Website Redesign & Security Enhancement</a>
                                     </h5>
                                     <a href="{{route('blog.details')}}"
                                         class="text-main-600 fw-medium tw-text-lg hover--translate-y-1">
