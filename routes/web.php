@@ -73,6 +73,8 @@ Route::controller(PageController::class)->group(function () {
     Route::get('maintenanceservices', 'maintenanceServices')->name('maintenanceservices.development');
     Route::get('seoservices', 'seoServices')->name('seoservices.development');
     Route::get('digitalservices', 'digitalMarketing')->name('digitalservices.development');
+    Route::get('culturevalue', 'CultureValue')->name('culture-value');
+    Route::get('lifezalgo', 'LifeZalgo')->name('life-zalgoinfotech');
 
     // Hire Devlopers Pages
     Route::get('hirewebdeveloper', 'hireWebdeveloper')->name('hireweb.developer');

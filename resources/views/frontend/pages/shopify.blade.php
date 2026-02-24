@@ -34,7 +34,7 @@
 
                             <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                <a href="javascript:void(0)"
+                                <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
                                     class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
                                     data-block="button">
                                     <span class="button__flair"></span>
@@ -973,7 +973,7 @@
 
                                 <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                     data-aos-duration="900">
-                                    <a href="javascript:void(0)"
+                                    <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
                                         data-block="button">
                                         <span class="button__flair"></span>
@@ -1313,7 +1313,7 @@
                                     class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap"
                                 >
                                     <a
-                                        href="javascript:void(0)"
+                                        href="{{route('contact')}}"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                         data-block="button"
                                     >
@@ -1327,7 +1327,8 @@
                                         </div>
                                     </a>
                                     <a
-                                        href="javascript:void(0)"
+                                        href="https://calendly.com/zalgoinfotec/30min"
+                                         target="blank"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                         data-block="button"
                                     >

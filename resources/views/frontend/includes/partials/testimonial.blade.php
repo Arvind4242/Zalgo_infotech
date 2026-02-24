@@ -38,7 +38,11 @@
                         <div class="d-flex flex-column h-100 hidden-content p-3">
                             <div class="">
                                 <div class="video-testimonial">
+<<<<<<< HEAD
                                     <img src="{{asset('assets/images/case-study/finance-case-study.png')}}" alt="Image" class="" />
+=======
+                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/D0UnqGm_miA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>>>>>>> 712608596fdb4a9555f8ea9fe09d7809754514fa
                                 </div>
                                 <div class="border-bottom border-neutral-200 tw-pb-10 tw-mb-8">
                                     <p
