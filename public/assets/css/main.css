@@ -7349,9 +7349,9 @@ svg.radial-progress text {
 }
 
 /* Banner Two Start */
-.banner-two {
+/* .banner-two {
     padding-block-start: 148px;
-}
+} */
 
 @media (min-width: 992px) {
     .banner-two {

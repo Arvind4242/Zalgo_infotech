@@ -76,7 +76,7 @@
                                         </div>
                                          <!-- Column 2 -->
                                         <div class="mega-col">
-                                            <a  class="mega-item">
+                                            <a href="{{route('culture-value')}}" class="mega-item">
                                                 <span class="icon"><img width="20px" src="{{asset('assets/images/icons/culture-values.png')}}" alt=""></span>
                                                 <div class="align-items-center d-flex">
                                                     <strong>Culture & Values</strong>

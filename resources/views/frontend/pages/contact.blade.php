@@ -174,6 +174,8 @@ textarea {
     margin-top: 0px;
     font-size: 12px;
     padding: 0;
+    position: relative;
+    z-index: 99;
 }
 .policy {
   font-size: 13px;
