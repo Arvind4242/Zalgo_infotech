@@ -16,17 +16,7 @@
     --text-dark: #1e293b;
   }
     /* ── HERO ── */
-  .hero {
-    position: relative;
-    min-height: 480px;
-    background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue-mid) 60%, var(--blue-accent) 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 80px 20px;
-    overflow: hidden;
-  }
+ 
   .hero::before {
     content: '';
     position: absolute;
@@ -39,47 +29,6 @@
     background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
     background-size: 32px 32px;
   }
-  .hero-content { position: relative; z-index: 2; max-width: 700px; }
-  .hero h1 {
-    font-size: clamp(2.2rem, 5vw, 3.5rem);
-    font-weight: 800;
-    color: var(--white);
-    line-height: 1.15;
-    margin-bottom: 16px;
-  }
-  .hero h1 em { font-style: italic; color: #93c5fd; }
-  .hero p {
-    font-size: 1.1rem;
-    color: rgba(255,255,255,0.85);
-    margin-bottom: 36px;
-  }
-  .hero-btns { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
-  .btn-primary {
-    background: var(--blue-accent);
-    color: white;
-    padding: 13px 30px;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    text-decoration: none;
-    transition: background 0.2s, transform 0.2s;
-    display: inline-block;
-  }
-  .btn-primary:hover { background: var(--blue-mid); transform: translateY(-2px); }
-  .btn-outline {
-    background: transparent;
-    color: white;
-    padding: 13px 30px;
-    border-radius: 6px;
-    font-weight: 600;
-    font-size: 0.95rem;
-    text-decoration: none;
-    border: 2px solid rgba(255,255,255,0.7);
-    transition: all 0.2s;
-    display: inline-block;
-  }
-  .btn-outline:hover { background: rgba(255,255,255,0.1); transform: translateY(-2px); }
-
   /* ── SECTIONS ── */
   .section { padding: 80px 20px; max-width: 1100px; margin: 0 auto; }
   .section-full { padding: 80px 20px; }
@@ -322,17 +271,42 @@
    
    
    <!-- HERO -->
-<section class="hero">
-  <div class="hero-bg-dots"></div>
-  <div class="hero-content">
-    <h1><em>Life</em> at Zalgo Infotech</h1>
-    <p>We build technology with passion, teamwork, and innovation.</p>
-    <div class="hero-btns">
-      <a href="#" class="btn-primary">View Open Positions</a>
-      <a href="#" class="btn-outline">Join Our Team</a>
+<section style="background-image:url({{asset('assets/images/bg/mash-gradient-bg1.png')}});" class="hero banner-two position-relative z-1 pb-0">
+    <div class="banner-two__inner position-relative">
+        <div class="container">
+            <div class="text-center">
+                <div class="">
+                    <div class="position-relative d-inline-block">
+                        <h1 class="splitTextStyleOne text-capitalize fw-bold tw-leading-none tw-pb-205">
+                            Life at Zalgo Infotech
+                        </h1>
+                    </div>
+                </div>
+                <p class="splitTextStyleOne text-neutral-600 tw-text-lg tw-mt-405 tw-mt-8 max-w-672-px mx-auto fw-medium">
+                  We build technology with passion, teamwork, and innovation.  
+                </p>
+
+                <div class="d-inline-flex align-items-center tw-gap-5 tw-mt-8 flex-wrap" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                    <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
+                        class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold"
+                        data-block="button">
+                        <span class="button__flair"></span>
+                        <span class="button__label">View Open Position</span>
+                    </a>
+                    <a href="javascript:void(0)"
+                        class="flex-grow-1 hover--translate-y-1 active--translate-y-scale-9 btn btn-orange-outline hover-style-five hover-text-white button--stroke align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-10 rounded-pill tw-py-505 fw-bold bg-white"
+                        data-block="button">
+                        <span class="button__flair"></span>
+                        <span class="button__label">Join Our Team</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
+
+
 
 <!-- CULTURE SPLIT -->
 <div class="culture-split">

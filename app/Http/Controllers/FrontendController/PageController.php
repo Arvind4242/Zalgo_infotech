@@ -242,6 +242,38 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.bioage', compact('bodyClass'));
     }
+    public function Experthe()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.experthe', compact('bodyClass'));
+    }
+    public function Dobramoc()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.dobramoc', compact('bodyClass'));
+    }
+    public function Lifetreeanatomical()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.lifetreeanatomical', compact('bodyClass'));
+    }
+    public function Towelsoutlet()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.towelsoutlet', compact('bodyClass'));
+    }
+    public function FinanceManagerTraining()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.financemanagertraining', compact('bodyClass'));
+    }
+    public function Awakeningthegeniuswithin()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.awakeningthegeniuswithin', compact('bodyClass'));
+    }
+    
+
 
     // Blog
     public function blog()
