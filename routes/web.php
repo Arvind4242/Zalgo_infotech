@@ -3,19 +3,52 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FrontendController\HomeController;
 use App\Http\Controllers\FrontendController\PageController;
-use App\Http\Controllers\Auth\AuthController;
-
+// use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\JobApplicationController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\JobApplicationController as AdminJobController;
 
 Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
 Route::get('/thankyou', [ContactController::class, 'thankYou'])->name('thankyou.page');
 
+// Route::get('/admin/login', [AuthController::class, 'loginForm'])
+//     ->name('admin.login');
 
+// Route::post('/admin/login', [AuthController::class, 'login'])
+//     ->name('admin.login.submit');
+
+// Route::post('/admin/logout', [AuthController::class, 'logout'])
+//     ->name('admin.logout');
+
+// /* ================= ADMIN PROTECTED ================= */
+
+// Route::prefix('admin')
+//     ->middleware('admin.auth')
+//     ->group(function () {
+
+//         Route::get('/applications', [AdminJobController::class, 'index'])
+//             ->name('admin.applications');
+
+//         Route::get('/applications/{id}', [AdminJobController::class, 'show'])
+//             ->name('admin.applications.show');
+
+//         Route::post('/applications/{id}/status', [AdminJobController::class, 'updateStatus'])
+//             ->name('admin.applications.status');
+
+//         Route::delete('/applications/{id}', [AdminJobController::class, 'destroy'])
+//             ->name('admin.applications.delete');
+// });
 /**
  *    Frontend
  */
 
 // All Index Pages Routing
+
+
+
+Route::post('/apply', [JobApplicationController::class, 'store'])
+    ->name('job.apply');
 
 Route::get('/register', [PageController::class, 'register'])->name('register');
 
@@ -88,6 +121,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('hirepythondeveloper', 'hirePythondeveloper')->name('hirepythondeveloper');
 
     Route::get('bioage', 'BioAge')->name('bioage');
+    Route::get('career', 'career')->name('career');
 
     // Blog
     Route::get('blog', 'blog')->name('blog');

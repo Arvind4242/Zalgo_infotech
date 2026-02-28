@@ -191,7 +191,7 @@ class PageController extends Controller
     public function hireWebdeveloper()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.hireWebdeveloper', compact('bodyClass'));
+        return view('frontend.pages.hirewebdeveloper', compact('bodyClass'));
     }
     public function hireWordpressdeveloper()
     {
@@ -274,6 +274,12 @@ class PageController extends Controller
     {
         $bodyClass = 'home-one';
         return view('frontend.pages.testimonial', compact('bodyClass'));
+    }
+
+     public function career()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.career', compact('bodyClass'));
     }
 }
 
