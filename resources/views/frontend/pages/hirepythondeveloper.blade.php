@@ -29,7 +29,7 @@
                                     class="text-yellow">secure, high-performance,</span> and future-ready software with our expert Python developers. Hire full-time, part-time, or project-based 
                                     Python professionals to develop web apps, APIs, automation tools, AI/ML solutions, and 
                                     enterprise systems tailored to your business needs — worldwide.
-</p>
+                            </p>
 
                             <div class="d-flex align-items-center tw-gap-7 tw-mt-11" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
@@ -775,8 +775,7 @@
                                 <h5 class="accordion-header">
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne"
-                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        aria-expanded="true" aria-controls="collapseOne" data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
                                         SaaS companies
                                     </button>
                                 </h5>
@@ -794,8 +793,7 @@
                                 <h5 class="accordion-header">
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
-                                        aria-expanded="false" aria-controls="collapseOne2"
-                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        aria-expanded="false" aria-controls="collapseOne2" data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
                                         Agencies
                                     </button>
                                 </h5>
@@ -813,8 +811,7 @@
                                 <h5 class="accordion-header">
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
-                                        aria-expanded="false" aria-controls="collapseOne1"
-                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        aria-expanded="false" aria-controls="collapseOne1" data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
                                        Product-based businesses
                                     </button>
                                 </h5>
@@ -872,7 +869,7 @@
         <!-- Faq Two Section Start -->
         @include('frontend.includes.partials.testimonial')
 
-<section class="faq-two py-120">
+        <section class="faq-two py-120">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-4">
@@ -1140,10 +1137,6 @@
         </section>
         <!-- Driven section End -->
 
-
-
-
-</div>
 <!-- footer area -->
 @include('frontend.includes.footers.footerOne')
 <!-- footer area end -->

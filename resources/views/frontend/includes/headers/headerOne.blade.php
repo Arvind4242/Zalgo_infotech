@@ -39,74 +39,71 @@
                             <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> Company</a>
                              <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
                                     <div class="mega-inner">
-                                        <!-- Column 1 -->
-                                        <div class="mega-col">
+                                        <div class="mega-left">
+                                            <!-- Column 1 -->
+                                            <div class="mega-col">
 
-                                            <a href="{{route('about')}}" class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/about-company.png')}}" alt=""></span>
-                                                <div class="align-items-center d-flex"> 
-                                                    <strong>About Company</strong>
-                                                </div>
-                                            </a>
+                                                <a href="{{route('about')}}" class="mega-item">
+                                                    <span class="icon"><img width="20px" src="{{asset('assets/images/icons/about-company.png')}}" alt=""></span>
+                                                    <div class="align-items-center d-flex"> 
+                                                        <strong>About Company</strong>
+                                                    </div>
+                                                </a>
 
-                                            <a class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/engagement-models.png')}}" alt=""> </span>
-                                                <div class="align-items-center d-flex">
-                                                    <strong>Engagement Models</strong>
-                                                </div>
-                                            </a>
+                                                <a  class="mega-item">
+                                                    <span class="icon"><img width="20px" src="{{asset('assets/images/icons/life-at-zalgolnfotec.png')}}" alt=""></span>
+                                                    <div class="align-items-center d-flex">
+                                                        <strong>Life At ZalgoInfotec</strong>
+                                                    </div>
+                                                </a>
 
-                                            
+                                                
+                                            </div>
+                                            <!-- Column 2 -->
+                                            <div class="mega-col">
+                                                <a href="{{route('testimonial')}}" class="mega-item">
+                                                    <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
+                                                    <div>
+                                                        <strong>Client Testimonials</strong>
+                                                    </div>
+                                                </a>
+                                                
+                                                <a href="{{route('blog')}}" class="mega-item">
+                                                    <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
+                                                    <div>
+                                                        <strong>Blogs</strong>
+                                                    </div>
+                                                </a>
+                                                
+                                            </div>
+                                            <!-- Column 2 -->
+                                            <div class="mega-col">
+                                                <a href="{{route('culture-value')}}" class="mega-item">
+                                                    <span class="icon"><img width="20px" src="{{asset('assets/images/icons/culture-values.png')}}" alt=""></span>
+                                                    <div class="align-items-center d-flex">
+                                                        <strong>Culture & Values</strong>
+                                                    </div>
+                                                </a>
+
+                                                <a class="mega-item">
+                                                    <span class="icon"><img width="20px" src="{{asset('assets/images/icons/Career.png')}}" alt=""></span>
+                                                    <div class="align-items-center d-flex">
+                                                        <strong>Career</strong>
+                                                    </div>
+                                                </a>
+                                                
+                                            </div>
                                         </div>
-                                        <!-- Column 2 -->
-                                        <div class="mega-col">
-                                            <a  class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/life-at-zalgolnfotec.png')}}" alt=""></span>
-                                                <div class="align-items-center d-flex">
-                                                    <strong>Life At ZalgoInfotec</strong>
-                                                </div>
-                                            </a>
-                                            <a href="#" class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/infrastructure.png')}}" alt=""></span>
-                                                <div class="align-items-center d-flex">
-                                                    <strong>Infrastructure</strong>
-                                                </div>
-                                            </a>
-                                            
-                                        </div>
-                                         <!-- Column 2 -->
-                                        <div class="mega-col">
-                                            <a  class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/culture-values.png')}}" alt=""></span>
-                                                <div class="align-items-center d-flex">
-                                                    <strong>Culture & Values</strong>
-                                                </div>
-                                            </a>
-
-                                            <a class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/Career.png')}}" alt=""></span>
-                                                <div class="align-items-center d-flex">
-                                                    <strong>Career</strong>
-                                                </div>
-                                            </a>
-                                            
+                                        <div class="audit-box">  
+                                            <div class="autid-detail">
+                                                <ul class="audit-list m-0">
+                                                     <a href="tel:+16465687779"><img width="20px" src="http://127.0.0.1:8000/assets/images/icons/call.png" alt=""> +1 (646) 568-7779</a>
+                                                        <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="http://127.0.0.1:8000/assets/images/icons/email.png" alt=""> sales@zalgoinfotech.com</a>
+                                                </ul>
+                                            </div>
                                         </div>
 
-                                         <!-- Column 2 -->
-                                        <div class="mega-col">
-                                            <a href="{{route('testimonial')}}" class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
-                                                <div>
-                                                    <strong>Client Testimonials</strong>
-                                                </div>
-                                            </a>
-                                            <a href="{{route('blog')}}" class="mega-item">
-                                                <span class="icon"><img width="20px" src="{{asset('assets/images/icons/client-testimonials.png')}}" alt=""></span>
-                                                <div>
-                                                    <strong>Blogs</strong>
-                                                </div>
-                                            </a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                         </li>
