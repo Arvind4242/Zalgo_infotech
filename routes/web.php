@@ -120,8 +120,16 @@ Route::controller(PageController::class)->group(function () {
     Route::get('hirenextjsdeveloper', 'hireNextjsdeveloper')->name('hirenextjsdeveloper');
     Route::get('hirepythondeveloper', 'hirePythondeveloper')->name('hirepythondeveloper');
 
+
+    //Case Study
     Route::get('bioage', 'BioAge')->name('bioage');
     Route::get('career', 'career')->name('career');
+    Route::get('experthe', 'Experthe')->name('experthe');
+    Route::get('dobramoc', 'Dobramoc')->name('dobramoc');
+    Route::get('lifetreeanatomical', 'Lifetreeanatomical')->name('lifetreeanatomical');
+    Route::get('towelsoutlet', 'Towelsoutlet')->name('towelsoutlet');
+    Route::get('awakeningthegeniuswithin', 'Awakeningthegeniuswithin')->name('awakeningthegeniuswithin');
+    Route::get('financemanagertraining', 'FinanceManagerTraining')->name('financemanagertraining');
 
     // Blog
     Route::get('blog', 'blog')->name('blog');
