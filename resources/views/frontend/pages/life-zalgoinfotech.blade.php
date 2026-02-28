@@ -32,23 +32,19 @@
   }
 
   /* ── VALUES GRID ── */
-  .values-section { background: var(--gray-light); }
-  .values-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+.values-section { background: var(--gray-light); }
+.values-grid {
+    display: flex;
     gap: 20px;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  .value-card {
-    background: white;
-    border-radius: 12px;
-    padding: 30px 24px;
-    text-align: center;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-    transition: transform 0.25s, box-shadow 0.25s;
-  }
+}
+.value-card {
+background: white;
+border-radius: 12px;
+padding: 30px 24px;
+text-align: center;
+box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+transition: transform 0.25s, box-shadow 0.25s;
+}
   .value-card:hover { transform: translateY(-6px); box-shadow: 0 12px 40px rgba(26,75,189,0.12); }
   .value-icon { font-size: 2.4rem; margin-bottom: 14px; display: block; }
   .value-card h4 { font-size: 1rem; font-weight: 700; color: var(--blue-dark); margin-bottom: 8px; }
@@ -60,7 +56,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto auto;
     gap: 16px;
-    max-width: 1100px;
     margin: 0 auto;
   }
   .gallery-grid .g-item {
@@ -108,7 +103,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-    max-width: 1100px;
     margin: 16px auto 0;
   }
 
@@ -274,22 +268,34 @@
                       </h2>
                          <div class="values-grid">
                             <div class="value-card">
-                              <span class="value-icon">🚀</span>
+                              <span class="value-icon">
+                                <img src="{{asset('assets/images/thumbs/project-type.gif')}}" alt="Logo"
+                                    class="animate__wobble" />
+                              </span>
                               <h4>Innovation First</h4>
                               <p>We love solving complex problems.</p>
                             </div>
                             <div class="value-card">
-                              <span class="value-icon">🤝</span>
+                              <span class="value-icon">
+                                <img src="{{asset('assets/images/thumbs/project-type.gif')}}" alt="Logo"
+                                    class="animate__wobble" />
+                              </span>
                               <h4>Teamwork</h4>
                               <p>Collaboration over competition.</p>
                             </div>
                             <div class="value-card">
-                              <span class="value-icon">📚</span>
+                              <span class="value-icon">
+                                <img src="{{asset('assets/images/thumbs/project-type.gif')}}" alt="Logo"
+                                    class="animate__wobble" />
+                              </span>
                               <h4>Continuous Learning</h4>
                               <p>Grow your skills every day.</p>
                             </div>
                             <div class="value-card">
-                              <span class="value-icon">⚖️</span>
+                              <span class="value-icon">
+                                <img src="{{asset('assets/images/thumbs/project-type.gif')}}" alt="Logo"
+                                    class="animate__wobble" />
+                              </span>
                               <h4>Work-Life Balance</h4>
                               <p>Smart work, not overwork.</p>
                             </div>
@@ -309,12 +315,12 @@
                   <span class="font-dm-serif fst-italic fw-normal text-gradient-teal">Zalgo Infotech</span>
               </h2>
               <div class="gallery-grid">
-                <div class="g-item">🏢</div>
-                <div class="g-item">💬</div>
-                <div class="g-item">👥</div>
+                <div class="g-item"><img src="{{asset('assets/images/bg/mash-gradient-bg1.png')}}" ></div>
+                <div class="g-item"><img src="{{asset('assets/images/bg/mash-gradient-bg1.png')}}" ></div>
+                <div class="g-item"><img src="{{asset('assets/images/bg/mash-gradient-bg1.png')}}" ></div>
               </div>
-              <div class="gallery-bottom" style="max-width:1100px; margin: 16px auto 0;">
-                <div class="g-item" style="height:220px; border-radius:12px; background:linear-gradient(135deg,#dbeafe,#bfdbfe); display:flex; align-items:center; justify-content:center; font-size:3rem;">💻</div>
+              <div class="gallery-bottom" style=" margin: 16px auto 0;">
+                <div class="g-item" style="height:220px; border-radius:12px; background:linear-gradient(135deg,#dbeafe,#bfdbfe); display:flex; align-items:center; justify-content:center; font-size:3rem;"><img src="{{asset('assets/images/bg/mash-gradient-bg1.png')}}" ></div>
                 <div class="why-box">
                   <h3>Why Work With Us</h3>
                   <ul class="why-list">
