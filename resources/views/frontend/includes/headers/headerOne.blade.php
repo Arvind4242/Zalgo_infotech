@@ -38,8 +38,7 @@
                         <li class="nav-menu__item has-submenu about">
                             <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> Company</a>
                              <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
-                                    <div class="mega-inner">
-                                        <div class="mega-left">
+                                    <div class="align-items-center mega-inner">
                                             <!-- Column 1 -->
                                             <div class="mega-col">
 
@@ -93,7 +92,6 @@
                                                 </a>
                                                 
                                             </div>
-                                        </div>
                                         <div class="audit-box">  
                                             <div class="autid-detail">
                                                 <ul class="audit-list m-0">
