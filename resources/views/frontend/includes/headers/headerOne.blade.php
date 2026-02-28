@@ -38,8 +38,7 @@
                         <li class="nav-menu__item has-submenu about">
                             <a href="javascript:void(0)" class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100"> Company</a>
                              <div class="new-header-mega-menu-inner nav-submenu scroll-sm">
-                                    <div class="mega-inner">
-                                        <div class="mega-left">
+                                    <div class="align-items-center mega-inner">
                                             <!-- Column 1 -->
                                             <div class="mega-col">
 
@@ -50,7 +49,7 @@
                                                     </div>
                                                 </a>
 
-                                                <a  class="mega-item">
+                                                <a href="{{route('life-zalgoinfotech')}}"  class="mega-item">
                                                     <span class="icon"><img width="20px" src="{{asset('assets/images/icons/life-at-zalgolnfotec.png')}}" alt=""></span>
                                                     <div class="align-items-center d-flex">
                                                         <strong>Life At ZalgoInfotec</strong>
@@ -93,7 +92,6 @@
                                                 </a>
                                                 
                                             </div>
-                                        </div>
                                         <div class="audit-box">  
                                             <div class="autid-detail">
                                                 <ul class="audit-list m-0">

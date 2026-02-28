@@ -707,10 +707,11 @@
                                         <img src="{{asset('assets/images/case-study/bioage-cs5.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
-                                 <!-- Arrows -->
+                                
+                            </div>
+                             <!-- Arrows -->
                                 <div class="swiper-button-next shop-thumbs-next"></div>
                                 <div class="swiper-button-prev shop-thumbs-prev"></div>
-                            </div>
                         </div>
 
                         <div class="swiper shop-small-thumbs tw-mt-8 d-none">
