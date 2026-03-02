@@ -1,6 +1,6 @@
-    @extends('frontend.layouts.app')
-    @section('title', 'Web Designs')
-    @section('content')
+@extends('frontend.layouts.app')
+@section('title', 'Web Designs')
+@section('content')
 
     <!-- header area -->
     @include('frontend.includes.headers.headerOne')
@@ -15,20 +15,20 @@
                     <div class="col-lg-6 mt-0">
                         <div class="case-study-content">
                             <h1 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block">Expert Heavy Equipment 
+                                <span class="d-inline-block">Scaling a
                                 </span>
                                 <span class="text-green d-inline-block fw-semibold">
-                                     Website 
+                                     WooCommerce
                                 </span>
                                  <span class="text-green d-inline-block fw-semibold">
-                                    Redesign 
+                                    E-commerce
                                 </span>
-                                <span class="d-inline-block fw-semibold">&  </span>
-                                <span style="color:rgb(65 137 8);" class=" d-inline-block fw-semibold"> Security</span>
-                                <span class="d-inline-block fw-semibold"> Enhancement</span>
+                                <span class="d-inline-block fw-semibold">Brand to</span>
+                                <span style="color:rgb(65 137 8);" class=" d-inline-block fw-semibold"> $ 1M+ </span>
+                                <span class="d-inline-block fw-semibold"> Monthly Revenue</span>
                             </h1>
                             <p style="color:rgb(33 74 2);" class="fs-4 h5 mt-3 pt-1 text-heading tw-mt-20 tw-text-lg">
-                                WooCommerce | Wordpress | Twilio | Wordfence
+                                WooCommerce | E-commerce | SEO | Digital Marketing
                             </p>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
                                 <img src="{{asset('assets/images/thumbs/industry.gif')}}" alt="Logo"
                                     class="animate__wobble" />
                                 <span class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Industry</span>
-                                <span class="p-type">Machinery</span>
+                                <span class="p-type">E-Commerce</span>
                             </div>
                             <div
                                 class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
@@ -78,7 +78,7 @@
                                     class="animate__wobble" />
                                 <span
                                     class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Duration</span>
-                                    <span class="p-type">4+ Year</span>
+                                    <span class="p-type">6+ Year</span>
                             </div>
                             <div
                                 class="domain-item-button common-shadow-nine flex-grow-1 tw-min-h-144-px tw-rounded-lg text-center min-w-144-px d-flex flex-column align-items-center justify-content-center animation-item pb-3"
@@ -87,7 +87,7 @@
                                     class="animate__wobble" />
                                 <span
                                     class="d-block text-heading tw-mt-105 tw-text-sm fw-bold">Region</span>
-                                    <span class="p-type">USA</span>
+                                    <span class="p-type">Canada</span>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                             <span class="d-inline-block">Client</span>
                             <span class="text-green d-inline-block fw-semibold">Overview</span>
                         </h1>
-                        <p class="fs-3 lh-sm mt-3 h5 mx-auto text-center w-75">Expert Heavy Equipment is a trusted business in the heavy equipment industry, serving customers who require reliable machinery and professional service. The client needed a strong, secure online presence to represent their brand and support long-term growth.</p>
+                        <p class="fs-3 lh-sm mt-3 h5 mx-auto text-center w-75">BIOAGE is a growing e-commerce brand operating in a competitive online market. The client required a stable, secure, and scalable e-commerce platform along with continuous marketing and technical support to drive long-term growth.</p>
                     </div>
                 </div>         
             </div>
@@ -707,10 +707,11 @@
                                         <img src="{{asset('assets/images/case-study/bioage-cs5.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
-                                 <!-- Arrows -->
+                                
+                            </div>
+                             <!-- Arrows -->
                                 <div class="swiper-button-next shop-thumbs-next"></div>
                                 <div class="swiper-button-prev shop-thumbs-prev"></div>
-                            </div>
                         </div>
 
                         <div class="swiper shop-small-thumbs tw-mt-8 d-none">

@@ -99,7 +99,84 @@ textarea {
   resize: none;
   height: 120px;
 }
+.upload-box {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  color: #fff;
+  max-width: 100%;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
 
+.upload-box:hover {
+    border-color: #006d75;
+    background: #006d7520;
+}   
+
+.upload-box input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+
+.upload-content .icon,
+.file-info .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    background: transparent;
+}
+.upload-content {
+    display: flex;
+}
+.upload-content h3,
+.file-info h3 {
+    font-size: 20px;
+    color: #006d75;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.upload-content p,
+.file-info p {
+  font-size: 16px;
+  color: #000;
+}
+
+.upload-content span,
+.file-info span {
+  color: #006d75;
+  font-weight: bold;
+}
+.file-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#removeFile {
+    background: #006d75;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-top: 0px;
+    font-size: 12px;
+    padding: 0;
+    position: relative;
+    z-index: 99;
+}
 .policy {
   font-size: 13px;
   color: #777;
@@ -401,8 +478,34 @@ textarea {
 
     <textarea name="message" placeholder="How can we help you?" required></textarea>
 
-    <input type="file" name="additional_document" id="additional_document">
-
+    <div class="upload-box" id="uploadBox">
+        <input type="file" name="additional_document" id="additional_document" requireds>
+        <div class="upload-content gap-4" id="uploadContent">
+            <div class="icon">
+                <svg width="50" height="33" viewBox="0 0 50 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.8594 13.5268C40.8594 13.3929 40.8817 13.2589 40.8817 13.125C40.8817 5.87054 35.1004 0 27.9688 0C22.8237 0 18.404 3.05804 16.3281 7.47768C15.4241 7.02009 14.4085 6.75223 13.3371 6.75223C10.0446 6.75223 7.29911 9.19643 6.77455 12.3884C2.82366 13.75 0 17.5335 0 21.9866C0 27.5893 4.47545 32.1429 9.98884 32.1429H21.4286V23.2143H16.0491L25 13.8728L33.9509 23.2031H28.5714V32.1317H40.8817C45.9263 32.1317 50 27.9464 50 22.8237C50 17.7009 45.904 13.5379 40.8594 13.5268Z" fill="#006d75"></path>
+                </svg>
+            </div>
+            <div class="d-flex flex-column">
+                <h3>Upload document</h3>
+                <p>Drag And Drop Or <span>Browse Your File</span> (Max upload size : 10MB)</p>
+            </div>
+        </div>
+        <div class="file-info" id="fileInfo" style="display:none;">
+            <div class="icon">
+                <svg width="50" height="33" viewBox="0 0 50 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40.8594 13.5268C40.8594 13.3929 40.8817 13.2589 40.8817 13.125C40.8817 5.87054 35.1004 0 27.9688 0C22.8237 0 18.404 3.05804 16.3281 7.47768C15.4241 7.02009 14.4085 6.75223 13.3371 6.75223C10.0446 6.75223 7.29911 9.19643 6.77455 12.3884C2.82366 13.75 0 17.5335 0 21.9866C0 27.5893 4.47545 32.1429 9.98884 32.1429H21.4286V23.2143H16.0491L25 13.8728L33.9509 23.2031H28.5714V32.1317H40.8817C45.9263 32.1317 50 27.9464 50 22.8237C50 17.7009 45.904 13.5379 40.8594 13.5268Z" fill="#006d75"></path>
+                </svg>
+            </div>
+            <div class="file-text">
+            <h3>Upload document</h3>
+            <p>
+                Selected file: <span id="fileName"></span>
+                <button id="removeFile">✖</button>
+            </p>
+            </div>
+        </div>
+    </div>
     <button type="submit">Send Message</button>
 </form>
 
@@ -575,3 +678,34 @@ document.addEventListener("DOMContentLoaded", function () {
 @endsection
 
 <!-- @endsection -->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const fileInput = document.getElementById("additional_document");
+  const fileName = document.getElementById("fileName");
+  const fileInfo = document.getElementById("fileInfo");
+  const uploadContent = document.getElementById("uploadContent");
+  const removeBtn = document.getElementById("removeFile");
+
+  if (fileInput) {
+    fileInput.addEventListener("change", function () {
+      if (this.files.length > 0) {
+        fileName.textContent = this.files[0].name;
+        fileInfo.style.display = "flex";
+        uploadContent.style.display = "none";
+      }
+    });
+  }
+
+  if (removeBtn) {
+    removeBtn.addEventListener("click", function (e) {
+      e.stopPropagation();
+      fileInput.value = "";
+      fileInfo.style.display = "none";
+      uploadContent.style.display = "flex";
+    });
+  }
+
+});
+</script>

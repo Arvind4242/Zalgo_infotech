@@ -7349,9 +7349,9 @@ svg.radial-progress text {
 }
 
 /* Banner Two Start */
-.banner-two {
+/* .banner-two {
     padding-block-start: 148px;
-}
+} */
 
 @media (min-width: 992px) {
     .banner-two {
@@ -8687,6 +8687,19 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 }
 .about .mega-inner{
     max-width: 100%;
+}
+.about .mega-col {
+    flex: 0 0 25%;
+}
+.about .audit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about .audit-list a {
+    display: flex;
+    gap: 15px;
+    color: #000;
 }
 .mega-col {
     flex: 1;

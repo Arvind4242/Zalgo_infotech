@@ -5,91 +5,39 @@
     @include('frontend.includes.headers.headerOne')
     <!-- header area end -->
 <style>
-      :root {
-    --blue-dark: #0a2a5e;
-    --blue-mid: #1a4bbd;
-    --blue-light: #2563eb;
-    --blue-accent: #3b82f6;
-    --white: #ffffff !implements;
-    --gray-light: #f4f7fc;
-    --gray-text: #6b7280;
-    --text-dark: #1e293b;
-  }
-  /* ── HERO ── */
- 
-  /* ── CULTURE SPLIT ── */
-  .culture-split {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-    padding: 80px 60px;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  .tag { font-size: 0.85rem; font-weight: 600; color: var(--blue-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
-  .culture-text h3 { font-size: clamp(1.5rem, 2.5vw, 2rem); font-weight: 700; margin-bottom: 6px; }
-  .culture-text h4 { font-size: 1rem; color: var(--gray-text); font-weight: 400; margin-bottom: 18px; }
-  .culture-text p { color: var(--gray-text); line-height: 1.8; margin-bottom: 24px; font-size: 0.95rem; }
-  .check-list { list-style: none; }
-  .check-list li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 7px 0;
-    font-size: 0.9rem;
-    color: var(--text-dark);
-  }
-  .check-list li::before {
-    content: '✓';
-    background: var(--blue-light);
-    color: white;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.7rem;
-    font-weight: 700;
-    flex-shrink: 0;
-  }
-  .img-box {
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 24px 70px rgba(26,75,189,0.18);
-  }
-  .img-placeholder {
-    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 5rem;
-  }
 
-  /* ── KEY VALUES ── */
-  .values-section { background: var(--gray-light); padding: 80px 20px; }
-  .section-title {
-    text-align: center;
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
-    font-weight: 700;
-    margin-bottom: 50px;
-    color: var(--text-dark);
-  }
-  .section-title span { color: var(--blue-light); }
+.brand-marketing > img {
+    right: 0 !important;
+    margin: 0;
+    width: 100%;
+    z-index: -1;
+    height:100%;
+}
+
+
   .values-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 18px;
-    max-width: 1100px;
-    margin: 0 auto 24px;
-  }
+    margin-bottom:18px;
+}
+ .voice-card:hover { transform: translateY(-4px); }
+  .voice-header { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
+  .voice-avatar {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--blue-mid), var(--blue-accent));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }    
   .values-grid-2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 18px;
-    max-width: 1100px;
     margin: 0 auto;
   }
   .value-card {
@@ -108,12 +56,11 @@
     line-height: 1.25rem;
 }
   /* ── BEHIND THE SCENES ── */
-  .scenes-section { padding: 80px 20px; }
+
   .scenes-grid {
     display: grid;
     grid-template-columns: 2fr 1.2fr 1.2fr;
     gap: 14px;
-    max-width: 1100px;
     margin: 0 auto;
   }
   .scene-img {
@@ -128,7 +75,7 @@
   }
 
   /* ── VOICES ── */
-  .voices-section { background: var(--gray-light); padding: 80px 20px; }
+  .voices-section { background: var(--gray-light); }
   .voices-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -140,29 +87,20 @@
     box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     transition: transform 0.2s;
   }
-  .voice-card:hover { transform: translateY(-4px); }
-  .voice-header { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; }
-  .voice-avatar {
-    width: 54px;
-    height: 54px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--blue-mid), var(--blue-accent));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    flex-shrink: 0;
-  }
+ 
   .voice-info h5 { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); }
   .voice-info span { font-size: 0.8rem; color: var(--blue-light); font-weight: 500; }
   .voice-card p { font-size: 0.875rem; color: var(--gray-text); line-height: 1.7; font-style: italic; }
   .voice-card p::before { content: '"'; font-size: 1.5rem; color: var(--blue-accent); line-height: 0; vertical-align: -0.4em; margin-right: 4px; }
 
+@media (max-width: 1024px) {
+  section{
+    padding:80px 0 !important;
+  }
+}
+
   @media (max-width: 900px) {
-    .hero { grid-template-columns: 1fr; }
-    .hero-right { display: none; }
-    .hero-left { padding: 60px 30px; }
-    .culture-split { grid-template-columns: 1fr; gap: 30px; padding: 50px 20px; }
+
     .values-grid, .values-grid-2 { grid-template-columns: repeat(2, 1fr); }
     .scenes-grid { grid-template-columns: 1fr 1fr; }
     .voices-grid { grid-template-columns: 1fr; }
@@ -219,7 +157,9 @@
         <!-- Banner Section End -->
 
 
-        <section class="brand-marketing py-120">
+        <section class="brand-marketing py-120 overflow-hidden position-relative">
+          <img src="{{asset('assets/images/shapes/bg-image.png')}}" alt="Shape"
+                class="position-absolute top-0 tw-end-0 tw-me-12-percent" />
             <div class="container">
                 <div class="row gy-5">
                     <div class="col-lg-6 col-md-12">
@@ -304,7 +244,7 @@
 
 
 <!-- KEY VALUES ROW 1 -->
-<section class="values-section">
+<section class="values-section pt-120 pb-120">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -362,21 +302,34 @@
 </section>
 
 <!-- BEHIND THE SCENES -->
-<section class="scenes-section">
-  <h2 class="section-title">Behind the Scenes at <span>Zalgo</span></h2>
-  <div class="scenes-grid">
-    <div class="scene-img" style="font-size:4rem;">🏢</div>
-    <div class="scene-img">💬</div>
-    <div class="scene-img">🤝</div>
-  </div>
-</section>
-
-<!-- VOICES -->
-<section class="voices-section">
+<section class="scenes-section pt-120 pb-120" style="background: linear-gradient(135deg, #f8fafc 0%, #eef2f7 100%);">
   <div class="container">
     <div class="row">
         <div class="col-md-12">
-             <h2 class="section-title">Voices from <span>Zalgo Infotech</span></h2>
+             <h2 class="fw-semibold mb-5 splitTextStyleOne text-capitalize text-center text-heading">
+        Behind the Scenes at<span class="font-dm-serif fw-semibold text-green"> Zalgo</span>
+    </h2>
+  <div class="scenes-grid">
+    <div class="scene-img" style="font-size:4rem;">
+      <img src="{{asset('assets/images/case-study/bio-img1.jpg')}}" alt="Image"
+                                    class="w-100 h-100 object-fit-cover" />
+    </div>
+    <div class="scene-img"><img src="{{asset('assets/images/case-study/bio-img1.jpg')}}" alt="Image"
+                                    class="w-100 h-100 object-fit-cover" /></div>
+    <div class="scene-img"><img src="{{asset('assets/images/case-study/bio-img1.jpg')}}" alt="Image"
+                                    class="w-100 h-100 object-fit-cover" /></div>
+  </div>
+    </h2>
+</section>
+
+<!-- VOICES -->
+<section class="voices-section pt-120 pb-120">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+             <h2 class="fw-semibold mb-5 splitTextStyleOne text-capitalize text-center text-heading">
+        Voices from<span class="font-dm-serif fw-semibold text-green"> Zalgo Infotech</span>
+    </h2>
   <div class="voices-grid">
     <div class="voice-card">
       <iframe width="100%" height="350" src="https://www.youtube.com/embed/TxjsRFwDvbQ?si=LA4zrJXjOhfKCdMM" title="Dummy Video For Website" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

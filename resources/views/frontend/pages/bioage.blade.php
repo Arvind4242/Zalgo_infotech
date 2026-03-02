@@ -5,7 +5,19 @@
     <!-- header area -->
     @include('frontend.includes.headers.headerOne')
     <!-- header area end -->
-    
+<style>
+.swiper-button-next,
+.swiper-button-prev {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.swiper-button-disabled {
+    opacity: 0.5 !important; /* ya 1 kar sakte ho */
+    pointer-events: auto !important;
+}
+
+</style>    
         <div id="smooth-content">
             <!-- ================= HERO ================= -->
         <!-- Banner Section Start -->
@@ -329,8 +341,8 @@
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="ps-5 position-relative tw-pb-4 h-100">
-                            <div class="tw-rounded-28-px overflow-hidden h-100">
-                                <img src="{{asset('assets/images/case-study/bio-img2.jpg')}}" alt="Image"
+                            <div class="tw-rounded-28-px overflow-hidden h-100 object-fit-cover">
+                                <img style="object-position:right;"  src="{{asset('assets/images/case-study/bio-img2.jpg')}}" alt="Image"
                                     class="w-100 h-100 object-fit-cover" />
                             </div>
 
@@ -707,10 +719,11 @@
                                         <img src="{{asset('assets/images/case-study/bioage-cs5.png')}}" alt="Thumb"/>
                                     </div>
                                 </div>
-                                 <!-- Arrows -->
+
+                            </div>
+                                                             <!-- Arrows -->
                                 <div class="swiper-button-next shop-thumbs-next"></div>
                                 <div class="swiper-button-prev shop-thumbs-prev"></div>
-                            </div>
                         </div>
 
                         <div class="swiper shop-small-thumbs tw-mt-8 d-none">
