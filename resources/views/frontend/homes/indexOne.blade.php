@@ -1297,7 +1297,7 @@
                                 data-aos-duration="400">
                                 <div class="group-item">
                                     <a href="{{route('blog.details')}}" class="w-100 h-100 overflow-hidden">
-                                        <img src="{{asset('assets/images/case-study/finance-case-study.png')}}" alt="Blog Image"
+                                        <img src="{{asset('assets/images/case-study/experthe-case-study.png')}}" alt="Blog Image"
                                             class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                     </a>
                                     <div class="tw-mt-7 d-flex align-items-center tw-gap-5 flex-wrap">
