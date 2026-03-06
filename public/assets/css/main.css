@@ -8527,9 +8527,10 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 }
 
 .app-box span {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 /* LINKS */
