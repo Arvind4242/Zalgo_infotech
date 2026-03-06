@@ -437,7 +437,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="" class="mega-item">
+                    <a href="{{ route('career') }}" class="mega-item">
                         <div class="align-items-center d-flex">
                             Career
                         </div>

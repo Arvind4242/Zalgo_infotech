@@ -929,28 +929,12 @@
                             Ready to revolutionize our service?
                         </h3>
 
-                        <div class="d-none">
-                            <a
-                                href="javascript:void(0)"
-                                class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-13 rounded-0 tw-py-6 fw-bold tw-mt-7"
-                                data-block="button"
-                            >
-                                <span class="button__flair"></span>
-                                <div
-                                    class="d-flex align-items-center tw-gap-2 z-1"
-                                >
-                                    <span class="button__label"
-                                        >Talk to Our Experts</span
-                                    >
-                                </div>
-                            </a>
-                        </div>
                         <div class="d-block">
                             <div
                                 class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap"
                             >
                                 <a
-                                    href="javascript:void(0)"
+                                    href="{{ route('contact') }}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                     data-block="button"
                                 >
@@ -963,8 +947,8 @@
                                         >
                                     </div>
                                 </a>
-                                <a
-                                    href="javascript:void(0)"
+                                <a target="blank"
+                                    href="https://calendly.com/zalgoinfotec/30min"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
                                     data-block="button"
                                 >
