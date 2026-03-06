@@ -84,7 +84,7 @@
                                                     </div>
                                                 </a>
 
-                                                <a class="mega-item">
+                                                <a href="{{ route('career') }}" class="mega-item">
                                                     <span class="icon"><img width="20px" src="{{asset('assets/images/icons/Career.png')}}" alt=""></span>
                                                     <div class="align-items-center d-flex">
                                                         <strong>Career</strong>
