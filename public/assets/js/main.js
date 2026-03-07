@@ -913,3 +913,37 @@ if (document.querySelector(".shop-thumbs")) {
 jQuery('.play-button').magnificPopup({
   type: 'iframe'
 });
+
+
+var swiper = new Swiper(".portfolioSwiper", {
+
+loop:true,
+
+navigation: {
+nextEl: ".swiper-button-next",
+prevEl: ".swiper-button-prev",
+},
+
+});
+
+
+document.querySelectorAll(".tab-link").forEach(button => {
+
+button.addEventListener("click", function(){
+
+document.querySelectorAll(".tab-link").forEach(btn=>{
+btn.classList.remove("active");
+});
+
+document.querySelectorAll(".tab-content").forEach(content=>{
+content.classList.remove("active");
+});
+
+this.classList.add("active");
+
+document.getElementById(this.dataset.tab).classList.add("active");
+
+});
+
+});
+
