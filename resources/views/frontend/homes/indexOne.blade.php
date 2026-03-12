@@ -826,7 +826,7 @@
                         <div
                             class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 bg-main-50 tw-px-40-px tw-pb-84-px tw-duration-300 h-100">
                             <span class="text-main-600 fw-semibold tw-mb-2">Conversion-Focused Design</span>
-                            <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
+                            <h4 class="splitTextStyleOne tw-mb-5">
                                 Website Design & Development
                             </h4>
                             <a href="{{route('cms.development')}}"
@@ -1320,10 +1320,10 @@
                                             </div>
 
                                             <a href="{{route('bioage')}}"
-                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
-                                                <span class="button__label">View All Case Studies</span>
+                                                <span class="button__label">View More</span>
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
@@ -1353,10 +1353,10 @@
                                             </div>
 
                                             <a href="{{route('bioage')}}"
-                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
-                                                <span class="button__label">View All Case Studies</span>
+                                                <span class="button__label">View More</span>
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
@@ -1386,10 +1386,10 @@
                                             </div>
 
                                             <a href="{{route('bioage')}}"
-                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
-                                                <span class="button__label">View All Case Studies</span>
+                                                <span class="button__label">View More</span>
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
@@ -1418,7 +1418,12 @@
                                                 <span>CSS</span>
                                             </div>
 
-                                            <a href="#" class="case-btn">View Case Study</a>
+                                            <a href="{{route('bioage')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View All Case Studies</span>
+                                            </a>
                                     </div>
                                     <div class="portfolio-right">
                                         <img src="{{asset('assets/images/thumbs/Awakeningthegeniuswithin.jpg')}}">
@@ -1430,8 +1435,10 @@
 
                     
                 </div>
-                <div class="swiper-button-next"></div>
+                <div class="container swiper-button overflow-visible position-relative">
+                    <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
+                </div>
             </div>
         </section>
 
