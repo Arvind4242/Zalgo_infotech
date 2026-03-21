@@ -163,4 +163,11 @@ h1{
 
 
 </body>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LDSZZFGE6B');
+</script>
 </html>
