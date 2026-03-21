@@ -470,7 +470,7 @@ Hire full-time, part-time, or on a project basis — globally.
                             </div>
                             <div class="tw-mt-8 max-w-500-px" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                <a href="{{route('pricing')}}"
+                                <a href="{{route('contact')}}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium"
                                     data-block="button">
                                     <span class="button__flair"></span>
@@ -725,7 +725,7 @@ Hire full-time, part-time, or on a project basis — globally.
 
                 <div class="row gy-4">
                     <div class="col-lg-5">
-                            <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15">
+                            <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15 ">
                             In today’s fast-paced digital landscape, businesses 
                             need scalable, high-performance, and real-time solutions. 
                             Our expert Node.js developers help you build fast, secure, and 
@@ -738,12 +738,12 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <button
                                         class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo"
+                                        aria-expanded="true" aria-controls="collapseTwo"
                                         data-img="{{asset('assets/images/thumbs/faq-thumb2.png')}}">
                                     Startups
                                     </button>
                                 </h5>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
@@ -758,12 +758,12 @@ Hire full-time, part-time, or on a project basis — globally.
                                 <h5 class="accordion-header">
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne"
-                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
+                                        aria-expanded="false" aria-controls="collapseOne"
+                                    data-img="{{asset('assets/images/thumbs/faq-thumb1.png')}}">
                                         SaaS companies
                                     </button>
                                 </h5>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                <div id="collapseOne" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
@@ -781,7 +781,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2"
                                         aria-expanded="false" aria-controls="collapseOne2"
-                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/hire-img2.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img2.png')}}">
                                         Agencies
                                     </button>
                                 </h5>
@@ -802,7 +802,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne1"
                                         aria-expanded="false" aria-controls="collapseOne1"
-                                    <span>❓</span>    data-img="{{asset('assets/images/thumbs/hire-img4.png')}}">
+                                        data-img="{{asset('assets/images/thumbs/hire-img4.png')}}">
                                        Product-based businesses
                                     </button>
                                 </h5>
@@ -919,7 +919,7 @@ Hire full-time, part-time, or on a project basis — globally.
                                         <span>❓</span>    What experience levels are available?
                                         </button>
                                     </h5>
-                                    <div id="collapseTwo_2" class="accordion-collapse collapse show"
+                                    <div id="collapseTwo_2" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionExample2">
                                         <div class="accordion-body p-0 tw-mt-605 max-w-620-px">
                                             <p class="text-neutral-500">

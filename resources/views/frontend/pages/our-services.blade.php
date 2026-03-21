@@ -225,7 +225,7 @@
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
                                                     <i class="animate__heartBeat ph-bold ph-magnifying-glass"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="{{route('contact')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Domain</a>
                                             </div>
                                             <div class="d-flex align-items-center tw-gap-405 animation-item"
@@ -235,7 +235,7 @@
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
                                                     <i class="animate__heartBeat ph-bold ph-dresser"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="{{route('contact')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Web Hosting ₹
                                                     79.00/mo</a>
                                             </div>
@@ -246,7 +246,7 @@
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
                                                     <i class="animate__heartBeat ph-bold ph-certificate"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="{{route('contact')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">SSL
                                                     Certificates</a>
                                             </div>
@@ -257,7 +257,7 @@
                                                     class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
                                                     <i class="animate__heartBeat ph-bold ph-envelope"></i>
                                                 </span>
-                                                <a href="{{route('pricing')}}"
+                                                <a href="{{route('contact')}}"
                                                     class="fw-bold tw-text-lg text-heading hover-underline">Professional
                                                     Email</a>
                                             </div>
@@ -274,7 +274,7 @@
                                 </div>
                                 <div class="tw-mt-8 max-w-500-px" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                    <a href="{{route('pricing')}}"
+                                    <a href="{{route('contact')}}"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium"
                                         data-block="button">
                                         <span class="button__flair"></span>
@@ -586,12 +586,12 @@
                                             class="tw-w-11 tw-h-10 text-heading bg-neutral-200 tw-rounded-md d-flex justify-content-center align-items-center tw-text-xl">
                                             <i class="ph-bold ph-magnifying-glass"></i>
                                         </span>
-                                        <a href="{{route('pricing')}}"
+                                        <a href="{{route('contact')}}"
                                             class="fw-bold tw-text-lg text-heading hover-underline max-w-278-px">Helps your
                                             website search ranking with https</a>
                                     </div>
                                     <div class="tw-mt-8">
-                                        <a href="{{route('pricing')}}"
+                                        <a href="{{route('contact')}}"
                                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-py-305 fw-medium tw-rounded-md text-sm group-hover-bg-white group-hover-text-main-two-600 hosting-plan-btn"
                                             data-block="button">
                                             <span class="button__flair"></span>
@@ -617,7 +617,7 @@
                                         files and data are securely find and manage it all in one
                                         place.
                                     </p>
-                                    <a href="{{route('pricing')}}"
+                                    <a href="{{route('contact')}}"
                                         class="fw-bold tw-text-lg text-heading text-decoration-underline tw-mt-11 hover-text-main-600">Pick
                                         your Domain Today</a>
                                 </div>
@@ -852,7 +852,7 @@
                                                 <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
                                             </div>
 
-                                            <a href="{{route('pricing')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
                                                 See Plan & Pricing
                                             </a>
@@ -980,7 +980,7 @@
                                                 <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
                                             </div>
 
-                                            <a href="{{route('pricing')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
                                                 See Plan & Pricing
                                             </a>
@@ -1108,7 +1108,7 @@
                                                 <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
                                             </div>
 
-                                            <a href="{{route('pricing')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
                                                 See Plan & Pricing
                                             </a>
@@ -1241,7 +1241,7 @@
                                                 <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
                                             </div>
 
-                                            <a href="{{route('pricing')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
                                                 See Plan & Pricing
                                             </a>
@@ -1369,7 +1369,7 @@
                                                 <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
                                             </div>
 
-                                            <a href="{{route('pricing')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
                                                 See Plan & Pricing
                                             </a>
@@ -1497,7 +1497,7 @@
                                                 <span class="d-block fw-bold text-main-600 tw-mb-8">+2 months free</span>
                                             </div>
 
-                                            <a href="{{route('pricing')}}"
+                                            <a href="{{route('contact')}}"
                                                 class="text-heading fw-bold tw-text-base w-100 tw-px-6 tw-py-4 tw-rounded-md border border-main-600 hover-text-white hover-bg-main-600 text-center hover--translate-y-1 active--translate-y-scale-9">
                                                 See Plan & Pricing
                                             </a>

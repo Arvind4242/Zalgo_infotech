@@ -181,6 +181,7 @@
                                                 <div class="contact-info">
                                                     <a href="tel:+16465687779"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +1 (646) 568-7779</a>
                                                     <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="{{asset('assets/images/icons/email.png')}}" alt=""> sales@zalgoinfotech.com</a>
+                                                    <a target="blank" href="msteams:/l/chat/0/0?users=serveonetech@gmail.com"><img width="20px" src="{{asset('assets/images/icons/team.png')}}" alt=""> zalgoinfotech</a>
                                                 </div>
 
                                                 <div class="serving">
@@ -297,13 +298,12 @@
                                                     <div class="contact-info">
                                                         <a href="tel:+16465687779"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +1 (646) 568-7779</a>
                                                         <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="{{asset('assets/images/icons/email.png')}}" alt=""> sales@zalgoinfotech.com</a>
+                                                        <a target="blank" href="msteams:/l/chat/0/0?users=serveonetech@gmail.com"><img width="20px" src="{{asset('assets/images/icons/team.png')}}" alt=""> zalgoinfotech</a>
                                                     </div>
-
                                                     <div class="serving">
                                                         <p><strong><img width="20px" src="{{asset('assets/images/icons/worldwide.png')}}" alt=""> Serving Clients:</strong></p>
                                                         <span>USA • CANADA • UK • UAE • INDIA</span>
                                                     </div>
-
                                                     <a target="blank" href="https://calendly.com/zalgoinfotec/30min?month=2026-02" class="w-100 hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill">Get a Free Consultation</a>
                                                 </div>
                                             </div>
@@ -403,6 +403,7 @@
                                            <div class="contact-info">
                                                 <a href="tel:+16465687779"><img width="20px" src="{{asset('assets/images/icons/call.png')}}" alt=""> +1 (646) 568-7779</a>
                                                 <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="{{asset('assets/images/icons/email.png')}}" alt=""> sales@zalgoinfotech.com</a>
+                                                <a target="blank" href="msteams:/l/chat/0/0?users=serveonetech@gmail.com"><img width="20px" src="{{asset('assets/images/icons/team.png')}}" alt=""> zalgoinfotech</a>
                                             </div>
 
                                         <div class="serving">

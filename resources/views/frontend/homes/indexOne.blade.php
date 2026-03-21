@@ -1,7 +1,62 @@
 @extends('frontend.layouts.app')
 @section('title', 'Index One')
 @section('content')
+<style>
+    /* Add your custom styles here */
+    .portfolio-section {
+        background: #006d75;
+        color: white;
+        padding: 80px 0;
+    }
+    .portfolio-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: center;
+    }
+    
+    .tech-icons{
+        margin-top:20px;
+    }
 
+    .tech-icons span{
+        display:inline-block;
+        background:#0f4d64;
+        padding:10px 14px;
+        border-radius:50px;
+        margin-right:10px;
+        font-size:14px;
+    }
+
+    .case-btn{
+        display:inline-block;
+        margin-top:30px;
+        background:#1e88c9;
+        padding:14px 28px;
+        border-radius:40px;
+        color:white;
+        text-decoration:none;
+        font-weight:600;
+    }
+
+    .portfolio-right{
+        width:50%;
+    }
+
+    .portfolio-right img{
+        width:100%;
+        border-radius:20px;
+        box-shadow:0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    /* swiper arrows */
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        color:white;
+    }
+</style>
     <!-- header area -->
     @include('frontend.includes.headers.headerOne')
     <!-- header area end -->
@@ -390,8 +445,8 @@
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="common-shadow-three tw-rounded-40-px bg-white tw-ps-56-px tw-pe-6 tw-py-84-px">
-                                <div class="tw-mb-14">
+                            <div class="bg-white common-shadow-three pb-5 pt-5 tw-pe-6 tw-ps-56-px tw-py-6-px tw-rounded-40-px">
+                                <div class="tw-mb-8">
                                     <span class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
                                         About Zalgo Infotech
                                     </span>
@@ -407,7 +462,7 @@
                                             IT Solutions</span>
                                     </h3>
                                 </div>
-                                <div class="d-flex flex-column tw-gap-10">
+                                <div class="d-flex flex-column tw-gap-5">
                                     <div class="d-flex align-items-start tw-gap-26-px animation-item" data-aos="fade-up"
                                         data-aos-anchor-placement="top-bottom" data-aos-duration="600">
                                         <span class="tw-w-14 d-flex justify-content-center align-items-center">
@@ -418,7 +473,7 @@
                                             <h6 class="tw-mb-4">
                                                 Innovation at our core
                                             </h6>
-                                            <p class="text-neutral-500 max-w-400-px">
+                                            <p class="text-neutral-500 w-100">
                                                We don’t just build websites — we craft scalable, future-ready IT solutions tailored to your business goals and industry needs.
                                             </p>
                                         </div>
@@ -433,7 +488,7 @@
                                             <h6 class="tw-mb-4">
                                                 Simplifying complexity
                                             </h6>
-                                            <p class="text-neutral-500 max-w-400-px">
+                                            <p class="text-neutral-500 w-100">
                                                From development to deployment and maintenance, we manage the technical complexity so you can focus on running and growing your business.
                                             </p>
                                         </div>
@@ -448,7 +503,7 @@
                                             <h6 class="tw-mb-4">
                                                 Empowering growth.
                                             </h6>
-                                            <p class="text-neutral-500 max-w-400-px">
+                                            <p class="text-neutral-500 w-100">
                                                Our solutions are designed to improve performance, enhance security, and support steady business growth without unnecessary overheads.
                                         </div>
                                     </div>
@@ -771,7 +826,7 @@
                         <div
                             class="group-item position-relative tw-rounded-3xl overflow-hidden z-1 tw-pt-15 bg-main-50 tw-px-40-px tw-pb-84-px tw-duration-300 h-100">
                             <span class="text-main-600 fw-semibold tw-mb-2">Conversion-Focused Design</span>
-                            <h4 class="splitTextStyleOne tw-mb-5 max-w-218-px">
+                            <h4 class="splitTextStyleOne tw-mb-5">
                                 Website Design & Development
                             </h4>
                             <a href="{{route('cms.development')}}"
@@ -994,7 +1049,7 @@
                         </div>
                     </div>
                     <div class="col-lg-7">
-                        <div class="ps-lg-5">
+                        <div class="">
                             <span class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
                                 Why Choose Us</span>
                             <div class="max-w-672-px">
@@ -1044,7 +1099,7 @@
                                     <h3 class="h1 text-main-600 d-inline-flex align-items-center tw-gap-4">
                                         1.3M+
                                     </h3>
-                                    <p class="text-main-two-600 fw-medium max-w-228-px">
+                                    <p class="text-main-two-600 fw-medium max-w-250-px">
                                         Average revenue growth delivered to our successful clients through technology-driven solutions.
                                     </p>
                             </div>
@@ -1060,7 +1115,7 @@
         <!-- Choose Us section end -->
 
         <!-- Show-case section start -->
-        <section class="show-case py-120 bg-main-two-600 overflow-hidden">
+        <!-- <section class="show-case py-120 bg-main-two-600 overflow-hidden">
             <div class="max-w-602-px mx-auto text-center tw-mb-15">
                 <span
                     class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Proven Client Success</span>
@@ -1239,8 +1294,153 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Show-case section End -->
+
+
+        <section class="portfolio-section">
+            <div class="swiper portfolioSwiper">
+                <div class="swiper-wrapper">
+                    <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Custom Digital Learning & Book Platform</h2>
+
+                                            <p>
+                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>HTML</span>
+                                                <span>JS</span>
+                                                <span>CSS</span>
+                                            </div>
+
+                                            <a href="{{route('bioage')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/thumbs/Bioage.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Custom Digital Learning & Book Platform</h2>
+
+                                            <p>
+                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>HTML</span>
+                                                <span>JS</span>
+                                                <span>CSS</span>
+                                            </div>
+
+                                            <a href="{{route('bioage')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/thumbs/Awakeningthegeniuswithin.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Custom Digital Learning & Book Platform</h2>
+
+                                            <p>
+                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>HTML</span>
+                                                <span>JS</span>
+                                                <span>CSS</span>
+                                            </div>
+
+                                            <a href="{{route('bioage')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/thumbs/Lifetreeanatomical.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Custom Digital Learning & Book Platform</h2>
+
+                                            <p>
+                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>HTML</span>
+                                                <span>JS</span>
+                                                <span>CSS</span>
+                                            </div>
+
+                                            <a href="{{route('bioage')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View All Case Studies</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/thumbs/Awakeningthegeniuswithin.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="container swiper-button overflow-visible position-relative">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
 
         <!-- Testimonials section start -->
         @include('frontend.includes.partials.testimonial')
@@ -1258,7 +1458,7 @@
                             <h6 class="">
                                 Scaling Brands with Smart Digital Solutions
                             </h6>
-                            <a href="{{route('contact')}}"
+                            <a href="{{route('casestudy')}}"
                                 class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                 data-block="button">
                                 <span class="button__flair"></span>

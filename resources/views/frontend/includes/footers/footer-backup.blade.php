@@ -140,7 +140,7 @@
                                     Us</a>
                             </li>
                             <li>
-                                <a href="{{route('pricing')}}"
+                                <a href="{{route('contact')}}"
                                     class="hover-arrow-start text--white hover-text-white hover-underline hover--translate-y-1 active--translate-y-scale-9">Pricing
                                     and plans</a>
                             </li>
