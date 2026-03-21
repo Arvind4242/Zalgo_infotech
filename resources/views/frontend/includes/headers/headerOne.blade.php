@@ -95,8 +95,8 @@
                                         <div class="audit-box">  
                                             <div class="autid-detail">
                                                 <ul class="audit-list m-0">
-                                                     <a href="tel:+16465687779"><img width="20px" src="http://127.0.0.1:8000/assets/images/icons/call.png" alt=""> +1 (646) 568-7779</a>
-                                                        <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="http://127.0.0.1:8000/assets/images/icons/email.png" alt=""> sales@zalgoinfotech.com</a>
+                                                     <a href="tel:+16465687779"><img width="20px" src="{{ asset('assets/images/icons/call.png') }}" alt=""> +1 (646) 568-7779</a>
+                                                        <a href="mailto:sales@zalgoinfotech.com"><img width="20px" src="{{ asset('assets/images/icons/email.png') }}" alt=""> sales@zalgoinfotech.com</a>
                                                 </ul>
                                             </div>
                                         </div>
