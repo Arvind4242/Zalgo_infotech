@@ -513,7 +513,7 @@
                             </div>
                             <div class="tw-mt-8 max-w-500-px" data-aos="fade-up"
                                 data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                <a href="{{route('pricing')}}"
+                                <a href="{{route('contact')}}"
                                     class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium"
                                     data-block="button">
                                     <span class="button__flair"></span>
@@ -778,12 +778,12 @@
                                     <button
                                         class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5 collapsed"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                                        aria-expanded="false" aria-controls="collapseTwo"
+                                        aria-expanded="true" aria-controls="collapseTwo"
                                         data-img="{{asset('assets/images/thumbs/hire-img1.png')}}">
                                     Businesses Building WordPress Websites
                                     </button>
                                 </h5>
-                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">
@@ -797,12 +797,12 @@
                                 <h5 class="accordion-header">
                                     <button class="accordion-button tw-pb-8 tw-pt-4 shadow-none px-0 bg-transparent h5"
                                         type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                                        aria-expanded="true" aria-controls="collapseOne"
+                                        aria-expanded="false" aria-controls="collapseOne"
                                         data-img="{{asset('assets/images/thumbs/hire-img3.png')}}">
                                         Teams Needing Dedicated WordPress Developers
                                     </button>
                                 </h5>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                <div id="collapseOne" class="accordion-collapse collapse"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body p-0">
                                         <p class="text-neutral-500">

@@ -285,7 +285,7 @@
                                 </div>
                                 <div class="tw-mt-8 max-w-500-px" data-aos="fade-up"
                                     data-aos-anchor-placement="top-bottom" data-aos-duration="800">
-                                    <a href="{{route('pricing')}}"
+                                    <a href="{{route('contact')}}"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-lg-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-15 tw-rounded-md tw-py-505 fw-medium"
                                         data-block="button">
                                         <span class="button__flair"></span>
@@ -989,7 +989,7 @@
 
                                 <div class="tw-mt-9" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                     data-aos-duration="900">
-                                    <a href="javascript:void(0)"
+                                    <a href="{{ route('contact') }}"
                                         class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke tw-gap-5 group active--translate-y-2 tw-px-17 rounded-pill tw-py-505 fw-medium"
                                         data-block="button">
                                         <span class="button__flair"></span>
