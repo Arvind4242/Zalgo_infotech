@@ -74,10 +74,10 @@ display:block;
   <div class="tab-menu container">
     <div class="row">
         <div class="col-12 d-flex gap-2">
-            <button class="tab-link active" data-tab="tab1">WordPress</button>
-            <button class="tab-link" data-tab="tab2">Laravel</button>
-            <button class="tab-link" data-tab="tab3">NodeJS</button>
-            <button class="tab-link" data-tab="tab4">ReactJS</button>
+            <button class="tab-link bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition  active" data-tab="tab1">WordPress</button>
+            <button class="tab-link bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-tab="tab2">Laravel</button>
+            <button class="tab-link bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-tab="tab3">NodeJS</button>
+            <button class="tab-link bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-tab="tab4">ReactJS</button>
         </div>
     </div>
   </div>

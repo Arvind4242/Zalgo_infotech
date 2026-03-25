@@ -231,6 +231,10 @@
 /* ========================= Variable Css End ======================== */
 /* Media Breakpoint for Each Device End */
 /* =========================== Accordion Css start ============================= */
+
+#smooth-content{
+    background-color: #fff;
+}
 .common-accordion .accordion-item:not(:last-child) {
     margin-block-end: 20px;
 }
