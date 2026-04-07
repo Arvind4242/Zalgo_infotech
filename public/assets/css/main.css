@@ -231,6 +231,10 @@
 /* ========================= Variable Css End ======================== */
 /* Media Breakpoint for Each Device End */
 /* =========================== Accordion Css start ============================= */
+
+#smooth-content{
+    background-color: #fff;
+}
 .common-accordion .accordion-item:not(:last-child) {
     margin-block-end: 20px;
 }
@@ -7629,7 +7633,19 @@ svg.radial-progress text {
         width: 100% !important;
         margin-bottom: 15px !important;
     }
-    
+    .tab-menu.container {
+        width: 100%;
+        overflow: scroll;
+    }
+    .tab-link {
+        white-space: pre;
+        font-size: 14px !important;
+        padding: 9px 18px !important;
+        margin-bottom: 20px;
+    }
+    .tab-content {
+        padding: 30px 20px 0 !important;
+    }
 }
 
 @media (max-width: 575px) {

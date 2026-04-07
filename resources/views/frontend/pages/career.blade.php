@@ -8,8 +8,8 @@
 :root {
     --ink: #1a2332;
     --paper: #f4f7f9;
-    --accent: #1fa99c;
-    --accent2: #16c4b5;
+    --accent: #006d75;
+    --accent2: #006d75;
     --mid: #8a9bb0;
     --card-bg: #ffffff;
     --border: #dde4ea;
@@ -26,21 +26,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'DM Sans', sans-serif;
-    background: var(--paper);
-    color: var(--ink);
-    min-height: 100vh;
-    overflow-x: hidden;
-}
-#smooth-content{
-    position: relative;
-    z-index: -1;
-}
 /* ── HERO ── */
 .hero {
     position: relative;
@@ -135,10 +120,9 @@ body {
     display: none;
 }
 
-.tab-btn {
+/* .tab-btn {
     flex-shrink: 0;
     font-family: 'Syne', sans-serif;
-    font-size: 0.88rem;
     font-weight: 600;
     letter-spacing: 0.01em;
     padding: 10px 22px;
@@ -152,19 +136,19 @@ body {
     display: flex;
     align-items: center;
     gap: 7px;
-}
+} */
 
-.tab-btn:hover {
+/* .tab-btn:hover {
     border-color: var(--ink);
     color: var(--ink);
     background: var(--paper);
-}
+} */
 
 .tab-btn.active {
-    background: var(--ink);
-    color: #fff;
-    border-color: var(--ink);
+    background: var(--main-600) !important;
+    border-color: var(--main-600) !important;
     box-shadow: 0 4px 16px rgba(26, 35, 50, 0.18);
+    color:#fff !important;
 }
 
 .tab-icon {
@@ -230,14 +214,12 @@ body {
 
 .form-subtitle {
     margin-top: 6px;
-    font-size: 0.95rem;
     font-weight: 300;
     color: #7a7a8e;
 }
 
 .form-badge {
     font-family: 'Syne', sans-serif;
-    font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -287,7 +269,6 @@ body {
 }
 
 .field label {
-    font-size: 0.82rem;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #4a4a5a;
@@ -304,7 +285,6 @@ body {
     width: 100%;
     padding: 12px 16px;
     font-family: 'DM Sans', sans-serif;
-    font-size: 0.97rem;
     font-weight: 400;
     color: var(--ink);
     background: #fafaf8;
@@ -383,7 +363,6 @@ body {
 }
 
 .skill-chip span {
-    font-size: 0.88rem;
     font-weight: 400;
     color: #4a4a5a;
     line-height: 1.3;
@@ -432,7 +411,6 @@ body {
 }
 
 .upload-text {
-    font-size: 0.9rem;
     color: #7a7a8e;
     font-weight: 300;
 }
@@ -444,7 +422,6 @@ body {
 
 .upload-hint {
     margin-top: 4px;
-    font-size: 0.78rem;
     color: #b0b0c0;
     letter-spacing: 0.02em;
 }
@@ -460,7 +437,6 @@ body {
 }
 
 .submit-note {
-    font-size: 0.82rem;
     color: #9a9aaa;
     font-weight: 300;
     flex: 1;
@@ -469,13 +445,12 @@ body {
 
 .submit-btn {
     font-family: 'Syne', sans-serif;
-    font-size: 0.95rem;
     font-weight: 700;
     letter-spacing: 0.02em;
     padding: 14px 36px;
     border-radius: 100px;
     border: none;
-    background: linear-gradient(135deg, var(--accent) 0%, #13b8aa 100%);
+    background-color: var(--accent);
     color: #fff;
     cursor: pointer;
     transition: var(--transition);
@@ -486,7 +461,7 @@ body {
 }
 
 .submit-btn:hover {
-    background: linear-gradient(135deg, #18c0b1 0%, var(--accent) 100%);
+    background-color: #201e1e;
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(31, 169, 156, 0.35);
 }
@@ -497,7 +472,6 @@ body {
 
 /* ── DIVIDER ── */
 .section-label {
-    font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -524,7 +498,6 @@ body {
     background: var(--ink);
     color: #fff;
     font-family: 'Syne', sans-serif;
-    font-size: 0.9rem;
     font-weight: 600;
     padding: 14px 28px;
     border-radius: 100px;
@@ -545,7 +518,6 @@ body {
 .page-footer {
     text-align: center;
     padding: 24px 20px 40px;
-    font-size: 0.8rem;
     color: #b0b0c0;
     font-weight: 300;
 }
@@ -619,12 +591,12 @@ body {
         <!-- TABS -->
         <div class="tabs-wrap">
             <div class="tabs-scroll" id="tabsRow">
-                <button class="tab-btn active" data-form="web-dev"><span class="tab-icon">🌐</span>Web Dev</button>
-                <button class="tab-btn" data-form="mobile-dev"><span class="tab-icon">📱</span>Mobile Dev</button>
-                <button class="tab-btn" data-form="data-science"><span class="tab-icon">📊</span>Data Science</button>
-                <button class="tab-btn" data-form="devops"><span class="tab-icon">⚙️</span>DevOps</button>
-                <button class="tab-btn" data-form="cybersecurity"><span class="tab-icon">🔒</span>Cybersecurity</button>
-                <button class="tab-btn" data-form="ai-ml"><span class="tab-icon">🤖</span>AI / ML</button>
+                <button class="tab-btn bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition active" data-form="web-dev"><span class="tab-icon">🌐</span>Web Dev</button>
+                <button class="tab-btn bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-form="mobile-dev"><span class="tab-icon">📱</span>Mobile Dev</button>
+                <button class="tab-btn bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-form="data-science"><span class="tab-icon">📊</span>Data Science</button>
+                <button class="tab-btn bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-form="devops"><span class="tab-icon">⚙️</span>DevOps</button>
+                <button class="tab-btn bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-form="cybersecurity"><span class="tab-icon">🔒</span>Cybersecurity</button>
+                <button class="tab-btn bg-white common-shadow-eighteen d-flex fw-medium gap-2 hover-bg-main-600 hover-text-white p-3 tab-btn text-neutral-500 tw-duration-200 tw-px-405 tw-py-105 tw-rounded-md tw-text-md tw-transition" data-form="ai-ml"><span class="tab-icon">🤖</span>AI / ML</button>
             </div>
         </div>
 

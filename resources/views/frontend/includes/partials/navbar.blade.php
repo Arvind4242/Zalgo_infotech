@@ -39,39 +39,15 @@
         <div class="mobile-menu__menu">
             <!-- Nav menu Start -->
             <ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
-                <li class="nav-menu__item has-submenu position-relative activePage">
+                <li class="nav-menu__item has-submenu position-relative">
                     <a href="javascript:void(0)"
                         class="nav-menu__link hover--translate-y-1 tw-pe-5 text-heading tw-py-9 fw-semibold w-100">Company</a>
                     <ul
                         class="nav-submenu scroll-sm position-absolute tw-start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-y-auto tw-p-2 tw-mt-4 tw-duration-200 tw-z-99">
-                        <li class="nav-menu__item activePage">
+                        <li class="nav-menu__item">
                             <a href="{{route('about')}}"
                                 class="mega-item">
                                <div>About Company</div>
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a href="javascript:void(0)"
-                                class="mega-item">
-                               <div>Engagement Models</div>
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a href="{{route('indexThree')}}"
-                                class="mega-item">
-                                <div>Life At ZalgoInfotec</div>
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a href="{{route('indexFour')}}"
-                                class="mega-item">
-                               <div> Infrastructure</div>
-                            </a>
-                        </li>
-                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a href="{{route('indexFive')}}"
-                                class="mega-item">
-                                <div>Culture & Values</div>
                             </a>
                         </li>
                         <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
@@ -81,9 +57,27 @@
                             </a>
                         </li>
                         <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                            <a href="{{route('culture-value')}}"
+                                class="mega-item">
+                                <div>Culture & Values</div>
+                            </a>
+                        </li>
+                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                            <a href="{{route('indexThree')}}"
+                                class="mega-item">
+                                <div>Life At ZalgoInfotec</div>
+                            </a>
+                        </li>
+                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
                             <a href="{{route('blog')}}"
                                 class="mega-item">
                                 <div>Blogs</div>
+                            </a>
+                        </li>
+                        <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
+                            <a href="{{route('career')}}"
+                                class="mega-item">
+                                <div>Career</div>
                             </a>
                         </li>
                     </ul>
