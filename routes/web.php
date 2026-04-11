@@ -6,7 +6,7 @@ use App\Http\Controllers\FrontendController\PageController;
 // use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\JobApplicationController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\Admin\AuthController;
+// use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\JobApplicationController as AdminJobController;
 
 Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
@@ -50,9 +50,9 @@ Route::get('/thankyou', [ContactController::class, 'thankYou'])->name('thankyou.
 Route::post('/apply', [JobApplicationController::class, 'store'])
     ->name('job.apply');
 
-Route::get('/register', [PageController::class, 'register'])->name('register');
+// Route::get('/register', [PageController::class, 'register'])->name('register');
 
-Route::post('/register', [AuthController::class, 'register'])->name('register.store');
+// Route::post('/register', [AuthController::class, 'register'])->name('register.store');
 
 Route::view('/privacy-policy', 'privacy-policy')->name('privacy');
 Route::view('/cookie-policy', 'cookie-policy')->name('cookie');

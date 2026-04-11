@@ -63,7 +63,7 @@
                             </a>
                         </li>
                         <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                            <a href="{{route('indexThree')}}"
+                            <a href="{{route('life-zalgoinfotech')}}"
                                 class="mega-item">
                                 <div>Life At ZalgoInfotec</div>
                             </a>
