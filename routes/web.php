@@ -129,6 +129,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('lifetreeanatomical', 'Lifetreeanatomical')->name('lifetreeanatomical');
     Route::get('towelsoutlet', 'Towelsoutlet')->name('towelsoutlet');
     Route::get('awakeningthegeniuswithin', 'Awakeningthegeniuswithin')->name('awakeningthegeniuswithin');
+    Route::get('erpsystem', 'ErpSystem')->name('erpsystem');
     Route::get('financemanagertraining', 'FinanceManagerTraining')->name('financemanagertraining');
 
     // Blog

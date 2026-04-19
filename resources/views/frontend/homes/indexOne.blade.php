@@ -1307,16 +1307,90 @@
                             <div class="row">
                                 <div class="align-content-center col-md-12 d-flex gap-5">
                                     <div class="portfolio-left">
-                                        <h2>Custom Digital Learning & Book Platform</h2>
+                                        <h2>ZalgoStore ERP – All-in-One Business Management System</h2>
 
                                             <p>
-                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
+                                                ZalgoStore ERP is a comprehensive business management system that integrates various functionalities to streamline operations and enhance productivity.
                                             </p>
 
                                             <div class="tech-icons">
-                                                <span>HTML</span>
-                                                <span>JS</span>
-                                                <span>CSS</span>
+                                                <span>NOdeJS</span>
+                                                <span>ReactJS</span>
+                                                <span>MongoDB</span>
+                                                <span>Responsive Design</span>
+                                                <span>Automation System</span>
+                                                <span>Web Application</span>
+                                            </div>
+
+                                            <a href="{{route('bioage')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/case-studies/erpsystem-thumb.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Zalgo Edutech LMS – Online Video Coaching & Training Platform</h2>
+
+                                            <p>
+                                                Zalgo Edutech LMS is a cutting-edge online video coaching and training platform designed to provide an immersive learning experience for students and educators alike.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>NOdeJS</span>
+                                                <span>ReactJS</span>
+                                                <span>MongoDB</span>
+                                                <span>Responsive Design</span>
+                                                <span>Automation System</span>
+                                                <span>Web Application</span>
+                                            </div>
+
+                                            <a target="blank" href="https://lms.zalgoedutech.com/"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/case-studies/lms-thumb.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- SLIDE 1 -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Bioage – Health & Wellness eCommerce Website</h2>
+
+                                            <p>
+                                                Bioage is a modern health and wellness eCommerce website built on WordPress using WooCommerce. The platform is designed to showcase and sell premium nutrition and supplement products with a clean, conversion-focused user experience.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>WordPress</span>
+                                                <span>WooCommerce</span>
+                                                <span>Health & Wellness</span>
+                                                <span>Responsive Design</span>
+                                                <span>CSS3</span>
                                             </div>
 
                                             <a href="{{route('bioage')}}"
@@ -1340,19 +1414,21 @@
                             <div class="row">
                                 <div class="align-content-center col-md-12 d-flex gap-5">
                                     <div class="portfolio-left">
-                                        <h2>Custom Digital Learning & Book Platform</h2>
+                                        <h2>Awakening The Genius Within – Book Showcase & Wellness Informational Website</h2>
 
                                             <p>
-                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
+                                                Awakening The Genius Within is a comprehensive informational website designed to provide users with valuable insights into the world of wellness and personal development. The site features a curated collection of books, articles, and resources aimed at empowering individuals to unlock their full potential.
                                             </p>
 
                                             <div class="tech-icons">
-                                                <span>HTML</span>
+                                                <span>WordPress</span>
+                                                <span>Book Showcase</span>
                                                 <span>JS</span>
-                                                <span>CSS</span>
+                                                <span>CSS3</span>
+                                                <span>Responsive Design</span>
                                             </div>
 
-                                            <a href="{{route('bioage')}}"
+                                            <a href="{{route('awakeningthegeniuswithin')}}"
                                                 class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
@@ -1373,16 +1449,18 @@
                             <div class="row">
                                 <div class="align-content-center col-md-12 d-flex gap-5">
                                     <div class="portfolio-left">
-                                        <h2>Custom Digital Learning & Book Platform</h2>
+                                        <h2>Life Tree Anatomical – Whole Body Donation & Medical Research Service Website</h2>
 
                                             <p>
-                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
-                                            </p>
+                                               Life Tree Anatomical is a healthcare-focused service website designed to facilitate whole body donation for medical research and education. The platform provides individuals and families with a clear, respectful, and guided process for contributing to scientific advancement through anatomical donation.</p>
 
                                             <div class="tech-icons">
-                                                <span>HTML</span>
+                                                <span>WordPress</span>
+                                                <span>Healthcare</span>
+                                                <span>UI/UX Design</span>
+                                                <span>Responsive</span>
                                                 <span>JS</span>
-                                                <span>CSS</span>
+                                                <span>CSS3</span>
                                             </div>
 
                                             <a href="{{route('bioage')}}"
@@ -1394,39 +1472,6 @@
                                     </div>
                                     <div class="portfolio-right">
                                         <img src="{{asset('assets/images/thumbs/Lifetreeanatomical.jpg')}}">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- SLIDE 1 -->
-                    <div class="swiper-slide">
-                        <div class="container">
-                            <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
-                                    <div class="portfolio-left">
-                                        <h2>Custom Digital Learning & Book Platform</h2>
-
-                                            <p>
-                                                A custom-built digital learning platform designed to deliver an engaging and interactive experience for users, featuring a comprehensive book library, personalized learning paths, and seamless integration with multimedia content.
-                                            </p>
-
-                                            <div class="tech-icons">
-                                                <span>HTML</span>
-                                                <span>JS</span>
-                                                <span>CSS</span>
-                                            </div>
-
-                                            <a href="{{route('bioage')}}"
-                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
-                                                data-block="button">
-                                                <span class="button__flair"></span>
-                                                <span class="button__label">View All Case Studies</span>
-                                            </a>
-                                    </div>
-                                    <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/thumbs/Awakeningthegeniuswithin.jpg')}}">
                                     </div>
                                 </div>
                             </div>
