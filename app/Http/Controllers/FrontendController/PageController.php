@@ -272,6 +272,11 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.awakeningthegeniuswithin', compact('bodyClass'));
     }
+    public function ErpSystem()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.erpsystem', compact('bodyClass'));
+    }
     
 
 
