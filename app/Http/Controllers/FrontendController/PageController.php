@@ -277,6 +277,30 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.erpsystem', compact('bodyClass'));
     }
+
+    public function LabProject()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.labproject', compact('bodyClass'));
+    }
+
+    public function Lms()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.lms', compact('bodyClass'));
+    }
+
+    public function LeadManagement()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.leadmanagement', compact('bodyClass'));
+    }
+
+    public function WashingErp()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.washingerp', compact('bodyClass'));
+    }
     
 
 
