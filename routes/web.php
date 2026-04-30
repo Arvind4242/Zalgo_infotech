@@ -139,7 +139,8 @@ Route::controller(PageController::class)->group(function () {
     // Blog
     Route::get('blog', 'blog')->name('blog');
     Route::get('casestudy', 'casestudy')->name('casestudy');
-    Route::get('blog-details', 'blogDetails')->name('blog.details');
+    Route::get('blog/{slug}', 'blogDetails')->name('blog.details');
+    Route::post('blog/{slug}/comment', 'submitComment')->name('blog.comment');
 
     // Contact
     Route::get('contact', 'contact')->name('contact');

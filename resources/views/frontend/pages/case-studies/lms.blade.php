@@ -42,6 +42,26 @@
 .why-card { background: #fff; border-radius: 14px; padding: 28px 24px; border: 1px solid #e5e7eb; height: 100%; display: flex; flex-direction: column; gap: 14px; }
 .cta-bg { background: linear-gradient(135deg, hsl(var(--main)) 0%, hsl(184,100%,18%) 100%); }
 .monorepo-badge { background: #0f1825; color: #61dafb; font-family: monospace; font-size: 11px; padding: 4px 10px; border-radius: 6px; display: inline-flex; align-items: center; gap: 5px; }
+/* Module cards — mobile slider only */
+.module-cards-swiper { padding-bottom: 40px; }
+.module-cards-swiper .swiper-slide { height: auto; }
+.module-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .module-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .module-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 24px; }
+    .module-cards-swiper .swiper-slide { width: calc(33.333% - 16px) !important; margin-right: 0 !important; }
+    .module-cards-swiper .swiper-pagination { display: none !important; }
+}
+/* Meta cards — mobile slider only */
+.meta-cards-swiper { padding-bottom: 40px; }
+.meta-cards-swiper .swiper-slide { height: auto; }
+.meta-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .meta-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .meta-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 16px; }
+    .meta-cards-swiper .swiper-slide { width: calc(20% - 13px) !important; margin-right: 0 !important; }
+    .meta-cards-swiper .swiper-pagination { display: none !important; }
+}
 </style>
 
 
@@ -149,15 +169,16 @@
         </div>
 
         <!-- Meta Cards -->
-        <div class="row gy-4 mt-5">
+        <div class="swiper meta-cards-swiper mt-5">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-atom','Frontend','React 18 + Vite'],
-                ['ph-node','Backend','Node.js + Express'],
+                ['ph-terminal','Backend','Node.js + Express'],
                 ['ph-git-branch','Architecture','Monorepo (npm workspaces)'],
                 ['ph-clock','Duration','Ongoing'],
                 ['ph-globe','Region','Global'],
             ] as $m)
-            <div class="col-6 col-md-4 col-lg">
+            <div class="swiper-slide h-auto">
                 <div class="d-flex flex-column align-items-center text-center p-4 bg-white border border-neutral-200 rounded-3 h-100 shadow-sm">
                     <span class="d-flex align-items-center justify-content-center rounded-circle bg-main-50 text-main mb-3"
                           style="width:52px;height:52px;font-size:1.4rem;"><i class="ph {{ $m[0] }}"></i></span>
@@ -166,6 +187,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
     </div>
 </section>
@@ -295,7 +318,7 @@
                 <div class="d-flex flex-column gap-3">
                     @foreach([
                         ['ph-atom','React 18 SPA with Vite — component-driven course &amp; lesson UI'],
-                        ['ph-node','Node.js + Express REST API with JWT authentication'],
+                        ['ph-terminal','Node.js + Express REST API with JWT authentication'],
                         ['ph-git-branch','Monorepo setup with npm workspaces &amp; shared TypeScript types'],
                         ['ph-lock-key','Role-based auth guards (Admin, Instructor, Student)'],
                         ['ph-video','Video lesson upload, HLS streaming &amp; watch-progress tracking'],
@@ -320,7 +343,7 @@
                         ['ph-clipboard-text','Phase 1: Requirement Analysis','Mapped course workflows, user roles, and API contract definitions'],
                         ['ph-git-branch','Phase 2: Monorepo Setup','Bootstrapped npm workspaces, shared TS config, ESLint &amp; Prettier'],
                         ['ph-atom','Phase 3: React Frontend','Built all course pages &amp; components with Vite HMR &amp; React Query'],
-                        ['ph-node','Phase 4: Node.js API','Designed RESTful API with Express, JWT auth &amp; MySQL via Prisma'],
+                        ['ph-terminal','Phase 4: Node.js API','Designed RESTful API with Express, JWT auth &amp; MySQL via Prisma'],
                         ['ph-rocket-launch','Phase 5: Deployment &amp; Live','Docker-based deployment, CI/CD pipeline, SSL — launched v1.0'],
                     ] as $t)
                     <div class="timeline-item">
@@ -347,7 +370,7 @@
                 <div class="row gy-3 gx-3">
                     @foreach([
                         ['ph-atom','React SPA','30+ pages built with React 18, React Router v6, and Tailwind CSS.'],
-                        ['ph-node','Node.js REST API','Express API with JWT auth, role middleware &amp; Prisma ORM.'],
+                        ['ph-terminal','Node.js REST API','Express API with JWT auth, role middleware &amp; Prisma ORM.'],
                         ['ph-git-branch','Shared Package','Common TypeScript types, Zod validators &amp; utility functions.'],
                         ['ph-lightning','Vite Build','Sub-second HMR in dev, optimised bundles with lazy-loaded routes.'],
                         ['ph-certificate','Certificate Engine','Puppeteer-based PDF certificates on course completion.'],
@@ -416,7 +439,8 @@
             <h2 class="fw-bold">LMS in <span class="text-main">Action</span></h2>
             <p class="text-body mt-2 mx-auto" style="max-width:540px;">Every React page backed by a dedicated Node.js API route — from enrollment to certification.</p>
         </div>
-        <div class="row gy-4 gx-4">
+        <div class="swiper module-cards-swiper">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-books','Course Builder','Structured course creation with sections, lessons, and downloadable resources.'],
                 ['ph-video','Video Lessons','Upload &amp; stream HLS video with chapter-based progress tracking in React.'],
@@ -428,7 +452,7 @@
                 ['ph-bell-ringing','Notification System','Email/SMS alerts triggered from Node.js event emitters.'],
                 ['ph-chart-bar','Analytics &amp; Reports','Admin dashboard with Chart.js enrollment trends &amp; revenue stats.'],
             ] as $mod)
-            <div class="col-sm-6 col-lg-4">
+            <div class="swiper-slide h-auto">
                 <div class="module-card">
                     <div class="module-icon"><i class="ph {{ $mod[0] }}"></i></div>
                     <div class="fw-semibold text-heading-color mb-2" style="font-size:0.95rem;">{!! $mod[1] !!}</div>
@@ -436,6 +460,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
         <div class="text-center mt-5">
             <a href="{{ url('/contact') }}"
@@ -534,38 +560,65 @@
 </section>
 
 
-<!-- ======================== CTA ======================== -->
-<section class="py-120 cta-bg">
+<!-- ======================== CTA / TASK MANAGEMENT ======================== -->
+<section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <span class="d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill mb-4"
-                      style="background:rgba(255,255,255,0.15);">
-                    <i class="ph ph-lightning text-white"></i>
-                    <span class="text-white fw-semibold" style="font-size:0.88rem;">Ready to Build Your Custom LMS?</span>
-                </span>
-                <h2 class="text-white fw-bold mb-4" style="font-size:clamp(1.6rem,3vw,2.5rem);">
-                    Ready to transform <span style="color:rgba(255,255,255,0.75);">your learning experience?</span>
-                </h2>
-                <p class="mb-5" style="color:rgba(255,255,255,0.8);font-size:1.05rem;">
-                    Talk to our experts and get a tailored React + Node.js LMS for your institution or corporate training program.
-                </p>
-                <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap mb-5">
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="background:#fff;color:hsl(var(--main));">
-                        <i class="ph ph-paper-plane-tilt"></i> Request a Quote
-                    </a>
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="border:2px solid rgba(255,255,255,0.6);color:#fff;background:transparent;">
-                        <i class="ph ph-chat-circle-dots"></i> Schedule a Demo
-                    </a>
+        <div class="text-end tw--mb-40-px position-relative z-2">
+            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />
+        </div>
+
+        <div class="bg-green-deep tw-rounded-3xl tw-pt-100-px position-relative z-1">
+            <img src="{{asset('assets/images/shapes/hill-shape.png')}}" alt="Hill Shape"
+                class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1" />
+            <img src="{{asset('assets/images/thumbs/task-management-img.png')}}" alt="Image"
+                class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none" />
+
+            <div class="tw-mb-8 text-center max-w-570-px mx-auto">
+                <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                    <div class="">
+                        <span class="text-yellow text-stroke-yellow">94%</span> Course Completion — Let's Build Your LMS
+                    </div>
                 </div>
-                <div class="d-flex flex-wrap justify-content-center gap-2">
-                    @foreach(['React 18','Node.js','Vite','Monorepo','TypeScript','Express API','Prisma ORM','React Query','Tailwind CSS','JWT Auth','Stripe Payments','Docker','CI/CD Pipeline'] as $tag)
-                    <span class="badge px-3 py-2 rounded-pill" style="background:rgba(255,255,255,0.15);color:#fff;font-size:0.78rem;">{{ $tag }}</span>
-                    @endforeach
+
+                <h3 class="splitTextStyleOne text-white">
+                    Ready to Transform Your Learning Platform?
+                </h3>
+
+                <div class="d-block">
+                    <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
+                        <a href="{{ route('contact') }}"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Request a Quote</span>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Talk to Expert</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tw-pt-8 text-center">
+                <div class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">React 18 + Vite</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Node.js + Express</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Monorepo</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill">Stripe Payments</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Certificate Engine</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Prisma ORM</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">React Query</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Video Streaming</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Quiz Builder</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill">Docker CI/CD</span>
                 </div>
             </div>
         </div>
@@ -575,4 +628,20 @@
         @include('frontend.includes.footers.footerOne')
         <!-- footer area end -->
     </div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof Swiper !== 'undefined' && window.innerWidth < 768) {
+        new Swiper('.module-cards-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: { el: '.module-cards-swiper .swiper-pagination', clickable: true },
+        });
+        new Swiper('.meta-cards-swiper', {
+            slidesPerView: 2,
+            spaceBetween: 16,
+            pagination: { el: '.meta-cards-swiper .swiper-pagination', clickable: true },
+        });
+    }
+});
+</script>
 @endsection

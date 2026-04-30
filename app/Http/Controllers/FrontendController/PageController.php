@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\FrontendController;
 
 use App\Http\Controllers\Controller;
+use App\Models\Blog;
+use App\Models\BlogComment;
+use App\Models\JobOpening;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -240,89 +243,158 @@ class PageController extends Controller
     public function BioAge()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.bioage', compact('bodyClass'));
+        return view('frontend.pages.case-studies.bioage', compact('bodyClass'));
     }
     public function Experthe()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.experthe', compact('bodyClass'));
+        return view('frontend.pages.case-studies.experthe', compact('bodyClass'));
     }
     public function Dobramoc()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.dobramoc', compact('bodyClass'));
+        return view('frontend.pages.case-studies.dobramoc', compact('bodyClass'));
     }
     public function Lifetreeanatomical()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.lifetreeanatomical', compact('bodyClass'));
+        return view('frontend.pages.case-studies.lifetreeanatomical', compact('bodyClass'));
     }
     public function Towelsoutlet()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.towelsoutlet', compact('bodyClass'));
+        return view('frontend.pages.case-studies.towelsoutlet', compact('bodyClass'));
     }
     public function FinanceManagerTraining()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.financemanagertraining', compact('bodyClass'));
+        return view('frontend.pages.case-studies.financemanagertraining', compact('bodyClass'));
     }
     public function Awakeningthegeniuswithin()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.awakeningthegeniuswithin', compact('bodyClass'));
+        return view('frontend.pages.case-studies.awakeningthegeniuswithin', compact('bodyClass'));
     }
     public function ErpSystem()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.erpsystem', compact('bodyClass'));
+        return view('frontend.pages.case-studies.erpsystem', compact('bodyClass'));
     }
 
     public function LabProject()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.labproject', compact('bodyClass'));
+        return view('frontend.pages.case-studies.labproject', compact('bodyClass'));
     }
 
     public function Lms()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.lms', compact('bodyClass'));
+        return view('frontend.pages.case-studies.lms', compact('bodyClass'));
     }
 
     public function LeadManagement()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.leadmanagement', compact('bodyClass'));
+        return view('frontend.pages.case-studies.leadmanagement', compact('bodyClass'));
     }
 
     public function WashingErp()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.washingerp', compact('bodyClass'));
+        return view('frontend.pages.case-studies.washingerp', compact('bodyClass'));
     }
     
 
 
     // Blog
-    public function blog()
+    public function blog(Request $request)
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.blog', compact('bodyClass'));
+
+        $query = Blog::published()->latest('published_at');
+
+        if ($request->filled('search')) {
+            $search = $request->search;
+            $query->where(function ($q) use ($search) {
+                $q->where('title', 'like', "%{$search}%")
+                  ->orWhere('excerpt', 'like', "%{$search}%")
+                  ->orWhere('content', 'like', "%{$search}%");
+            });
+        }
+
+        if ($request->filled('category')) {
+            $query->where('category', $request->category);
+        }
+
+        if ($request->filled('tag')) {
+            $query->whereJsonContains('tags', $request->tag);
+        }
+
+        $blogs      = $query->paginate(6)->withQueryString();
+        $recentBlogs = Blog::published()->latest('published_at')->take(3)->get();
+        $categories  = $this->getCategories();
+        $allTags     = $this->getAllTags();
+
+        return view('frontend.pages.blog', compact('bodyClass', 'blogs', 'recentBlogs', 'categories', 'allTags'));
     }
 
     // Casestudy
     public function casestudy()
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.casestudy', compact('bodyClass'));
+        return view('frontend.pages.case-studies.casestudy', compact('bodyClass'));
     }
 
     // Blog Details
-    public function blogDetails()
+    public function blogDetails(string $slug)
     {
         $bodyClass = 'home-one';
-        return view('frontend.pages.blogDetails', compact('bodyClass'));
+        $blog        = Blog::published()->where('slug', $slug)->firstOrFail();
+        $recentBlogs = Blog::published()->where('id', '!=', $blog->id)->latest('published_at')->take(3)->get();
+        $comments    = $blog->comments()->where('is_approved', true)->orderBy('created_at')->get();
+        $categories  = $this->getCategories();
+        $allTags     = $this->getAllTags();
+
+        return view('frontend.pages.blogDetails', compact('bodyClass', 'blog', 'recentBlogs', 'comments', 'categories', 'allTags'));
+    }
+
+    // Submit Blog Comment
+    public function submitComment(Request $request, string $slug)
+    {
+        $blog = Blog::published()->where('slug', $slug)->firstOrFail();
+
+        $validated = $request->validate([
+            'name'    => 'required|string|max:255',
+            'email'   => 'required|email|max:255',
+            'phone'   => 'nullable|string|max:20',
+            'website' => 'nullable|url|max:255',
+            'comment' => 'required|string|max:5000',
+        ]);
+
+        $blog->comments()->create($validated);
+
+        return back()->with('comment_success', 'Thank you! Your comment has been submitted and is awaiting approval.');
+    }
+
+    private function getCategories(): \Illuminate\Support\Collection
+    {
+        return Blog::published()
+            ->whereNotNull('category')
+            ->selectRaw('category, count(*) as count')
+            ->groupBy('category')
+            ->orderByDesc('count')
+            ->get();
+    }
+
+    private function getAllTags(): \Illuminate\Support\Collection
+    {
+        return Blog::published()
+            ->whereNotNull('tags')
+            ->get()
+            ->flatMap(fn ($blog) => $blog->tags ?? [])
+            ->unique()
+            ->values();
     }
 
     // Contact 
@@ -339,8 +411,9 @@ class PageController extends Controller
 
      public function career()
     {
-        $bodyClass = 'home-one';
-        return view('frontend.pages.career', compact('bodyClass'));
+        $bodyClass    = 'home-one';
+        $jobOpenings  = JobOpening::active()->get();
+        return view('frontend.pages.career', compact('bodyClass', 'jobOpenings'));
     }
 }
 

@@ -50,6 +50,26 @@
 .plan-badge { background: hsl(var(--main)); color: #fff; font-size: 0.7rem; font-weight: 700; padding: 3px 10px; border-radius: 20px; }
 .reward-bar { background: #e5e7eb; border-radius: 20px; height: 8px; overflow: hidden; }
 .reward-fill { background: linear-gradient(90deg, hsl(var(--main)), hsl(184,100%,30%)); height: 100%; border-radius: 20px; }
+/* Module cards — mobile slider only */
+.module-cards-swiper { padding-bottom: 40px; }
+.module-cards-swiper .swiper-slide { height: auto; }
+.module-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .module-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .module-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 24px; }
+    .module-cards-swiper .swiper-slide { width: calc(33.333% - 16px) !important; margin-right: 0 !important; }
+    .module-cards-swiper .swiper-pagination { display: none !important; }
+}
+/* Meta cards — mobile slider only */
+.meta-cards-swiper { padding-bottom: 40px; }
+.meta-cards-swiper .swiper-slide { height: auto; }
+.meta-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .meta-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .meta-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 16px; }
+    .meta-cards-swiper .swiper-slide { width: calc(20% - 13px) !important; margin-right: 0 !important; }
+    .meta-cards-swiper .swiper-pagination { display: none !important; }
+}
 </style>
 
 
@@ -159,15 +179,16 @@
         </div>
 
         <!-- Meta Cards -->
-        <div class="row gy-4 mt-5">
+        <div class="swiper meta-cards-swiper mt-5">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-atom','Frontend','React 18 + Vite'],
-                ['ph-node','Backend','Node.js + Express'],
+                ['ph-terminal','Backend','Node.js + Express'],
                 ['ph-git-branch','Architecture','Multi-tenant SaaS Monorepo'],
                 ['ph-clock','Duration','Ongoing'],
                 ['ph-globe','Region','Global'],
             ] as $m)
-            <div class="col-6 col-md-4 col-lg">
+            <div class="swiper-slide h-auto">
                 <div class="d-flex flex-column align-items-center text-center p-4 bg-white border border-neutral-200 rounded-3 h-100 shadow-sm">
                     <span class="d-flex align-items-center justify-content-center rounded-circle bg-main-50 text-main mb-3"
                           style="width:52px;height:52px;font-size:1.4rem;"><i class="ph {{ $m[0] }}"></i></span>
@@ -176,6 +197,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
     </div>
 </section>
@@ -392,7 +415,7 @@
                 <div class="d-flex flex-column gap-3">
                     @foreach([
                         ['ph-atom','React 18 + Vite SPA — booking UI, admin panel &amp; customer portal'],
-                        ['ph-node','Node.js + Express REST API with JWT multi-tenant auth'],
+                        ['ph-terminal','Node.js + Express REST API with JWT multi-tenant auth'],
                         ['ph-calendar','Working day &amp; holiday schedule manager per center'],
                         ['ph-clock','Dynamic slot engine — divides working hours into bookable slots'],
                         ['ph-star','Customer reward points engine with admin-configurable rules'],
@@ -417,7 +440,7 @@
                         ['ph-clipboard-text','Phase 1: Requirement Analysis','Mapped center workflows, slot logic, reward rules &amp; SaaS billing needs'],
                         ['ph-git-branch','Phase 2: Monorepo + Multi-tenant Setup','npm workspaces, per-tenant DB schema isolation with Prisma'],
                         ['ph-atom','Phase 3: React Frontend','Booking UI, admin schedule config, reward dashboard — Vite + React Query'],
-                        ['ph-node','Phase 4: Node.js API + Slot Engine','REST API, dynamic slot generator, reward engine &amp; invoice service'],
+                        ['ph-terminal','Phase 4: Node.js API + Slot Engine','REST API, dynamic slot generator, reward engine &amp; invoice service'],
                         ['ph-rocket-launch','Phase 5: Deployment &amp; Live','Docker, CI/CD pipeline, Stripe webhooks, SSL — production ready'],
                     ] as $t)
                     <div class="timeline-item">
@@ -572,7 +595,8 @@
             <h2 class="fw-bold">Washing ERP in <span class="text-main">Action</span></h2>
             <p class="text-body mt-2 mx-auto" style="max-width:540px;">Every module built around the washing center workflow — from booking to payment to loyalty rewards.</p>
         </div>
-        <div class="row gy-4 gx-4">
+        <div class="swiper module-cards-swiper">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-calendar-check','Schedule Manager','Admin defines working days, holidays, opening hours &amp; slot duration per center.'],
                 ['ph-clock','Slot Booking Engine','Node.js auto-generates time slots; customers see real-time availability &amp; book online.'],
@@ -584,7 +608,7 @@
                 ['ph-chart-bar','Analytics Dashboard','Daily revenue, slot utilisation, top customers, and reward redemption reports.'],
                 ['ph-buildings','Multi-tenant Management','Super admin oversees all registered centers, plans, and platform-level settings.'],
             ] as $mod)
-            <div class="col-sm-6 col-lg-4">
+            <div class="swiper-slide h-auto">
                 <div class="module-card">
                     <div class="module-icon"><i class="ph {{ $mod[0] }}"></i></div>
                     <div class="fw-semibold text-heading-color mb-2" style="font-size:0.95rem;">{!! $mod[1] !!}</div>
@@ -592,6 +616,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
     </div>
 </section>
@@ -643,7 +669,7 @@
                     <div class="row gy-3 gx-3">
                         @foreach([
                             ['ph-atom','React SPA','Dynamic booking UI, admin panel, and customer reward wallet.'],
-                            ['ph-node','Node.js API','Multi-tenant REST API with slot engine, reward engine &amp; invoice service.'],
+                            ['ph-terminal','Node.js API','Multi-tenant REST API with slot engine, reward engine &amp; invoice service.'],
                             ['ph-clock','Slot Engine','Auto-divides working hours into bookable slots based on admin config.'],
                             ['ph-star','Reward Engine','Points credited per wash, redeemable at checkout with admin control.'],
                             ['ph-receipt','Invoice Service','Puppeteer PDF invoices auto-generated and emailed per booking.'],
@@ -754,38 +780,66 @@
 </section>
 
 
-<!-- ======================== CTA ======================== -->
-<section class="py-120 cta-bg">
+<!-- ======================== CTA / TASK MANAGEMENT ======================== -->
+<section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <span class="d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill mb-4"
-                      style="background:rgba(255,255,255,0.15);">
-                    <i class="ph ph-lightning text-white"></i>
-                    <span class="text-white fw-semibold" style="font-size:0.88rem;">Ready to digitize your washing center?</span>
-                </span>
-                <h2 class="text-white fw-bold mb-4" style="font-size:clamp(1.6rem,3vw,2.5rem);">
-                    Ready to launch your <span style="color:rgba(255,255,255,0.75);">Washing Center ERP?</span>
-                </h2>
-                <p class="mb-5" style="color:rgba(255,255,255,0.8);font-size:1.05rem;">
-                    Get a fully custom SaaS Washing ERP with slot booking, reward points, invoicing, and automated notifications — built with React + Vite + Node.js.
-                </p>
-                <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap mb-5">
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="background:#fff;color:hsl(var(--main));">
-                        <i class="ph ph-paper-plane-tilt"></i> Request a Quote
-                    </a>
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="border:2px solid rgba(255,255,255,0.6);color:#fff;background:transparent;">
-                        <i class="ph ph-chat-circle-dots"></i> Schedule a Demo
-                    </a>
+        <div class="text-end tw--mb-40-px position-relative z-2">
+            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />
+        </div>
+
+        <div class="bg-green-deep tw-rounded-3xl tw-pt-100-px position-relative z-1">
+            <img src="{{asset('assets/images/shapes/hill-shape.png')}}" alt="Hill Shape"
+                class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1" />
+            <img src="{{asset('assets/images/thumbs/task-management-img.png')}}" alt="Image"
+                class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none" />
+
+            <div class="tw-mb-8 text-center max-w-570-px mx-auto">
+                <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                    <div class="">
+                        Multi-tenant SaaS — Go Live in
+                        <span class="text-yellow text-stroke-yellow">Minutes</span>
+                    </div>
                 </div>
-                <div class="d-flex flex-wrap justify-content-center gap-2">
-                    @foreach(['React 18','Vite','Node.js','Multi-tenant SaaS','Slot Booking','Reward Points','Invoice PDF','Stripe Billing','Twilio SMS','Nodemailer','Prisma ORM','Docker','TypeScript'] as $tag)
-                    <span class="badge px-3 py-2 rounded-pill" style="background:rgba(255,255,255,0.15);color:#fff;font-size:0.78rem;">{{ $tag }}</span>
-                    @endforeach
+
+                <h3 class="splitTextStyleOne text-white">
+                    Ready to Launch Your Washing Center ERP?
+                </h3>
+
+                <div class="d-block">
+                    <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
+                        <a href="{{ route('contact') }}"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Request a Quote</span>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Talk to Expert</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tw-pt-8 text-center">
+                <div class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">React 18 + Vite</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Multi-tenant SaaS</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Slot Booking Engine</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill">Reward Points</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Invoice PDF</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Stripe Billing</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Twilio SMS</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Node.js + Express</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Prisma ORM</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill">Docker CI/CD</span>
                 </div>
             </div>
         </div>
@@ -795,4 +849,20 @@
         @include('frontend.includes.footers.footerOne')
         <!-- footer area end -->
     </div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof Swiper !== 'undefined' && window.innerWidth < 768) {
+        new Swiper('.module-cards-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: { el: '.module-cards-swiper .swiper-pagination', clickable: true },
+        });
+        new Swiper('.meta-cards-swiper', {
+            slidesPerView: 2,
+            spaceBetween: 16,
+            pagination: { el: '.meta-cards-swiper .swiper-pagination', clickable: true },
+        });
+    }
+});
+</script>
 @endsection

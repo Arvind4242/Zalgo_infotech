@@ -166,7 +166,8 @@
                         <div class="">
                             <h2 class="splitTextStyleOne text-heading fw-semibold text-capitalize">
                                 <span class="font-dm-serif fw-semibold text-green">Empowering Growth</span>
-                                and Innovation
+                                <span class="font-dm-serif">and Innovation</span>
+                                
                             </h2>
                             <p class="fw-medium splitTextStyleOne tw-mt-3 tw-text-2xl">
                                 At Zalgo Infotech, our culture is built on values that empower and inspire our team. We believe in fostering an environment where everyone can thrive.

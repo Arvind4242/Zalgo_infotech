@@ -52,6 +52,26 @@
 .pipeline-stage .stage-count { font-size: 1.2rem; font-weight: 800; color: hsl(var(--main)); }
 .pipeline-stage .stage-label { font-size: 9px; color: #888; text-transform: uppercase; letter-spacing: 0.5px; }
 .pipeline-arrow { color: #cbd5e1; font-size: 14px; display: flex; align-items: center; }
+/* Module cards — mobile slider only */
+.module-cards-swiper { padding-bottom: 40px; }
+.module-cards-swiper .swiper-slide { height: auto; }
+.module-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .module-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .module-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 24px; }
+    .module-cards-swiper .swiper-slide { width: calc(33.333% - 16px) !important; margin-right: 0 !important; }
+    .module-cards-swiper .swiper-pagination { display: none !important; }
+}
+/* Meta cards — mobile slider only */
+.meta-cards-swiper { padding-bottom: 40px; }
+.meta-cards-swiper .swiper-slide { height: auto; }
+.meta-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .meta-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .meta-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 16px; }
+    .meta-cards-swiper .swiper-slide { width: calc(20% - 13px) !important; margin-right: 0 !important; }
+    .meta-cards-swiper .swiper-pagination { display: none !important; }
+}
 </style>
 
 
@@ -94,83 +114,23 @@
                 </div>
             </div>
 
-            <!-- Right: Lead Dashboard Mockup -->
+            <!-- Right: Project Image -->
             <div class="col-lg-6">
-                <div class="lead-hero-mockup">
-                    <div class="lead-mockup-bar">
-                        <span class="lead-mockup-dot" style="background:#ff5f57;"></span>
-                        <span class="lead-mockup-dot" style="background:#ffbd2e;"></span>
-                        <span class="lead-mockup-dot" style="background:#28c840;"></span>
-                        <span class="lead-mockup-url">leads.example.com/dashboard</span>
-                    </div>
-                    <div class="lead-mockup-body d-flex">
-                        <!-- Sidebar -->
-                        <div class="lead-sidebar">
-                            <div class="lead-sidebar-icon active"><i class="ph ph-squares-four"></i></div>
-                            <div class="lead-sidebar-icon"><i class="ph ph-funnel"></i></div>
-                            <div class="lead-sidebar-icon"><i class="ph ph-users"></i></div>
-                            <div class="lead-sidebar-icon"><i class="ph ph-currency-circle-dollar"></i></div>
-                            <div class="lead-sidebar-icon"><i class="ph ph-bell-ringing"></i></div>
-                            <div class="lead-sidebar-icon"><i class="ph ph-clock-clockwise"></i></div>
-                            <div class="lead-sidebar-icon"><i class="ph ph-chart-bar"></i></div>
-                        </div>
-                        <!-- Content -->
-                        <div class="lead-main-content">
-                            <div class="text-heading-color fw-bold mb-2" style="font-size:12px;">Lead Pipeline Overview</div>
-                            <!-- Pipeline stages -->
-                            <div class="d-flex align-items-center gap-1 mb-3">
-                                <div class="pipeline-stage active">
-                                    <div class="stage-count">24</div>
-                                    <div class="stage-label">New</div>
-                                </div>
-                                <div class="pipeline-arrow"><i class="ph ph-caret-right"></i></div>
-                                <div class="pipeline-stage">
-                                    <div class="stage-count">18</div>
-                                    <div class="stage-label">Contacted</div>
-                                </div>
-                                <div class="pipeline-arrow"><i class="ph ph-caret-right"></i></div>
-                                <div class="pipeline-stage">
-                                    <div class="stage-count">11</div>
-                                    <div class="stage-label">Qualified</div>
-                                </div>
-                                <div class="pipeline-arrow"><i class="ph ph-caret-right"></i></div>
-                                <div class="pipeline-stage">
-                                    <div class="stage-count">7</div>
-                                    <div class="stage-label">Closed</div>
-                                </div>
-                            </div>
-                            <div class="text-heading-color fw-semibold mb-2" style="font-size:11px;">Recent Leads</div>
-                            <div class="lead-table-row">
-                                <div class="av">RS</div>
-                                <span style="flex:1;">Rahul Sharma — ₹45,000</span>
-                                <span class="lead-status qualified">Qualified</span>
-                            </div>
-                            <div class="lead-table-row">
-                                <div class="av">AP</div>
-                                <span style="flex:1;">Anjali Patel — ₹1,20,000</span>
-                                <span class="lead-status new">New</span>
-                            </div>
-                            <div class="lead-table-row">
-                                <div class="av">MK</div>
-                                <span style="flex:1;">Mohammed Khan — ₹80,000</span>
-                                <span class="lead-status closed">Closed</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img src="{{asset('assets/images/case-study/leadmangement.jpeg')}}" alt="Lead Management System" class="w-100 h-100 object-fit-cover tw-rounded-2xl" />
             </div>
         </div>
 
         <!-- Meta Cards -->
-        <div class="row gy-4 mt-5">
+        <div class="swiper meta-cards-swiper mt-5">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-atom','Frontend','React 18 + Vite'],
-                ['ph-node','Backend','Node.js + Express'],
+                ['ph-terminal','Backend','Node.js + Express'],
                 ['ph-funnel','Project Type','Lead CRM / SaaS'],
                 ['ph-clock','Duration','Ongoing'],
                 ['ph-globe','Region','Global'],
             ] as $m)
-            <div class="col-6 col-md-4 col-lg">
+            <div class="swiper-slide h-auto">
                 <div class="d-flex flex-column align-items-center text-center p-4 bg-white border border-neutral-200 rounded-3 h-100 shadow-sm">
                     <span class="d-flex align-items-center justify-content-center rounded-circle bg-main-50 text-main mb-3"
                           style="width:52px;height:52px;font-size:1.4rem;"><i class="ph {{ $m[0] }}"></i></span>
@@ -179,6 +139,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
     </div>
 </section>
@@ -305,7 +267,7 @@
                 <div class="d-flex flex-column gap-3">
                     @foreach([
                         ['ph-atom','React 18 + Vite SPA — Kanban-style lead pipeline board'],
-                        ['ph-node','Node.js + Express REST API with JWT role-based auth'],
+                        ['ph-terminal','Node.js + Express REST API with JWT role-based auth'],
                         ['ph-funnel','Lead capture, assignment, and status change workflows'],
                         ['ph-clock-clockwise','Follow-up automation engine — scheduled Node.js cron jobs'],
                         ['ph-currency-circle-dollar','Payment handling with Stripe/Razorpay &amp; invoice generation'],
@@ -330,7 +292,7 @@
                         ['ph-clipboard-text','Phase 1: Requirement Analysis','Mapped sales workflows, pipeline stages, and notification triggers'],
                         ['ph-git-branch','Phase 2: Monorepo Setup','npm workspaces, shared TS types, ESLint &amp; Prettier across packages'],
                         ['ph-atom','Phase 3: React Frontend','Kanban board, lead forms, payment UI — built with Vite + React Query'],
-                        ['ph-node','Phase 4: Node.js API + Automation','REST API, follow-up cron engine, Socket.io &amp; payment webhooks'],
+                        ['ph-terminal','Phase 4: Node.js API + Automation','REST API, follow-up cron engine, Socket.io &amp; payment webhooks'],
                         ['ph-rocket-launch','Phase 5: Deployment &amp; Live','Docker, CI/CD pipeline, SSL — production ready'],
                     ] as $t)
                     <div class="timeline-item">
@@ -427,7 +389,8 @@
             <h2 class="fw-bold">Lead System in <span class="text-main">Action</span></h2>
             <p class="text-body mt-2 mx-auto" style="max-width:540px;">Every feature built around the sales workflow — from first capture to closed deal and payment collection.</p>
         </div>
-        <div class="row gy-4 gx-4">
+        <div class="swiper module-cards-swiper">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-funnel','Lead Capture &amp; Assignment','Capture leads via forms or API import, auto-assign to agents by round-robin or manual rule.'],
                 ['ph-arrows-left-right','Status Management','Drag-and-drop Kanban board to move leads across New → Contacted → Qualified → Negotiation → Closed.'],
@@ -439,7 +402,7 @@
                 ['ph-chart-line','Conversion Analytics','React + Chart.js funnel charts, win/loss rates, revenue pipeline, and agent leaderboards.'],
                 ['ph-note','Activity Log','Full audit trail of every status change, note, call log, and payment event per lead.'],
             ] as $mod)
-            <div class="col-sm-6 col-lg-4">
+            <div class="swiper-slide h-auto">
                 <div class="module-card">
                     <div class="module-icon"><i class="ph {{ $mod[0] }}"></i></div>
                     <div class="fw-semibold text-heading-color mb-2" style="font-size:0.95rem;">{!! $mod[1] !!}</div>
@@ -447,6 +410,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
         <div class="text-center mt-5">
             <a href="{{ url('/contact') }}"
@@ -605,38 +570,65 @@
 </section>
 
 
-<!-- ======================== CTA ======================== -->
-<section class="py-120 cta-bg">
+<!-- ======================== CTA / TASK MANAGEMENT ======================== -->
+<section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <span class="d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill mb-4"
-                      style="background:rgba(255,255,255,0.15);">
-                    <i class="ph ph-lightning text-white"></i>
-                    <span class="text-white fw-semibold" style="font-size:0.88rem;">Ready to Build Your Custom Lead CRM?</span>
-                </span>
-                <h2 class="text-white fw-bold mb-4" style="font-size:clamp(1.6rem,3vw,2.5rem);">
-                    Ready to automate <span style="color:rgba(255,255,255,0.75);">your sales pipeline?</span>
-                </h2>
-                <p class="mb-5" style="color:rgba(255,255,255,0.8);font-size:1.05rem;">
-                    Talk to our experts and get a tailored Lead Management System with follow-up automation, payment handling, and real-time notifications.
-                </p>
-                <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap mb-5">
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="background:#fff;color:hsl(var(--main));">
-                        <i class="ph ph-paper-plane-tilt"></i> Request a Quote
-                    </a>
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="border:2px solid rgba(255,255,255,0.6);color:#fff;background:transparent;">
-                        <i class="ph ph-chat-circle-dots"></i> Schedule a Demo
-                    </a>
+        <div class="text-end tw--mb-40-px position-relative z-2">
+            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />
+        </div>
+
+        <div class="bg-green-deep tw-rounded-3xl tw-pt-100-px position-relative z-1">
+            <img src="{{asset('assets/images/shapes/hill-shape.png')}}" alt="Hill Shape"
+                class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1" />
+            <img src="{{asset('assets/images/thumbs/task-management-img.png')}}" alt="Image"
+                class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none" />
+
+            <div class="tw-mb-8 text-center max-w-570-px mx-auto">
+                <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                    <div class="">
+                        <span class="text-yellow text-stroke-yellow">40%</span> Higher Lead Conversion — Let's Build Your CRM
+                    </div>
                 </div>
-                <div class="d-flex flex-wrap justify-content-center gap-2">
-                    @foreach(['React 18','Vite','Node.js','TypeScript','Prisma ORM','Socket.io','Node-cron','Nodemailer','Twilio SMS','Stripe Payments','JWT Auth','Docker','CI/CD Pipeline'] as $tag)
-                    <span class="badge px-3 py-2 rounded-pill" style="background:rgba(255,255,255,0.15);color:#fff;font-size:0.78rem;">{{ $tag }}</span>
-                    @endforeach
+
+                <h3 class="splitTextStyleOne text-white">
+                    Ready to Automate Your Sales Pipeline?
+                </h3>
+
+                <div class="d-block">
+                    <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
+                        <a href="{{ route('contact') }}"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Request a Quote</span>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Talk to Expert</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tw-pt-8 text-center">
+                <div class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">React 18 + Vite</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Node.js + Express</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Socket.io Realtime</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill">Follow-up Automation</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Stripe Payments</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Twilio SMS</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Nodemailer</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Node-cron Jobs</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Kanban Pipeline</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill">JWT Auth</span>
                 </div>
             </div>
         </div>
@@ -646,4 +638,20 @@
         @include('frontend.includes.footers.footerOne')
         <!-- footer area end -->
     </div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof Swiper !== 'undefined' && window.innerWidth < 768) {
+        new Swiper('.module-cards-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: { el: '.module-cards-swiper .swiper-pagination', clickable: true },
+        });
+        new Swiper('.meta-cards-swiper', {
+            slidesPerView: 2,
+            spaceBetween: 16,
+            pagination: { el: '.meta-cards-swiper .swiper-pagination', clickable: true },
+        });
+    }
+});
+</script>
 @endsection

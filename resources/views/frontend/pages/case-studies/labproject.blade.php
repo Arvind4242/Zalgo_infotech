@@ -41,6 +41,26 @@
 .timeline-dot { position: absolute; left: 0; top: 4px; width: 32px; height: 32px; border-radius: 50%; background: hsl(var(--main)); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 14px; }
 .why-card { background: #fff; border-radius: 14px; padding: 28px 24px; border: 1px solid #e5e7eb; height: 100%; display: flex; flex-direction: column; gap: 14px; }
 .cta-bg { background: linear-gradient(135deg, hsl(var(--main)) 0%, hsl(184,100%,18%) 100%); }
+/* Module cards — mobile slider only */
+.module-cards-swiper { padding-bottom: 40px; }
+.module-cards-swiper .swiper-slide { height: auto; }
+.module-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .module-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .module-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 24px; }
+    .module-cards-swiper .swiper-slide { width: calc(33.333% - 16px) !important; margin-right: 0 !important; }
+    .module-cards-swiper .swiper-pagination { display: none !important; }
+}
+/* Meta cards — mobile slider only */
+.meta-cards-swiper { padding-bottom: 40px; }
+.meta-cards-swiper .swiper-slide { height: auto; }
+.meta-cards-swiper .swiper-pagination-bullet-active { background: hsl(var(--main)); }
+@media (min-width: 768px) {
+    .meta-cards-swiper { overflow: visible !important; padding-bottom: 0; }
+    .meta-cards-swiper .swiper-wrapper { flex-wrap: wrap !important; transform: none !important; width: 100% !important; gap: 16px; }
+    .meta-cards-swiper .swiper-slide { width: calc(20% - 13px) !important; margin-right: 0 !important; }
+    .meta-cards-swiper .swiper-pagination { display: none !important; }
+}
 </style>
 
 
@@ -78,79 +98,23 @@
                 </div>
             </div>
 
-            <!-- Right: Lab Dashboard Mockup -->
+            <!-- Right: Lab Image -->
             <div class="col-lg-6">
-                <div class="lab-hero-mockup">
-                    <div class="lab-mockup-bar">
-                        <span class="lab-mockup-dot" style="background:#ff5f57;"></span>
-                        <span class="lab-mockup-dot" style="background:#ffbd2e;"></span>
-                        <span class="lab-mockup-dot" style="background:#28c840;"></span>
-                        <span class="lab-mockup-url">lab-reports.example.com/dashboard</span>
-                    </div>
-                    <div class="lab-mockup-body d-flex">
-                        <!-- Sidebar -->
-                        <div class="lab-sidebar">
-                            <div class="lab-sidebar-icon active"><i class="ph ph-squares-four"></i></div>
-                            <div class="lab-sidebar-icon"><i class="ph ph-flask"></i></div>
-                            <div class="lab-sidebar-icon"><i class="ph ph-file-text"></i></div>
-                            <div class="lab-sidebar-icon"><i class="ph ph-users"></i></div>
-                            <div class="lab-sidebar-icon"><i class="ph ph-chart-bar"></i></div>
-                            <div class="lab-sidebar-icon"><i class="ph ph-printer"></i></div>
-                            <div class="lab-sidebar-icon"><i class="ph ph-gear"></i></div>
-                        </div>
-                        <!-- Content -->
-                        <div class="lab-main-content">
-                            <div class="text-heading-color fw-bold mb-3" style="font-size:12px;">Lab Dashboard Overview</div>
-                            <div class="d-flex gap-2 mb-3">
-                                <div class="lab-stat-mini">
-                                    <div class="num">320</div>
-                                    <div class="lbl">Samples</div>
-                                </div>
-                                <div class="lab-stat-mini">
-                                    <div class="num">148</div>
-                                    <div class="lbl">Reports</div>
-                                </div>
-                                <div class="lab-stat-mini">
-                                    <div class="num">98%</div>
-                                    <div class="lbl">Accuracy</div>
-                                </div>
-                                <div class="lab-stat-mini">
-                                    <div class="num">12</div>
-                                    <div class="lbl">Pending</div>
-                                </div>
-                            </div>
-                            <div class="text-heading-color fw-semibold mb-2" style="font-size:11px;">Recent Reports Generated</div>
-                            <div class="lab-table-row">
-                                <div class="av">BT</div>
-                                <span style="flex:1;">Blood Test — Patient #1042</span>
-                                <span style="color:hsl(var(--main));font-weight:600;">Ready</span>
-                            </div>
-                            <div class="lab-table-row">
-                                <div class="av">UR</div>
-                                <span style="flex:1;">Urine Analysis — Patient #1038</span>
-                                <span style="color:hsl(var(--main));font-weight:600;">Ready</span>
-                            </div>
-                            <div class="lab-table-row">
-                                <div class="av">CB</div>
-                                <span style="flex:1;">CBC Report — Patient #1055</span>
-                                <span style="color:#f59e0b;font-weight:600;">Processing</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <img src="{{asset('assets/images/case-study/lab.jpg')}}" alt="Lab Report Generation System" class="w-100 h-100 object-fit-cover tw-rounded-2xl" />
             </div>
         </div>
 
         <!-- Meta Cards -->
-        <div class="row gy-4 mt-5">
+        <div class="swiper meta-cards-swiper mt-5">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-code','Platform','Laravel PHP'],
                 ['ph-flask','Industry','Healthcare / Lab'],
-                ['ph-stack','Project Type','SaaS / Lab System'],
+                ['ph-layers','Project Type','SaaS / Lab System'],
                 ['ph-clock','Duration','Ongoing'],
                 ['ph-globe','Region','Global'],
             ] as $m)
-            <div class="col-6 col-md-4 col-lg">
+            <div class="swiper-slide h-auto">
                 <div class="d-flex flex-column align-items-center text-center p-4 bg-white border border-neutral-200 rounded-3 h-100 shadow-sm">
                     <span class="d-flex align-items-center justify-content-center rounded-circle bg-main-50 text-main mb-3"
                           style="width:52px;height:52px;font-size:1.4rem;"><i class="ph {{ $m[0] }}"></i></span>
@@ -159,6 +123,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
     </div>
 </section>
@@ -404,7 +370,8 @@
             <h2 class="fw-bold">Lab System in <span class="text-main">Action</span></h2>
             <p class="text-body mt-2 mx-auto" style="max-width:540px;">Every module built to streamline a specific lab workflow — from sample registration to final report delivery.</p>
         </div>
-        <div class="row gy-4 gx-4">
+        <div class="swiper module-cards-swiper">
+            <div class="swiper-wrapper">
             @foreach([
                 ['ph-flask','Sample Registration','Register patient samples with barcode/ID tracking and test assignment.'],
                 ['ph-test-tube','Test Management','Define test parameters, reference ranges, and result entry templates.'],
@@ -416,7 +383,7 @@
                 ['ph-printer','Print Module','Print-ready report layouts with lab logo, letterhead, and signature fields.'],
                 ['ph-chart-bar','Admin Analytics','Dashboard with daily reports count, pending samples, and lab throughput.'],
             ] as $mod)
-            <div class="col-sm-6 col-lg-4">
+            <div class="swiper-slide h-auto">
                 <div class="module-card">
                     <div class="module-icon"><i class="ph {{ $mod[0] }}"></i></div>
                     <div class="fw-semibold text-heading-color mb-2" style="font-size:0.95rem;">{{ $mod[1] }}</div>
@@ -424,6 +391,8 @@
                 </div>
             </div>
             @endforeach
+            </div>
+            <div class="swiper-pagination text-center tw-mt-8"></div>
         </div>
         <div class="text-center mt-5">
             <a href="{{ url('/contact') }}"
@@ -523,38 +492,67 @@
 </section>
 
 
-<!-- ======================== CTA ======================== -->
-<section class="py-120 cta-bg">
+<!-- ======================== CTA / TASK MANAGEMENT ======================== -->
+<section class="task-management bg-pink-more-light-half drag-rotate-element-section bg-neutral-light-half pt-120">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <span class="d-inline-flex align-items-center gap-2 px-4 py-2 rounded-pill mb-4"
-                      style="background:rgba(255,255,255,0.15);">
-                    <i class="ph ph-lightning text-white"></i>
-                    <span class="text-white fw-semibold" style="font-size:0.88rem;">Ready to Build Your Custom Lab System?</span>
-                </span>
-                <h2 class="text-white fw-bold mb-4" style="font-size:clamp(1.6rem,3vw,2.5rem);">
-                    Ready to automate <span style="color:rgba(255,255,255,0.75);">your lab reports?</span>
-                </h2>
-                <p class="mb-5" style="color:rgba(255,255,255,0.8);font-size:1.05rem;">
-                    Talk to our experts and get a tailored Lab Report Generation System for your diagnostic lab or healthcare facility.
-                </p>
-                <div class="d-flex align-items-center justify-content-center gap-3 flex-wrap mb-5">
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="background:#fff;color:hsl(var(--main));">
-                        <i class="ph ph-paper-plane-tilt"></i> Request a Quote
-                    </a>
-                    <a href="{{ url('/contact') }}"
-                       class="btn btn-lg px-5 py-3 rounded-pill fw-semibold d-inline-flex align-items-center gap-2"
-                       style="border:2px solid rgba(255,255,255,0.6);color:#fff;background:transparent;">
-                        <i class="ph ph-chat-circle-dots"></i> Schedule a Demo
-                    </a>
+        <div class="text-end tw--mb-40-px position-relative z-2">
+            <img src="{{asset('assets/images/thumbs/laptop-man.png')}}" alt="Image" class="tw-me-84-px" />
+        </div>
+
+        <div class="bg-green-deep tw-rounded-3xl tw-pt-100-px position-relative z-1">
+            <img src="{{asset('assets/images/shapes/hill-shape.png')}}" alt="Hill Shape"
+                class="position-absolute w-100 h-100 top-0 tw-start-0 z-n1" />
+            <img src="{{asset('assets/images/thumbs/task-management-img.png')}}" alt="Image"
+                class="position-absolute tw-end-0 top-0 tw-me-5 tw-mt-5 d-lg-block d-none" />
+
+            <div class="tw-mb-8 text-center max-w-570-px mx-auto">
+                <div class="tw-py-3 tw-px-305 rounded-pill fw-medium text-capitalize tw-leading-none d-inline-flex align-items-center tw-gap-2 tw-mb-405 min-w-max text-white bg-white-13"
+                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+                    <div class="">
+                        Automate your lab reports with
+                        <span class="text-yellow text-stroke-yellow">100%</span>
+                        accuracy
+                    </div>
                 </div>
-                <div class="d-flex flex-wrap justify-content-center gap-2">
-                    @foreach(['Laravel Development','Lab Report System','PDF Generation','Role-Based Access','Patient Portal','Sample Tracking','Result Analytics','Cloud Hosting','SMS Notifications','Custom Report Templates'] as $tag)
-                    <span class="badge px-3 py-2 rounded-pill" style="background:rgba(255,255,255,0.15);color:#fff;font-size:0.78rem;">{{ $tag }}</span>
-                    @endforeach
+
+                <h3 class="splitTextStyleOne text-white">
+                    Ready to Build Your Custom Lab System?
+                </h3>
+
+                <div class="d-block">
+                    <div class="d-flex align-items-center tw-gap-4 justify-content-center flex-wrap">
+                        <a href="{{ route('contact') }}"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Request a Quote</span>
+                            </div>
+                        </a>
+                        <a target="blank" href="https://calendly.com/zalgoinfotec/30min"
+                            class="hover--translate-y-1 active--translate-y-scale-9 btn hover-style-two button--stroke d-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-705 tw-rounded-2xl tw-py-6 fw-bold tw-mt-7"
+                            data-block="button">
+                            <span class="button__flair"></span>
+                            <div class="d-flex align-items-center tw-gap-2 z-1">
+                                <span class="button__label">Talk to Expert</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tw-pt-8 text-center">
+                <div class="myContainer position-relative d-flex flex-wrap align-items-center justify-content-center tw-gap-6 tw-pt-16 overflow-hidden w-100 tw-px-6">
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-white gradient-bg-six rounded-pill">Laravel Development</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">Lab Report System</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">PDF Generation</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-yellow rounded-pill">Role-Based Access</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Patient Portal</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Sample Tracking</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-orange rounded-pill">Result Analytics</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading gradient-bg-six rounded-pill">Cloud Hosting</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-paste rounded-pill">SMS Notifications</span>
+                    <span class="drag-rotate-element cursor-grab min-w-max z-1 tw-px-9 tw-py-2 fw-semibold text-heading bg-pink rounded-pill">Custom Report Templates</span>
                 </div>
             </div>
         </div>
@@ -564,4 +562,20 @@
         @include('frontend.includes.footers.footerOne')
         <!-- footer area end -->
     </div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    if (typeof Swiper !== 'undefined' && window.innerWidth < 768) {
+        new Swiper('.module-cards-swiper', {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            pagination: { el: '.module-cards-swiper .swiper-pagination', clickable: true },
+        });
+        new Swiper('.meta-cards-swiper', {
+            slidesPerView: 2,
+            spaceBetween: 16,
+            pagination: { el: '.meta-cards-swiper .swiper-pagination', clickable: true },
+        });
+    }
+});
+</script>
 @endsection
