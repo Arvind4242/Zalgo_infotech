@@ -129,12 +129,18 @@ Route::controller(PageController::class)->group(function () {
     Route::get('lifetreeanatomical', 'Lifetreeanatomical')->name('lifetreeanatomical');
     Route::get('towelsoutlet', 'Towelsoutlet')->name('towelsoutlet');
     Route::get('awakeningthegeniuswithin', 'Awakeningthegeniuswithin')->name('awakeningthegeniuswithin');
+    Route::get('erpsystem', 'ErpSystem')->name('erpsystem');
+    Route::get('labproject', 'LabProject')->name('labproject');
+    Route::get('lms', 'Lms')->name('lms');
+    Route::get('leadmanagement', 'LeadManagement')->name('leadmanagement');
+    Route::get('washingerp', 'WashingErp')->name('washingerp');
     Route::get('financemanagertraining', 'FinanceManagerTraining')->name('financemanagertraining');
 
     // Blog
     Route::get('blog', 'blog')->name('blog');
     Route::get('casestudy', 'casestudy')->name('casestudy');
-    Route::get('blog-details', 'blogDetails')->name('blog.details');
+    Route::get('blog/{slug}', 'blogDetails')->name('blog.details');
+    Route::post('blog/{slug}/comment', 'submitComment')->name('blog.comment');
 
     // Contact
     Route::get('contact', 'contact')->name('contact');
