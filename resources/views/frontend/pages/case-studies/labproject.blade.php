@@ -100,7 +100,7 @@
 
             <!-- Right: Lab Image -->
             <div class="col-lg-6">
-                <img src="{{asset('assets/images/case-study/lab.jpg')}}" alt="Lab Report Generation System" class="w-100 h-100 object-fit-cover tw-rounded-2xl" />
+                <img src="{{asset('assets/images/case-study/lab-hero.png')}}" alt="Lab Report Generation System" class="w-100 tw-rounded-2xl" style="max-height:480px;object-fit:contain;" />
             </div>
         </div>
 

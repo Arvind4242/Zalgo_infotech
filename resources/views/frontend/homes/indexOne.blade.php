@@ -76,6 +76,57 @@
         color: white;
     }
 
+    /* ── Large desktop (≤ 1400px) ── */
+    @media (max-width: 1400px) {
+        .portfolio-left h2 {
+            font-size: 24px;
+        }
+        .portfolio-left {
+            padding-right: 36px;
+        }
+    }
+
+    /* ── Medium desktop (≤ 1280px) ── */
+    @media (max-width: 1280px) {
+        .portfolio-left h2 {
+            font-size: 22px;
+        }
+        .portfolio-left {
+            padding-right: 28px;
+        }
+        .portfolio-left p {
+            font-size: 14px !important;
+        }
+        .tech-icons span {
+            font-size: 12px;
+            padding: 6px 11px;
+        }
+        .portfolio-section .swiper-slide .align-content-center {
+            gap: 32px !important;
+        }
+    }
+
+    /* ── Small desktop (≤ 1100px) ── */
+    @media (max-width: 1100px) {
+        .portfolio-left h2 {
+            font-size: 20px;
+            line-height: 1.35;
+        }
+        .portfolio-left {
+            padding-right: 20px;
+        }
+        .portfolio-left p {
+            font-size: 13px !important;
+        }
+        .tech-icons span {
+            font-size: 11px;
+            padding: 5px 9px;
+        }
+        .portfolio-section .swiper-slide .align-content-center {
+            gap: 20px !important;
+        }
+    }
+
     /* ── Tablet (≤ 991px) ── */
     @media (max-width: 991px) {
         .portfolio-section {
@@ -189,8 +240,8 @@
                                 <span class="d-inline-block"> IT Solutions</span>
                             </h1>
                             <p class="text-neutral-500 tw-text-lg max-w-500-px fw-medium tw-mt-8 splitTextStyleOne">
-                                We build intelligent AI chatbots and scalable 
-                                IT solutions that automate customer support, capture leads 
+                                We build intelligent AI chatbots and scalable
+                                IT solutions that automate customer support, capture leads
                                 24/7, enable multilingual conversations, and help businesses scale globally.
                             </p>
                             <div class="tw-mt-11 d-flex align-items-center tw-gap-42-px flex-wrap">
@@ -253,7 +304,7 @@
                                         </span>
                                         <span class="text-heading fw-semibold tw-text-base">Custom AI Training</span>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -435,7 +486,7 @@
                                         <div
                                             class="bg-main-600 tw-rounded-3xl tw-p-8 text-center h-100 d-flex flex-column justify-content-center align-items-center">
                                             <h3 class="text-white d-inline-flex align-items-center tw-gap-3 tw-mb-9">
-                                                <span class="d-flex">
+                                                <span class="d-flex case-study__slider">
                                                     <img src="{{asset('assets/images/icons/arrow-up.svg')}}" alt="" />
                                                 </span>
                                                 88%
@@ -517,7 +568,7 @@
                                         <span class="d-inline-block">Growth </span>
                                         <span class="d-inline-block fw-semibold">Through </span>
                                         <span class="d-inline-block">
-                                            Reliable 
+                                            Reliable
                                         </span>
                                         <span class="d-inline-block fw-semibold">
                                             IT Solutions</span>
@@ -744,7 +795,7 @@
                         <span class="d-inline-block">Delivering
                         </span>
                         <span class="d-inline-block fw-semibold">
-                             Scalable IT Solutions 
+                             Scalable IT Solutions
                         </span>
                         <span class="d-inline-block">That Drive Growth</span>
                     </h3>
@@ -777,7 +828,7 @@
                             </h3>
                             <div class="d-flex align-items-center tw-gap-2">
                                 <!-- <span class="text-main-two-600 tw-text-2xl fw-semibold">//</span> -->
-                                <p class="text-main-two-600 max-w-194-px">  
+                                <p class="text-main-two-600 max-w-194-px">
                                     Project delivery with optimized workflows
                                 </p>
                             </div>
@@ -953,16 +1004,16 @@
                     <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
                         <div class="max-w-672-px">
                             <h3 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block">Technology 
+                                <span class="d-inline-block">Technology
                                 </span>
-                                <span class="d-inline-block fw-semibold">Solutions Built 
+                                <span class="d-inline-block fw-semibold">Solutions Built
                                 </span>
                                 <span class="d-inline-block">To
                                 </span>
                                 <span class="d-inline-block fw-semibold">
                                     Power
                                 </span>
-                                <span class="d-inline-block fw-semibold">Modern 
+                                <span class="d-inline-block fw-semibold">Modern
                                 </span>
                                 <span class="d-inline-block fw-semibold">Businesses</span>
                             </h3>
@@ -1150,9 +1201,9 @@
                                             </p>
                                         </div>
                                     </div>
-                                    
-                                    
-                                    
+
+
+
                                     <div class="col-12" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                         data-aos-duration="600">
                                         <div class="d-flex align-items-center tw-gap-505 tw-mt-8" data-aos="fade-up"
@@ -1167,7 +1218,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -1366,7 +1417,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>ZalgoStore ERP – All-in-One Business Management System</h2>
 
@@ -1397,12 +1448,12 @@
                             </div>
                         </div>
                     </div>
-                
+
                     <!-- SLIDE 1 -->
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Zalgo Edutech LMS – Online Video Coaching & Training Platform</h2>
 
@@ -1433,12 +1484,12 @@
                             </div>
                         </div>
                     </div>
-                
+
                     <!-- SLIDE 1 -->
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Bioage – Health & Wellness eCommerce Website</h2>
 
@@ -1473,7 +1524,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Awakening The Genius Within – Book Showcase & Wellness</h2>
 
@@ -1508,7 +1559,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Life Tree Anatomical – Whole Body Donation & Medical Research Service Website</h2>
 
@@ -1543,7 +1594,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Washing Center ERP – Slot Booking, Rewards & Multi-tenant SaaS</h2>
 
@@ -1579,7 +1630,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Lead Management CRM – Follow-up Automation & Payment Handling</h2>
 
@@ -1615,7 +1666,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Lab Report Generation System – Automated PDF Reports & Analytics</h2>
 
@@ -1651,7 +1702,7 @@
                     <div class="swiper-slide">
                         <div class="container">
                             <div class="row">
-                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
                                         <h2>Finance Manager Training – Business Finance & Revenue Growth</h2>
 
@@ -1791,7 +1842,7 @@
                                 <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-5 d-flex gap-2">
                                     <span class="d-inline-block fw-semibold">
                                         <span class="fw-normal">Let’s </span>
-                                        Turn Your Idea Into a Scalable 
+                                        Turn Your Idea Into a Scalable
                                         <span class="fw-normal">
                                             Digital Solution</span>
                                     </span>

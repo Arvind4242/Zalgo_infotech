@@ -443,7 +443,7 @@ textarea {
                                 class="site-country-flag" loading="lazy"> India </h4>
                         <p>1/65, vinay nagar sec 3, 100 feet road, s. p. ashram, gwalior, madhya pradesh, india - 474012
                         </p>
-                        <strong> +91 92442 13332</strong>
+                        <strong> +91 92442 13326</strong>
                     </div>
                 </div>
 

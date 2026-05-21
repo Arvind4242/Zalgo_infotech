@@ -2537,7 +2537,7 @@ input:focus, input:focus-visible {
     .faq-two .row.gy-4 > div{
         width:100%;
     }
-    
+
     header .nav-menu{
         gap:25px;
     }
@@ -4313,6 +4313,8 @@ input:focus, input:focus-visible {
     .max-w-288-px {
         max-width: 288px;
     }
+
+
 }
 
 @media (min-width: 991px) {
@@ -6039,6 +6041,21 @@ input:focus, input:focus-visible {
     .max-md-w-100 {
         width: 100%;
     }
+    .d-flex.case-study__slider {
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding: 0 20px;
+    }
+    .portfolio-right img {
+        height: 600px;
+        object-fit: cover;
+    }
+    .swiper-button {
+        bottom: -15px !important;
+        height: 92px;
+        left: 14px;
+        padding-left: 0;
+    }
 }
 
 .max-w-54-percent {
@@ -7436,6 +7453,10 @@ svg.radial-progress text {
     }
     .portfolio-left, .portfolio-right {
         width: 100% !important;
+    }
+    .portfolio-right img {
+        height: auto;
+        object-fit: cover;
     }
     .portfolio-section {
         padding: 50px 0;
@@ -9221,7 +9242,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     min-height: 50px;
     bottom: 55px;
 }
-.swiper-button .swiper-button-next, 
+.swiper-button .swiper-button-next,
 .swiper-button .swiper-button-prev {
     width: 50px;
     height: 50px;
@@ -9231,7 +9252,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
     padding: 10px;
     font-size: 12px;
 }
-.swiper-button .swiper-button-next:after, 
+.swiper-button .swiper-button-next:after,
 .swiper-button .swiper-button-prev:after {
     font-size: 25px;
 }
@@ -9242,4 +9263,16 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill, text
 .swiper-button .swiper-button-next:hover, .swiper-button .swiper-button-prev:hover {
     background: #000;
     color: #fff;
+}
+.brand-slider .swiper-slide{
+    overflow:hidden;
+}
+
+@media screen and (max-width:1536px){
+    /* .portfolioSwiper .swiper-slide {
+        padding: 0 50px !important;
+    } */
+    /* .portfolioSwiper .container {
+        max-width: 100%;
+    } */
 }
