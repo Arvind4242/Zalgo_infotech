@@ -257,7 +257,7 @@
                     <div class="d-flex gap-5 case-study-item flex-column" data-aos="fade-up" data-aos-duration="800">
                         <div class="position-relative case-study-item-left">
                             <a href="{{ route('washingerp') }}" class="w-100 h-100 overflow-hidden tw-rounded-3xl d-block">
-                                <img src="{{ asset('assets/images/case-study/experthe-case-study.png') }}"
+                                <img src="{{ asset('assets/images/case-study/washing.jpeg') }}"
                                      class="w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500" alt="Washing ERP"/>
                             </a>
                         </div>
@@ -307,7 +307,7 @@
                     <div class="d-flex gap-5 case-study-item flex-column" data-aos="fade-up" data-aos-duration="800">
                         <div class="position-relative case-study-item-left">
                             <a href="{{ route('labproject') }}" class="w-100 h-100 overflow-hidden tw-rounded-3xl d-block">
-                                <img src="{{ asset('assets/images/case-study/bioage-case-study.png') }}"
+                                <img src="{{ asset('assets/images/case-study/lab.jpeg') }}"
                                      class="w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500" alt="Lab Report System"/>
                             </a>
                         </div>

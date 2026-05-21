@@ -366,7 +366,7 @@ var showCaseSlider = new Swiper('.show-case-slider', {
   loop: true,
   spaceBetween: 24,
   slidesPerView: 4,
-  centeredSlides: true, 
+  centeredSlides: true,
   breakpoints: {
     300: {
         slidesPerView: 1,
