@@ -2,59 +2,120 @@
 @section('title', 'Index One')
 @section('content')
 <style>
-    /* Add your custom styles here */
+    /* ── Portfolio Section ── */
     .portfolio-section {
         background: #006d75;
         color: white;
-        padding: 80px 0;
+        padding: 80px 0 60px;
     }
+
+    .swiper-slide .align-content-center {
+        align-items: stretch;
+    }
+
+    /* ── Left column ── */
     .portfolio-left {
         width: 50%;
+        flex-shrink: 0;
         display: flex;
         flex-direction: column;
-        align-items: self-start;
+        align-items: flex-start;
         justify-content: center;
-    }
-    
-    .tech-icons{
-        margin-top:20px;
+        padding-right: 48px;
     }
 
-    .tech-icons span{
-        display:inline-block;
-        background:#0f4d64;
-        padding:10px 14px;
-        border-radius:50px;
-        margin-right:10px;
-        font-size:14px;
+    .portfolio-left h2 {
+        font-size: 28px;
+        line-height: 1.35;
+        font-weight: 700;
+        margin-bottom: 14px;
     }
 
-    .case-btn{
-        display:inline-block;
-        margin-top:30px;
-        background:#1e88c9;
-        padding:14px 28px;
-        border-radius:40px;
-        color:white;
-        text-decoration:none;
-        font-weight:600;
+    .portfolio-left p {
+        font-size: 15px !important;
+        line-height: 1.75;
+        opacity: 0.88;
+        margin-bottom: 0;
     }
 
-    .portfolio-right{
-        width:50%;
+    /* ── Tech tags ── */
+    .tech-icons {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 10px;
     }
 
-    .portfolio-right img{
-        width:100%;
-        border-radius:20px;
-        box-shadow:0 20px 40px rgba(0,0,0,0.4);
+    .tech-icons span {
+        display: inline-block;
+        background: rgba(255,255,255,0.12);
+        border: 1px solid rgba(255,255,255,0.2);
+        padding: 7px 14px;
+        border-radius: 50px;
+        font-size: 13px;
+        line-height: 1.2;
+        white-space: nowrap;
     }
 
-    /* swiper arrows */
+    /* ── Right column (image) ── */
+    .portfolio-right {
+        width: 50%;
+        flex-shrink: 0;
+    }
 
+    .portfolio-right img {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+        display: block;
+    }
+
+    /* ── Swiper arrows ── */
     .swiper-button-next,
-    .swiper-button-prev{
-        color:white;
+    .swiper-button-prev {
+        color: white;
+    }
+
+    /* ── Tablet (≤ 991px) ── */
+    @media (max-width: 991px) {
+        .portfolio-section {
+            padding: 60px 0 50px;
+        }
+        .swiper-slide .align-content-center {
+            flex-direction: column-reverse !important;
+            gap: 28px !important;
+        }
+        .portfolio-left {
+            width: 100% !important;
+            padding-right: 0 !important;
+        }
+        .portfolio-left h2 {
+            font-size: 22px;
+        }
+        .portfolio-right {
+            width: 100% !important;
+        }
+    }
+
+    /* ── Mobile (≤ 575px) ── */
+    @media (max-width: 575px) {
+        .portfolio-section {
+            padding: 44px 0 40px;
+        }
+        .portfolio-left h2 {
+            font-size: 19px;
+            line-height: 1.3;
+        }
+        .portfolio-left p {
+            font-size: 14px !important;
+        }
+        .tech-icons span {
+            font-size: 12px;
+            padding: 6px 12px;
+        }
+        body .swiper-button {
+            bottom: -10px;
+        }
     }
 </style>
     <!-- header area -->
@@ -1330,7 +1391,7 @@
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/case-studies/erpsystem-thumb.jpg')}}">
+                                        <img src="{{asset('assets/images/case-study/erpsystem-thumb.jpg')}}">
                                     </div>
                                 </div>
                             </div>
@@ -1366,7 +1427,7 @@
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/case-studies/lms-thumb.jpg')}}">
+                                        <img src="{{asset('assets/images/case-study/lms.jpg')}}">
                                     </div>
                                 </div>
                             </div>
@@ -1414,7 +1475,7 @@
                             <div class="row">
                                 <div class="align-content-center col-md-12 d-flex gap-5">
                                     <div class="portfolio-left">
-                                        <h2>Awakening The Genius Within – Book Showcase & Wellness Informational Website</h2>
+                                        <h2>Awakening The Genius Within – Book Showcase & Wellness</h2>
 
                                             <p>
                                                 Awakening The Genius Within is a comprehensive informational website designed to provide users with valuable insights into the world of wellness and personal development. The site features a curated collection of books, articles, and resources aimed at empowering individuals to unlock their full potential.
@@ -1478,7 +1539,148 @@
                         </div>
                     </div>
 
-                    
+                    <!-- SLIDE - Washing Center ERP -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Washing Center ERP – Slot Booking, Rewards & Multi-tenant SaaS</h2>
+
+                                            <p>
+                                                A SaaS ERP where washing center owners subscribe, configure working days, set time slots, and accept customer bookings online. Includes a customer reward points engine, invoice generator, and automated SMS/email notifications.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>React 18</span>
+                                                <span>Node.js</span>
+                                                <span>Multi-tenant</span>
+                                                <span>Stripe</span>
+                                                <span>Twilio SMS</span>
+                                                <span>Prisma ORM</span>
+                                            </div>
+
+                                            <a href="{{route('washingerp')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/case-study/washing.jpeg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE - Lead Management CRM -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Lead Management CRM – Follow-up Automation & Payment Handling</h2>
+
+                                            <p>
+                                                A full-stack Lead CRM with Kanban pipeline, status management, follow-up automation via Node-cron, Stripe payment handling, Socket.io real-time notifications, and email/SMS drip sequences.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>React 18</span>
+                                                <span>Node.js</span>
+                                                <span>Socket.io</span>
+                                                <span>Node-cron</span>
+                                                <span>Stripe</span>
+                                                <span>Sales CRM</span>
+                                            </div>
+
+                                            <a href="{{route('leadmanagement')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/case-study/leadmangement.jpeg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE - Lab Report Generation System -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Lab Report Generation System – Automated PDF Reports & Analytics</h2>
+
+                                            <p>
+                                                A comprehensive lab management platform built on Laravel. Automates sample tracking, test result entry, and PDF report generation. Patients access their own reports online while admins manage test workflows end-to-end.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>Laravel 10</span>
+                                                <span>MySQL</span>
+                                                <span>DomPDF</span>
+                                                <span>Bootstrap 5</span>
+                                                <span>SMS Gateway</span>
+                                                <span>Healthcare</span>
+                                            </div>
+
+                                            <a href="{{route('labproject')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/case-study/lab.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SLIDE - Finance Manager Training -->
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="align-content-center col-md-12 d-flex gap-5">
+                                    <div class="portfolio-left">
+                                        <h2>Finance Manager Training – Business Finance & Revenue Growth</h2>
+
+                                            <p>
+                                                A specialized WooCommerce-powered e-commerce platform for finance manager training. Built to deliver digital courses and resources helping businesses scale revenue through smart financial strategies.
+                                            </p>
+
+                                            <div class="tech-icons">
+                                                <span>WordPress</span>
+                                                <span>SEO</span>
+                                                <span>Digital Marketing</span>
+                                                <span>Responsive Design</span>
+                                            </div>
+
+                                            <a href="{{route('financemanagertraining')}}"
+                                                class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
+                                                data-block="button">
+                                                <span class="button__flair"></span>
+                                                <span class="button__label">View More</span>
+                                            </a>
+                                    </div>
+                                    <div class="portfolio-right">
+                                        <img src="{{asset('assets/images/thumbs/Finance-Manager-Training.jpg')}}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="container swiper-button overflow-visible position-relative">
                     <div class="swiper-button-next"></div>
@@ -1516,7 +1718,7 @@
                             <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                 data-aos-duration="200">
                                 <div class="group-item">
-                                    <a href="{{route('blog.details')}}" class="w-100 h-100 overflow-hidden">
+                                    <a href="{{route('bioage')}}" class="w-100 h-100 overflow-hidden">
                                         <img src="{{asset('assets/images/case-study/bioage-case-study.png')}}" alt="Blog Image"
                                             class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                     </a>
@@ -1526,10 +1728,10 @@
                                         <span class="text-heading fw-medium tw-text-base">6+ Years Engagement</span>
                                     </div>
                                     <h5 class="tw-mt-4">
-                                        <a href="{{route('blog.details')}}"
+                                        <a href="{{route('bioage')}}"
                                             class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">BIOAGE — Scaling a 7-Figure E-commerce Brand</a>
                                     </h5>
-                                    <a href="{{route('blog.details')}}"
+                                    <a href="{{route('bioage')}}"
                                         class="text-main-600 fw-medium tw-text-lg hover--translate-y-1">
                                         Learn More
                                         <span class="d-inline-flex tw-text-sm">
@@ -1541,7 +1743,7 @@
                             <div class="col-sm-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
                                 data-aos-duration="400">
                                 <div class="group-item">
-                                    <a href="{{route('blog.details')}}" class="w-100 h-100 overflow-hidden">
+                                    <a href="{{route('experthe')}}" class="w-100 h-100 overflow-hidden">
                                         <img src="{{asset('assets/images/case-study/finance-case-study.png')}}" alt="Blog Image"
                                             class="w-100 h-100 object-fit-cover group-hover-item-scale-12 tw-duration-300" />
                                     </a>
@@ -1551,10 +1753,10 @@
                                         <span class="text-heading fw-medium tw-text-base">4+ Years Engagement</span>
                                     </div>
                                     <h5 class="tw-mt-4">
-                                        <a href="{{route('blog.details')}}"
+                                        <a href="{{route('experthe')}}"
                                             class="hover-text-main-600 line-clamp-1 tw-mb-3 hover--translate-y-1">Expert Heavy Equipment — Website Redesign & Security Enhancement</a>
                                     </h5>
-                                    <a href="{{route('blog.details')}}"
+                                    <a href="{{route('experthe')}}"
                                         class="text-main-600 fw-medium tw-text-lg hover--translate-y-1">
                                         Learn More
                                         <span class="d-inline-flex tw-text-sm">
