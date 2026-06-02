@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 class AdminSessionTimeout
 {
-    protected int $timeout = 120; // seconds
+    protected int $timeout = 900; // 15 minutes
 
     public function handle(Request $request, Closure $next)
     {

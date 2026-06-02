@@ -61,7 +61,7 @@ class AdminPanelProvider extends PanelProvider
                 AdminSessionTimeout::class,
             ])
             ->authMiddleware([
-               // Authenticate::class,
+                Authenticate::class,
             ]);
     }
 
