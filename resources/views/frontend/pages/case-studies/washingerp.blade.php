@@ -113,68 +113,12 @@
                 </div>
             </div>
 
-            <!-- Right: Dashboard Mockup -->
-            <div class="col-lg-6">
-                <div class="wash-hero-mockup">
-                    <div class="wash-mockup-bar">
-                        <span class="wash-mockup-dot" style="background:#ff5f57;"></span>
-                        <span class="wash-mockup-dot" style="background:#ffbd2e;"></span>
-                        <span class="wash-mockup-dot" style="background:#28c840;"></span>
-                        <span class="wash-mockup-url">washingcenter.example.com/dashboard</span>
-                    </div>
-                    <div class="wash-mockup-body d-flex">
-                        <!-- Sidebar -->
-                        <div class="wash-sidebar">
-                            <div class="wash-sidebar-icon active"><i class="ph ph-squares-four"></i></div>
-                            <div class="wash-sidebar-icon"><i class="ph ph-calendar"></i></div>
-                            <div class="wash-sidebar-icon"><i class="ph ph-car"></i></div>
-                            <div class="wash-sidebar-icon"><i class="ph ph-clock"></i></div>
-                            <div class="wash-sidebar-icon"><i class="ph ph-star"></i></div>
-                            <div class="wash-sidebar-icon"><i class="ph ph-receipt"></i></div>
-                            <div class="wash-sidebar-icon"><i class="ph ph-chart-bar"></i></div>
-                        </div>
-                        <!-- Content -->
-                        <div class="wash-main-content">
-                            <div class="text-heading-color fw-bold mb-2" style="font-size:11px;">Today's Slot Availability — Mon, 20 Apr</div>
-                            <!-- Stats row -->
-                            <div class="d-flex gap-2 mb-3">
-                                <div class="wash-stat-mini">
-                                    <div class="num">18</div>
-                                    <div class="lbl">Total Slots</div>
-                                </div>
-                                <div class="wash-stat-mini">
-                                    <div class="num">11</div>
-                                    <div class="lbl">Booked</div>
-                                </div>
-                                <div class="wash-stat-mini">
-                                    <div class="num">7</div>
-                                    <div class="lbl">Available</div>
-                                </div>
-                                <div class="wash-stat-mini">
-                                    <div class="num">₹4,200</div>
-                                    <div class="lbl">Today</div>
-                                </div>
-                            </div>
-                            <!-- Slot grid -->
-                            <div class="text-heading-color fw-semibold mb-1" style="font-size:10px;">Slot Board</div>
-                            <div class="slot-grid mb-2">
-                                <div class="slot-box booked">9:00 AM</div>
-                                <div class="slot-box booked">9:30 AM</div>
-                                <div class="slot-box available">10:00 AM</div>
-                                <div class="slot-box selected">10:30 AM</div>
-                                <div class="slot-box booked">11:00 AM</div>
-                                <div class="slot-box available">11:30 AM</div>
-                                <div class="slot-box available">12:00 PM</div>
-                                <div class="slot-box booked">12:30 PM</div>
-                            </div>
-                            <div class="d-flex gap-2" style="font-size:9px;">
-                                <span class="d-flex align-items-center gap-1"><span style="width:8px;height:8px;background:#fee2e2;border-radius:2px;display:inline-block;"></span>Booked</span>
-                                <span class="d-flex align-items-center gap-1"><span style="width:8px;height:8px;background:#dcfce7;border-radius:2px;display:inline-block;"></span>Available</span>
-                                <span class="d-flex align-items-center gap-1"><span style="width:8px;height:8px;background:hsl(var(--main));border-radius:2px;display:inline-block;"></span>Selected</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <!-- Right: Dashboard Screenshot -->
+            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                <img src="{{asset('assets/images/case-study/washing-hero.png')}}"
+                     alt="Washing ERP Dashboard"
+                     class="w-100 tw-rounded-2xl"
+                     style="max-height:480px;object-fit:contain;" />
             </div>
         </div>
 

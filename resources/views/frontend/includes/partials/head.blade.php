@@ -1,12 +1,16 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="IT Solution, Sass and Multipurpose HTML Template">
-<meta name="keywords" content="IT Solution, Sass and Multipurpose HTML Template">
-<meta name="robots" content="noindex, nofollow">
-<meta name="googlebot" content="noindex, nofollow">
+<meta name="description" content="{{ $metaDescription ?? 'Zalgo Infotech delivers cutting-edge web development, AI solutions, and digital marketing services.' }}">
+@if(!empty($metaKeywords))
+<meta name="keywords" content="{{ $metaKeywords }}">
+@endif
+@if(!empty($metaFocusKeyword))
+<meta name="focus-keyword" content="{{ $metaFocusKeyword }}">
+@endif
+<meta name="robots" content="index, follow">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- Title -->
-<title> Zalgo Infotech - IT Solution</title>
+<title>{{ $metaTitle ?? 'Zalgo Infotech - IT Solutions & Web Development' }}</title>
 <!-- Favicon -->
 <link rel="shortcut icon" href="{{asset('assets/images/logo/favicon.png')}}">
 <!-- Bootstrap -->
