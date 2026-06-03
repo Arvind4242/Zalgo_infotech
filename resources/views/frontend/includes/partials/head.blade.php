@@ -35,3 +35,93 @@ try {
 } catch (e) {}
 </script>
 
+<!-- Schema.org Structured Data -->
+@verbatim
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://zalgoinfotech.com/#organization",
+      "name": "Zalgo Infotech Pvt. Ltd.",
+      "url": "https://zalgoinfotech.com/",
+      "logo": "https://zalgoinfotech.com/assets/images/logo/zalgo_logo.png",
+      "image": "https://zalgoinfotech.com/assets/images/logo/zalgo_logo.png",
+      "description": "Zalgo Infotech is a global AI-powered IT solutions company specializing in custom software development, AI automation, SaaS platforms, web development, ecommerce solutions, and scalable digital transformation services.",
+      "email": "sales@zalgoinfotech.com",
+      "telephone": "+91-9244213326",
+      "foundingDate": "2020",
+      "areaServed": "Worldwide",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "100 Feet Rd, in front of Sant Kripal Ashram, Sindhi Colony, Vinay Nagar",
+        "addressLocality": "Gwalior",
+        "addressRegion": "Madhya Pradesh",
+        "postalCode": "474012",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://in.linkedin.com/company/zalgo-infotech",
+        "https://www.facebook.com/61579841284566/",
+        "https://www.instagram.com/zalgoinfotech/",
+        "https://clutch.co/profile/zalgo-infotech"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://zalgoinfotech.com/#website",
+      "url": "https://zalgoinfotech.com/",
+      "name": "Zalgo Infotech",
+      "description": "Global AI-powered IT solutions company delivering scalable software, automation, SaaS, ecommerce, and web development services.",
+      "publisher": {
+        "@id": "https://zalgoinfotech.com/#organization"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://zalgoinfotech.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://zalgoinfotech.com/#services",
+      "serviceType": [
+        "AI Chatbot Development",
+        "Custom Software Development",
+        "Web Development",
+        "Ecommerce Development",
+        "SaaS Development",
+        "AI Automation Solutions",
+        "SEO Services",
+        "Mobile App Development"
+      ],
+      "provider": {
+        "@id": "https://zalgoinfotech.com/#organization"
+      },
+      "areaServed": [
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "United Kingdom" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "Australia" },
+        { "@type": "Country", "name": "India" }
+      ],
+      "description": "Zalgo Infotech provides AI-powered IT solutions including custom software development, AI chatbots, SaaS platforms, ecommerce solutions, web development, automation systems, and scalable digital transformation services for startups and enterprises worldwide.",
+      "url": "https://zalgoinfotech.com/",
+      "keywords": [
+        "AI development company",
+        "custom software development company",
+        "AI chatbot development services",
+        "web development company",
+        "SaaS development company",
+        "AI automation agency",
+        "SEO services company",
+        "ecommerce development services"
+      ]
+    }
+  ]
+}
+</script>
+@endverbatim
+
