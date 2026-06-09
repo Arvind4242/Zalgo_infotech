@@ -6,6 +6,7 @@ use App\Models\Blog;
 use App\Models\BlogComment;
 use App\Models\ContactMail;
 use App\Models\JobApplication;
+use App\Models\PlanInquiry;
 use Filament\Widgets\StatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
 
@@ -33,6 +34,11 @@ class StatsOverview extends StatsOverviewWidget
                 ->description(ContactMail::whereDate('created_at', today())->count() . ' today')
                 ->descriptionIcon('heroicon-m-envelope')
                 ->color('primary'),
+
+            Stat::make('Plan Inquiries', PlanInquiry::count())
+                ->description(PlanInquiry::whereDate('created_at', today())->count() . ' today')
+                ->descriptionIcon('heroicon-m-credit-card')
+                ->color('warning'),
         ];
     }
 }
