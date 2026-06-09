@@ -31,7 +31,7 @@
                 <!-- Breadcrumb End Here -->
 
                 <!-- Blog Start -->
-                <section class="py-120">
+                <section class="py-120 bg-main-two-900">
                     <div class="container">
                         <div class="row gy-4">
                             <div class="col-lg-8">
@@ -56,7 +56,7 @@
                                                 class="w-100 h-100 overflow-hidden tw-rounded-3xl"
                                             >
                                                 <img
-                                                    src="@if($post->image) {{ \Illuminate\Support\Facades\Storage::url($post->image) }} @else {{ asset('assets/images/thumbs/blog-page-img1.png') }} @endif"
+                                                    src="@if($post->image && \Illuminate\Support\Facades\Storage::disk('public')->exists($post->image)) {{ \Illuminate\Support\Facades\Storage::disk('public')->url($post->image) }} @else {{ asset('assets/images/thumbs/blog-page-img1.png') }} @endif"
                                                     alt="{{ $post->title }}"
                                                     class="w-100 h-100 object-fit-cover hover-scale-108 tw-duration-500"
                                                 />
@@ -82,7 +82,7 @@
                                                         ></i>
                                                     </span>
                                                     <span
-                                                        class="text-neutral-600 tw-text-sm"
+                                                        class="text-neutral-400 tw-text-sm"
                                                         >{{ $post->author_name }}</span
                                                     >
                                                 </div>
