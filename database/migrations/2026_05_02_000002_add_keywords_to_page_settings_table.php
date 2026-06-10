@@ -9,8 +9,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('page_settings', function (Blueprint $table) {
-            $table->string('focus_keyword')->nullable()->after('meta_description');
-            $table->text('keywords')->nullable()->after('focus_keyword');
+            if (!Schema::hasColumn('page_settings', 'focus_keyword')) {
+                $table->string('focus_keyword')->nullable()->after('meta_description');
+            }
+            if (!Schema::hasColumn('page_settings', 'keywords')) {
+                $table->text('keywords')->nullable()->after('focus_keyword');
+            }
         });
     }
 
