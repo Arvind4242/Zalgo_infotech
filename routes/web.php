@@ -10,6 +10,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\Admin\JobApplicationController as AdminJobController;
 
 Route::post('/contact/send', [ContactController::class, 'send'])->name('contact.send');
+Route::post('/plan-inquiry', [ContactController::class, 'storePlanInquiry'])->name('plan.inquiry');
 Route::get('/thankyou', [ContactController::class, 'thankYou'])->name('thankyou.page');
 
 // Route::get('/admin/login', [AuthController::class, 'loginForm'])
@@ -54,7 +55,9 @@ Route::post('/apply', [JobApplicationController::class, 'store'])
 
 // Route::post('/register', [AuthController::class, 'register'])->name('register.store');
 
-Route::view('/privacy-policy', 'privacy-policy')->name('privacy');
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy', ['bodyClass' => 'home-one']);
+})->name('privacy');
 Route::view('/cookie-policy', 'cookie-policy')->name('cookie');
 
 
@@ -104,6 +107,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('aidevelopement', 'aiDevelopment')->name('ai.development');
     Route::get('laravel', 'laravelDevelopment')->name('laravel.development');
     Route::get('maintenanceservices', 'maintenanceServices')->name('maintenanceservices.development');
+    Route::get('wordpress-maintenance', 'wordPressMaintenance')->name('wordpress.maintenance');
     Route::get('seoservices', 'seoServices')->name('seoservices.development');
     Route::get('digitalservices', 'digitalMarketing')->name('digitalservices.development');
     Route::get('culturevalue', 'CultureValue')->name('culture-value');

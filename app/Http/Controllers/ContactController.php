@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\ContactFormMail;
 use App\Models\ContactMail;
+use App\Models\PlanInquiry;
 
 
 class ContactController extends Controller
@@ -65,7 +66,22 @@ public function send(Request $request)
 public function thankYou()
 {
     return view('frontend.pages.thankyou');
+}
 
+public function storePlanInquiry(Request $request)
+{
+    $data = $request->validate([
+        'name'    => 'required|string|max:255',
+        'email'   => 'required|email|max:255',
+        'phone'   => 'required|string|max:50',
+        'plan'    => 'required|string|max:100',
+        'website' => 'nullable|string|max:255',
+        'message' => 'nullable|string',
+    ]);
+
+    PlanInquiry::create($data);
+
+    return response()->json(['success' => true]);
 }
 
 }

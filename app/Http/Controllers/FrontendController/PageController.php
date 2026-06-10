@@ -161,6 +161,11 @@ class PageController extends Controller
         $bodyClass = 'home-one';
         return view('frontend.pages.maintenanceservices', compact('bodyClass'));
     }
+    public function wordPressMaintenance()
+    {
+        $bodyClass = 'home-one';
+        return view('frontend.pages.wordpressmaintenance', compact('bodyClass'));
+    }
     public function seoServices()
     {
         $bodyClass = 'home-one';

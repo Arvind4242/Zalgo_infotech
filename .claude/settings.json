@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan *)",
+      "Bash(php -l app/Filament/Resources/PlanInquiries/PlanInquiryResource.php)",
+      "Bash(php -l app/Filament/Resources/PlanInquiries/Tables/PlanInquiriesTable.php)",
+      "Bash(php -l app/Filament/Resources/PlanInquiries/Schemas/PlanInquiryInfolist.php)",
+      "Bash(php -l app/Filament/Resources/PlanInquiries/Pages/ListPlanInquiries.php)",
+      "Bash(php -l app/Filament/Resources/PlanInquiries/Pages/ViewPlanInquiry.php)",
+      "Bash(php -r ' *)"
+    ]
+  }
+}
