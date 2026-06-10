@@ -23,6 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             JobOpeningSeeder::class,
             PageSettingSeeder::class,
+            BlogSeeder::class,
         ]);
     }
 }
