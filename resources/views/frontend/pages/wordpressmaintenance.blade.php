@@ -11,18 +11,18 @@
         <style>
             /* ---- Hero ---- */
             .wpm-hero-section { background: #fff; padding: 90px 0 60px; }
-            .wpm-badge { color: #0077b6; font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; display: block; }
+            .wpm-badge { color: #00B5AD; font-size: 12px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 14px; display: block; }
             .wpm-h1 { font-size: clamp(2rem, 3.8vw, 3rem); font-weight: 800; line-height: 1.15; color: #0d1b2a; margin-bottom: 18px; }
-            .wpm-h1 .wpm-blue { color: #0077b6; }
+            .wpm-h1 .wpm-blue { color: #00B5AD; }
             .wpm-subtitle { font-size: 16px; color: #5a6a7e; margin-bottom: 24px; max-width: 460px; line-height: 1.7; }
             .wpm-checks { list-style: none; padding: 0; margin: 0 0 32px; display: flex; flex-direction: column; gap: 10px; }
             .wpm-checks li { display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 500; color: #2d3748; }
-            .wpm-check-icon { width: 22px; height: 22px; background: #0077b6; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
+            .wpm-check-icon { width: 22px; height: 22px; background: #00B5AD; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
             .wpm-check-icon svg { width: 12px; height: 12px; fill: none; stroke: #fff; stroke-width: 2.5; }
             .wpm-btn-primary { background: #0d1b2a; color: #fff; border: none; padding: 14px 28px; border-radius: 8px; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: background .2s; }
-            .wpm-btn-primary:hover { background: #0077b6; color: #fff; }
+            .wpm-btn-primary:hover { background: #00B5AD; color: #fff; }
             .wpm-btn-outline { background: #fff; color: #0d1b2a; border: 2px solid #d1d9e0; padding: 13px 28px; border-radius: 8px; font-weight: 700; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; text-decoration: none; transition: all .2s; }
-            .wpm-btn-outline:hover { border-color: #0077b6; color: #0077b6; }
+            .wpm-btn-outline:hover { border-color: #00B5AD; color: #00B5AD; }
 
             /* ---- Dashboard Mockup ---- */
             .wpm-device-wrap { position: relative; max-width: 520px; margin: 0 auto; }
@@ -31,7 +31,7 @@
             /* Sidebar */
             .wpm-db-sidebar { background: #1d2327; width: 90px; flex-shrink: 0; padding: 14px 0; }
             .wpm-db-sidebar-logo { text-align: center; margin-bottom: 14px; }
-            .wpm-db-sidebar-logo svg { width: 28px; height: 28px; fill: #3d9cd2; }
+            .wpm-db-sidebar-logo svg { width: 28px; height: 28px; fill: #00B5AD; }
             .wpm-db-nav { list-style: none; margin: 0; padding: 0; }
             .wpm-db-nav li { padding: 7px 10px; font-size: 9px; color: rgba(255,255,255,0.55); text-align: center; cursor: pointer; }
             .wpm-db-nav li.active { color: #fff; background: rgba(255,255,255,0.07); }
@@ -52,8 +52,8 @@
             /* ---- Trust Bar ---- */
             .wpm-trust-bar { background: #fff; padding: 48px 0; border-top: 1px solid #e8edf2; border-bottom: 1px solid #e8edf2; }
             .wpm-trust-card { text-align: center; padding: 28px 20px; }
-            .wpm-trust-icon { width: 56px; height: 56px; margin: 0 auto 14px; background: #e8f4fd; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
-            .wpm-trust-icon svg { width: 28px; height: 28px; fill: #0077b6; }
+            .wpm-trust-icon { width: 56px; height: 56px; margin: 0 auto 14px; background: #E0F5F5; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+            .wpm-trust-icon svg { width: 28px; height: 28px; fill: #00B5AD; }
             .wpm-trust-number { font-size: 2.4rem; font-weight: 800; color: #0d1b2a; line-height: 1; margin-bottom: 4px; }
             .wpm-trust-title { font-size: 15px; font-weight: 700; color: #0d1b2a; margin-bottom: 2px; }
             .wpm-trust-sub { font-size: 13px; color: #7a8a9a; }
@@ -101,7 +101,7 @@
                                     <!-- Sidebar -->
                                     <div class="wpm-db-sidebar">
                                         <div class="wpm-db-sidebar-logo">
-                                            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><circle cx="25" cy="25" r="24" fill="#3d9cd2"/><text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="28" font-family="serif" font-weight="bold">W</text></svg>
+                                            <svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><circle cx="25" cy="25" r="24" fill="#00B5AD"/><text x="50%" y="56%" dominant-baseline="middle" text-anchor="middle" fill="white" font-size="28" font-family="serif" font-weight="bold">W</text></svg>
                                         </div>
                                         <ul class="wpm-db-nav">
                                             <li class="active">Dashboard</li>
@@ -139,7 +139,7 @@
                                             <!-- Backups -->
                                             <div class="wpm-db-card">
                                                 <div class="wpm-db-card-label">Backups</div>
-                                                <div class="wpm-db-card-value" style="color:#0077b6;font-size:15px;margin-top:4px;">Weekly</div>
+                                                <div class="wpm-db-card-value" style="color:#00B5AD;font-size:15px;margin-top:4px;">Weekly</div>
                                                 <div class="wpm-db-card-sub" style="color:#94a3b8;margin-top:4px;">Last backup: 2 Days</div>
                                             </div>
                                             <!-- WooCommerce -->
@@ -222,7 +222,7 @@
         <!-- Trust Bar End -->
 
         <!-- ===================== PROBLEMS WE SOLVE ===================== -->
-        <section class="py-120 position-relative" style="background: #0d1b2a;">
+        <section class="py-120 position-relative" style="background: #071414;">
             <div class="container">
                 <div class="text-center tw-mb-14">
                     <h2 class="splitTextStyleOne text-white fw-bold tw-mb-4">Is Your Website Costing You Customers?</h2>
@@ -646,7 +646,7 @@
         <!-- Portfolio End -->
 
         <!-- ===================== CTA / FREE AUDIT FORM ===================== -->
-        <section class="py-120 position-relative overflow-hidden" style="background: linear-gradient(135deg, #0d1b2a 0%, #1a3a4a 100%);">
+        <section class="py-120 position-relative overflow-hidden" style="background: linear-gradient(135deg, #071414 0%, #0a2828 100%);">
             <img src="{{ asset('assets/images/shapes/hill-shape.png') }}" alt="" class="position-absolute w-100 h-100 top-0 tw-start-0 z-0" style="opacity: 0.05;" />
             <div class="container position-relative z-1">
                 <div class="row gy-5 align-items-start">
@@ -728,15 +728,15 @@
 
             <!-- Header -->
             <div style="margin-bottom:24px;">
-                <div style="font-size:12px;font-weight:700;color:#0077b6;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Get Started</div>
+                <div style="font-size:12px;font-weight:700;color:#00B5AD;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">Get Started</div>
                 <h3 style="font-size:22px;font-weight:800;color:#0d1b2a;margin:0 0 6px;">Tell Us About Your Website</h3>
                 <p id="planModalSubtitle" style="font-size:14px;color:#64748b;margin:0;"></p>
             </div>
 
             <!-- Selected Plan Badge -->
-            <div id="planBadge" style="background:#e8f4fd;border-radius:8px;padding:10px 16px;margin-bottom:24px;display:flex;align-items:center;gap:10px;">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="#0077b6"><path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V7z"/></svg>
-                <span style="font-size:14px;font-weight:700;color:#0077b6;" id="selectedPlanLabel"></span>
+            <div id="planBadge" style="background:#E0F5F5;border-radius:8px;padding:10px 16px;margin-bottom:24px;display:flex;align-items:center;gap:10px;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="#00B5AD"><path d="M12 2L3 7v5c0 5.25 3.75 10.15 9 11.35C17.25 22.15 21 17.25 21 12V7z"/></svg>
+                <span style="font-size:14px;font-weight:700;color:#00B5AD;" id="selectedPlanLabel"></span>
             </div>
 
             <!-- Alerts -->
@@ -755,13 +755,13 @@
                         <label style="font-size:13px;font-weight:600;color:#374151;margin-bottom:5px;display:block;">Full Name <span style="color:#ef4444;">*</span></label>
                         <input type="text" name="name" required placeholder="John Smith"
                             style="width:100%;padding:11px 14px;border:1.5px solid #e2e8f0;border-radius:10px;font-size:14px;color:#0d1b2a;outline:none;transition:border-color .2s;"
-                            onfocus="this.style.borderColor='#0077b6'" onblur="this.style.borderColor='#e2e8f0'" />
+                            onfocus="this.style.borderColor='#00B5AD'" onblur="this.style.borderColor='#e2e8f0'" />
                     </div>
                     <div>
                         <label style="font-size:13px;font-weight:600;color:#374151;margin-bottom:5px;display:block;">Email <span style="color:#ef4444;">*</span></label>
                         <input type="email" name="email" required placeholder="you@example.com"
                             style="width:100%;padding:11px 14px;border:1.5px solid #e2e8f0;border-radius:10px;font-size:14px;color:#0d1b2a;outline:none;transition:border-color .2s;"
-                            onfocus="this.style.borderColor='#0077b6'" onblur="this.style.borderColor='#e2e8f0'" />
+                            onfocus="this.style.borderColor='#00B5AD'" onblur="this.style.borderColor='#e2e8f0'" />
                     </div>
                 </div>
 
@@ -770,13 +770,13 @@
                         <label style="font-size:13px;font-weight:600;color:#374151;margin-bottom:5px;display:block;">Phone <span style="color:#ef4444;">*</span></label>
                         <input type="tel" name="phone" required placeholder="+1 (555) 000-0000"
                             style="width:100%;padding:11px 14px;border:1.5px solid #e2e8f0;border-radius:10px;font-size:14px;color:#0d1b2a;outline:none;transition:border-color .2s;"
-                            onfocus="this.style.borderColor='#0077b6'" onblur="this.style.borderColor='#e2e8f0'" />
+                            onfocus="this.style.borderColor='#00B5AD'" onblur="this.style.borderColor='#e2e8f0'" />
                     </div>
                     <div>
                         <label style="font-size:13px;font-weight:600;color:#374151;margin-bottom:5px;display:block;">Website URL</label>
                         <input type="text" name="website" placeholder="https://yoursite.com"
                             style="width:100%;padding:11px 14px;border:1.5px solid #e2e8f0;border-radius:10px;font-size:14px;color:#0d1b2a;outline:none;transition:border-color .2s;"
-                            onfocus="this.style.borderColor='#0077b6'" onblur="this.style.borderColor='#e2e8f0'" />
+                            onfocus="this.style.borderColor='#00B5AD'" onblur="this.style.borderColor='#e2e8f0'" />
                     </div>
                 </div>
 
@@ -784,7 +784,7 @@
                     <label style="font-size:13px;font-weight:600;color:#374151;margin-bottom:5px;display:block;">Message <span style="color:#94a3b8;font-weight:400;">(Optional)</span></label>
                     <textarea name="message" rows="3" placeholder="Tell us about your website or any specific needs..."
                         style="width:100%;padding:11px 14px;border:1.5px solid #e2e8f0;border-radius:10px;font-size:14px;color:#0d1b2a;outline:none;resize:vertical;transition:border-color .2s;"
-                        onfocus="this.style.borderColor='#0077b6'" onblur="this.style.borderColor='#e2e8f0'"></textarea>
+                        onfocus="this.style.borderColor='#00B5AD'" onblur="this.style.borderColor='#e2e8f0'"></textarea>
                 </div>
 
                 <button type="submit" id="planSubmitBtn"
