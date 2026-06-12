@@ -9,7 +9,7 @@
              HERO: Gradient banner with logo, title, category pills, search
         ============================================================ --}}
         <section class="position-relative overflow-hidden"
-                 style="background: linear-gradient(135deg, #0e0e3a 0%, #1351D8 100%); padding: 5.5rem 0 4rem;">
+                 style="background: linear-gradient(135deg, #071414 0%, #00B5AD 100%); padding: 5.5rem 0 4rem;">
 
             {{-- Decorative rings --}}
             <div class="position-absolute" style="width: 560px; height: 560px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.05); top: -200px; right: -120px; pointer-events: none;"></div>
@@ -66,7 +66,7 @@
                            class="fw-medium tw-text-xs text-uppercase rounded-pill"
                            style="padding: 0.45rem 1.1rem; letter-spacing: 0.05em; text-decoration: none; transition: all 0.25s;
                                   background: {{ !request('category') && !request('tag') && !request('search') ? 'white' : 'rgba(255,255,255,0.14)' }};
-                                  color: {{ !request('category') && !request('tag') && !request('search') ? '#1351D8' : 'rgba(255,255,255,0.8)' }};
+                                  color: {{ !request('category') && !request('tag') && !request('search') ? '#00B5AD' : 'rgba(255,255,255,0.8)' }};
                                   backdrop-filter: blur(6px);">
                             All
                         </a>
@@ -75,7 +75,7 @@
                            class="fw-medium tw-text-xs text-uppercase rounded-pill"
                            style="padding: 0.45rem 1.1rem; letter-spacing: 0.05em; text-decoration: none; transition: all 0.25s;
                                   background: {{ request('category') === $cat->category ? 'white' : 'rgba(255,255,255,0.14)' }};
-                                  color: {{ request('category') === $cat->category ? '#1351D8' : 'rgba(255,255,255,0.8)' }};
+                                  color: {{ request('category') === $cat->category ? '#00B5AD' : 'rgba(255,255,255,0.8)' }};
                                   backdrop-filter: blur(6px);">
                             {{ $cat->category }}
                         </a>
@@ -142,7 +142,7 @@
                     @if($showFeatured && $featuredPost)
                     <div class="tw-mb-12" data-aos="fade-up" data-aos-duration="800">
                         <div class="row align-items-stretch g-0 overflow-hidden bg-white"
-                             style="border-radius: 22px; box-shadow: 0 8px 36px rgba(19,81,216,0.11); min-height: 440px;">
+                             style="border-radius: 22px; box-shadow: 0 8px 36px rgba(0,181,173,0.11); min-height: 440px;">
 
                             {{-- Image --}}
                             <div class="col-lg-6 overflow-hidden" style="min-height: 300px;">
@@ -155,7 +155,7 @@
                                          style="min-height: 300px;" />
                                     <div class="position-absolute top-0 start-0 tw-m-5">
                                         <span class="fw-bold tw-text-xs text-white text-uppercase rounded-pill"
-                                              style="background: rgba(19,81,216,0.88); padding: 0.4rem 1rem; backdrop-filter: blur(4px); letter-spacing: 0.06em;">
+                                              style="background: rgba(0,181,173,0.88); padding: 0.4rem 1rem; backdrop-filter: blur(4px); letter-spacing: 0.06em;">
                                             Featured
                                         </span>
                                     </div>
@@ -168,7 +168,7 @@
                                     <div class="d-flex align-items-center tw-gap-3 tw-mb-5 flex-wrap">
                                         @if($featuredPost->category)
                                         <span class="fw-bold tw-text-xs text-uppercase rounded-pill"
-                                              style="background: #EEF2FF; color: #1351D8; padding: 0.35rem 0.9rem; letter-spacing: 0.06em;">
+                                              style="background: #E0F5F5; color: #00B5AD; padding: 0.35rem 0.9rem; letter-spacing: 0.06em;">
                                             {{ $featuredPost->category }}
                                         </span>
                                         @endif
@@ -180,7 +180,7 @@
                                         style="font-size: clamp(1.4rem, 2.5vw, 1.9rem); line-height: 1.28; letter-spacing: -0.01em;">
                                         <a href="{{ route('blog.details', $featuredPost->slug) }}"
                                            style="text-decoration: none; color: inherit; transition: color 0.25s;"
-                                           onmouseover="this.style.color='#1351D8';"
+                                           onmouseover="this.style.color='#00B5AD';"
                                            onmouseout="this.style.color='';">
                                             {{ $featuredPost->title }}
                                         </a>
@@ -194,20 +194,20 @@
                                         <div class="d-flex align-items-center tw-gap-4">
                                             <div class="d-flex align-items-center tw-gap-2">
                                                 <div class="tw-w-8 tw-h-8 rounded-circle d-flex align-items-center justify-content-center text-white"
-                                                     style="background: #1351D8; font-size: 0.8rem; flex-shrink: 0;">
+                                                     style="background: #00B5AD; font-size: 0.8rem; flex-shrink: 0;">
                                                     <i class="ph-bold ph-user"></i>
                                                 </div>
                                                 <span class="tw-text-sm fw-medium text-neutral-600">{{ $featuredPost->author_name }}</span>
                                             </div>
                                             <span style="color: #e5e7eb;">•</span>
                                             <div class="d-flex align-items-center tw-gap-1">
-                                                <i class="ph ph-clock" style="color: #1351D8; font-size: 0.85rem;"></i>
+                                                <i class="ph ph-clock" style="color: #00B5AD; font-size: 0.85rem;"></i>
                                                 <span class="tw-text-xs text-neutral-400">{{ $featuredPost->read_time }}</span>
                                             </div>
                                         </div>
                                         <a href="{{ route('blog.details', $featuredPost->slug) }}"
                                            class="d-flex align-items-center tw-gap-2 fw-bold tw-text-xs text-uppercase"
-                                           style="color: #1351D8; text-decoration: none; letter-spacing: 0.07em;">
+                                           style="color: #00B5AD; text-decoration: none; letter-spacing: 0.07em;">
                                             Read Article <i class="ph-bold ph-arrow-right"></i>
                                         </a>
                                     </div>
@@ -228,7 +228,7 @@
                     <div class="d-flex align-items-center justify-content-between tw-mb-8 flex-wrap tw-gap-3">
                         <div>
                             <span class="fw-bold tw-text-xs text-uppercase"
-                                  style="color: #1351D8; letter-spacing: 0.1em;">Latest Posts</span>
+                                  style="color: #00B5AD; letter-spacing: 0.1em;">Latest Posts</span>
                             <h4 class="fw-bold text-main-two-600 tw-mt-1 mb-0" style="font-size: 1.35rem;">
                                 More Articles
                             </h4>
@@ -245,7 +245,7 @@
                              data-aos-delay="{{ ($loop->index % 3) * 100 }}">
                             <article class="h-100 d-flex flex-column bg-white overflow-hidden"
                                      style="border-radius: 16px; box-shadow: 0 2px 16px rgba(0,0,0,0.06); transition: transform 0.3s, box-shadow 0.3s;"
-                                     onmouseover="this.style.transform='translateY(-7px)'; this.style.boxShadow='0 14px 32px rgba(19,81,216,0.13)';"
+                                     onmouseover="this.style.transform='translateY(-7px)'; this.style.boxShadow='0 14px 32px rgba(0,181,173,0.13)';"
                                      onmouseout="this.style.transform=''; this.style.boxShadow='0 2px 16px rgba(0,0,0,0.06)';">
 
                                 {{-- Image --}}
@@ -257,7 +257,7 @@
                                     </a>
                                     <div class="position-absolute top-0 start-0 tw-m-4">
                                         <span class="fw-bold tw-text-xs text-white"
-                                              style="background: rgba(19,81,216,0.88); border-radius: 6px; padding: 0.3rem 0.65rem; backdrop-filter: blur(4px);">
+                                              style="background: rgba(0,181,173,0.88); border-radius: 6px; padding: 0.3rem 0.65rem; backdrop-filter: blur(4px);">
                                             {{ ($post->published_at ?? $post->created_at)->format('d M') }}
                                         </span>
                                     </div>
@@ -277,19 +277,19 @@
                                     {{-- Meta --}}
                                     <div class="d-flex align-items-center tw-gap-3 tw-mb-3 flex-wrap">
                                         <div class="d-flex align-items-center tw-gap-1">
-                                            <i class="ph ph-user" style="color: #1351D8; font-size: 0.8rem;"></i>
+                                            <i class="ph ph-user" style="color: #00B5AD; font-size: 0.8rem;"></i>
                                             <span class="tw-text-xs text-neutral-400 fw-medium">{{ $post->author_name }}</span>
                                         </div>
                                         <span style="color: #e5e7eb; font-size: 0.75rem;">•</span>
                                         <div class="d-flex align-items-center tw-gap-1">
-                                            <i class="ph ph-chat-circle" style="color: #1351D8; font-size: 0.8rem;"></i>
+                                            <i class="ph ph-chat-circle" style="color: #00B5AD; font-size: 0.8rem;"></i>
                                             <span class="tw-text-xs text-neutral-400">
                                                 {{ $post->comments()->where('is_approved', true)->count() }}
                                             </span>
                                         </div>
                                         <span style="color: #e5e7eb; font-size: 0.75rem;">•</span>
                                         <div class="d-flex align-items-center tw-gap-1">
-                                            <i class="ph ph-clock" style="color: #1351D8; font-size: 0.8rem;"></i>
+                                            <i class="ph ph-clock" style="color: #00B5AD; font-size: 0.8rem;"></i>
                                             <span class="tw-text-xs text-neutral-400">{{ $post->read_time }}</span>
                                         </div>
                                     </div>
@@ -299,7 +299,7 @@
                                         style="line-height: 1.4; font-size: 1.05rem;">
                                         <a href="{{ route('blog.details', $post->slug) }}"
                                            style="text-decoration: none; color: inherit; transition: color 0.25s;"
-                                           onmouseover="this.style.color='#1351D8';"
+                                           onmouseover="this.style.color='#00B5AD';"
                                            onmouseout="this.style.color='';">
                                             {{ $post->title }}
                                         </a>
@@ -315,7 +315,7 @@
                                     <div style="margin-top: 1.1rem; padding-top: 1rem; border-top: 1px solid #f3f4f6;">
                                         <a href="{{ route('blog.details', $post->slug) }}"
                                            class="d-flex align-items-center tw-gap-2 fw-bold tw-text-xs text-uppercase"
-                                           style="color: #1351D8; text-decoration: none; letter-spacing: 0.07em;">
+                                           style="color: #00B5AD; text-decoration: none; letter-spacing: 0.07em;">
                                             Read Article <i class="ph-bold ph-arrow-right"></i>
                                         </a>
                                     </div>
@@ -346,7 +346,7 @@
             <div class="container">
                 <div class="d-flex align-items-center flex-wrap" style="gap: 0.65rem;">
                     <div class="d-flex align-items-center tw-gap-2 tw-me-2">
-                        <i class="ph ph-tag" style="color: #1351D8; font-size: 1rem;"></i>
+                        <i class="ph ph-tag" style="color: #00B5AD; font-size: 1rem;"></i>
                         <span class="fw-bold tw-text-xs text-uppercase text-main-two-600"
                               style="letter-spacing: 0.08em;">Popular Tags:</span>
                     </div>
@@ -354,11 +354,11 @@
                     <a href="{{ route('blog', ['tag' => $tag]) }}"
                        class="fw-medium tw-text-xs"
                        style="padding: 0.4rem 0.9rem; border-radius: 4px; text-decoration: none; transition: all 0.25s;
-                              background: {{ request('tag') === $tag ? '#1351D8' : '#f3f4f6' }};
+                              background: {{ request('tag') === $tag ? '#00B5AD' : '#f3f4f6' }};
                               color: {{ request('tag') === $tag ? 'white' : '#1a1a4d' }};
-                              border: 1px solid {{ request('tag') === $tag ? '#1351D8' : '#e5e7eb' }};"
-                       onmouseover="this.style.background='#1351D8'; this.style.color='white'; this.style.borderColor='#1351D8';"
-                       onmouseout="this.style.background='{{ request('tag') === $tag ? '#1351D8' : '#f3f4f6' }}'; this.style.color='{{ request('tag') === $tag ? 'white' : '#1a1a4d' }}'; this.style.borderColor='{{ request('tag') === $tag ? '#1351D8' : '#e5e7eb' }}';">
+                              border: 1px solid {{ request('tag') === $tag ? '#00B5AD' : '#e5e7eb' }};"
+                       onmouseover="this.style.background='#00B5AD'; this.style.color='white'; this.style.borderColor='#00B5AD';"
+                       onmouseout="this.style.background='{{ request('tag') === $tag ? '#00B5AD' : '#f3f4f6' }}'; this.style.color='{{ request('tag') === $tag ? 'white' : '#1a1a4d' }}'; this.style.borderColor='{{ request('tag') === $tag ? '#00B5AD' : '#e5e7eb' }}';">
                         {{ $tag }}
                     </a>
                     @endforeach
