@@ -916,14 +916,20 @@ jQuery('.play-button').magnificPopup({
 
 
 var swiper = new Swiper(".portfolioSwiper", {
-
 loop:true,
-
+speed: 600,
+autoplay: {
+delay: 5000,
+disableOnInteraction: true,
+},
 navigation: {
 nextEl: ".swiper-button-next",
 prevEl: ".swiper-button-prev",
 },
-
+pagination: {
+el: ".portfolio-pagination",
+clickable: true,
+},
 });
 
 
