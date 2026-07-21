@@ -1,18 +1,39 @@
-/* **************************************************************************** 
-                          Custom GSAP js start 
+/* ****************************************************************************
+                          Custom GSAP js start
 ****************************************************************************  */
 
-var tl = gsap.timeline(); 
+// Wrapped in an IIFE (unlike main.js, this file has no such wrapper of its
+// own) because ScriptReinitializer.tsx re-injects this file as a fresh
+// <script> tag on every client-side page navigation, so its init code binds
+// to each new page's DOM. Top-level `const`/`let`/`class` declarations
+// belong to the shared global lexical scope even across separate <script>
+// tags, so without this wrapper the second injection throws
+// "Identifier 'toggleMobileMenu' has already been declared" and the whole
+// script fails to parse — silently breaking every GSAP-driven interaction
+// (button hover flair, split-text reveal, mobile menu, custom cursor) on
+// every page after the first one visited in a session.
+(function () {
+
+var tl = gsap.timeline();
 gsap.registerPlugin(ScrollTrigger, SplitText);
 // gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 // =================================== Smooth Scroller Js Start =====================================
-ScrollSmoother.create({
-  smooth: .8, // how long (in seconds) it takes to "catch up" to the native scroll position
-  effects: true, // looks for data-speed and data-lag attributes on elements
-  smoothTouch: 0.1, // much shorter smoothing time on touch devices (default is NO smoothing on touch devices)
-  ease: "power4.out",
-});
+// Disabled: ScrollSmoother virtualizes native browser scrolling by pinning
+// #smooth-wrapper and transforming #smooth-content. In this Next.js app
+// those elements are recreated fresh on every client-side page navigation,
+// but ScrollSmoother itself only ever initializes once (this script loads
+// once via next/script) — so its instance ends up bound to whichever page
+// happened to load first, and is orphaned/stale on every page after that.
+// That caused unreliable window.scrollY readings (breaking the back-to-top
+// button and other scroll-based UI) on top of being a purely cosmetic
+// smoothing effect. Native scrolling is reliable everywhere; keep it.
+// ScrollSmoother.create({
+//   smooth: .8, // how long (in seconds) it takes to "catch up" to the native scroll position
+//   effects: true, // looks for data-speed and data-lag attributes on elements
+//   smoothTouch: 0.1, // much shorter smoothing time on touch devices (default is NO smoothing on touch devices)
+//   ease: "power4.out",
+// });
 // =================================== Smooth Scroller End Start =====================================
 
 // =================================== Custom Cursor Js Start =====================================
@@ -195,6 +216,13 @@ class Button {
       flair: el(".button__flair")
     };
 
+    // Some [data-block="button"] elements don't have a .button__flair child
+    // span in their markup — gsap.quickSetter(null, ...) logs a console
+    // warning ("GSAP target null not found") for each one. Skip those
+    // buttons entirely rather than wiring up hover handlers with no target.
+    this.hasFlair = !!this.DOM.flair;
+    if (!this.hasFlair) return;
+
     this.xSet = gsap.quickSetter(this.DOM.flair, "xPercent");
     this.ySet = gsap.quickSetter(this.DOM.flair, "yPercent");
   }
@@ -224,6 +252,8 @@ class Button {
   }
 
   initEvents() {
+    if (!this.hasFlair) return;
+
     this.DOM.button.addEventListener("mouseenter", (e) => {
       const { x, y } = this.getXY(e);
 
@@ -369,6 +399,25 @@ if ($('.drag-rotate-element').length) {
 }
 // **************************** Drag Rotate Element js End ****************************
 
-/* **************************************************************************** 
-                          Custom GSAP js start 
+// **************************** ScrollTrigger refresh on full load js start ****************************
+// Images without explicit dimensions shift page layout as they finish
+// loading, which silently invalidates ScrollTrigger's already-computed
+// trigger positions (set on this script's first run, before images below
+// the fold have loaded). Elements further down the page — where the
+// cumulative shift is largest — end up with trigger points calculated
+// against stale coordinates and never fire, leaving their SplitText
+// content (yPercent: 140, opacity: 0) stuck invisible forever. Refreshing
+// once everything (including images) has actually finished loading
+// recalculates every trigger against the final layout.
+if (document.readyState === "complete") {
+  ScrollTrigger.refresh();
+} else {
+  window.addEventListener("load", () => ScrollTrigger.refresh());
+}
+// **************************** ScrollTrigger refresh on full load js end ****************************
+
+})();
+
+/* ****************************************************************************
+                          Custom GSAP js end
 ****************************************************************************  */

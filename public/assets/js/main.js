@@ -1,6 +1,38 @@
+// --- Defensive Swiper wrapper -------------------------------------------
+// This file is shared across every page template, but each page only
+// contains markup for a handful of the sliders instantiated below.
+// Instantiating Swiper against a selector with no matching element throws
+// inside the library itself (getComputedStyle on null) — and since many of
+// the `new Swiper(...)` calls below run as synchronous top-level statements,
+// an uncaught throw from one missing slider halts every init call that
+// comes after it on the page. Guard against missing containers so one
+// absent slider can never break the rest of the page.
+(function () {
+  if (typeof Swiper === 'undefined') return;
+  if (Swiper.__isSafeWrapped) return; // this file can re-run on SPA navigation; don't double-wrap
+  var RealSwiper = Swiper;
+
+  function targetExists(selector) {
+    if (typeof selector === 'string') return !!document.querySelector(selector);
+    if (selector && typeof selector.jquery === 'string') return selector.length > 0;
+    if (selector instanceof NodeList || Array.isArray(selector)) return selector.length > 0;
+    return !!selector;
+  }
+
+  function SafeSwiper(selector, options) {
+    if (!targetExists(selector)) {
+      return { destroy: function () {}, update: function () {}, slideTo: function () {}, on: function () {} };
+    }
+    return new RealSwiper(selector, options);
+  }
+  SafeSwiper.prototype = RealSwiper.prototype;
+  SafeSwiper.__isSafeWrapped = true;
+  window.Swiper = SafeSwiper;
+})();
+
 (function ($) {
   'use strict';
-  
+
   // ==========================================
   //      Start Document Ready function
   // ==========================================
@@ -23,35 +55,7 @@
   // ============== Mobile Nav Menu Dropdown Js End =======================
     
   // ===================== Scroll Back to Top Js Start ======================
-  var progressPath = document.querySelector('.progress-wrap path');
-  var pathLength = progressPath.getTotalLength();
-  progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-  progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-  progressPath.style.strokeDashoffset = pathLength;
-  progressPath.getBoundingClientRect();
-  progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
-  var updateProgress = function () {
-    var scroll = $(window).scrollTop();
-    var height = $(document).height() - $(window).height();
-    var progress = pathLength - (scroll * pathLength / height);
-    progressPath.style.strokeDashoffset = progress;
-  };
-  updateProgress();
-  $(window).scroll(updateProgress);
-  var offset = 50;
-  var duration = 550;
-  jQuery(window).on('scroll', function() {
-    if (jQuery(this).scrollTop() > offset) {
-      jQuery('.progress-wrap').addClass('active-progress');
-    } else {
-      jQuery('.progress-wrap').removeClass('active-progress');
-    }
-  });
-  jQuery('.progress-wrap').on('click', function(event) {
-    event.preventDefault();
-    jQuery('html, body').animate({scrollTop: 0}, duration);
-    return false;
-  });
+  // Handled directly in React (components/BackToTop.tsx) for reliability.
   // ===================== Scroll Back to Top Js End ======================
 
   
@@ -898,14 +902,7 @@ if (document.querySelector(".shop-thumbs")) {
     // ========================= Preloader Js End=====================
 
     // ========================= Header Sticky Js Start ==============
-    $(window).on('scroll', function() {
-      if ($(window).scrollTop() >= 500) {
-        $('.header').addClass('fixed-header');
-      }
-      else {
-          $('.header').removeClass('fixed-header');
-      }
-    }); 
+    // Handled directly in React (components/Header.tsx) for reliability.
     // ========================= Header Sticky Js End===================
 
 })(jQuery);
