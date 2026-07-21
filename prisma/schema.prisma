@@ -1,0 +1,135 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id                Int       @id @default(autoincrement())
+  name              String
+  email             String    @unique
+  emailVerifiedAt   DateTime? @map("email_verified_at")
+  password          String
+  rememberToken     String?   @map("remember_token")
+  role              String    @default("user")
+  createdAt         DateTime  @default(now()) @map("created_at")
+  updatedAt         DateTime  @updatedAt @map("updated_at")
+
+  @@map("users")
+}
+
+model Blog {
+  id          Int           @id @default(autoincrement())
+  title       String
+  slug        String        @unique
+  excerpt     String?       @db.Text
+  content     String?       @db.Text
+  image       String?
+  authorName  String        @default("Admin") @map("author_name")
+  category    String?
+  tags        Json?
+  readTime    String        @default("3 min Read") @map("read_time")
+  isPublished Boolean       @default(false) @map("is_published")
+  publishedAt DateTime?     @map("published_at")
+  createdAt   DateTime      @default(now()) @map("created_at")
+  updatedAt   DateTime      @updatedAt @map("updated_at")
+  comments    BlogComment[]
+
+  @@map("blogs")
+}
+
+model BlogComment {
+  id         Int      @id @default(autoincrement())
+  blogId     Int      @map("blog_id")
+  name       String
+  email      String
+  phone      String?
+  website    String?
+  comment    String   @db.Text
+  isApproved Boolean  @default(false) @map("is_approved")
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+  blog       Blog     @relation(fields: [blogId], references: [id], onDelete: Cascade)
+
+  @@map("blog_comments")
+}
+
+model ContactMail {
+  id                  Int       @id @default(autoincrement())
+  name                String
+  email               String
+  phone               String
+  budget              String?
+  service             String?
+  message             String    @db.Text
+  additionalDocument  String?   @map("additional_document")
+  sentAt              DateTime? @map("sent_at")
+  createdAt           DateTime  @default(now()) @map("created_at")
+  updatedAt           DateTime  @updatedAt @map("updated_at")
+
+  @@map("contact_mails")
+}
+
+model JobApplication {
+  id            Int      @id @default(autoincrement())
+  jobType       String   @map("job_type")
+  name          String
+  email         String
+  phone         String?
+  experience    String?
+  degree        String?
+  skills        Json?
+  coverLetter   String?  @db.Text @map("cover_letter")
+  extraDetails  String?  @db.Text @map("extra_details")
+  resume        String
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  @@map("job_applications")
+}
+
+model JobOpening {
+  id        Int      @id @default(autoincrement())
+  title     String
+  slug      String   @unique
+  icon      String   @default("💼")
+  subtitle  String?
+  badge     String   @default("Open Role")
+  skills    Json?
+  isActive  Boolean  @default(true) @map("is_active")
+  sortOrder Int      @default(0) @map("sort_order")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("job_openings")
+}
+
+model PageSetting {
+  id               Int      @id @default(autoincrement())
+  pageKey          String   @unique @map("page_key")
+  pageName         String   @map("page_name")
+  metaTitle        String?  @map("meta_title")
+  metaDescription  String?  @db.Text @map("meta_description")
+  focusKeyword     String?  @map("focus_keyword")
+  keywords         String?  @db.Text
+  createdAt        DateTime @default(now()) @map("created_at")
+  updatedAt        DateTime @updatedAt @map("updated_at")
+
+  @@map("page_settings")
+}
+
+model PlanInquiry {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String
+  phone     String
+  plan      String
+  website   String?
+  message   String?  @db.Text
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("plan_inquiries")
+}

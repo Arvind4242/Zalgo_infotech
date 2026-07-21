@@ -7,7 +7,19 @@
       "Bash(php -l app/Filament/Resources/PlanInquiries/Schemas/PlanInquiryInfolist.php)",
       "Bash(php -l app/Filament/Resources/PlanInquiries/Pages/ListPlanInquiries.php)",
       "Bash(php -l app/Filament/Resources/PlanInquiries/Pages/ViewPlanInquiry.php)",
-      "Bash(php -r ' *)"
+      "Bash(php -r ' *)",
+      "PowerShell(Get-ChildItem \"$env:TEMP\" | Where-Object {$_.Name -match \"\\\\.\\(jpg|jpeg|png|webp\\)$\"} | Sort-Object LastWriteTime -Descending | Select-Object -First 20 | Format-Table Name, LastWriteTime, Length)",
+      "PowerShell(Get-ChildItem \"$env:TEMP\" | Sort-Object LastWriteTime -Descending | Select-Object -First 30 | Format-Table Name, LastWriteTime, Length)",
+      "Bash(Get-ChildItem storage\\\\framework\\\\views -Filter \"*.php\")",
+      "Bash(Sort-Object LastWriteTime -Descending)",
+      "Bash(Select-Object -First 3 Name, Length, LastWriteTime)",
+      "PowerShell(php artisan view:clear)",
+      "PowerShell(php artisan route:clear)",
+      "PowerShell(php artisan config:clear)",
+      "PowerShell(php artisan cache:clear)",
+      "PowerShell(php artisan tinker --execute=\"try { view\\('frontend.homes.indexOne'\\)->render\\(\\); echo 'OK'; } catch\\(\\\\Throwable `$e\\) { echo `$e->getMessage\\(\\); }\")",
+      "PowerShell(php artisan tinker --execute=\"try { view\\('frontend.homes.indexOne'\\)->render\\(\\); } catch\\(\\\\Throwable `$e\\) { echo `$e->getFile\\(\\) . ':' . `$e->getLine\\(\\) . chr\\(10\\); echo `$e->getPrevious\\(\\) ? `$e->getPrevious\\(\\)->getFile\\(\\) . ':' . `$e->getPrevious\\(\\)->getLine\\(\\) . chr\\(10\\) . `$e->getPrevious\\(\\)->getMessage\\(\\) : 'no prev'; }\")",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

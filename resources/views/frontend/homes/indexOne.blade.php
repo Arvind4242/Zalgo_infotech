@@ -1,19 +1,131 @@
 @extends('frontend.layouts.app')
-@section('title', 'Index One')
+@section('title', 'Zalgo Infotech — AI-Powered IT Solutions')
 @section('content')
 <style>
+    /* ── Top Features Bar ── */
+    .top-features-bar {
+        background: linear-gradient(135deg, #f8fffe 0%, #eef9f7 100%);
+        border-bottom: 1px solid rgba(0, 109, 117, 0.08);
+    }
+    .top-features-bar .feature-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 0 24px;
+        white-space: nowrap;
+    }
+    .top-features-bar .feature-icon {
+        width: 32px;
+        height: 32px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        flex-shrink: 0;
+        transition: transform 0.3s ease;
+    }
+    .top-features-bar .feature-item:hover .feature-icon {
+        transform: scale(1.15) rotate(-5deg);
+    }
+    .feature-icon.icon-teal { background: rgba(0, 109, 117, 0.1); color: #006d75; }
+    .feature-icon.icon-blue { background: rgba(59, 130, 246, 0.1); color: #3b82f6; }
+    .feature-icon.icon-green { background: rgba(16, 185, 129, 0.1); color: #10b981; }
+    .feature-icon.icon-purple { background: rgba(139, 92, 246, 0.1); color: #8b5cf6; }
+    .feature-icon.icon-orange { background: rgba(245, 158, 11, 0.1); color: #f59e0b; }
+    .feature-icon.icon-rose { background: rgba(244, 63, 94, 0.1); color: #f43f5e; }
+
+    /* ── Brand Slider ── */
+    .brand-slider-wrapper .swiper-slide img {
+        filter: grayscale(100%);
+        opacity: 0.5;
+        transition: all 0.4s ease;
+    }
+    .brand-slider-wrapper .swiper-slide:hover img {
+        filter: grayscale(0%);
+        opacity: 1;
+        transform: scale(1.08);
+    }
+
+    /* ── Stats Grid ── */
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .stat-card {
+        border-radius: 24px;
+        padding: 40px 32px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    .stat-card::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 100%);
+        pointer-events: none;
+    }
+    .stat-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+    }
+    .stat-card.card-primary { background: linear-gradient(135deg, #006d75 0%, #004d54 100%); }
+    .stat-card.card-white { background: #fff; border: 1px solid #e5e7eb; }
+    .stat-card.card-accent { background: linear-gradient(135deg, #0891b2 0%, #006d75 100%); }
+    .stat-card .stat-number {
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 12px;
+    }
+    .stat-card .stat-label {
+        font-size: 15px;
+        line-height: 1.5;
+        max-width: 220px;
+        margin: 0 auto;
+    }
+    .stat-card.card-primary .stat-number,
+    .stat-card.card-primary .stat-label,
+    .stat-card.card-accent .stat-number,
+    .stat-card.card-accent .stat-label { color: #fff; }
+    .stat-card.card-white .stat-number { color: #006d75; }
+    .stat-card.card-white .stat-label { color: #6b7280; }
+
+    @media (max-width: 991px) {
+        .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 575px) {
+        .stats-grid { grid-template-columns: 1fr; }
+        .stat-card { padding: 32px 24px; }
+        .stat-card .stat-number { font-size: 2.25rem; }
+    }
+
     /* ── Portfolio Section ── */
     .portfolio-section {
-        background: #006d75;
+        background: linear-gradient(135deg, #006d75 0%, #004a50 50%, #003840 100%);
         color: white;
-        padding: 80px 0 60px;
+        padding: 100px 0 80px;
+        position: relative;
+        overflow: hidden;
+    }
+    .portfolio-section::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -20%;
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%);
+        pointer-events: none;
     }
 
     .swiper-slide .align-content-center {
         align-items: stretch;
     }
 
-    /* ── Left column ── */
     .portfolio-left {
         width: 50%;
         flex-shrink: 0;
@@ -23,150 +135,193 @@
         justify-content: center;
         padding-right: 48px;
     }
-
-    .portfolio-left h2 {
-        font-size: 28px;
-        line-height: 1.35;
-        font-weight: 700;
-        margin-bottom: 14px;
+    .portfolio-left .section-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.15);
+        padding: 6px 16px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        backdrop-filter: blur(8px);
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
     }
-
+    .portfolio-left h2 {
+        font-size: 30px;
+        line-height: 1.3;
+        font-weight: 700;
+        margin-bottom: 16px;
+        letter-spacing: -0.3px;
+    }
     .portfolio-left p {
         font-size: 15px !important;
-        line-height: 1.75;
-        opacity: 0.88;
+        line-height: 1.8;
+        opacity: 0.85;
         margin-bottom: 0;
     }
 
-    /* ── Tech tags ── */
     .tech-icons {
-        margin-top: 20px;
+        margin-top: 24px;
         display: flex;
         flex-wrap: wrap;
         gap: 8px 10px;
     }
-
     .tech-icons span {
         display: inline-block;
-        background: rgba(255,255,255,0.12);
-        border: 1px solid rgba(255,255,255,0.2);
-        padding: 7px 14px;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(255,255,255,0.15);
+        padding: 8px 16px;
         border-radius: 50px;
         font-size: 13px;
         line-height: 1.2;
         white-space: nowrap;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(4px);
+    }
+    .tech-icons span:hover {
+        background: rgba(255,255,255,0.18);
+        border-color: rgba(255,255,255,0.3);
+        transform: translateY(-2px);
     }
 
-    /* ── Right column (image) ── */
     .portfolio-right {
         width: 50%;
         flex-shrink: 0;
     }
-
     .portfolio-right img {
         width: 100%;
         border-radius: 20px;
-        box-shadow: 0 20px 50px rgba(0,0,0,0.35);
+        box-shadow: 0 25px 60px rgba(0,0,0,0.35);
         display: block;
+        transition: transform 0.5s ease;
+    }
+    .portfolio-right:hover img {
+        transform: scale(1.02);
     }
 
-    /* ── Swiper arrows ── */
-    .swiper-button-next,
-    .swiper-button-prev {
+    .portfolio-section .swiper-button-next,
+    .portfolio-section .swiper-button-prev {
         color: white;
+        width: 48px;
+        height: 48px;
+        background: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 50%;
+        backdrop-filter: blur(8px);
+        transition: all 0.3s ease;
+    }
+    .portfolio-section .swiper-button-next:hover,
+    .portfolio-section .swiper-button-prev:hover {
+        background: rgba(255,255,255,0.2);
+        border-color: rgba(255,255,255,0.35);
+        transform: scale(1.1);
+    }
+    .portfolio-section .swiper-button-next::after,
+    .portfolio-section .swiper-button-prev::after {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .portfolio-pagination {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .portfolio-pagination .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background: rgba(255,255,255,0.3);
+        opacity: 1;
+        margin: 0 6px;
+        transition: all 0.3s ease;
+    }
+    .portfolio-pagination .swiper-pagination-bullet-active {
+        background: #fff;
+        width: 32px;
+        border-radius: 5px;
     }
 
-    /* ── Large desktop (≤ 1400px) ── */
+    /* ── Section Dividers ── */
+    .section-header {
+        margin-bottom: 60px;
+    }
+    .section-badge-light {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        margin-bottom: 16px;
+    }
+
+    /* ── Offer Cards Enhancement ── */
+    .group-item {
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+    .group-item:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 24px 64px rgba(0, 0, 0, 0.1);
+    }
+
+    /* ── CTA Section ── */
+    .cta-section-redesign {
+        background: linear-gradient(135deg, #f0fdfa 0%, #e0f7f5 50%, #f0fdfa 100%);
+        padding: 100px 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .cta-section-redesign::before {
+        content: '';
+        position: absolute;
+        top: -100px;
+        right: -100px;
+        width: 400px;
+        height: 400px;
+        background: radial-gradient(circle, rgba(0, 109, 117, 0.06) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    /* ── Responsive Portfolio ── */
     @media (max-width: 1400px) {
-        .portfolio-left h2 {
-            font-size: 24px;
-        }
-        .portfolio-left {
-            padding-right: 36px;
-        }
+        .portfolio-left h2 { font-size: 26px; }
+        .portfolio-left { padding-right: 36px; }
     }
-
-    /* ── Medium desktop (≤ 1280px) ── */
     @media (max-width: 1280px) {
-        .portfolio-left h2 {
-            font-size: 22px;
-        }
-        .portfolio-left {
-            padding-right: 28px;
-        }
-        .portfolio-left p {
-            font-size: 14px !important;
-        }
-        .tech-icons span {
-            font-size: 12px;
-            padding: 6px 11px;
-        }
-        .portfolio-section .swiper-slide .align-content-center {
-            gap: 32px !important;
-        }
+        .portfolio-left h2 { font-size: 23px; }
+        .portfolio-left { padding-right: 28px; }
+        .portfolio-left p { font-size: 14px !important; }
+        .tech-icons span { font-size: 12px; padding: 6px 12px; }
+        .portfolio-section .swiper-slide .align-content-center { gap: 32px !important; }
     }
-
-    /* ── Small desktop (≤ 1100px) ── */
     @media (max-width: 1100px) {
-        .portfolio-left h2 {
-            font-size: 20px;
-            line-height: 1.35;
-        }
-        .portfolio-left {
-            padding-right: 20px;
-        }
-        .portfolio-left p {
-            font-size: 13px !important;
-        }
-        .tech-icons span {
-            font-size: 11px;
-            padding: 5px 9px;
-        }
-        .portfolio-section .swiper-slide .align-content-center {
-            gap: 20px !important;
-        }
+        .portfolio-left h2 { font-size: 21px; }
+        .portfolio-left { padding-right: 20px; }
+        .portfolio-left p { font-size: 13px !important; }
+        .tech-icons span { font-size: 11px; padding: 5px 10px; }
+        .portfolio-section .swiper-slide .align-content-center { gap: 20px !important; }
     }
-
-    /* ── Tablet (≤ 991px) ── */
     @media (max-width: 991px) {
-        .portfolio-section {
-            padding: 60px 0 50px;
-        }
+        .portfolio-section { padding: 70px 0 60px; }
         .swiper-slide .align-content-center {
             flex-direction: column-reverse !important;
             gap: 28px !important;
         }
-        .portfolio-left {
-            width: 100% !important;
-            padding-right: 0 !important;
-        }
-        .portfolio-left h2 {
-            font-size: 22px;
-        }
-        .portfolio-right {
-            width: 100% !important;
-        }
+        .portfolio-left { width: 100% !important; padding-right: 0 !important; }
+        .portfolio-left h2 { font-size: 22px; }
+        .portfolio-right { width: 100% !important; }
     }
-
-    /* ── Mobile (≤ 575px) ── */
     @media (max-width: 575px) {
-        .portfolio-section {
-            padding: 44px 0 40px;
-        }
-        .portfolio-left h2 {
-            font-size: 19px;
-            line-height: 1.3;
-        }
-        .portfolio-left p {
-            font-size: 14px !important;
-        }
-        .tech-icons span {
-            font-size: 12px;
-            padding: 6px 12px;
-        }
-        body .swiper-button {
-            bottom: -10px;
-        }
+        .portfolio-section { padding: 50px 0 44px; }
+        .portfolio-left h2 { font-size: 19px; line-height: 1.3; }
+        .portfolio-left p { font-size: 14px !important; }
+        .tech-icons span { font-size: 12px; padding: 6px 12px; }
+        body .swiper-button { bottom: -10px; }
     }
 </style>
     <!-- header area -->
@@ -175,44 +330,32 @@
 
     <div id="smooth-content">
         <!-- Top Features Section start -->
-        <div class="bg-white border-top border-neutral-100 tw-py-4 common-shadow-one">
+        <div class="top-features-bar tw-py-4 common-shadow-one">
             <div class="container">
                 <div class="top-features-slider overflow-hidden left-right-gradient position-relative">
-                    <div class="d-flex align-items-center tw-gap-4">
-                        <!-- <span>
-                            <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span> -->
-                        <span class="text-heading fw-medium tw-text-base">⚙️End-to-End IT Services</span>
+                    <div class="feature-item">
+                        <span class="feature-icon icon-teal"><i class="ph-bold ph-gear-six"></i></span>
+                        <span class="text-heading fw-semibold tw-text-sm">End-to-End IT Services</span>
                     </div>
-                    <div class="d-flex align-items-center tw-gap-4">
-                        <!-- <span>
-                            <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span> -->
-                        <span class="text-heading fw-medium tw-text-base">🚀 Built for Performance & Growth</span>
+                    <div class="feature-item">
+                        <span class="feature-icon icon-blue"><i class="ph-bold ph-rocket-launch"></i></span>
+                        <span class="text-heading fw-semibold tw-text-sm">Built for Performance & Growth</span>
                     </div>
-                    <div class="d-flex align-items-center tw-gap-4">
-                        <!-- <span>
-                            <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span> -->
-                        <span class="text-heading fw-medium tw-text-base">🔐 Secure & Reliable Technology</span>
+                    <div class="feature-item">
+                        <span class="feature-icon icon-green"><i class="ph-bold ph-shield-check"></i></span>
+                        <span class="text-heading fw-semibold tw-text-sm">Secure & Reliable Technology</span>
                     </div>
-                    <div class="d-flex align-items-center tw-gap-4">
-                        <!-- <span>
-                            <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span> -->
-                        <span class="text-heading fw-medium tw-text-base">🎯 Solutions That Scale</span>
+                    <div class="feature-item">
+                        <span class="feature-icon icon-purple"><i class="ph-bold ph-crosshair"></i></span>
+                        <span class="text-heading fw-semibold tw-text-sm">Solutions That Scale</span>
                     </div>
-                    <div class="d-flex align-items-center tw-gap-4">
-                        <!-- <span>
-                            <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span> -->
-                        <span class="text-heading fw-medium tw-text-base">🤝 Your Trusted IT Partner</span>
+                    <div class="feature-item">
+                        <span class="feature-icon icon-orange"><i class="ph-bold ph-handshake"></i></span>
+                        <span class="text-heading fw-semibold tw-text-sm">Your Trusted IT Partner</span>
                     </div>
-                    <div class="d-flex align-items-center tw-gap-4">
-                        <!-- <span>
-                            <img src="{{asset('assets/images/icons/chart-icon.svg')}}" alt="" />
-                        </span> -->
-                        <span class="text-heading fw-medium tw-text-base">🛠️ Long-Term Technical Support</span>
+                    <div class="feature-item">
+                        <span class="feature-icon icon-rose"><i class="ph-bold ph-wrench"></i></span>
+                        <span class="text-heading fw-semibold tw-text-sm">Long-Term Technical Support</span>
                     </div>
                 </div>
             </div>
@@ -228,14 +371,16 @@
                 <div class="row gy-4 align-items-center">
                     <div class="col-lg-6">
                         <div class="">
+                            <div class="tw-mb-6" data-aos="fade-up" data-aos-duration="400">
+                                <span class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill">
+                                    <i class="ph-bold ph-sparkle tw-me-1"></i> AI-Powered IT Company
+                                </span>
+                            </div>
                             <h1 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block">Transform
-                                </span>
-                                <span class="d-inline-block fw-semibold">
-                                     Your
-                                </span>
-                                <span class="d-inline-block fw-semibold">Business</span>
-                                <span class="d-inline-block fw-semibold"> with AI-Powered </span>
+                                <span class="d-inline-block">Transform</span>
+                                <span class="d-inline-block fw-semibold"> Your</span>
+                                <span class="d-inline-block fw-semibold"> Business</span>
+                                <span class="d-inline-block fw-semibold"> with AI-Powered</span>
                                 <span class="d-inline-block fw-semibold"> Strategic</span>
                                 <span class="d-inline-block"> IT Solutions</span>
                             </h1>
@@ -276,11 +421,11 @@
                                         <span class="h5 counter">20+</span>
                                     </div>
                                     <p class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter">
-                                        150+ Success Projects
+                                        150+ Successful Projects
                                     </p>
                                 </div>
-                                <div class="d-flex align-items-cente flex-wrap row-gap-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-                                    <div class="d-flex align-items-center tw-gap-305 w-50 " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
+                                <div class="d-flex align-items-center flex-wrap row-gap-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                                    <div class="d-flex align-items-center tw-gap-305 w-50" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="620">
                                         <span class="tw-w-7 tw-h-7 btn-main rounded-circle d-flex justify-content-center align-items-center tw-text-sm">
                                             <i class="text--white ph-bold ph-check"></i>
                                         </span>
@@ -559,8 +704,8 @@
                         <div class="col-lg-6">
                             <div class="bg-white common-shadow-three pb-5 pt-5 tw-pe-6 tw-ps-56-px tw-py-6-px tw-rounded-40-px">
                                 <div class="tw-mb-8">
-                                    <span class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
-                                        About Zalgo Infotech
+                                    <span class="section-badge-light bg-main-50 text-main-600">
+                                        <i class="ph-bold ph-info tw-me-1"></i> About Zalgo Infotech
                                     </span>
                                     <h3 class="splitTextStyleOne fw-light tw-leading-104">
                                         <span class="d-inline-block fw-semibold">Driving </span>
@@ -586,7 +731,7 @@
                                                 Innovation at our core
                                             </h6>
                                             <p class="text-neutral-500 w-100">
-                                               We don’t just build websites — we craft scalable, future-ready IT solutions tailored to your business goals and industry needs.
+                                               We don't just build websites — we craft scalable, future-ready IT solutions tailored to your business goals and industry needs.
                                             </p>
                                         </div>
                                     </div>
@@ -617,6 +762,7 @@
                                             </h6>
                                             <p class="text-neutral-500 w-100">
                                                Our solutions are designed to improve performance, enhance security, and support steady business growth without unnecessary overheads.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -640,10 +786,10 @@
                                     <img src="{{asset('assets/images/shapes/curve-arrow-white.png')}}" alt="Arrow"
                                         class="position-absolute top-0 tw-end-0 animate__wobble__two" />
 
-                                    <span
-                                        class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-semibold text-capitalize rounded-pill tw-mb-3">What
-                                        we do</span>
-                                    <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6">
+                                    <span class="section-badge-light" style="background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.15);">
+                                        <i class="ph-bold ph-map-trifold tw-me-1"></i> What We Do
+                                    </span>
+                                    <h3 class="splitTextStyleOne fw-light tw-leading-104 text-white tw-mb-6 tw-mt-4">
                                         <span class="d-inline-block fw-semibold">Working Roadmap</span>
                                     </h3>
                                     <p class="splitTextStyleOne text-neutral-400 max-w-432-px">
@@ -681,7 +827,7 @@
                                             </div>
                                             <p
                                                 class="fw-bold tw-text-sm font-heading text-heading tw-mt-2 counter text-white">
-                                                150+ Project
+                                                150+ Successful Projects
                                             </p>
                                         </div>
                                     </div>
@@ -791,79 +937,40 @@
 
                 <!-- Global Increase Start -->
                 <div class="pt-120">
-                    <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-14 text-center">
-                        <span class="d-inline-block">Delivering
+                    <div class="text-center tw-mb-14">
+                        <span class="section-badge-light bg-main-50 text-main-600">
+                            <i class="ph-bold ph-chart-line-up tw-me-1"></i> Our Impact
                         </span>
-                        <span class="d-inline-block fw-semibold">
-                             Scalable IT Solutions
-                        </span>
-                        <span class="d-inline-block">That Drive Growth</span>
-                    </h3>
-                    <div class="d-flex flex-wrap justify-content-center">
-                        <div class="tw-min-h-184-px bg-main-600 tw-py-4 tw-px-4 rounded-pill text-center max-w-388-px w-100"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <h3 class="h1 counter text-white tw-mb-4 fw-medium">
-                               10+ Years
-                            </h3>
-                            <p class="text-white max-w-228-px mx-auto">
-                                Industry experience delivering IT solutions
-                            </p>
+                        <h3 class="splitTextStyleOne fw-light tw-leading-104">
+                            <span class="d-inline-block">Delivering</span>
+                            <span class="d-inline-block fw-semibold"> Scalable IT Solutions</span>
+                            <span class="d-inline-block"> That Drive Growth</span>
+                        </h3>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card card-primary" data-aos="fade-up" data-aos-duration="400">
+                            <div class="stat-number counter">10+</div>
+                            <div class="stat-label">Years of industry experience delivering IT solutions</div>
                         </div>
-
-                        <div class="tw-min-h-184-px bg-main-600 tw-py-4 tw-px-4 rounded-pill max-w-514-px w-100 d-flex align-items-center tw-gap-505 justify-content-center"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <h3 class="h1 counter text-white tw-mb-4 fw-medium d-inline-flex align-items-center tw-gap-4">
-                                <img src="{{asset('assets/images/icons/arrow-up-green.svg')}}" alt="" />
-                                90%+
-                            </h3>
-                            <p class="text-white max-w-194-px">
-                                Client retention across long-term engagements
-                            </p>
+                        <div class="stat-card card-white" data-aos="fade-up" data-aos-duration="500">
+                            <div class="stat-number counter">90%+</div>
+                            <div class="stat-label">Client retention across long-term engagements</div>
                         </div>
-
-                        <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-388-px w-100 d-flex align-items-center tw-gap-505 justify-content-center"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
-                                3×
-                            </h3>
-                            <div class="d-flex align-items-center tw-gap-2">
-                                <!-- <span class="text-main-two-600 tw-text-2xl fw-semibold">//</span> -->
-                                <p class="text-main-two-600 max-w-194-px">
-                                    Project delivery with optimized workflows
-                                </p>
-                            </div>
+                        <div class="stat-card card-accent" data-aos="fade-up" data-aos-duration="600">
+                            <div class="stat-number counter">3×</div>
+                            <div class="stat-label">Faster project delivery with optimized workflows</div>
                         </div>
-
-                        <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-490-px w-100 d-flex align-items-center tw-gap-505 justify-content-center border border-main-50"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
-                                50%
-                            </h3>
-                            <p class="text-main-two-600 max-w-194-px">
-                                Improvement in operational efficiency
-                            </p>
+                        <div class="stat-card card-white" data-aos="fade-up" data-aos-duration="400">
+                            <div class="stat-number counter">50%</div>
+                            <div class="stat-label">Improvement in operational efficiency</div>
                         </div>
-
-                        <div class="tw-min-h-184-px bg-main-600 tw-py-4 tw-px-4 rounded-pill text-center max-w-288-px w-100 tw-mt-1 d-flex flex-column justify-content-center"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <h3 class="h1 counter text-white fw-medium">
-                                95%
-                            </h3>
-                            <p class="text-white max-w-228-px mx-auto">
-                                Client satisfaction & positive feedback
-                            </p>
+                        <div class="stat-card card-primary" data-aos="fade-up" data-aos-duration="500">
+                            <div class="stat-number counter">95%</div>
+                            <div class="stat-label">Client satisfaction & positive feedback</div>
                         </div>
-
-                        <div class="tw-min-h-184-px bg-white tw-py-4 tw-px-4 rounded-pill max-w-514-px w-100 d-flex align-items-center tw-gap-505 justify-content-center border border-main-50"
-                            data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
-                            <h3 class="h1 counter text-main-600 fw-medium d-inline-flex align-items-center tw-gap-4">
-                                100%
-                            </h3>
-                            <div class="d-flex align-items-center tw-gap-2">
-                                <p class="text-main-two-600 max-w-194-px">
-                                   Transparent Process
-                                </p>
-                            </div>
+                        <div class="stat-card card-white" data-aos="fade-up" data-aos-duration="600">
+                            <div class="stat-number counter">100%</div>
+                            <div class="stat-label">Transparent process from start to finish</div>
                         </div>
                     </div>
                 </div>
@@ -875,19 +982,19 @@
         <!-- Offer section start -->
         <section class="offer py-120 overflow-hidden">
             <div class="container">
-                <div class="tw-mb-13">
+                <div class="section-header">
                     <span
-                        class="tw-py-1 tw-px-705 bg-main-50 text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">What
-                        We Offering</span>
-                    <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
+                        class="section-badge-light bg-main-50 text-main-600">
+                        <i class="ph-bold ph-stack tw-me-1"></i> What We Offer</span>
+                    <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center tw-mt-4">
                         <div class="max-w-672-px">
                             <h3 class="splitTextStyleOne tw-leading-104">
-                                Provides Full-Cycle Custom IT
-                                Development Cervices.
+                                Full-Cycle Custom IT
+                                Development Services
                             </h3>
                         </div>
                         <p class="splitTextStyleOne text-neutral-500 max-w-500-px">
-                            In today's competitive business, the demand
+                            In today's competitive business landscape, the demand
                             for efficient and cost-effective IT
                             solutions has never been more critical.
                         </p>
@@ -997,32 +1104,26 @@
                 class="position-absolute tw-start-0 top-0 w-100 h-100 z-n1" />
 
             <div class="container">
-                <div class="tw-mb-8">
-                    <span class="tw-py-1 tw-px-705 bg-white text-main-600 tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
-                        Enterprise IT Services
+                <div class="section-header">
+                    <span class="section-badge-light bg-white text-main-600" style="border: 1px solid rgba(0,109,117,0.1);">
+                        <i class="ph-bold ph-buildings tw-me-1"></i> Enterprise IT Services
                     </span>
-                    <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center">
+                    <div class="d-flex flex-lg-nowrap flex-wrap justify-content-between align-items-center tw-mt-4">
                         <div class="max-w-672-px">
                             <h3 class="splitTextStyleOne fw-light tw-leading-104">
-                                <span class="d-inline-block">Technology
-                                </span>
-                                <span class="d-inline-block fw-semibold">Solutions Built
-                                </span>
-                                <span class="d-inline-block">To
-                                </span>
-                                <span class="d-inline-block fw-semibold">
-                                    Power
-                                </span>
-                                <span class="d-inline-block fw-semibold">Modern
-                                </span>
-                                <span class="d-inline-block fw-semibold">Businesses</span>
+                                <span class="d-inline-block">Technology</span>
+                                <span class="d-inline-block fw-semibold"> Solutions Built</span>
+                                <span class="d-inline-block"> to</span>
+                                <span class="d-inline-block fw-semibold"> Power</span>
+                                <span class="d-inline-block fw-semibold"> Modern</span>
+                                <span class="d-inline-block fw-semibold"> Businesses</span>
                             </h3>
                         </div>
-                        <a target="blank" href="https://calendly.com/zalgoinfotec/30min?month=2026-02"
+                        <a target="_blank" href="https://calendly.com/zalgoinfotec/30min"
                             class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
                             data-block="button">
                             <span class="button__flair"></span>
-                            <span class="button__label">Get a Free Consultation</span>
+                            <span class="button__label"><i class="ph-bold ph-calendar-blank tw-me-1"></i> Get a Free Consultation</span>
                         </a>
                     </div>
                 </div>
@@ -1030,7 +1131,7 @@
                 <div class="row gy-4">
                     <div class="col-lg-5">
                         <p class="splitTextStyleOne text-neutral-600 max-w-500-px tw-mb-15">
-                            In today’s competitive business environment, organizations need reliable, scalable, and secure IT solutions to streamline operations and drive sustainable growth.
+                            In today's competitive business environment, organizations need reliable, scalable, and secure IT solutions to streamline operations and drive sustainable growth.
                         </p>
                         <div class="accordion common-accordion accordion-border-left" id="accordionExample">
                             <div class="accordion-item tw-py-4 tw-px-40-px tw-rounded-xl bg-transparent border-0 mb-0"
@@ -1162,9 +1263,9 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="">
-                            <span class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">
-                                Why Choose Us</span>
-                            <div class="max-w-672-px">
+                            <span class="section-badge-light bg-main-600 text-white">
+                                <i class="ph-bold ph-trophy tw-me-1"></i> Why Choose Us</span>
+                            <div class="max-w-672-px tw-mt-4">
                                 <h3 class="fw-light tw-leading-104 cursor-big tw-mb-9 d-flex gap-2">
                                     <span class="splitTextStyleOne d-inline-block fw-medium">
                                         <span class="fw-semibold">Zalgo Infotech</span>
@@ -1172,7 +1273,8 @@
                                     </span>
                                 </h3>
                                 <p class="splitTextStyleOne text-neutral-600 max-w-500-px">
-                                    In today’s competitive business landscape, we deliver cost-effective, scalable, and results-driven technology solutions that fuel long-term growth.
+                                    In today's competitive business landscape, we deliver cost-effective, scalable, and results-driven technology solutions that fuel long-term growth.
+                                </p>
                             </div>
 
                             <div class="tw-mt-10">
@@ -1226,8 +1328,8 @@
         </section>
         <!-- Choose Us section end -->
 
-        <!-- Show-case section start -->
-        <!-- <section class="show-case py-120 bg-main-two-600 overflow-hidden">
+        {{-- Show-case section start --}}
+        {{-- <section class="show-case py-120 bg-main-two-600 overflow-hidden">
             <div class="max-w-602-px mx-auto text-center tw-mb-15">
                 <span
                     class="tw-py-1 tw-px-705 bg-white-13 text-white tw-text-sm fw-medium text-capitalize rounded-pill tw-mb-205">Proven Client Success</span>
@@ -1406,11 +1508,21 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- Show-case section End -->
+        </section> --}}
+        {{-- Show-case section End --}}
 
 
         <section class="portfolio-section">
+            <div class="container tw-mb-12">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div>
+                        <span class="section-badge-light" style="background: rgba(255,255,255,0.1); color: #fff; border: 1px solid rgba(255,255,255,0.15);">
+                            <i class="ph-bold ph-briefcase tw-me-1"></i> Our Work
+                        </span>
+                        <h3 class="text-white fw-semibold tw-mt-4">Featured Projects</h3>
+                    </div>
+                </div>
+            </div>
             <div class="swiper portfolioSwiper">
                 <div class="swiper-wrapper">
                     <!-- SLIDE 1 -->
@@ -1419,6 +1531,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>ZalgoStore ERP – All-in-One Business Management System</h2>
 
                                             <p>
@@ -1426,7 +1539,7 @@
                                             </p>
 
                                             <div class="tech-icons">
-                                                <span>NOdeJS</span>
+                                                <span>Node.js</span>
                                                 <span>ReactJS</span>
                                                 <span>MongoDB</span>
                                                 <span>Responsive Design</span>
@@ -1442,7 +1555,7 @@
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/case-study/erpsystem-thumb.jpg')}}">
+                                        <img src="{{asset('assets/images/case-study/erpsystem-thumb.jpg')}}" alt="ZalgoStore ERP" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -1455,6 +1568,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Zalgo Edutech LMS – Online Video Coaching & Training Platform</h2>
 
                                             <p>
@@ -1462,7 +1576,7 @@
                                             </p>
 
                                             <div class="tech-icons">
-                                                <span>NOdeJS</span>
+                                                <span>Node.js</span>
                                                 <span>ReactJS</span>
                                                 <span>MongoDB</span>
                                                 <span>Responsive Design</span>
@@ -1470,7 +1584,7 @@
                                                 <span>Web Application</span>
                                             </div>
 
-                                            <a target="blank" href="https://lms.zalgoedutech.com/"
+                                            <a target="_blank" href="https://lms.zalgoedutech.com/"
                                                 class="mt-4 hover--translate-y-1 active--translate-y-scale-9 btn hover-style-three hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                                 data-block="button">
                                                 <span class="button__flair"></span>
@@ -1478,7 +1592,7 @@
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/case-study/lms.jpg')}}">
+                                        <img src="{{asset('assets/images/case-study/lms.jpg')}}" alt="Zalgo Edutech LMS" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -1491,6 +1605,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Bioage – Health & Wellness eCommerce Website</h2>
 
                                             <p>
@@ -1526,6 +1641,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Awakening The Genius Within – Book Showcase & Wellness</h2>
 
                                             <p>
@@ -1561,6 +1677,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Life Tree Anatomical – Whole Body Donation & Medical Research Service Website</h2>
 
                                             <p>
@@ -1596,6 +1713,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Washing Center ERP – Slot Booking, Rewards & Multi-tenant SaaS</h2>
 
                                             <p>
@@ -1619,7 +1737,7 @@
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/case-study/washing.jpeg')}}">
+                                        <img src="{{asset('assets/images/case-study/washing.jpeg')}}" alt="Washing Center ERP" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -1632,6 +1750,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Lead Management CRM – Follow-up Automation & Payment Handling</h2>
 
                                             <p>
@@ -1655,7 +1774,7 @@
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/case-study/leadmangement.jpeg')}}">
+                                        <img src="{{asset('assets/images/case-study/leadmangement.jpeg')}}" alt="Lead Management CRM" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -1668,6 +1787,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Lab Report Generation System – Automated PDF Reports & Analytics</h2>
 
                                             <p>
@@ -1691,7 +1811,7 @@
                                             </a>
                                     </div>
                                     <div class="portfolio-right">
-                                        <img src="{{asset('assets/images/case-study/lab.jpg')}}">
+                                        <img src="{{asset('assets/images/case-study/lab.jpg')}}" alt="Lab Report System" loading="lazy">
                                     </div>
                                 </div>
                             </div>
@@ -1704,6 +1824,7 @@
                             <div class="row">
                                 <div class="d-flex case-study__slider">
                                     <div class="portfolio-left">
+                                        <span class="section-badge">Case Study</span>
                                         <h2>Finance Manager Training – Business Finance & Revenue Growth</h2>
 
                                             <p>
@@ -1737,6 +1858,7 @@
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
+                <div class="portfolio-pagination"></div>
             </div>
         </section>
 
@@ -1750,17 +1872,22 @@
             <!-- Blog section start -->
             <section class="blog">
                 <div class="container">
-                    <div class="bg-white common-shadow-five py-120 tw-px-90-px">
+                    <div class="bg-white common-shadow-five py-120 tw-px-90-px" style="border-radius: 28px;">
                         <span class="line w-0 tw-h-2 bg-main-600 tw-mb-4"></span>
-                        <div class="d-flex align-items-center justify-content-between tw-mb-12">
-                            <h6 class="">
-                                Scaling Brands with Smart Digital Solutions
-                            </h6>
+                        <div class="d-flex align-items-center justify-content-between tw-mb-12 flex-wrap tw-gap-4">
+                            <div>
+                                <span class="section-badge-light bg-main-50 text-main-600 tw-mb-3">
+                                    <i class="ph-bold ph-folder-open tw-me-1"></i> Case Studies
+                                </span>
+                                <h6 class="tw-mt-3">
+                                    Scaling Brands with Smart Digital Solutions
+                                </h6>
+                            </div>
                             <a href="{{route('blog')}}"
                                 class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-pill tw-py-4"
                                 data-block="button">
                                 <span class="button__flair"></span>
-                                <span class="button__label">View All Blogs</span>
+                                <span class="button__label">View All Case Studies</span>
                             </a>
                         </div>
 
@@ -1837,11 +1964,12 @@
                         </div>
                         <div class="col-md-6">
                             <div class="ps-lg-4 max-w-532-px">
-                                <span
-                                    class="tw-py-1 tw-px-705 bg-main-600 text-white tw-text-sm fw-bold text-capitalize rounded-pill tw-mb-205">Have a Project?</span>
-                                <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-5 d-flex gap-2">
+                                <span class="section-badge-light bg-main-600 text-white">
+                                    <i class="ph-bold ph-lightbulb tw-me-1"></i> Have a Project?
+                                </span>
+                                <h3 class="splitTextStyleOne fw-light tw-leading-104 tw-mb-5 tw-mt-4 d-flex gap-2">
                                     <span class="d-inline-block fw-semibold">
-                                        <span class="fw-normal">Let’s </span>
+                                        <span class="fw-normal">Let's </span>
                                         Turn Your Idea Into a Scalable
                                         <span class="fw-normal">
                                             Digital Solution</span>
@@ -1850,13 +1978,22 @@
                                 <p class="text-neutral-600 tw-text-lg splitTextStyleOne">
                                     Talk to our experts and get clear guidance, realistic timelines, and a solution tailored to your business goals.
                                 </p>
-                                <a href="{{route('contact')}}"
-                                    class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex d-none align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 rounded-0 tw-py-5 w-100 tw-mt-10"
-                                    data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800"
-                                    data-block="button">
-                                    <span class="button__flair"></span>
-                                    <span class="button__label">Speak With Our Experts</span>
-                                </a>
+                                <div class="d-flex align-items-center tw-gap-4 flex-wrap tw-mt-10">
+                                    <a href="{{route('contact')}}"
+                                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main hover-style-one button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-56-px tw-py-5 fw-semibold rounded-pill"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800"
+                                        data-block="button">
+                                        <span class="button__flair"></span>
+                                        <span class="button__label"><i class="ph-bold ph-chat-centered-text tw-me-1"></i> Speak With Our Experts</span>
+                                    </a>
+                                    <a target="_blank" href="https://calendly.com/zalgoinfotec/30min"
+                                        class="hover--translate-y-1 active--translate-y-scale-9 btn btn-main-two hover-style-two button--stroke d-sm-inline-flex align-items-center justify-content-center tw-gap-5 group active--translate-y-2 tw-px-9 tw-py-5 fw-semibold rounded-pill"
+                                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="900"
+                                        data-block="button">
+                                        <span class="button__flair"></span>
+                                        <span class="button__label"><i class="ph-bold ph-calendar-blank tw-me-1"></i> Book a Call</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
