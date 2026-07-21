@@ -26,11 +26,18 @@ jobs:
 
             DEPLOY_PATH='/var/www/staging.zalgoinfotech.in/Zalgo_infotech'
             REPO='https://github.com/Arvind4242/Zalgo_infotech.git'
+            PM2_NAME='zalgo-infotech-staging'
+            PORT=3016
 
-            # Backup .env if it exists
+            # Backup .env and user-uploaded files (not tracked in git) if they exist
             if [ -f \"\$DEPLOY_PATH/.env\" ]; then
               cp \"\$DEPLOY_PATH/.env\" /tmp/.env.staging.backup
               echo '.env backed up'
+            fi
+            if [ -d \"\$DEPLOY_PATH/public/uploads\" ]; then
+              rm -rf /tmp/uploads.staging.backup
+              cp -r \"\$DEPLOY_PATH/public/uploads\" /tmp/uploads.staging.backup
+              echo 'uploads backed up'
             fi
 
             # Wipe and re-clone fresh
@@ -46,9 +53,21 @@ jobs:
               echo 'WARNING: No .env backup found. Create .env manually.'
             fi
 
-            composer install
-            php artisan migrate --force
-            php artisan optimize
+            # Restore uploaded files
+            if [ -d /tmp/uploads.staging.backup ]; then
+              mkdir -p public
+              cp -r /tmp/uploads.staging.backup public/uploads
+              echo 'uploads restored'
+            fi
+
+            npm ci
+            npx prisma generate
+            npx prisma db push
+            npm run build
+
+            pm2 delete \"\$PM2_NAME\" 2>/dev/null || true
+            PORT=\$PORT pm2 start npm --name \"\$PM2_NAME\" -- start
+            pm2 save
           "
 
       - name: Deploy to Production
@@ -59,11 +78,18 @@ jobs:
 
             DEPLOY_PATH='/var/www/zalgoinfotech.com'
             REPO='https://github.com/Arvind4242/Zalgo_infotech.git'
+            PM2_NAME='zalgo-infotech'
+            PORT=3015
 
-            # Backup .env if it exists
+            # Backup .env and user-uploaded files (not tracked in git) if they exist
             if [ -f \"\$DEPLOY_PATH/.env\" ]; then
               cp \"\$DEPLOY_PATH/.env\" /tmp/.env.production.backup
               echo '.env backed up'
+            fi
+            if [ -d \"\$DEPLOY_PATH/public/uploads\" ]; then
+              rm -rf /tmp/uploads.production.backup
+              cp -r \"\$DEPLOY_PATH/public/uploads\" /tmp/uploads.production.backup
+              echo 'uploads backed up'
             fi
 
             # Wipe entire directory and re-clone fresh (removes malware too)
@@ -79,12 +105,22 @@ jobs:
               echo 'WARNING: No .env backup found. Create .env manually.'
             fi
 
-            composer install --no-dev --optimize-autoloader
-            php artisan migrate --force
-            php artisan optimize
+            # Restore uploaded files
+            if [ -d /tmp/uploads.production.backup ]; then
+              mkdir -p public
+              cp -r /tmp/uploads.production.backup public/uploads
+              echo 'uploads restored'
+            fi
 
-            # Fix permissions for web server
-            sudo chown -R www-data:www-data \"\$DEPLOY_PATH\"
-            sudo chmod -R 755 \"\$DEPLOY_PATH\"
-            sudo chmod -R 775 \"\$DEPLOY_PATH/storage\" \"\$DEPLOY_PATH/bootstrap/cache\"
+            npm ci
+            npx prisma generate
+            npx prisma db push
+            npm run build
+
+            pm2 delete \"\$PM2_NAME\" 2>/dev/null || true
+            PORT=\$PORT pm2 start npm --name \"\$PM2_NAME\" -- start
+            pm2 save
+
+            # Fix ownership for the deploy user (no www-data needed — PM2 runs the Node process directly)
+            sudo chown -R \$(whoami):\$(whoami) \"\$DEPLOY_PATH\"
           "

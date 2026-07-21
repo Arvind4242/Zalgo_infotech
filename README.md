@@ -1,61 +1,60 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Zalgo Infotech — Website
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Next.js 16 (App Router) + Prisma/PostgreSQL rewrite of the company marketing site, including a
+password-protected `/admin` panel for managing form submissions, blog posts, and career openings.
 
-## About Laravel
+## Stack
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Framework:** Next.js 16 (App Router, Turbopack)
+- **Database:** PostgreSQL (Neon) via Prisma ORM
+- **Auth:** Signed session cookie for `/admin` (see `lib/adminAuth.ts`, `proxy.ts`)
+- **Email:** Nodemailer over SMTP
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Getting started
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+```bash
+npm install
+npx prisma db push   # creates/syncs tables in the database from prisma/schema.prisma
+npm run dev           # http://localhost:3000
+```
 
-## Learning Laravel
+## Environment variables
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Copy the variables documented inline in `.env` (already present in this repo for local dev) and
+fill in real values before deploying:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- `DATABASE_URL` — Postgres connection string
+- `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / `SMTP_PASS` / `MAIL_FROM` — outgoing email
+- `CONTACT_TO_EMAIL` / `JOB_APPLICATION_TO_EMAIL` / `PLAN_INQUIRY_TO_EMAIL` — where form
+  notifications are sent
+- `ADMIN_EMAIL` / `ADMIN_PASSWORD_HASH_B64` / `ADMIN_SESSION_SECRET` — `/admin` login. Generate a
+  new password hash with:
+  ```bash
+  node -e "console.log(Buffer.from(require('bcryptjs').hashSync('yourNewPassword', 12)).toString('base64'))"
+  ```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Project structure
 
-## Laravel Sponsors
+- `app/(site)/` — all public marketing pages (route group; doesn't affect URLs). Its `layout.tsx`
+  loads the Bootstrap/GSAP/AOS/jQuery assets the original theme depends on.
+- `app/admin/` — the admin panel (submissions dashboard, blog CMS, career openings CMS). Deliberately
+  outside `(site)` so it never inherits the public site's CSS/scripts.
+- `app/api/` — route handlers (contact form, job applications, plan inquiries, admin CRUD).
+- `components/` — shared UI, grouped by area (`admin/`, `hire/`, `services/`, `case-studies/`, `home/`).
+- `lib/` — Prisma client, mailer, auth, and other server-side utilities.
+- `prisma/schema.prisma` — database schema.
+- `public/assets/` — static CSS/JS/image assets carried over from the original theme.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Production build
 
-### Premium Partners
+```bash
+npm run build
+npm run start
+```
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## Deploying
 
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This is a standard Next.js app — deploy it on Vercel, or any Node host that can run
+`npm run build && npm run start`. Make sure the environment variables above are set on the host,
+and that `npx prisma db push` (or a proper migration) has been run against the production database
+at least once.
