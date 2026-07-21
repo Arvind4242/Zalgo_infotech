@@ -11,6 +11,57 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Set environment variables
+        run: |
+          if [ "${{ github.ref_name }}" = "staging" ]; then
+            echo "DEPLOY_PATH=/var/www/staging.zalgoinfotech.in/Zalgo_infotech" >> "$GITHUB_ENV"
+            echo "PM2_NAME=zalgo-infotech-staging" >> "$GITHUB_ENV"
+            echo "PORT=3016" >> "$GITHUB_ENV"
+          else
+            echo "DEPLOY_PATH=/var/www/zalgoinfotech.com" >> "$GITHUB_ENV"
+            echo "PM2_NAME=zalgo-infotech" >> "$GITHUB_ENV"
+            echo "PORT=3015" >> "$GITHUB_ENV"
+          fi
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate Prisma client
+        run: npx prisma generate
+
+      - name: Push DB schema (staging)
+        if: github.ref_name == 'staging'
+        run: npx prisma db push
+        env:
+          DATABASE_URL: ${{ secrets.STAGING_DATABASE_URL }}
+
+      - name: Push DB schema (production)
+        if: github.ref_name == 'main'
+        run: npx prisma db push
+        env:
+          DATABASE_URL: ${{ secrets.PROD_DATABASE_URL }}
+
+      - name: Build
+        run: npm run build
+
+      - name: Assemble standalone deploy bundle
+        run: |
+          rm -rf deploy
+          mkdir -p deploy
+          cp -r .next/standalone/. deploy/
+          mkdir -p deploy/.next
+          cp -r .next/static deploy/.next/static
+          cp -r public deploy/public
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
@@ -18,109 +69,27 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy to Staging
-        if: github.ref_name == 'staging'
+      - name: Ensure remote directory exists
+        run: |
+          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "mkdir -p '$DEPLOY_PATH'"
+
+      - name: Sync build to server
+        run: |
+          rsync -az --delete \
+            --exclude='.env' \
+            --exclude='public/uploads' \
+            -e "ssh -i ~/.ssh/id_ed25519" \
+            deploy/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:"$DEPLOY_PATH/"
+
+      - name: Restart app on server
         run: |
           ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
             set -e
-
-            DEPLOY_PATH='/var/www/staging.zalgoinfotech.in/Zalgo_infotech'
-            REPO='https://github.com/Arvind4242/Zalgo_infotech.git'
-            PM2_NAME='zalgo-infotech-staging'
-            PORT=3016
-
-            # Backup .env and user-uploaded files (not tracked in git) if they exist
-            if [ -f \"\$DEPLOY_PATH/.env\" ]; then
-              cp \"\$DEPLOY_PATH/.env\" /tmp/.env.staging.backup
-              echo '.env backed up'
+            cd '$DEPLOY_PATH'
+            if [ ! -f .env ]; then
+              echo 'WARNING: No .env found at $DEPLOY_PATH/.env — create one (see .env.example) before the app will work.'
             fi
-            if [ -d \"\$DEPLOY_PATH/public/uploads\" ]; then
-              rm -rf /tmp/uploads.staging.backup
-              cp -r \"\$DEPLOY_PATH/public/uploads\" /tmp/uploads.staging.backup
-              echo 'uploads backed up'
-            fi
-
-            # Wipe and re-clone fresh
-            sudo rm -rf \"\$DEPLOY_PATH\"
-            git clone --branch staging \"\$REPO\" \"\$DEPLOY_PATH\"
-            cd \"\$DEPLOY_PATH\"
-
-            # Restore .env
-            if [ -f /tmp/.env.staging.backup ]; then
-              cp /tmp/.env.staging.backup .env
-              echo '.env restored'
-            else
-              echo 'WARNING: No .env backup found. Create .env manually.'
-            fi
-
-            # Restore uploaded files
-            if [ -d /tmp/uploads.staging.backup ]; then
-              mkdir -p public
-              cp -r /tmp/uploads.staging.backup public/uploads
-              echo 'uploads restored'
-            fi
-
-            npm ci
-            npx prisma generate
-            npx prisma db push
-            npm run build
-
-            pm2 delete \"\$PM2_NAME\" 2>/dev/null || true
-            PORT=\$PORT pm2 start npm --name \"\$PM2_NAME\" -- start
+            pm2 delete '$PM2_NAME' 2>/dev/null || true
+            PORT=$PORT pm2 start server.js --name '$PM2_NAME'
             pm2 save
-          "
-
-      - name: Deploy to Production
-        if: github.ref_name == 'main'
-        run: |
-          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
-            set -e
-
-            DEPLOY_PATH='/var/www/zalgoinfotech.com'
-            REPO='https://github.com/Arvind4242/Zalgo_infotech.git'
-            PM2_NAME='zalgo-infotech'
-            PORT=3015
-
-            # Backup .env and user-uploaded files (not tracked in git) if they exist
-            if [ -f \"\$DEPLOY_PATH/.env\" ]; then
-              cp \"\$DEPLOY_PATH/.env\" /tmp/.env.production.backup
-              echo '.env backed up'
-            fi
-            if [ -d \"\$DEPLOY_PATH/public/uploads\" ]; then
-              rm -rf /tmp/uploads.production.backup
-              cp -r \"\$DEPLOY_PATH/public/uploads\" /tmp/uploads.production.backup
-              echo 'uploads backed up'
-            fi
-
-            # Wipe entire directory and re-clone fresh (removes malware too)
-            sudo rm -rf \"\$DEPLOY_PATH\"
-            git clone --branch main \"\$REPO\" \"\$DEPLOY_PATH\"
-            cd \"\$DEPLOY_PATH\"
-
-            # Restore .env
-            if [ -f /tmp/.env.production.backup ]; then
-              cp /tmp/.env.production.backup .env
-              echo '.env restored'
-            else
-              echo 'WARNING: No .env backup found. Create .env manually.'
-            fi
-
-            # Restore uploaded files
-            if [ -d /tmp/uploads.production.backup ]; then
-              mkdir -p public
-              cp -r /tmp/uploads.production.backup public/uploads
-              echo 'uploads restored'
-            fi
-
-            npm ci
-            npx prisma generate
-            npx prisma db push
-            npm run build
-
-            pm2 delete \"\$PM2_NAME\" 2>/dev/null || true
-            PORT=\$PORT pm2 start npm --name \"\$PM2_NAME\" -- start
-            pm2 save
-
-            # Fix ownership for the deploy user (no www-data needed — PM2 runs the Node process directly)
-            sudo chown -R \$(whoami):\$(whoami) \"\$DEPLOY_PATH\"
           "
