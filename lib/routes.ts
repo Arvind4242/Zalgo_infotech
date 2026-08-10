@@ -72,6 +72,7 @@ export const routes = {
   kalpmantra: "/kalpmantra",
   shriramexpressnews: "/shriramexpressnews",
   leatherstitch: "/leatherstitch",
+  launch: "/launch",
 
   blog: "/blog",
   casestudy: "/casestudy",

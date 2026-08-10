@@ -73,6 +73,7 @@ const STATIC_PATHS = [
   "/kalpmantra",
   "/shriramexpressnews",
   "/leatherstitch",
+  "/launch",
   "/blog",
   "/casestudy",
   "/contact",
