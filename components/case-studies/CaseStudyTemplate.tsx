@@ -222,10 +222,10 @@ export default function CaseStudyTemplate({
         <div className="container">
           <div className="row gy-4 select-domain-wrapper">
             <div className="col-md-12">
-              <h1 className="splitTextStyleOne fw-light tw-leading-104 text-center">
+              <h2 className="splitTextStyleOne fw-light tw-leading-104 text-center">
                 <span className="d-inline-block">Client</span>{" "}
                 <span className="text-green d-inline-block fw-semibold">Overview</span>
-              </h1>
+              </h2>
               <p className="fs-3 lh-sm mt-3 h5 mx-auto text-center w-75">{overviewText}</p>
             </div>
           </div>
