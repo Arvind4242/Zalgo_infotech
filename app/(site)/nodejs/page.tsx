@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Node.js Development Services",
   description:
-    "Scalable Node.js development with event-driven architecture, secure APIs, and microservices. We build and maintain fast, reliable backend systems for growing businesses.",
+    "Get scalable Node.js development with event-driven architecture, secure APIs, and microservices for fast, reliable backend systems.",
   keywords: [
     "Node.js development company",
     "hire Node.js developers",

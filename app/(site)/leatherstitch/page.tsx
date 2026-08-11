@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Leather Stitch Case Study - E-commerce Website & Digital Marketing",
   description:
-    "Zalgo Infotech is building Leather Stitch (leatherstitch.in), a Next.js & Node.js e-commerce store for leather shoes, alongside ongoing SEO, digital marketing, and social media handling.",
+    "See how Zalgo Infotech is building Leather Stitch, a Next.js and Node.js eCommerce store for leather shoes with ongoing SEO and digital marketing.",
   keywords: [
     "Leather Stitch case study",
     "e-commerce website development",

@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "About Us - Our Story & Team",
   description:
-    "Learn about Zalgo Infotech, an IT solutions company delivering custom web development, AI automation, and business-driven software with proven client retention and support.",
+    "Learn about Zalgo Infotech, delivering custom web development, AI automation, and business-focused software solutions with reliable client support.",
   keywords: [
     "about Zalgo Infotech",
     "IT company India",

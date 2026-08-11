@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "ERP System Case Study - Institute Management Platform",
   description:
-    "How Zalgo Infotech built a role-based institute ERP with React 18, Vite, and Node.js — covering admissions, attendance, fees, exams, and report cards for schools.",
+    "See how Zalgo Infotech built a role-based institute ERP with React 18, Vite, and Node.js for admissions, attendance, fees, exams, and report cards.",
   keywords: [
     "ERP case study",
     "institute management system case study",

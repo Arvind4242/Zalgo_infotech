@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Awakening The Genius Within Case Study - Wellness Book Platform",
   description:
-    "How Zalgo Infotech built a WordPress and WooCommerce platform to showcase the health and wellness book Awakening The Genius Within and its cellular nutrition research.",
+    "See how Zalgo Infotech built a WordPress and WooCommerce platform showcasing Awakening The Genius Within and its cellular nutrition research.",
   keywords: [
     "Awakening The Genius Within case study",
     "health and wellness website case study",

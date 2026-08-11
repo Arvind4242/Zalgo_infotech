@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Custom Ecommerce Development Services",
   description:
-    "Custom ecommerce development with secure payment integration, scalable architecture, and inventory management. We build high-converting online stores that scale.",
+    "Build scalable eCommerce stores with secure payment integration, inventory management, and high-converting architecture tailored to your business.",
   keywords: [
     "ecommerce development services",
     "custom ecommerce website development",

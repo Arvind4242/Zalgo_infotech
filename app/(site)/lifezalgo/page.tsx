@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Life at Zalgo Infotech",
   description:
-    "See what it's like to work at Zalgo Infotech — open communication, continuous learning, work-life balance, and a team behind 40+ successful projects worldwide.",
+    "Discover life at Zalgo Infotech with open communication, continuous learning, work-life balance, and a team behind 40+ successful global projects.",
   keywords: [
     "life at Zalgo Infotech",
     "company culture",

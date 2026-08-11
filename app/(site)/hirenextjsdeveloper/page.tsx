@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire Next.js Developers",
   description:
-    "Hire dedicated Next.js developers for SEO-friendly SSR/SSG web apps, fast page loads, and scalable architecture. Flexible full-time, part-time, or hourly engagement models.",
+    "Hire dedicated Next.js developers for SEO-friendly SSR/SSG apps, fast page loads, and scalable architecture with flexible hiring options.",
   keywords: [
     "hire next.js developers",
     "hire dedicated next.js developer",

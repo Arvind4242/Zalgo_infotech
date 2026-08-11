@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Shopify Store Development Services",
   description:
-    "Custom Shopify store development with conversion-focused themes, secure app integrations, and ongoing maintenance to keep your online store fast and reliable.",
+    "Get custom Shopify development with conversion-focused themes, secure app integrations, and ongoing maintenance for fast, reliable online stores.",
   keywords: [
     "Shopify development services",
     "custom Shopify store development",

@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Life Tree Anatomical Case Study - Healthcare Website Design",
   description:
-    "How Zalgo Infotech built a compassionate WordPress website for Life Tree Anatomical, Texas's first non-university body donation program, with SEO and UI/UX design.",
+    "See how Zalgo Infotech built a compassionate WordPress website for Life Tree Anatomical with SEO and UI/UX design.",
   keywords: [
     "Life Tree Anatomical case study",
     "healthcare website case study",

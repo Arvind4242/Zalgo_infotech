@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire React.js Developers",
   description:
-    "Hire dedicated React.js developers for custom SPAs, component-based UIs, and Redux/API-driven apps. Full-time, part-time, or hourly engagement — start within 24-48 hours.",
+    "Hire dedicated React.js developers for custom SPAs, component-based UIs, and Redux/API-driven applications with flexible engagement options.",
   keywords: [
     "hire react.js developers",
     "hire dedicated react developer",

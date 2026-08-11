@@ -10,7 +10,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Dobramoc Case Study - WooCommerce E-commerce Growth",
   description:
-    "Discover how Zalgo Infotech supported Dobramoc's WooCommerce store with performance optimization, SEO, security, and digital marketing to drive long-term growth.",
+    "See how Zalgo Infotech supported Dobramoc's WooCommerce store with performance optimization, SEO, security, and digital marketing for long-term growth.",
   keywords: [
     "Dobramoc case study",
     "WooCommerce case study",

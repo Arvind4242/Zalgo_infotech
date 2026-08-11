@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire AI Developers",
   description:
-    "Hire dedicated AI developers for machine learning, NLP, computer vision, and AI chatbot solutions. Save up to 70% with full-time, part-time, or project-based engagement.",
+    "Hire dedicated AI developers for machine learning, NLP, computer vision, and AI chatbot solutions with flexible engagement options.",
   keywords: [
     "hire ai developers",
     "hire dedicated ai developer",

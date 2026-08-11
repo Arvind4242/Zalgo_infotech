@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "SEO Services - Search Engine Optimization",
   description:
-    "Data-driven SEO services covering on-page optimization, technical SEO, content and link building, and performance tracking to grow organic traffic and rankings.",
+    "Grow organic traffic and rankings with data-driven SEO services covering on-page optimization, technical SEO, content, link building, and performance tracking.",
   keywords: [
     "SEO services company",
     "search engine optimization services",

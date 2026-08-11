@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Culture & Values",
   description:
-    "Discover the culture and core values driving Zalgo Infotech — innovation first, radical transparency, teamwork over ego, full ownership, and a client-first mindset.",
+    "Discover Zalgo Infotech's culture and core values: innovation, transparency, teamwork, ownership, and a client-first mindset.",
   keywords: [
     "company culture",
     "core values",
