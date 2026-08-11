@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "CMS Development & Customization Services",
   description:
-    "Custom CMS development with tailored architecture, theme and plugin customization, and secure role-based access. SEO-ready content management built to scale.",
+    "Get custom CMS development with tailored architecture, theme and plugin customization, secure access, and scalable SEO-ready content management.",
   keywords: [
     "CMS development services",
     "custom CMS development",

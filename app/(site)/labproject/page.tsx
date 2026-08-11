@@ -6,7 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Lab Report Generation System Case Study - Automated Lab Reports",
   description:
-    "How Zalgo Infotech built a Laravel-based lab management platform with automated PDF report generation, patient portals, and role-based access for healthcare labs.",
+    "See how Zalgo Infotech built a Laravel lab management platform with automated PDF reports, patient portals, and role-based access for healthcare labs.",
   keywords: [
     "lab management system case study",
     "healthcare software development case study",

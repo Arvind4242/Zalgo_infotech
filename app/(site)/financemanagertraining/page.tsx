@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Finance Manager Training Case Study - Online F&I LMS Platform",
   description:
-    "How Zalgo Infotech built a 5-star rated WordPress and WooCommerce F&I certification training platform with a members-only LMS portal for nationwide students.",
+    "Explore how Zalgo Infotech built a 5-star-rated WordPress and WooCommerce F&I certification platform with a members-only LMS portal serving students nationwide.",
   keywords: [
     "Finance Manager Training case study",
     "online training platform case study",

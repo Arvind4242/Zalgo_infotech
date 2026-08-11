@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire Laravel Developers",
   description:
-    "Hire dedicated Laravel developers for custom MVC web apps, REST APIs, and database-driven solutions with secure, scalable architecture. Full-time, part-time, or hourly hiring.",
+    "Hire dedicated Laravel developers for custom MVC web apps, REST APIs, and scalable, secure solutions with flexible hiring options.",
   keywords: [
     "hire laravel developers",
     "hire dedicated laravel developer",

@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "BIOAGE Case Study - Scaling a WooCommerce Store to $1M+/Month",
   description:
-    "See how Zalgo Infotech helped BIOAGE, a Canadian e-commerce brand, scale its WooCommerce store to $1M+ monthly revenue with SEO, security, and digital marketing.",
+    "See how Zalgo Infotech helped BIOAGE scale its WooCommerce store to $1M+ monthly revenue through SEO, security, and digital marketing.",
   keywords: [
     "BIOAGE case study",
     "WooCommerce case study",

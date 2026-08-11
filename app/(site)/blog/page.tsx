@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Blog - Insights on Web Development, AI & Digital Trends",
   description:
-    "Expert articles and insights from Zalgo Infotech on web development, AI automation, SaaS, ecommerce, and digital transformation strategy for growing businesses.",
+    "Explore Zalgo Infotech insights on web development, AI automation, SaaS, ecommerce, and digital transformation for growing businesses.",
   keywords: [
     "web development blog",
     "AI development insights",

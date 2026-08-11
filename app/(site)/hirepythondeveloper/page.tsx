@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire Python Developers",
   description:
-    "Hire dedicated Python developers for Django/Flask web apps, REST APIs, automation, and AI/ML solutions. Save up to 70% with full-time, part-time, or hourly engagement.",
+    "Hire dedicated Python developers for Django and Flask apps, REST APIs, automation, and AI/ML solutions with flexible engagement options.",
   keywords: [
     "hire python developers",
     "hire dedicated python developer",

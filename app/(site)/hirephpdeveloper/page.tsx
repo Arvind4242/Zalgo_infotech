@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire PHP Developers",
   description:
-    "Hire dedicated PHP developers skilled in Laravel, CodeIgniter, and Symfony for custom, database-driven web applications and secure API integrations. Flexible hiring models.",
+    "Hire dedicated PHP developers skilled in Laravel, CodeIgniter, and Symfony to build secure, scalable web applications and API integrations with flexible hiring options.",
   keywords: [
     "hire php developers",
     "hire dedicated php developer",

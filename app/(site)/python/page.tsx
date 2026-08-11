@@ -7,7 +7,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Python Development Services",
   description:
-    "Custom Python development with secure APIs, scalable backend architecture, and third-party integrations. Clean, maintainable code built for long-term performance.",
+    "Get custom Python development with secure APIs, scalable backend architecture, and third-party integrations built for long-term performance.",
   keywords: [
     "Python development services",
     "hire Python developers",

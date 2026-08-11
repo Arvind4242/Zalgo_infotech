@@ -9,7 +9,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "AI Development Services",
   description:
-    "Custom AI development including machine learning models, NLP, computer vision, and AI-powered automation. Scalable, secure AI systems built for real-world impact.",
+    "Build custom AI solutions with machine learning, NLP, computer vision, and AI-powered automation for scalable, secure business applications.",
   keywords: [
     "AI development company",
     "custom AI development services",

@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Case Studies - Client Success Stories & Project Portfolio",
   description:
-    "Explore Zalgo Infotech's case studies covering ERP systems, LMS platforms, CRM development, healthcare websites, and eCommerce projects delivered for clients worldwide.",
+    "Explore Zalgo Infotech case studies featuring ERP, LMS, CRM, healthcare, and eCommerce projects delivered for clients worldwide.",
   keywords: [
     "case studies",
     "software development case study",

@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire WordPress Developers",
   description:
-    "Hire dedicated WordPress developers for custom themes, plugins, and WooCommerce stores with optimized performance and security. Flexible full-time or hourly engagement.",
+    "Hire dedicated WordPress developers for custom themes, plugins, and WooCommerce stores with optimized performance and security. Flexible hiring options.",
   keywords: [
     "hire wordpress developers",
     "hire dedicated wordpress developer",

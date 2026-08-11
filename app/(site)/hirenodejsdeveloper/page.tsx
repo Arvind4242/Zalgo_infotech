@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire Node.js Developers",
   description:
-    "Hire dedicated Node.js developers for scalable REST/GraphQL APIs, real-time apps, and microservices. Save up to 70% with full-time, part-time, or hourly engagement models.",
+    "Hire dedicated Node.js developers for scalable REST and GraphQL APIs, real-time applications, and microservices with flexible engagement options.",
   keywords: [
     "hire node.js developers",
     "hire dedicated node developer",

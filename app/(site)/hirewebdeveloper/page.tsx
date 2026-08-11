@@ -5,7 +5,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata = buildMetadata({
   title: "Hire Web Developers",
   description:
-    "Hire dedicated web developers for custom websites, CMS, and e-commerce builds with responsive, full-stack expertise. Flexible full-time, part-time, or hourly hiring models.",
+    "Hire dedicated web developers for custom websites, CMS, and e-commerce solutions with responsive full-stack expertise and flexible hiring options.",
   keywords: [
     "hire web developers",
     "hire dedicated web developer",
