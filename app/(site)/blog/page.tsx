@@ -1,6 +1,6 @@
 import Link from "next/link";
 import PageShell from "@/components/PageShell";
-import { getBlogList, excerptOf } from "@/lib/blog";
+import { getBlogList, excerptOf, displayDate } from "@/lib/blog";
 import { routes } from "@/lib/routes";
 import { buildMetadata } from "@/lib/seo";
 
@@ -260,7 +260,7 @@ export default async function BlogPage({
                             </span>
                           )}
                           <span className="tw-text-xs text-neutral-400">
-                            {(featuredPost.publishedAt ?? featuredPost.createdAt).toLocaleDateString("en-US", {
+                            {displayDate(featuredPost.publishedAt, featuredPost.createdAt).toLocaleDateString("en-US", {
                               month: "long",
                               day: "2-digit",
                               year: "numeric",
@@ -347,7 +347,7 @@ export default async function BlogPage({
                                 className="fw-bold tw-text-xs text-white"
                                 style={{ background: "rgba(0,181,173,0.88)", borderRadius: 6, padding: "0.3rem 0.65rem" }}
                               >
-                                {(post.publishedAt ?? post.createdAt).toLocaleDateString("en-US", {
+                                {displayDate(post.publishedAt, post.createdAt).toLocaleDateString("en-US", {
                                   day: "2-digit",
                                   month: "short",
                                 })}

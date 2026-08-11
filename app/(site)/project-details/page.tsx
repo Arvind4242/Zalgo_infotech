@@ -118,7 +118,7 @@ export default function ProjectDetailsPage() {
                 <div>
                   <h6 className="tw-mb-3 fw-semibold">Website</h6>
                   <a
-                    href="https://themeforest.net6ser/wowtheme7"
+                    href="https://wowtheme7.com"
                     target="_blank"
                     rel="noreferrer"
                     className="text-main-600 text-decoration-underline"

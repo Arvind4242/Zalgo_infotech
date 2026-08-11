@@ -474,9 +474,12 @@ function ContactCard({ cta }: { cta: string }) {
             sales@zalgoinfotech.com
           </a>
           <a
-            target="_blank"
-            rel="noreferrer"
-            href="msteams:/l/chat/0/0?users=serveonetech@gmail.com"
+            role="button"
+            tabIndex={0}
+            style={{ cursor: "pointer" }}
+            onClick={() => {
+              window.location.href = "msteams:/l/chat/0/0?users=serveonetech@gmail.com";
+            }}
           >
             <img width="20px" src="/assets/images/icons/team.png" alt="" />{" "}
             zalgoinfotech

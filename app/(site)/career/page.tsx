@@ -19,10 +19,18 @@ export const metadata = buildMetadata({
 export const dynamic = "force-dynamic";
 
 export default async function CareerPage() {
-  const jobOpenings = await prisma.jobOpening.findMany({
-    where: { isActive: true },
-    orderBy: { sortOrder: "asc" },
-  });
+  // A transient DB hiccup here (e.g. connection pool exhaustion under
+  // crawler load) used to crash the whole page with a 500. Degrade to an
+  // empty list instead — still 200 OK, and the next request retries the DB.
+  const jobOpenings = await prisma.jobOpening
+    .findMany({
+      where: { isActive: true },
+      orderBy: { sortOrder: "asc" },
+    })
+    .catch((error) => {
+      console.error("Failed to load job openings, serving empty fallback:", error);
+      return [];
+    });
 
   return (
     <PageShell>

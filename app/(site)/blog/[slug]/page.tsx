@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageShell from "@/components/PageShell";
 import BlogCommentForm from "@/components/BlogCommentForm";
-import { getBlogBySlug, excerptOf } from "@/lib/blog";
+import { getBlogBySlug, excerptOf, displayDate } from "@/lib/blog";
 import { routes } from "@/lib/routes";
 import { buildMetadata } from "@/lib/seo";
 
@@ -31,8 +31,8 @@ export async function generateMetadata({
   });
 }
 
-function formatDate(date: Date, opts: Intl.DateTimeFormatOptions) {
-  return date.toLocaleDateString("en-US", opts);
+function formatDate(date: Date | null | undefined, opts: Intl.DateTimeFormatOptions) {
+  return displayDate(date).toLocaleDateString("en-US", opts);
 }
 
 export default async function BlogDetailsPage({
