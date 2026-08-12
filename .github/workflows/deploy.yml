@@ -1,16 +1,59 @@
 name: Deploy infotech
 
+# The build (npm ci, prisma generate, next build) used to run over SSH on the
+# production box itself. That server only has ~1.9GB RAM shared across 15+
+# other hosted sites, and next build regularly OOM-killed or hit "Bus error"
+# even with extra swap added — the build process needs more headroom than
+# that box can reliably give it. GitHub's runners have plenty of RAM, so the
+# build happens here instead; the server only ever receives an already-built
+# app via rsync and does a lightweight `pm2 restart` — no install, no build.
+
 on:
   push:
     branches:
       - main
       - staging
+  workflow_dispatch: {}
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Apply database schema
+        run: npx prisma db push
+        env:
+          DATABASE_URL: ${{ secrets.PROD_DATABASE_URL }}
+
+      - name: Build
+        run: npm run build
+        env:
+          DATABASE_URL: ${{ secrets.PROD_DATABASE_URL }}
+
+      - name: Set deploy variables
+        id: vars
+        run: |
+          if [ "${{ github.ref_name }}" = "staging" ]; then
+            echo "deploy_path=/var/www/staging.zalgoinfotech.in/Zalgo_infotech" >> "$GITHUB_OUTPUT"
+            echo "pm2_name=zalgo-infotech-staging" >> "$GITHUB_OUTPUT"
+            echo "port=3016" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy_path=/var/www/zalgoinfotech.com" >> "$GITHUB_OUTPUT"
+            echo "pm2_name=zalgo-infotech" >> "$GITHUB_OUTPUT"
+            echo "port=3015" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Setup SSH
         run: |
           mkdir -p ~/.ssh
@@ -18,109 +61,30 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H ${{ secrets.SERVER_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy to Staging
-        if: github.ref_name == 'staging'
+      - name: Ensure deploy directory exists
+        run: |
+          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "mkdir -p '${{ steps.vars.outputs.deploy_path }}'"
+
+      # --delete removes files on the server that no longer exist in this
+      # build, but everything excluded below is left untouched by rsync
+      # entirely (not compared, not deleted) — .env and real user uploads on
+      # the server are never at risk here.
+      - name: Sync built app to server
+        run: |
+          rsync -avz --delete \
+            --exclude='.env' \
+            --exclude='.git' \
+            --exclude='public/uploads' \
+            --exclude='.next/cache' \
+            -e "ssh -o StrictHostKeyChecking=no" \
+            ./ "${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }}:${{ steps.vars.outputs.deploy_path }}/"
+
+      - name: Restart app on server
         run: |
           ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
             set -e
-
-            DEPLOY_PATH='/var/www/staging.zalgoinfotech.in/Zalgo_infotech'
-            REPO='https://github.com/Arvind4242/Zalgo_infotech.git'
-            PM2_NAME='zalgo-infotech-staging'
-            PORT=3016
-
-            # Backup .env and user-uploaded files (not tracked in git) if they exist
-            if [ -f \"\$DEPLOY_PATH/.env\" ]; then
-              cp \"\$DEPLOY_PATH/.env\" /tmp/.env.staging.backup
-              echo '.env backed up'
-            fi
-            if [ -d \"\$DEPLOY_PATH/public/uploads\" ]; then
-              rm -rf /tmp/uploads.staging.backup
-              cp -r \"\$DEPLOY_PATH/public/uploads\" /tmp/uploads.staging.backup
-              echo 'uploads backed up'
-            fi
-
-            # Wipe and re-clone fresh
-            sudo rm -rf \"\$DEPLOY_PATH\"
-            git clone --branch staging \"\$REPO\" \"\$DEPLOY_PATH\"
-            cd \"\$DEPLOY_PATH\"
-
-            # Restore .env
-            if [ -f /tmp/.env.staging.backup ]; then
-              cp /tmp/.env.staging.backup .env
-              echo '.env restored'
-            else
-              echo 'WARNING: No .env backup found. Create .env manually.'
-            fi
-
-            # Restore uploaded files
-            if [ -d /tmp/uploads.staging.backup ]; then
-              mkdir -p public
-              cp -r /tmp/uploads.staging.backup public/uploads
-              echo 'uploads restored'
-            fi
-
-            npm ci
-            npx prisma generate
-            npx prisma db push
-            npm run build
-
-            pm2 delete \"\$PM2_NAME\" 2>/dev/null || true
-            PORT=\$PORT pm2 start npm --name \"\$PM2_NAME\" -- start
+            cd '${{ steps.vars.outputs.deploy_path }}'
+            pm2 delete '${{ steps.vars.outputs.pm2_name }}' 2>/dev/null || true
+            PORT=${{ steps.vars.outputs.port }} pm2 start npm --name '${{ steps.vars.outputs.pm2_name }}' -- start
             pm2 save
-          "
-
-      - name: Deploy to Production
-        if: github.ref_name == 'main'
-        run: |
-          ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "
-            set -e
-
-            DEPLOY_PATH='/var/www/zalgoinfotech.com'
-            REPO='https://github.com/Arvind4242/Zalgo_infotech.git'
-            PM2_NAME='zalgo-infotech'
-            PORT=3015
-
-            # Backup .env and user-uploaded files (not tracked in git) if they exist
-            if [ -f \"\$DEPLOY_PATH/.env\" ]; then
-              cp \"\$DEPLOY_PATH/.env\" /tmp/.env.production.backup
-              echo '.env backed up'
-            fi
-            if [ -d \"\$DEPLOY_PATH/public/uploads\" ]; then
-              rm -rf /tmp/uploads.production.backup
-              cp -r \"\$DEPLOY_PATH/public/uploads\" /tmp/uploads.production.backup
-              echo 'uploads backed up'
-            fi
-
-            # Wipe entire directory and re-clone fresh (removes malware too)
-            sudo rm -rf \"\$DEPLOY_PATH\"
-            git clone --branch main \"\$REPO\" \"\$DEPLOY_PATH\"
-            cd \"\$DEPLOY_PATH\"
-
-            # Restore .env
-            if [ -f /tmp/.env.production.backup ]; then
-              cp /tmp/.env.production.backup .env
-              echo '.env restored'
-            else
-              echo 'WARNING: No .env backup found. Create .env manually.'
-            fi
-
-            # Restore uploaded files
-            if [ -d /tmp/uploads.production.backup ]; then
-              mkdir -p public
-              cp -r /tmp/uploads.production.backup public/uploads
-              echo 'uploads restored'
-            fi
-
-            npm ci
-            npx prisma generate
-            npx prisma db push
-            npm run build
-
-            pm2 delete \"\$PM2_NAME\" 2>/dev/null || true
-            PORT=\$PORT pm2 start npm --name \"\$PM2_NAME\" -- start
-            pm2 save
-
-            # Fix ownership for the deploy user (no www-data needed — PM2 runs the Node process directly)
-            sudo chown -R \$(whoami):\$(whoami) \"\$DEPLOY_PATH\"
           "
