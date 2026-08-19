@@ -5,21 +5,24 @@ import type { NextConfig } from "next";
 // Clarity (its entry script on www.clarity.ms loads its actual tracking
 // bundle from another clarity.ms subdomain, hence the wildcard), the
 // Cloudflare CDN (intl-tel-input), Calendly's booking widget, YouTube
-// embeds, and Google Fonts (main.css @imports them — googleapis.com for the
-// stylesheet, gstatic.com for the actual font files). `unsafe-inline`
-// stays for script/style because both Next.js's own hydration payload and
-// this theme's many inline <style> blocks depend on it — removing it would
-// need a nonce-based CSP wired through middleware, a larger change than this
-// header addition. `unsafe-eval` is dev-only: Next.js/Turbopack's dev
-// tooling (HMR, stack-trace reconstruction) uses eval(), which production
-// React never does — so it's left out of the production policy.
+// embeds, Google Fonts (main.css @imports them — googleapis.com for the
+// stylesheet, gstatic.com for the actual font files), and unpkg.com (
+// phosphor-icon.js injects 6 <link> stylesheets from there for the ph-*
+// icon set used everywhere on the site, each pulling its own icon font).
+// `unsafe-inline` stays for script/style because both Next.js's own
+// hydration payload and this theme's many inline <style> blocks depend on
+// it — removing it would need a nonce-based CSP wired through middleware,
+// a larger change than this header addition. `unsafe-eval` is dev-only:
+// Next.js/Turbopack's dev tooling (HMR, stack-trace reconstruction) uses
+// eval(), which production React never does — so it's left out of the
+// production policy.
 const isDev = process.env.NODE_ENV !== "production";
 const CONTENT_SECURITY_POLICY = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${isDev ? " 'unsafe-eval'" : ""} https://www.googletagmanager.com https://cdnjs.cloudflare.com https://*.clarity.ms https://assets.calendly.com`,
-  "style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com",
+  "style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com https://unpkg.com",
   "img-src 'self' data: https:",
-  "font-src 'self' data: https://cdnjs.cloudflare.com https://fonts.gstatic.com",
+  "font-src 'self' data: https://cdnjs.cloudflare.com https://fonts.gstatic.com https://unpkg.com",
   "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://www.googletagmanager.com https://*.clarity.ms",
   "frame-src https://www.youtube.com https://calendly.com",
   "object-src 'none'",
